@@ -1,0 +1,15 @@
+# Local research downloads and tool output
+/work/
+/artifacts/private/
+
+# Future application dependencies and generated output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+.DS_Store

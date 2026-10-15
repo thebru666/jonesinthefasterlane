@@ -1,0 +1,118 @@
+{
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "retrieved_date_utc": "2026-10-15",
+  "archive_size_bytes": 1078159,
+  "archive_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "version_file_value": "1.000.060",
+  "method": "Downloaded the archive over HTTPS; inspected ZIP directory and version/configuration entries with Python standard-library zipfile. Did not execute downloaded binaries or decompile scripts.",
+  "files": [
+    {
+      "path": "adl.drv",
+      "uncompressed_size_bytes": 8033
+    },
+    {
+      "path": "exists.com",
+      "uncompressed_size_bytes": 574
+    },
+    {
+      "path": "godir.com",
+      "uncompressed_size_bytes": 507
+    },
+    {
+      "path": "ibmkbd.drv",
+      "uncompressed_size_bytes": 449
+    },
+    {
+      "path": "install.exe",
+      "uncompressed_size_bytes": 24064
+    },
+    {
+      "path": "install.hlp",
+      "uncompressed_size_bytes": 9453
+    },
+    {
+      "path": "joystick.drv",
+      "uncompressed_size_bytes": 607
+    },
+    {
+      "path": "mesource.cfg",
+      "uncompressed_size_bytes": 75
+    },
+    {
+      "path": "mt32.drv",
+      "uncompressed_size_bytes": 1989
+    },
+    {
+      "path": "resource.001",
+      "uncompressed_size_bytes": 313476
+    },
+    {
+      "path": "resource.002",
+      "uncompressed_size_bytes": 719747
+    },
+    {
+      "path": "resource.bak",
+      "uncompressed_size_bytes": 93
+    },
+    {
+      "path": "resource.cfg",
+      "uncompressed_size_bytes": 79
+    },
+    {
+      "path": "resource.map",
+      "uncompressed_size_bytes": 1800
+    },
+    {
+      "path": "sciv256.exe",
+      "uncompressed_size_bytes": 60373
+    },
+    {
+      "path": "sesource.cfg",
+      "uncompressed_size_bytes": 79
+    },
+    {
+      "path": "sierra.bat",
+      "uncompressed_size_bytes": 183
+    },
+    {
+      "path": "sndblast.drv",
+      "uncompressed_size_bytes": 9489
+    },
+    {
+      "path": "space.com",
+      "uncompressed_size_bytes": 500
+    },
+    {
+      "path": "std.drv",
+      "uncompressed_size_bytes": 1352
+    },
+    {
+      "path": "tandy3v.drv",
+      "uncompressed_size_bytes": 3854
+    },
+    {
+      "path": "tandykbd.drv",
+      "uncompressed_size_bytes": 476
+    },
+    {
+      "path": "version",
+      "uncompressed_size_bytes": 13
+    },
+    {
+      "path": "vga320.drv",
+      "uncompressed_size_bytes": 3797
+    },
+    {
+      "path": ".jsdos/",
+      "uncompressed_size_bytes": 0
+    },
+    {
+      "path": ".jsdos/dosbox.conf",
+      "uncompressed_size_bytes": 6700
+    },
+    {
+      "path": ".jsdos/jsdos.json",
+      "uncompressed_size_bytes": 3759
+    }
+  ]
+}
