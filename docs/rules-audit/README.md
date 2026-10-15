@@ -2,6 +2,8 @@
 
 **Status:** first script-based pass completed for time/actions, turn/weekly processing, and economy. Coverage remains partial; runtime reproduction and remaining systems are open.
 
+The subsequent [original-game baseline](../original-game/README.md) adds source-based setup, town/layout, all destination actions, course/job/product catalogues, progress views, saves, and finish. It describes the original for later iteration; it does not close all numerical/runtime/visual gaps.
+
 ## Pass 1 findings (2026-10-15)
 
 - [Time and action boundaries](time-and-actions.md): TIME-001–007, including partial shifts, final-hour study, zero-time transactions, travel/entry costs, and a garnishment anomaly.
@@ -32,19 +34,19 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 
 | Area | Questions | Status |
 | --- | --- | --- |
-| Setup and goals | Starting resources, player count, goal settings, win timing | Partial: boundary win check; complete goal/setup audit pending |
+| Setup and goals | Starting resources, player count, goal settings, win timing | Source baseline: [setup](../original-game/setup-multiplayer.md), [scores/finish](../original-game/progression-and-finish.md); runtime and edge paths pending |
 | Time and travel | Weekly allowance, movement, entry costs, rounding, partial actions | Partial: [TIME-001–007](time-and-actions.md); travel matrix/runtime pending |
 | Weekly processing | Order of rent, food, events, economy, income, and victory checks | Partial: [WEEK-001–006](weekly-processing.md); rare branches/runtime pending |
 | Economy | State transitions, duration, randomness, price/wage/job effects | Partial: [ECON-001–007](economy.md); bytecode/runtime/long-run validation pending |
-| Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Partial: pay, stored wages, event dismissal; full progression pending |
-| Education | Prerequisites, fees, lessons, completion, goal contribution | Partial: enrollment fee and short study; content/prerequisites pending |
+| Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Partial: [all 37 original job rows and thresholds](../original-game/content-progression.md); rejection/raise edge cases/runtime pending |
+| Education | Prerequisites, fees, lessons, completion, goal contribution | Source baseline: [11-course graph and credits](../original-game/content-progression.md); art-label transcription/runtime pending |
 | Food and basic needs | Consumption, storage, shortages, penalties | Partial: processing order and time penalties; complete item/probability mapping pending |
 | Housing | Rent schedule, upgrades, access, possessions, consequences of nonpayment | Partial: stored rent, cadence, garnishment; extensions/moving pending |
-| Goods and happiness | Purchase effects, recurring effects, duplicates, relaxation | Not audited |
+| Goods and happiness | Purchase effects, recurring effects, duplicates, relaxation | Partial: [product pools, room props](../original-game/content-progression.md), resident relaxation and UI; full effect catalogue pending |
 | Banking and investments | Interest, loans, repayment, shares, valuation, rounding | Partial: market inputs and cash gates; full transaction/high-value audit pending |
 | Random events | Triggers, eligibility, probabilities, ordering, recovery | Partial: economic shocks and ordering; remaining event catalogue pending |
 | Computer opponent | Policy, information, difficulty, special treatment | Not audited |
-| Multiplayer and saves | Turn order, public/private information, persistence | Partial: rotation and per-player economy; removal, visibility, saves pending |
+| Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); runtime/emulator persistence pending |
 
 ## Method
 

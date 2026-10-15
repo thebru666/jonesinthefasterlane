@@ -20,6 +20,8 @@ Research date: 2026-10-15. This register supersedes the initial source-status no
 - Evidence: SCRIPT, specifically **published decompilation inspected by us**. We did not run a decompiler ourselves or independently establish byte-for-byte correspondence with S01's script resources. The folder/version match is strong identification evidence, not a substitute for that check.
 - Downloaded source remains in ignored `work/audit/scripts/`. Only our analysis and [source metadata](../../artifacts/discovery/2026-10-15-audit-sources.json) are committed.
 
+The original-experience pass retrieved the remaining forty floppy script references at the same pinned revision. Their identification is recorded in [additional source inputs](../../artifacts/original-game/2026-10-15-source-inputs.json); inclusion in the manifest does not imply every method was fully audited.
+
 The initial pass follows named methods and their callers. It does not claim all downloaded files were fully audited, or that a decompiler output is infallible. Apparent bugs require bytecode or runtime confirmation before we decide whether to reproduce them.
 
 ## S03: original manual scan
@@ -43,9 +45,25 @@ The manual hash and size are in the source metadata. The original PDF and render
 - Two-argument Random uses inclusive endpoints. Numeric division uses signed integer division, truncating toward zero.
 - Evidence: SCRIPT from an interpreter reimplementation, used to interpret S02. This does not establish matching random seeds or exact random sequences under the original interpreter running in js-dos.
 
+## S05: original reference card, found separately
+
+- [Preservation page](https://www.sierragamers.com/jones-in-the-fast-lane/); [reference-card PDF](https://www.sierragamers.com/wp-content/uploads/2019/12/Jones_In_The_Fast_Lane_Reference_Card.pdf).
+- Retrieved 2026-10-15; two scanned PDF pages, both rendered and inspected. Printed copyright is 1992; precise edition correspondence remains unconfirmed.
+- Evidence: DOCUMENTED, original publication. Annotated pictures explain goals, comparison/statistics, cash and clock; accompanying instructions describe the basic life loop. This fills the companion-card gap left by S03, without changing what is present in that manual scan.
+- A money/net-worth description disagrees with the inspected floppy scoring path; the discrepancy is retained in [progress and finish](../original-game/progression-and-finish.md).
+- Hash/size in [source inputs](../../artifacts/original-game/2026-10-15-source-inputs.json). The scan/rendered pages remain local-only.
+
+## S06: existing summaries and retrospective guides
+
+The [existing-summaries guide](../original-game/existing-summaries.md) identifies accessible player summaries, screenshots to consult, and source limits. Community descriptions are DOCUMENTED evidence, not runtime or primary rule proof. Version-specific tables and formulas in the new baseline derive from S02. Full Sierra Chest and MobyGames screenshot pages returned access failures; they are not treated as inspected visual evidence.
+
+## S07: packed-resource directory inspection
+
+The S01 archive's map was parsed and all 299 volume addresses/resource header IDs validated. [Inventory](../../artifacts/original-game/packed-resource-inventory.json) and [interpretation/limits](../original-game/packed-resources.md). Format/type definitions were checked against `engines/sci/resource/resource.cpp` and `resource.h` at the S04 pinned ScummVM revision; source hashes are recorded with the inventory. This is PACKAGE evidence, without payload decoding or rendered-art inspection.
+
 ## Sources not used as proof
 
-Community pages helped locate topics, but their formulas and edition summaries are not the basis of the records in this pass. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.
+Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.
 
 ## Reproduction policy
 

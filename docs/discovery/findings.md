@@ -4,6 +4,8 @@ Research date: 2026-10-15.
 
 Update: the first [rules-audit pass](../rules-audit/README.md#pass-1-findings-2026-10-15) now uses published decompiled scripts. The initial tool-feasibility notes below describe the earlier discovery stage; see the [source register](source-register.md) for current provenance and limits.
 
+Further update: the original reference card was found separately, and a fuller [original-game baseline](../original-game/README.md) now covers setup, layout, locations, progression, saves, and finish. This replaces the earlier speculative screen outline as our starting point.
+
 ## Verified from the website and downloaded package
 
 Source: <https://jonesinthefastlane.com/>.
@@ -39,7 +41,7 @@ Links were accessed during initial research on 2026-10-15. Sources and remote pa
 ## Research progress and next step
 
 1. Located a published script set for the matching floppy version and pinned its revision; exact bundle/script correspondence remains open.
-2. Inspected the manual's interaction pages; it refers to a separate card absent from this scan.
+2. Inspected the manual's interaction pages; its separate reference card is absent from that scan but has now been located and inspected through Sierra Gamers (source S05).
 3. Traced time, weekly processing, and economy into their supporting callers and recorded the first rule groups.
 4. Next: reproduce the flagged cases and continue employment/education/content and computer-opponent audits using the [validation backlog](../rules-audit/validation-backlog.md).
 

@@ -2,6 +2,8 @@
 
 2026-10-15. All runtime cases below are **pending**, not completed tests. A published-script finding is not automatically an OBSERVED finding.
 
+Subsequent original-experience research documents the [setup/layout/content/progress baseline](../original-game/README.md). That resolves many catalogue and normal-path questions below, while their formula/edge-case/runtime work remains open.
+
 ## Completed analytical checks
 
 - Pinned and SHA-256 identified the downloaded script references and manual.

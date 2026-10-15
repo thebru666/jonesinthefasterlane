@@ -2,6 +2,8 @@
 
 Reviewed: 2026-10-15, after audit pass 1.
 
+**Subsequent research update:** the [original-game baseline](../original-game/README.md) now resolves much of the setup, functional layout, location/content catalogue, progress, and finish gaps identified below. The owner asked to use that reference before proposing changes. This review describes the earlier documentation state; exact artwork/runtime verification and adaptation decisions remain open.
+
 ## Assessment
 
 The documents consistently establish intent, evidence limits, the distinction between player turns and weeks, and the initial time/economy findings. They are sufficient to draft the main gameplay flow and explore screen layouts. They are **not sufficient for a complete interaction/layout specification or application implementation**.

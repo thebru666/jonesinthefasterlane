@@ -1,0 +1,14 @@
+place_id,name,instance,path_index,left,top,right,bottom,script_number
+0,Low-Cost Housing,apartmentsP,1,130,10,190,43,200
+1,Rent Office,rentOfficeP,164,68,10,129,43,201
+2,Le Security,securityP,151,7,10,67,43,202
+3,Black's Market,marketP,134,24,69,67,114,203
+4,P.I.G.G.Y. Bank,bankP,120,7,119,67,154,204
+5,Factory,factoryP,107,7,155,67,192,205
+6,ACNE Employment,employmentP,99,68,168,128,192,206
+7,Hi-Tech U,universityP,75,190,158,250,192,207
+8,Socket City,applianceP,66,251,133,311,192,208
+9,QT Clothing,clothingP,47,251,82,311,118,209
+10,Monolith Burger,fastFoodP,35,251,44,311,81,210
+11,Z-Mart,discountP,24,251,10,311,43,211
+12,Pawn Shop,pawnShopP,14,191,10,250,43,212

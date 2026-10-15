@@ -47,6 +47,8 @@ Detailed architecture and storage choices still require a specification. A share
 
 The owner explicitly wants substantial planning before building. A first playable slice is acceptable once the design is sufficiently specified. Candidate slice: get a job, buy food, pay rent, study toward a better job, and complete a week.
 
+Subsequent direction: document how the original game was organised before redesigning its screens or flow. Use the [original-game baseline](../original-game/README.md) as the reference to refine; keep modernisation suggestions in the separate [follow-up brief](follow-up-original-first-iteration.md).
+
 The earlier suggestion of four goals, one rival, and a 30–45 minute short-game mode is still a proposal. Session length and the complete first-release scope have not been agreed.
 
 ## Repository workflow

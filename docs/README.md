@@ -1,12 +1,17 @@
 # Documentation
 
+## Original game: starting point for iteration
+
+- [Original-game baseline](original-game/README.md): existing summaries and documented original setup, town, screens, actions, content, progress, saves, and finish.
+- [Follow-up iteration brief](planning/follow-up-original-first-iteration.md): restrained suggestions to review against that baseline; no changes approved.
+
 ## Planning
 
 - [Project brief](planning/project-brief.md): agreed audience, tone, scope, and process.
 - [Decisions](planning/decisions.md): confirmed direction, recommendations, and unresolved choices.
 - [Audit implications](planning/audit-implications.md): economic fidelity, edition baseline, and compatibility choices from pass 1.
 - [Consistency and readiness review](planning/consistency-review.md): what is established and what still blocks a complete flow/layout specification.
-- [Flow and layout outline](planning/flow-and-layout-outline.md): proposed player journey, screen inventory, composition, and interaction checklist; not an approved interface.
+- [Earlier flow and layout outline](planning/flow-and-layout-outline.md): historical speculative outline; use the original-game baseline first.
 
 ## Discovery
 

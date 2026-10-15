@@ -1,0 +1,2643 @@
+{
+  "archive_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "date_utc": "2026-10-15",
+  "evidence": "PACKAGE: map directory parsed; every referenced volume offset and resource header ID validated. Payloads not decompressed or rendered. Counts are resource entries, not individual images, frames, songs or screenshots.",
+  "format": "6-byte little-endian entries: uint16 ID (type=ID>>11; number=ID&0x7ff), uint32 location (volume=location>>26; offset=location&0x3ffffff); terminator location 0xffffffff.",
+  "resource_map_sha256": "f070a57f0e2c86bbf79339b1d41777a15e835d228cb52ff9cd3728a098fa053e",
+  "total_entries": 299,
+  "type_counts": {
+    "cursor": 3,
+    "font": 9,
+    "palette": 1,
+    "patch": 3,
+    "picture": 7,
+    "script": 85,
+    "sound": 35,
+    "text": 50,
+    "view": 92,
+    "vocabulary": 14
+  },
+  "format_sources": [
+    {
+      "repository": "scummvm/scummvm",
+      "revision": "2b5f9b5d95f267c87889746906148db6088130f8",
+      "path": "engines/sci/resource/resource.cpp",
+      "sha256": "96bff962a76219aaae9d186346a61c082dc92f7dc238ee3077d20db4ff297d39"
+    },
+    {
+      "repository": "scummvm/scummvm",
+      "revision": "2b5f9b5d95f267c87889746906148db6088130f8",
+      "path": "engines/sci/resource/resource.h",
+      "sha256": "bd4e279c47de91498b266d1c0ded14aab0ee368d890bd9781e6b44f51df1f42b"
+    }
+  ],
+  "resources": [
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 0,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 1742,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 998,
+      "volume": "resource.001",
+      "offset": 1811,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 997,
+      "volume": "resource.001",
+      "offset": 3282,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 997,
+      "volume": "resource.001",
+      "offset": 5647,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 996,
+      "volume": "resource.001",
+      "offset": 6564,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 996,
+      "volume": "resource.001",
+      "offset": 6931,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 994,
+      "volume": "resource.001",
+      "offset": 6942,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 994,
+      "volume": "resource.001",
+      "offset": 8702,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 993,
+      "volume": "resource.001",
+      "offset": 8720,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 993,
+      "volume": "resource.001",
+      "offset": 8981,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 992,
+      "volume": "resource.001",
+      "offset": 8998,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 990,
+      "volume": "resource.001",
+      "offset": 10124,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 990,
+      "volume": "resource.001",
+      "offset": 10826,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 989,
+      "volume": "resource.001",
+      "offset": 11068,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 987,
+      "volume": "resource.001",
+      "offset": 11645,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 255,
+      "volume": "resource.001",
+      "offset": 12456,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 255,
+      "volume": "resource.001",
+      "offset": 17493,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 900,
+      "volume": "resource.001",
+      "offset": 17504,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 901,
+      "volume": "resource.001",
+      "offset": 17846,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 902,
+      "volume": "resource.001",
+      "offset": 18142,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 910,
+      "volume": "resource.001",
+      "offset": 18455,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 911,
+      "volume": "resource.001",
+      "offset": 21143,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 912,
+      "volume": "resource.001",
+      "offset": 21524,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 913,
+      "volume": "resource.001",
+      "offset": 21837,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 994,
+      "volume": "resource.001",
+      "offset": 23263,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 995,
+      "volume": "resource.001",
+      "offset": 23364,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 996,
+      "volume": "resource.001",
+      "offset": 23802,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 997,
+      "volume": "resource.001",
+      "offset": 23967,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 998,
+      "volume": "resource.001",
+      "offset": 28441,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 29251,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 0,
+      "volume": "resource.001",
+      "offset": 30056,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 31392,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 3,
+      "volume": "resource.001",
+      "offset": 32779,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 4,
+      "volume": "resource.001",
+      "offset": 33743,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 10,
+      "volume": "resource.001",
+      "offset": 34707,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 14,
+      "volume": "resource.001",
+      "offset": 35599,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 36501,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 8,
+      "type": "cursor",
+      "number": 997,
+      "volume": "resource.001",
+      "offset": 37351,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 8,
+      "type": "cursor",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 37424,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 11,
+      "type": "palette",
+      "number": 999,
+      "volume": "resource.001",
+      "offset": 37500,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 9,
+      "type": "patch",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 38110,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 9,
+      "type": "patch",
+      "number": 3,
+      "volume": "resource.001",
+      "offset": 41024,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 9,
+      "type": "patch",
+      "number": 101,
+      "volume": "resource.001",
+      "offset": 41639,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 0,
+      "volume": "resource.001",
+      "offset": 41951,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 0,
+      "volume": "resource.001",
+      "offset": 43972,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 44038,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 51092,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 2,
+      "volume": "resource.001",
+      "offset": 51200,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 100,
+      "volume": "resource.001",
+      "offset": 52701,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 101,
+      "volume": "resource.001",
+      "offset": 53214,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 102,
+      "volume": "resource.001",
+      "offset": 54332,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 103,
+      "volume": "resource.001",
+      "offset": 54451,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 104,
+      "volume": "resource.001",
+      "offset": 54764,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 104,
+      "volume": "resource.001",
+      "offset": 56331,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 105,
+      "volume": "resource.001",
+      "offset": 56355,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 107,
+      "volume": "resource.001",
+      "offset": 56617,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 108,
+      "volume": "resource.001",
+      "offset": 57818,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 108,
+      "volume": "resource.001",
+      "offset": 58384,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 109,
+      "volume": "resource.001",
+      "offset": 58581,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 110,
+      "volume": "resource.001",
+      "offset": 58710,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 113,
+      "volume": "resource.001",
+      "offset": 59062,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 229,
+      "volume": "resource.001",
+      "offset": 60193,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 233,
+      "volume": "resource.001",
+      "offset": 61709,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 235,
+      "volume": "resource.001",
+      "offset": 62242,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 236,
+      "volume": "resource.001",
+      "offset": 63508,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 236,
+      "volume": "resource.001",
+      "offset": 65899,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 237,
+      "volume": "resource.001",
+      "offset": 65914,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 237,
+      "volume": "resource.001",
+      "offset": 67593,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 238,
+      "volume": "resource.001",
+      "offset": 67604,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 238,
+      "volume": "resource.001",
+      "offset": 69872,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 239,
+      "volume": "resource.001",
+      "offset": 69885,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 239,
+      "volume": "resource.001",
+      "offset": 70512,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 764,
+      "volume": "resource.001",
+      "offset": 70538,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 764,
+      "volume": "resource.001",
+      "offset": 70705,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 891,
+      "volume": "resource.001",
+      "offset": 71040,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 967,
+      "volume": "resource.001",
+      "offset": 71675,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 6,
+      "volume": "resource.001",
+      "offset": 71978,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 10,
+      "volume": "resource.001",
+      "offset": 90570,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 23,
+      "volume": "resource.001",
+      "offset": 92968,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 100,
+      "volume": "resource.001",
+      "offset": 93039,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 0,
+      "volume": "resource.001",
+      "offset": 101850,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 113006,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 2,
+      "volume": "resource.001",
+      "offset": 114591,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 3,
+      "volume": "resource.001",
+      "offset": 116176,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 4,
+      "volume": "resource.001",
+      "offset": 117761,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 5,
+      "volume": "resource.001",
+      "offset": 119346,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 1,
+      "type": "picture",
+      "number": 11,
+      "volume": "resource.001",
+      "offset": 120931,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 0,
+      "volume": "resource.001",
+      "offset": 175810,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 1,
+      "volume": "resource.001",
+      "offset": 185917,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 2,
+      "volume": "resource.001",
+      "offset": 197203,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 3,
+      "volume": "resource.001",
+      "offset": 207806,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 4,
+      "volume": "resource.001",
+      "offset": 220517,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 5,
+      "volume": "resource.001",
+      "offset": 232690,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 10,
+      "volume": "resource.001",
+      "offset": 246022,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 11,
+      "volume": "resource.001",
+      "offset": 251054,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 250,
+      "volume": "resource.001",
+      "offset": 254226,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 270,
+      "volume": "resource.001",
+      "offset": 256141,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 274,
+      "volume": "resource.001",
+      "offset": 259247,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 275,
+      "volume": "resource.001",
+      "offset": 265311,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 276,
+      "volume": "resource.001",
+      "offset": 270925,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 277,
+      "volume": "resource.001",
+      "offset": 276529,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 499,
+      "volume": "resource.001",
+      "offset": 281434,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 500,
+      "volume": "resource.001",
+      "offset": 284408,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 501,
+      "volume": "resource.001",
+      "offset": 296644,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 506,
+      "volume": "resource.001",
+      "offset": 304670,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 751,
+      "volume": "resource.001",
+      "offset": 307388,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 8,
+      "volume": "resource.002",
+      "offset": 0,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 999,
+      "volume": "resource.002",
+      "offset": 1690,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 998,
+      "volume": "resource.002",
+      "offset": 2540,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 8,
+      "type": "cursor",
+      "number": 999,
+      "volume": "resource.002",
+      "offset": 3350,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 0,
+      "volume": "resource.002",
+      "offset": 3426,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 255,
+      "volume": "resource.002",
+      "offset": 3492,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 990,
+      "volume": "resource.002",
+      "offset": 3503,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 994,
+      "volume": "resource.002",
+      "offset": 3745,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 997,
+      "volume": "resource.002",
+      "offset": 3763,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 999,
+      "volume": "resource.002",
+      "offset": 4680,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 1,
+      "volume": "resource.002",
+      "offset": 4749,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 1,
+      "volume": "resource.002",
+      "offset": 11803,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 100,
+      "volume": "resource.002",
+      "offset": 11911,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 101,
+      "volume": "resource.002",
+      "offset": 12424,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 102,
+      "volume": "resource.002",
+      "offset": 13542,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 103,
+      "volume": "resource.002",
+      "offset": 13661,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 104,
+      "volume": "resource.002",
+      "offset": 13974,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 104,
+      "volume": "resource.002",
+      "offset": 15541,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 105,
+      "volume": "resource.002",
+      "offset": 15565,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 106,
+      "volume": "resource.002",
+      "offset": 15827,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 107,
+      "volume": "resource.002",
+      "offset": 16530,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 108,
+      "volume": "resource.002",
+      "offset": 17731,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 108,
+      "volume": "resource.002",
+      "offset": 18297,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 109,
+      "volume": "resource.002",
+      "offset": 18494,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 110,
+      "volume": "resource.002",
+      "offset": 18623,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 111,
+      "volume": "resource.002",
+      "offset": 18975,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 111,
+      "volume": "resource.002",
+      "offset": 23262,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 113,
+      "volume": "resource.002",
+      "offset": 23339,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 114,
+      "volume": "resource.002",
+      "offset": 24470,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 115,
+      "volume": "resource.002",
+      "offset": 25310,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 115,
+      "volume": "resource.002",
+      "offset": 25655,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 116,
+      "volume": "resource.002",
+      "offset": 25666,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 116,
+      "volume": "resource.002",
+      "offset": 27074,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 200,
+      "volume": "resource.002",
+      "offset": 27088,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 200,
+      "volume": "resource.002",
+      "offset": 28108,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 201,
+      "volume": "resource.002",
+      "offset": 28142,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 201,
+      "volume": "resource.002",
+      "offset": 31590,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 202,
+      "volume": "resource.002",
+      "offset": 33051,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 202,
+      "volume": "resource.002",
+      "offset": 34152,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 203,
+      "volume": "resource.002",
+      "offset": 34186,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 203,
+      "volume": "resource.002",
+      "offset": 36938,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 204,
+      "volume": "resource.002",
+      "offset": 38644,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 204,
+      "volume": "resource.002",
+      "offset": 41846,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 205,
+      "volume": "resource.002",
+      "offset": 42921,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 205,
+      "volume": "resource.002",
+      "offset": 44073,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 206,
+      "volume": "resource.002",
+      "offset": 44489,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 206,
+      "volume": "resource.002",
+      "offset": 48191,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 207,
+      "volume": "resource.002",
+      "offset": 48782,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 207,
+      "volume": "resource.002",
+      "offset": 52881,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 208,
+      "volume": "resource.002",
+      "offset": 53986,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 208,
+      "volume": "resource.002",
+      "offset": 57130,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 209,
+      "volume": "resource.002",
+      "offset": 59001,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 209,
+      "volume": "resource.002",
+      "offset": 61051,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 210,
+      "volume": "resource.002",
+      "offset": 62024,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 210,
+      "volume": "resource.002",
+      "offset": 64358,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 211,
+      "volume": "resource.002",
+      "offset": 66247,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 211,
+      "volume": "resource.002",
+      "offset": 70496,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 212,
+      "volume": "resource.002",
+      "offset": 71552,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 212,
+      "volume": "resource.002",
+      "offset": 76497,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 213,
+      "volume": "resource.002",
+      "offset": 77218,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 213,
+      "volume": "resource.002",
+      "offset": 80717,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 215,
+      "volume": "resource.002",
+      "offset": 80896,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 215,
+      "volume": "resource.002",
+      "offset": 82157,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 216,
+      "volume": "resource.002",
+      "offset": 83576,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 217,
+      "volume": "resource.002",
+      "offset": 84454,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 218,
+      "volume": "resource.002",
+      "offset": 85400,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 219,
+      "volume": "resource.002",
+      "offset": 86295,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 220,
+      "volume": "resource.002",
+      "offset": 87198,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 221,
+      "volume": "resource.002",
+      "offset": 88070,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 222,
+      "volume": "resource.002",
+      "offset": 89402,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 223,
+      "volume": "resource.002",
+      "offset": 90414,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 224,
+      "volume": "resource.002",
+      "offset": 91426,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 229,
+      "volume": "resource.002",
+      "offset": 92258,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 230,
+      "volume": "resource.002",
+      "offset": 93774,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 230,
+      "volume": "resource.002",
+      "offset": 94742,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 231,
+      "volume": "resource.002",
+      "offset": 94753,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 231,
+      "volume": "resource.002",
+      "offset": 96044,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 232,
+      "volume": "resource.002",
+      "offset": 96326,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 232,
+      "volume": "resource.002",
+      "offset": 97835,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 234,
+      "volume": "resource.002",
+      "offset": 100101,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 234,
+      "volume": "resource.002",
+      "offset": 101843,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 236,
+      "volume": "resource.002",
+      "offset": 101890,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 236,
+      "volume": "resource.002",
+      "offset": 104281,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 238,
+      "volume": "resource.002",
+      "offset": 104296,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 238,
+      "volume": "resource.002",
+      "offset": 106564,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 300,
+      "volume": "resource.002",
+      "offset": 106577,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 891,
+      "volume": "resource.002",
+      "offset": 110216,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 700,
+      "volume": "resource.002",
+      "offset": 110851,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 5,
+      "volume": "resource.002",
+      "offset": 111633,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 7,
+      "volume": "resource.002",
+      "offset": 114214,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 8,
+      "volume": "resource.002",
+      "offset": 116529,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 9,
+      "volume": "resource.002",
+      "offset": 117417,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 20,
+      "volume": "resource.002",
+      "offset": 119039,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 21,
+      "volume": "resource.002",
+      "offset": 119277,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 23,
+      "volume": "resource.002",
+      "offset": 119873,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 25,
+      "volume": "resource.002",
+      "offset": 119944,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 27,
+      "volume": "resource.002",
+      "offset": 120946,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 28,
+      "volume": "resource.002",
+      "offset": 121041,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 29,
+      "volume": "resource.002",
+      "offset": 121206,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 30,
+      "volume": "resource.002",
+      "offset": 121416,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 31,
+      "volume": "resource.002",
+      "offset": 121600,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 32,
+      "volume": "resource.002",
+      "offset": 121712,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 34,
+      "volume": "resource.002",
+      "offset": 122168,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 35,
+      "volume": "resource.002",
+      "offset": 124067,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 36,
+      "volume": "resource.002",
+      "offset": 126239,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 37,
+      "volume": "resource.002",
+      "offset": 127592,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 38,
+      "volume": "resource.002",
+      "offset": 128986,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 39,
+      "volume": "resource.002",
+      "offset": 131190,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 40,
+      "volume": "resource.002",
+      "offset": 133794,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 41,
+      "volume": "resource.002",
+      "offset": 135790,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 42,
+      "volume": "resource.002",
+      "offset": 137045,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 43,
+      "volume": "resource.002",
+      "offset": 137272,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 44,
+      "volume": "resource.002",
+      "offset": 138849,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 45,
+      "volume": "resource.002",
+      "offset": 139050,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 46,
+      "volume": "resource.002",
+      "offset": 139315,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 47,
+      "volume": "resource.002",
+      "offset": 140448,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 48,
+      "volume": "resource.002",
+      "offset": 141588,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 49,
+      "volume": "resource.002",
+      "offset": 142219,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 50,
+      "volume": "resource.002",
+      "offset": 143612,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 280,
+      "volume": "resource.002",
+      "offset": 144676,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 281,
+      "volume": "resource.002",
+      "offset": 155359,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 282,
+      "volume": "resource.002",
+      "offset": 165596,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 283,
+      "volume": "resource.002",
+      "offset": 174358,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 284,
+      "volume": "resource.002",
+      "offset": 183514,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 285,
+      "volume": "resource.002",
+      "offset": 193405,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 286,
+      "volume": "resource.002",
+      "offset": 202823,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 287,
+      "volume": "resource.002",
+      "offset": 212064,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 290,
+      "volume": "resource.002",
+      "offset": 221928,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 291,
+      "volume": "resource.002",
+      "offset": 232404,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 292,
+      "volume": "resource.002",
+      "offset": 242970,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 293,
+      "volume": "resource.002",
+      "offset": 252879,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 294,
+      "volume": "resource.002",
+      "offset": 263770,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 295,
+      "volume": "resource.002",
+      "offset": 274612,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 296,
+      "volume": "resource.002",
+      "offset": 285788,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 297,
+      "volume": "resource.002",
+      "offset": 296408,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 310,
+      "volume": "resource.002",
+      "offset": 305613,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 311,
+      "volume": "resource.002",
+      "offset": 308422,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 312,
+      "volume": "resource.002",
+      "offset": 311023,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 313,
+      "volume": "resource.002",
+      "offset": 313889,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 314,
+      "volume": "resource.002",
+      "offset": 316343,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 315,
+      "volume": "resource.002",
+      "offset": 318912,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 316,
+      "volume": "resource.002",
+      "offset": 321291,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 317,
+      "volume": "resource.002",
+      "offset": 323529,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 318,
+      "volume": "resource.002",
+      "offset": 326064,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 319,
+      "volume": "resource.002",
+      "offset": 328773,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 320,
+      "volume": "resource.002",
+      "offset": 331270,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 321,
+      "volume": "resource.002",
+      "offset": 333772,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 322,
+      "volume": "resource.002",
+      "offset": 336659,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 340,
+      "volume": "resource.002",
+      "offset": 339188,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 351,
+      "volume": "resource.002",
+      "offset": 348540,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 353,
+      "volume": "resource.002",
+      "offset": 364728,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 354,
+      "volume": "resource.002",
+      "offset": 377782,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 355,
+      "volume": "resource.002",
+      "offset": 388535,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 356,
+      "volume": "resource.002",
+      "offset": 401176,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 357,
+      "volume": "resource.002",
+      "offset": 411479,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 358,
+      "volume": "resource.002",
+      "offset": 422616,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 359,
+      "volume": "resource.002",
+      "offset": 434010,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 360,
+      "volume": "resource.002",
+      "offset": 445356,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 361,
+      "volume": "resource.002",
+      "offset": 454176,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 362,
+      "volume": "resource.002",
+      "offset": 467385,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 501,
+      "volume": "resource.002",
+      "offset": 480183,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 505,
+      "volume": "resource.002",
+      "offset": 488209,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 603,
+      "volume": "resource.002",
+      "offset": 493328,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 607,
+      "volume": "resource.002",
+      "offset": 508858,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 608,
+      "volume": "resource.002",
+      "offset": 518709,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 609,
+      "volume": "resource.002",
+      "offset": 522327,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 696,
+      "volume": "resource.002",
+      "offset": 531076,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 697,
+      "volume": "resource.002",
+      "offset": 533738,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 698,
+      "volume": "resource.002",
+      "offset": 543366,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 699,
+      "volume": "resource.002",
+      "offset": 556034,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 700,
+      "volume": "resource.002",
+      "offset": 568203,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 701,
+      "volume": "resource.002",
+      "offset": 583262,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 702,
+      "volume": "resource.002",
+      "offset": 585242,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 703,
+      "volume": "resource.002",
+      "offset": 600036,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 704,
+      "volume": "resource.002",
+      "offset": 608314,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 705,
+      "volume": "resource.002",
+      "offset": 613037,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 706,
+      "volume": "resource.002",
+      "offset": 617196,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 707,
+      "volume": "resource.002",
+      "offset": 619656,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 708,
+      "volume": "resource.002",
+      "offset": 625383,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 709,
+      "volume": "resource.002",
+      "offset": 644035,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 710,
+      "volume": "resource.002",
+      "offset": 650840,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 711,
+      "volume": "resource.002",
+      "offset": 662033,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 712,
+      "volume": "resource.002",
+      "offset": 689584,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 750,
+      "volume": "resource.002",
+      "offset": 691687,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 751,
+      "volume": "resource.002",
+      "offset": 695807,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 803,
+      "volume": "resource.002",
+      "offset": 701895,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 804,
+      "volume": "resource.002",
+      "offset": 704310,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 807,
+      "volume": "resource.002",
+      "offset": 706666,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 808,
+      "volume": "resource.002",
+      "offset": 709309,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 809,
+      "volume": "resource.002",
+      "offset": 711465,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 810,
+      "volume": "resource.002",
+      "offset": 715173,
+      "resource_header_id_matches_map": true
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 811,
+      "volume": "resource.002",
+      "offset": 717281,
+      "resource_header_id_matches_map": true
+    }
+  ],
+  "unique_resource_ids": 266,
+  "unique_type_counts": {
+    "cursor": 2,
+    "font": 8,
+    "palette": 1,
+    "patch": 3,
+    "picture": 7,
+    "script": 69,
+    "sound": 34,
+    "text": 39,
+    "view": 90,
+    "vocabulary": 13
+  },
+  "repeated_resource_ids": [
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 999,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 997,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 994,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 990,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 255,
+      "map_entries": 2
+    },
+    {
+      "type_id": 6,
+      "type": "vocabulary",
+      "number": 998,
+      "map_entries": 2
+    },
+    {
+      "type_id": 7,
+      "type": "font",
+      "number": 999,
+      "map_entries": 2
+    },
+    {
+      "type_id": 8,
+      "type": "cursor",
+      "number": 999,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 0,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 1,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 1,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 100,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 101,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 102,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 103,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 104,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 104,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 105,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 107,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 108,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 108,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 109,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 110,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 113,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 229,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 236,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 236,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 238,
+      "map_entries": 2
+    },
+    {
+      "type_id": 3,
+      "type": "text",
+      "number": 238,
+      "map_entries": 2
+    },
+    {
+      "type_id": 2,
+      "type": "script",
+      "number": 891,
+      "map_entries": 2
+    },
+    {
+      "type_id": 4,
+      "type": "sound",
+      "number": 23,
+      "map_entries": 2
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 501,
+      "map_entries": 2
+    },
+    {
+      "type_id": 0,
+      "type": "view",
+      "number": 751,
+      "map_entries": 2
+    }
+  ],
+  "directory_note": "33 resource IDs occur in both volume directory sections. 299 map entries represent 266 distinct (type,number) IDs; repeated IDs are not additional unique assets. Payload equality has not been checked."
+}

@@ -2,6 +2,8 @@
 
 Draft: 2026-10-15. **PROPOSAL for planning and wireframes, not an approved interface specification.** This outline fills a documentation gap identified in the [consistency review](consistency-review.md). It does not implement the application or settle remaining game rules.
 
+**Superseded as the starting point:** the owner subsequently requested documenting the original first. Use the [original-game baseline](../original-game/README.md) and its [source-based flow/layout](../original-game/town-and-screen-layout.md). This earlier proposal is retained as history. In particular, its ready/privacy handover, status-bar composition, and possible replacement location view are not established original behaviour.
+
 ## Status and terminology
 
 - **Required:** directly supported by the owner's brief: near-original simplicity, humour, economic swings, shared-device multiplayer, and a computer opponent.

@@ -1,0 +1,259 @@
+{
+  "revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "files": [
+    {
+      "path": "jones-dos-1.000.060/src/Actor.sc",
+      "sha256": "4799b4e95f3ed867f5de4332f604a9004e4fe834d4101a89e055d978eee93b9b",
+      "bytes": 5888,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Actor.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/BubbleWindow.sc",
+      "sha256": "075bcefa067c13828c8915adca27bb9fdef98be4c3243e556d4660a90574a628",
+      "bytes": 5029,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/BubbleWindow.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/DCIcon.sc",
+      "sha256": "75d11bad5d5eb4f324ebb8f30b8e6aa2123c73df36555dd22da983dd4e538868",
+      "bytes": 944,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/DCIcon.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/DialogScript.sc",
+      "sha256": "f125002d3385aa3334cc5fb9cd7fdce013bba0bad4d9f4594d38197f4d4f40c9",
+      "bytes": 1242,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/DialogScript.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/File.sc",
+      "sha256": "ce7d5edaf64ddcf1b1d98331b18bbb03b33d5e33f846d45e2eb696a216dee7f9",
+      "bytes": 924,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/File.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/FwdCount.sc",
+      "sha256": "e0d3ab7de63fcbbc3cca9838f3abc04fa140dd9c17529016a92ea0822f1404f3",
+      "bytes": 931,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/FwdCount.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Gauge.sc",
+      "sha256": "7443860080654d373ace768341a4507670464d8296d3c6be9c5b4ef9fb5adab9",
+      "bytes": 2659,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Gauge.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Interface.sc",
+      "sha256": "e34a16d434a56e5b28285c0499f4f9d24967675a67b4be7f9ee08b31e8f73486",
+      "bytes": 22020,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Interface.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/InvisibleWindow.sc",
+      "sha256": "34d0666b56aec56380be88708eb188f1a42c28dd511912464a49abd8b41761c3",
+      "bytes": 671,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/InvisibleWindow.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/KeyMouse.sc",
+      "sha256": "c454fceda23f03c13c59efa2398524ac7fc865c6f1e684b37278902091f16a89",
+      "bytes": 2860,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/KeyMouse.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Menu.sc",
+      "sha256": "3cfe6ff05a0ec0acbb5064e8b8994880675a2561ff0166160dc160793ac13e0a",
+      "bytes": 10102,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Menu.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Motion.sc",
+      "sha256": "3de038184d7eabfee2d8ec7513de10de48b2b445badf3ca9fc6deeb6c5e45bde",
+      "bytes": 3886,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Motion.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/MyWindow.sc",
+      "sha256": "20a4afdf129c4996912d5adefc6349ef21d7659c3695d5a15a856c70d5139124",
+      "bytes": 2077,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/MyWindow.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Save.sc",
+      "sha256": "ffadf1e01c999f3b744f69dfc2d0d21f04c4769b9e1761624414487dc3b53b05",
+      "bytes": 3342,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Save.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Sound.sc",
+      "sha256": "2d778d588d7eb000b27227b0ff2c3e26268c7271d07dc5ff0dd53042a496116e",
+      "bytes": 2460,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Sound.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/System.sc",
+      "sha256": "e76bbc25496033d315fb5bdcec7f957a9a0fab04e1577275263088871df7b7c1",
+      "bytes": 7925,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/System.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/User.sc",
+      "sha256": "435cba956012e7c9ab9af091f453e4a5dabe723db0cef84caff05886e9fb68a0",
+      "bytes": 1424,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/User.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/WList.sc",
+      "sha256": "aa77099dd1e2578ec909dd07232dc2f81f7406f319e20c8ecb6764d8d8c4bfe7",
+      "bytes": 339,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WList.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/appliance.sc",
+      "sha256": "7df162de8958eb12cb25ae24ed238f516627d05b85078f937c27ff4d52c77889",
+      "bytes": 16066,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/applianceJobs.sc",
+      "sha256": "a0edab7057446ea2a0915431a22e7cd44a1c81cd3bcb013829ce0851f7d35b3b",
+      "bytes": 2873,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/applianceJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/clothing.sc",
+      "sha256": "b2b6f5fa1ca62d0e49367929973f3fe53b3e3be014f0cfb9fe882f25cd3b73f5",
+      "bytes": 9119,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/clothingJobs.sc",
+      "sha256": "35cbc05510eab3205585765fdf6cfaf9ef9e193fa99b4dc95674e500e082ccdb",
+      "bytes": 2852,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothingJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/diploma.sc",
+      "sha256": "21b2d8f09023c100655a514ea6e90918870b0e3459a3c58e76be4b2c5c450dbc",
+      "bytes": 3124,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/discountJobs.sc",
+      "sha256": "fb17f6e657dfef842e1944fca5613d0764bee179c2c48beb622fe84268c2341c",
+      "bytes": 2774,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discountJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/factory.sc",
+      "sha256": "4ef97d3727c33c3657f2ca65d4625556fc77ad380352ca5f0503d8d469ac65a7",
+      "bytes": 4289,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factory.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/factoryJobs.sc",
+      "sha256": "87e8d2f73e8d55e23028cb88a79e560d1de594a3269da4bc3a9b51e3e3228fd3",
+      "bytes": 4406,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factoryJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/introRoom.sc",
+      "sha256": "37ccda8c253d464cf8fd355c06c2e06956a2ac8685f8e4dd2ab4251c3ce4269d",
+      "bytes": 5802,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/lottoScript.sc",
+      "sha256": "803256f93d352040a21ff49bf1ef0881bb321d0e08a4053219b17743ec8a9d36",
+      "bytes": 5582,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lottoScript.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/lowcost.sc",
+      "sha256": "200d2929d4e7b9c90f51a7cbece1c506bfe865428bf69444e9724969ff5a1d8b",
+      "bytes": 3269,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/marketJobs.sc",
+      "sha256": "1aaae4c0a84dd0f4beb0532747e679e9d8efe54ef3cd3b6f1a53bdbc5bec2263",
+      "bytes": 3243,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/marketJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/muggedByMarket.sc",
+      "sha256": "940d44e0154e5541fc4e343bc2271d254b130a5365b04d116684ec76829e3835",
+      "bytes": 2762,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/muggedByMarket.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/noticeRoom.sc",
+      "sha256": "6bec703348445e013b8f3df252074cfc46e55929e02d1da1388fa4430e040b6e",
+      "bytes": 816,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/noticeRoom.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/pawnShop.sc",
+      "sha256": "fe9801be89ade007ef1bb48cee027f2e1a0093ea76752bd8e5595fe29a441d00",
+      "bytes": 21614,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/security.sc",
+      "sha256": "7f417a25f475ad3aa293c2b1d3b287e664a2f0c7ae56b12707dcdfd4d3d1bc7d",
+      "bytes": 3627,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/select1b.sc",
+      "sha256": "36d5dca0119dbd9eee0e4ae5b7c4db01b28a04a0cd66c8996c43cac1eda32a8a",
+      "bytes": 2284,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/select2.sc",
+      "sha256": "5b4bcae4bcc416738a85aaba62b4ba8e9700423323f9ec3bc07c74f6378d0472",
+      "bytes": 4685,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/select3.sc",
+      "sha256": "5f49d3cdfd0135dd59199f375669a9794e5bd9a2013347c2f6d886b5e1cab2dd",
+      "bytes": 8869,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/select4.sc",
+      "sha256": "ee902418305c47cc7474f8fc3e720d417647e971e00e18e24a2ee62d1a87aecf",
+      "bytes": 6107,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/viewGoals.sc",
+      "sha256": "e01edbe86d08d17081abb960ca42f19927db7013ff20b6a9598a60a5fb5eadfb",
+      "bytes": 8774,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/winnerScript.sc",
+      "sha256": "bf2a6af41296cbbfb6a4f47a9d4fb03974f74f2bc3766c7e83d49888263dc69b",
+      "bytes": 6136,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc"
+    }
+  ],
+  "retrieved_date_utc": "2026-10-15",
+  "evidence": "Published decompilation inputs downloaded for original-experience research. Not all files fully audited. Earlier references listed separately in the pass-1 source manifest.",
+  "reference_card": {
+    "url": "https://www.sierragamers.com/wp-content/uploads/2019/12/Jones_In_The_Fast_Lane_Reference_Card.pdf",
+    "bytes": 1204747,
+    "sha256": "92070ab822da1e7f401037a34dc67559cd0c720100d2deed7e21c7f0816d2f6c",
+    "pages": 2,
+    "printed_copyright_year": 1992,
+    "method": "Rendered both pages and visually read original instructions and annotated interface illustrations. Release correspondence unconfirmed."
+  },
+  "derived_artifacts": {
+    "town-destinations.csv": "Place instance identifiers, path indices, click rectangles and script numbers transcribed programmatically from room1.sc; no game code or art included.",
+    "town-arrangement.svg": "Original analytical schematic using extracted facts; not original game artwork and not to scale."
+  }
+}

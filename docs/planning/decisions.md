@@ -14,6 +14,7 @@ Last updated: 2026-10-15.
 | D006 | Include ages 8 and 11 in play-testing while allowing a broader audience and possible public release | Owner context |
 | D007 | Preserve the original visual feel; explore illustrated retro | Owner preference; specific style pending |
 | D008 | Use this repository for planning, discovery evidence, audit, and later code; commit and push completed steps | Explicit owner instruction |
+| D009 | Document the existing game's flow, layout, and content first; iterate from that reference, with suggestions kept in a separate follow-up | Explicit owner instruction after the consistency review |
 
 ## Proposed technical and design choices
 
@@ -54,4 +55,6 @@ These are a planning backlog, not a request for the owner to answer everything i
 
 ## Flow and layout readiness
 
-The [consistency review](consistency-review.md) finds the current audit sufficient to draft the main loop, but insufficient for a complete interface specification. The [flow and layout outline](flow-and-layout-outline.md) proposes a journey, screen inventory, and desktop/tablet composition. These proposals do not approve setup defaults, a handover/privacy model, screen placement, device support, or any new game action.
+The earlier [consistency review](consistency-review.md) identified missing player-facing documentation. The subsequent [original-game baseline](../original-game/README.md) now describes those structures from original material and published scripts. Use it before the historical [speculative outline](flow-and-layout-outline.md). The [follow-up brief](follow-up-original-first-iteration.md) contains suggestions only; it does not approve new setup combinations, handover/privacy screens, placement changes, or game actions.
+
+The original's supported setup is now documented: one to four humans, with optional Jones only in the one-human path. Whether the adaptation should offer broader combinations remains an adaptation choice. Course/job catalogues, screen families, saved-game interface, and finish handling now have original references; runtime and graphical transcription gaps remain explicit.

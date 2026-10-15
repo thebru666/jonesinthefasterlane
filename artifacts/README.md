@@ -7,6 +7,10 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [2026-10-15 bundle inventory](discovery/2026-10-15-bundle-inventory.json): source URL, retrieval date, archive SHA-256, filenames, uncompressed sizes, and version marker.
 - [2026-10-15 audit source metadata](discovery/2026-10-15-audit-sources.json): pinned script revision, per-file hashes, manual identification, and interpreter references. Lists downloaded research inputs; inclusion does not mean every file received a full audit.
 - [2026-10-15 arithmetic fixtures](rules-audit/2026-10-15-arithmetic-fixtures.json): derived prices, rounding counterexample, work/garnishment examples, and eligible event probabilities. Analytical checks, not observed gameplay.
+- [Original town arrangement](original-game/town-arrangement.svg): analytical schematic, not extracted game art.
+- [Original destination inventory](original-game/town-destinations.csv): thirteen destinations, original IDs/path indices/click regions.
+- [Original-experience source inputs](original-game/2026-10-15-source-inputs.json): additional pinned script inputs and the original reference-card identification.
+- [Packed-resource inventory](original-game/packed-resource-inventory.json): all 299 original map entries, type counts, volume offsets, and matched header IDs; no original payloads included.
 
 ## What belongs here
 

@@ -6,9 +6,12 @@ A modern, nearly faithful successor to *Jones in the Fast Lane*: a small-town li
 
 The first audit pass now documents [time/actions](docs/rules-audit/time-and-actions.md), [weekly processing](docs/rules-audit/weekly-processing.md), and [economy/edition differences](docs/rules-audit/economy.md). Findings come from inspected published scripts; runtime validation and the remaining systems are tracked explicitly.
 
+Start with the [original-game baseline](docs/original-game/README.md) for how the original was organised: setup, thirteen destinations, screen flow/layout, jobs, courses, progress, saves, and finishing. [Iteration suggestions](docs/planning/follow-up-original-first-iteration.md) are a separate follow-up brief.
+
 ## Start here
 
 - [Documentation index](docs/README.md)
+- [Original-game reference](docs/original-game/README.md)
 - [Agreed project brief](docs/planning/project-brief.md)
 - [Decisions and open questions](docs/planning/decisions.md)
 - [Discovery findings and sources](docs/discovery/findings.md)
