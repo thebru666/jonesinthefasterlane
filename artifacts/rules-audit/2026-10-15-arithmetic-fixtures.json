@@ -1,0 +1,159 @@
+{
+  "date_utc": "2026-10-15",
+  "evidence": "Derived analytical examples from published script inspection. Not runtime observations or proof of binary equivalence. Normal positive non-overflow price range only.",
+  "rule_ids": [
+    "ECON-003",
+    "ECON-005",
+    "TIME-005",
+    "TIME-006"
+  ],
+  "price_examples": [
+    {
+      "reading": 10,
+      "base_price": 50,
+      "factor": 50,
+      "price": 25
+    },
+    {
+      "reading": 10,
+      "base_price": 325,
+      "factor": 50,
+      "price": 162
+    },
+    {
+      "reading": 70,
+      "base_price": 50,
+      "factor": 50,
+      "price": 25
+    },
+    {
+      "reading": 70,
+      "base_price": 325,
+      "factor": 50,
+      "price": 162
+    },
+    {
+      "reading": 100,
+      "base_price": 50,
+      "factor": 100,
+      "price": 50
+    },
+    {
+      "reading": 100,
+      "base_price": 325,
+      "factor": 100,
+      "price": 325
+    },
+    {
+      "reading": 130,
+      "base_price": 50,
+      "factor": 150,
+      "price": 75
+    },
+    {
+      "reading": 130,
+      "base_price": 325,
+      "factor": 150,
+      "price": 487
+    },
+    {
+      "reading": 190,
+      "base_price": 50,
+      "factor": 250,
+      "price": 125
+    },
+    {
+      "reading": 190,
+      "base_price": 325,
+      "factor": 250,
+      "price": 812
+    }
+  ],
+  "rounding_counterexample": {
+    "reading": 71,
+    "base_price": 25,
+    "factor": 52,
+    "split_price": 12,
+    "single_rounding_price": 13
+  },
+  "work_without_arrears": [
+    {
+      "wage": 10,
+      "remaining_hours": 6,
+      "pay": 80,
+      "work_permitted": true
+    },
+    {
+      "wage": 10,
+      "remaining_hours": 3,
+      "pay": 40,
+      "work_permitted": true
+    },
+    {
+      "wage": 10,
+      "remaining_hours": 1,
+      "pay": 13,
+      "work_permitted": true
+    },
+    {
+      "wage": 10,
+      "remaining_hours": 0,
+      "pay": 0,
+      "work_permitted": false
+    }
+  ],
+  "garnishment_examples": [
+    {
+      "wage": 10,
+      "remaining_hours": 1,
+      "rent_debt_before": 10,
+      "cash_awarded": 70,
+      "rent_debt_after": 0,
+      "status": "apparent script quirk; runtime pending"
+    },
+    {
+      "wage": 10,
+      "remaining_hours": 1,
+      "rent_debt_before": 40,
+      "cash_awarded": 38,
+      "rent_debt_after": 0,
+      "status": "apparent script quirk; runtime pending"
+    },
+    {
+      "wage": 10,
+      "remaining_hours": 1,
+      "rent_debt_before": 100,
+      "cash_awarded": 38,
+      "rent_debt_after": 60,
+      "status": "apparent script quirk; runtime pending"
+    }
+  ],
+  "eligible_floppy_crash_probability": [
+    {
+      "players": 1,
+      "per_turn_probability": "1/21"
+    },
+    {
+      "players": 2,
+      "per_turn_probability": "1/41"
+    },
+    {
+      "players": 4,
+      "per_turn_probability": "1/81"
+    }
+  ],
+  "boom_roll_probability_when_reached": [
+    {
+      "players": 1,
+      "probability": "1/31"
+    },
+    {
+      "players": 2,
+      "probability": "1/61"
+    },
+    {
+      "players": 4,
+      "probability": "1/121"
+    }
+  ]
+}

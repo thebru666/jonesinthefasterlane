@@ -4,6 +4,8 @@ A modern, nearly faithful successor to *Jones in the Fast Lane*: a small-town li
 
 **Status:** discovery and planning. No application has been built yet. The repository name is a working title.
 
+The first audit pass now documents [time/actions](docs/rules-audit/time-and-actions.md), [weekly processing](docs/rules-audit/weekly-processing.md), and [economy/edition differences](docs/rules-audit/economy.md). Findings come from inspected published scripts; runtime validation and the remaining systems are tracked explicitly.
+
 ## Start here
 
 - [Documentation index](docs/README.md)

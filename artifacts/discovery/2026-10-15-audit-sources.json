@@ -1,0 +1,233 @@
+{
+  "repository": "sluicebox/sci-scripts",
+  "revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "retrieved_date_utc": "2026-10-15",
+  "files": [
+    {
+      "path": "jones-dos-1.000.060/src/Main.sc",
+      "sha256": "ada11be01dbd5b6127be944bd3fa83e286d6bde1ab8ccf1980490e3f103f4b2f",
+      "bytes": 16753,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/economicIndex.sc",
+      "sha256": "780359d0e1b860aa8a8f16e39fab0514fe90c04055174b4f8b8121220ac643eb",
+      "bytes": 4895,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/economicIndex.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/startTrn.sc",
+      "sha256": "3e8eb9fa90c709b85bf7e030444f0af11b98ed4cdae2d56cc74d602e8db0c237",
+      "bytes": 20928,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/weekend.sc",
+      "sha256": "7af7f96c7662a6d0d0b5371144891b6e753805d6a79895796775ac0f0be197ae",
+      "bytes": 11164,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/weekend.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/room1.sc",
+      "sha256": "3f790f0cb832ab53ece6453e2d581198ec66ba50b6bebf4a6a4ac0594d923a87",
+      "bytes": 27549,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/marblePath.sc",
+      "sha256": "a49559377a31451898a8e56fbc62642770f43bd30184d98af5634a4b626938f7",
+      "bytes": 3184,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/marblePath.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/employment.sc",
+      "sha256": "e89b709c83c1449d8a0206cb006e17136568570325d3f4fb19da2cdf86730b65",
+      "bytes": 14718,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/university.sc",
+      "sha256": "92eebf502e996979812ba972a4ca2a5d924016cc8d75b47490214f2ed87e6f59",
+      "bytes": 18217,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/rentOffice.sc",
+      "sha256": "defebc9878772b62195f79f99e9cfcbe5b33deaf8956882de8359b326494f257",
+      "bytes": 17761,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/bank.sc",
+      "sha256": "a75a266bbf95fd8dfd434f2b2344889eb591afff5d7a1551b2407788cfe1fcdb",
+      "bytes": 14742,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Goods.sc",
+      "sha256": "3b71998b543e0915bf65588069daea0cf872592f2bae243d958968dfdae95369",
+      "bytes": 2371,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/fastFood.sc",
+      "sha256": "6781c76938ae17722baa2f3c92e33d1eeb12f122683ef3b5b97792df6f246718",
+      "bytes": 12387,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/goalsDefine.sc",
+      "sha256": "4aef20fd4af9ba58aa23eff8fe41958f2a334de3162232a5564faa5a4b5d4999",
+      "bytes": 3884,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/WhereShouldIGo.sc",
+      "sha256": "02c3c378ade8b6d2aa0ee28dbe9274750ccee101a61d129bad322332fb2ba85a",
+      "bytes": 22973,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WhereShouldIGo.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/Game.sc",
+      "sha256": "86c0861ff11e0dbf1c619c7b6f6cdb38b12df79e1da1d1e39c9f07a9c3bc7807",
+      "bytes": 6888,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Game.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/newspaper.sc",
+      "sha256": "36618c8fcd732fbaf1d91aa374155f28237810f6144b29808a854add977e3cb2",
+      "bytes": 7548,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/select1.sc",
+      "sha256": "88560f3ba14b7ee02bf65cb0ba7115f0764cb1abc1324262dda7b4e15e60dc39",
+      "bytes": 1899,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc"
+    },
+    {
+      "path": "jones-cd-dos-1.0/src/economicIndex.sc",
+      "sha256": "4d104de7f90394da2489cd50aeeecedd7048b2c5596e388820cf01e8a6dffe9f",
+      "bytes": 4935,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-cd-dos-1.0/src/economicIndex.sc"
+    },
+    {
+      "path": "jones-cd-dos-1.0/src/startTrn.sc",
+      "sha256": "10016eadd4120ad9b18e697425eb0c19c3ba383edbae5ddb8c98325cc9a17edf",
+      "bytes": 22406,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-cd-dos-1.0/src/startTrn.sc"
+    },
+    {
+      "path": "jones-cd-dos-1.0/src/Main.sc",
+      "sha256": "1813a18a07049937e6efa774450c70798df5ceffc5d4df2c4daae5ee843c856f",
+      "bytes": 16880,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-cd-dos-1.0/src/Main.sc"
+    },
+    {
+      "path": "jones-cd-dos-1.0/src/weekend.sc",
+      "sha256": "d7d7e4d81e070c0e42df37da13d45b8c8f10c72f96b18fae6481a3b2df0e92d6",
+      "bytes": 12048,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-cd-dos-1.0/src/weekend.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/n109.sc",
+      "sha256": "121042af963408907135f0e7201af8b13a65c3863adb6146a914515c3120b495",
+      "bytes": 655,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n109.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/n115.sc",
+      "sha256": "7a43ca2cf8b66e59fdc0371a641e50af70b42d94fe4cf9fd8dba123db7ad9cd4",
+      "bytes": 1615,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n115.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/inventories.sc",
+      "sha256": "a9598d6e3f686fc29ece829ac5e2feb026d772c788dc5b71425861ad14f43e82",
+      "bytes": 5258,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/broker.sc",
+      "sha256": "9255495e35b8e9a72622a22ab5929825e512a5efa6e2ab7421e7889a41d23d7b",
+      "bytes": 13483,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/market.sc",
+      "sha256": "f48d97c1a5c3eea2ab0885d70db3977f356da5d4f79b8c5fbcf129cce2519386",
+      "bytes": 13588,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/discount.sc",
+      "sha256": "0c9d5a5bacea6230eb3d48c6957ee7f1ef13e22f0b9f1227dbd82f899c18174c",
+      "bytes": 17720,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/fastFoodJobs.sc",
+      "sha256": "4f49bd096aa4ec692a048287660332e937351af55f360f705619653975bd1388",
+      "bytes": 2970,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFoodJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/universityJobs.sc",
+      "sha256": "c30e1cf6cfbda6e0c4a3ba89f33dd5225fb6575c9d1e5d503b0f95d5f30d9082",
+      "bytes": 2789,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/universityJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/rentJobs.sc",
+      "sha256": "610adb2242f96c8efec4c7bca39a798bc1d23d8404c17a4bde5d1b8b77467084",
+      "bytes": 2590,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/bankJobs.sc",
+      "sha256": "558be993e072b4e38445e88cd3b7758afe893290ddd6f51a6b73e1f7d1ed0531",
+      "bytes": 3320,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bankJobs.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/n108.sc",
+      "sha256": "7ebe252df2d1ed273486a2e730b867c89bca851fce528b96b0c6534f0f8c6f32",
+      "bytes": 2894,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n108.sc"
+    },
+    {
+      "path": "jones-dos-1.000.060/src/WButton.sc",
+      "sha256": "73716eac764fe5db0a7593a78912d31f451cba5c7338abfc824efd7ab2890838",
+      "bytes": 5491,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WButton.sc"
+    }
+  ],
+  "evidence_kind": "Published decompilation references; not generated or bytecode-matched locally.",
+  "manual": {
+    "source_url": "https://virtualconsoles.com/wp-content/uploads/2024/03/Jones-in-the-Fast-Lane_Manual_DOS_EN-compressed.pdf",
+    "retrieved_date_utc": "2026-10-15",
+    "size_bytes": 1536302,
+    "sha256": "e7896df9a995c5dcd943a5ce24fefd5de1fb222c61824eee8fbc43427361eded",
+    "pdf_pages": 12,
+    "method": "Image-based scan. Text extraction empty; visually inspected rendered PDF pages 3\u201310. Printed pages 3, 5\u20137 establish reference-card dependency and interaction conventions, not economic formulas."
+  },
+  "interpreter_sources": {
+    "repository": "scummvm/scummvm",
+    "revision": "2b5f9b5d95f267c87889746906148db6088130f8",
+    "purpose": "Confirm inclusive Random bounds and integer division semantics; not exact RNG sequence equivalence.",
+    "files": [
+      {
+        "path": "engines/sci/engine/kmath.cpp",
+        "sha256": "b00469a8cf57ff69e213f2a1642566798c4593535dfcbf00d57127321095a864",
+        "bytes": 9816,
+        "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/kmath.cpp"
+      },
+      {
+        "path": "engines/sci/engine/vm_types.cpp",
+        "sha256": "82f7706a2d8086df9e055ae0aaa0950a44e5abbdb1b064fcd53b1500e0c3a6c0",
+        "bytes": 10356,
+        "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/vm_types.cpp"
+      }
+    ]
+  }
+}

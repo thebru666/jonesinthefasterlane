@@ -4,22 +4,28 @@
 
 - [Project brief](planning/project-brief.md): agreed audience, tone, scope, and process.
 - [Decisions](planning/decisions.md): confirmed direction, recommendations, and unresolved choices.
+- [Audit implications](planning/audit-implications.md): economic fidelity, edition baseline, and compatibility choices from pass 1.
 
 ## Discovery
 
 - [Findings](discovery/findings.md): inspected package, tool feasibility, sources, and limitations.
+- [Source register](discovery/source-register.md): pinned script references, manual inspection, and arithmetic semantics.
 - [Artifact index](../artifacts/README.md): committed research evidence and local-only material policy.
 
 ## Rules audit
 
 - [Audit plan and coverage](rules-audit/README.md)
 - [Rule record template](rules-audit/rule-template.md)
+- [Time and actions](rules-audit/time-and-actions.md)
+- [Turn and weekly processing](rules-audit/weekly-processing.md)
+- [Economy and edition differences](rules-audit/economy.md)
+- [Validation backlog](rules-audit/validation-backlog.md)
 
 ## Planned deliverables
 
-These do not exist yet:
+These are not complete yet:
 
-1. Evidence-backed original-game rules catalogue.
+1. Evidence-backed original-game rules catalogue (first partial pass now recorded).
 2. Adaptation specification classifying mechanics as keep, reskin, or change.
 3. Content and art bible: town, businesses, career ladders, qualifications, items, characters, humour, screen studies, and asset list.
 4. Architecture and validation plan: state, actions, saves, turn handover, computer player, milestones, and family play-testing.

@@ -30,11 +30,15 @@ Last updated: 2026-10-15.
 
 ## Questions to resolve during discovery
 
+Pass 1 has produced [specific implications and recommendations](audit-implications.md). No new adaptation decision has been approved by that research alone.
+
 - Which original release is the behavioural reference? The inspected website bundle identifies version 1.000.060; other editions may differ.
 - How does the original economy change, and how are wages, prices, jobs, and events connected to it?
 - Which awkward behaviours are intentional, which are bugs, and which should the adaptation preserve?
 - What are the original opponent's decision rules and advantages, if any?
 - How much information should other players see during shared-device play?
+- Should the new game use floppy or CD economy recovery/timing, given the documented script differences?
+- After reproduction, should the duplicated economic adjustment condition and partial-shift garnishment behaviour be fixed or preserved?
 
 ## Questions to resolve before implementation
 

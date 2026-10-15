@@ -5,6 +5,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 ## Index
 
 - [2026-10-15 bundle inventory](discovery/2026-10-15-bundle-inventory.json): source URL, retrieval date, archive SHA-256, filenames, uncompressed sizes, and version marker.
+- [2026-10-15 audit source metadata](discovery/2026-10-15-audit-sources.json): pinned script revision, per-file hashes, manual identification, and interpreter references. Lists downloaded research inputs; inclusion does not mean every file received a full audit.
+- [2026-10-15 arithmetic fixtures](rules-audit/2026-10-15-arithmetic-fixtures.json): derived prices, rounding counterexample, work/garnishment examples, and eligible event probabilities. Analytical checks, not observed gameplay.
 
 ## What belongs here
 
