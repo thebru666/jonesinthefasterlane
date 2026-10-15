@@ -51,3 +51,7 @@ Pass 1 has produced [specific implications and recommendations](audit-implicatio
 - Architecture, save format, and rules-version policy.
 
 These are a planning backlog, not a request for the owner to answer everything immediately. Research should resolve what it can before asking for choices.
+
+## Flow and layout readiness
+
+The [consistency review](consistency-review.md) finds the current audit sufficient to draft the main loop, but insufficient for a complete interface specification. The [flow and layout outline](flow-and-layout-outline.md) proposes a journey, screen inventory, and desktop/tablet composition. These proposals do not approve setup defaults, a handover/privacy model, screen placement, device support, or any new game action.

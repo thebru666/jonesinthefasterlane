@@ -22,7 +22,7 @@ The script state machine separates calculation, display, and acknowledgement. Th
 | 4 | Apply selected ownership happiness effect; check completion of all four goals and handle finish flow | `startTrn` states 0–1 |
 | 5 | Reset per-turn flags, calculate education bonuses and assets, show/process weekend | state 2 |
 | 6 | Resolve lottery tickets | state 2, after weekend |
-| 7 | Possible computer ownership income; relaxation decay; possible apartment theft | states 4–7 |
+| 7 | Possible income from owning a computer item; relaxation decay; possible apartment theft | states 4–7 |
 | 8 | Find food coverage; spoil/cap groceries; expire fast food; hunger and possible doctor outcome | states 8–15 |
 | 9 | Decrement consumables; fourth-week rent notice | state 16 |
 | 10 | Clothing state/warning; fourth-week loan warnings | states 18–20 |

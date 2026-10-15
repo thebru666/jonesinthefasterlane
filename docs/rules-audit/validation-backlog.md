@@ -21,7 +21,7 @@ Economy experiments should compare outcomes from controlled states; naturally di
 | ID | Setup and action | Script-derived expectation / question |
 | --- | --- | --- |
 | T01 | Start a normal turn, then a turn after missed food | 60-hour allowance; hunger notice spends 20 hours |
-| T02 | Reach spent time 59 inside a shop, finish a six-hour action, then try ordinary purchase and exit | Clock caps at 60; eligible free purchase can still resolve; exit hands over |
+| T02 | At an employed shop workplace with stock available and enough cash, reach spent time 59, work a shift, then try an ordinary purchase and exit | Clock caps at 60; eligible free purchase can still resolve; exit hands over |
 | T03 | At an employed workplace with no arrears, compare shifts with 6, 3, 1, and 0 hours remaining | Full/proportional/refused work per TIME-005 |
 | T04 | Study an enrolled unfinished course with one hour left | One normal progress increment, then clock at 60 |
 | T05 | Fail a job application with one hour left | Attempt consumes the remaining time and still resolves |

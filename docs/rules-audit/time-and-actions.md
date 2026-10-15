@@ -77,4 +77,4 @@ Evidence: [bank.sc, seeBroker.doit](https://github.com/sluicebox/sci-scripts/blo
 
 Preservation candidates: 60-hour turns, travel plus entry costs, short final actions, and time-free final transactions. These are recommendations, not approved adaptation decisions.
 
-Runtime cases T01–T07 are in the [validation backlog](validation-backlog.md). This pass checks script paths and analytical examples; it does not claim observed results for those scenarios.
+Runtime cases T01–T08 are in the [validation backlog](validation-backlog.md). This pass checks script paths and analytical examples; it does not claim observed results for those scenarios.

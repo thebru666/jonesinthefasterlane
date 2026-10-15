@@ -5,6 +5,8 @@
 - [Project brief](planning/project-brief.md): agreed audience, tone, scope, and process.
 - [Decisions](planning/decisions.md): confirmed direction, recommendations, and unresolved choices.
 - [Audit implications](planning/audit-implications.md): economic fidelity, edition baseline, and compatibility choices from pass 1.
+- [Consistency and readiness review](planning/consistency-review.md): what is established and what still blocks a complete flow/layout specification.
+- [Flow and layout outline](planning/flow-and-layout-outline.md): proposed player journey, screen inventory, composition, and interaction checklist; not an approved interface.
 
 ## Discovery
 
