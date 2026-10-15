@@ -87,9 +87,13 @@ flowchart TD
 
 This is an analytical normal-path diagram. Restore resumes stored state, not necessarily a fresh turn; demo uses its own control path. First-week skips, retirement/removal, notices, and full save semantics are described in the linked audit rather than flattened into every diagram branch. No separate privacy/ready handover screen was found in the inspected original path.
 
+## Reconstruction studies
+
+The [screen reconstruction](screen-reconstruction.md) now provides state-qualified local composites and annotated layer bounds for setup, shops, homes, university, progress and interruptions. It also records nested returns and deliberately unrendered dynamic content. Use it alongside this structural baseline.
+
 ## Evidence still needed for visual fidelity
 
-- Inspect the packed picture/view resources to transcribe exact artwork labels, character frames, palette, and control extents. The downloaded `RESOURCE.*` archive contains the game resources; they have not been exported as an art catalogue.
+- A [local asset catalogue](asset-catalogue-notes.md) and [18 analytical screen composites](screen-reconstruction.md) now establish decoded components and script placement. Complete text/animation/state transcription and runtime comparison remain open; partial composites are not screenshots.
 - Capture representative original screens at their native geometry, including both homes, a shop, employment, university, statistics, goals, a handover, and finish. Browser inspection during this pass reached the opening notice but then produced a blank game display; it did not establish gameplay observations.
 - Distinguish floppy and CD presentations. The ©1992 reference card is useful original material, but not proof that every image or rule matches the website's floppy build.
 - Check pacing and sound in play. Bed-music calls and animated Talker classes establish that presentation is part of the design; they do not establish that timing or audio was heard in this pass.

@@ -3,6 +3,7 @@
 ## Original game: starting point for iteration
 
 - [Original-game baseline](original-game/README.md): existing summaries and documented original setup, town, screens, actions, content, progress, saves, and finish.
+- [Screen reconstruction studies](original-game/screen-reconstruction.md): local composites and annotated source layers, with state/geometry limits.
 - [Follow-up iteration brief](planning/follow-up-original-first-iteration.md): restrained suggestions to review against that baseline; no changes approved.
 
 ## Planning
@@ -27,6 +28,9 @@
 - [Time and actions](rules-audit/time-and-actions.md)
 - [Turn and weekly processing](rules-audit/weekly-processing.md)
 - [Economy and edition differences](rules-audit/economy.md)
+- [Computer opponent](rules-audit/computer-opponent.md)
+- [Food and housing](rules-audit/food-and-housing.md)
+- [Goods and finance](rules-audit/goods-and-finance.md)
 - [Validation backlog](rules-audit/validation-backlog.md)
 
 ## Planned deliverables

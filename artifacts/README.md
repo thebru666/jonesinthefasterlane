@@ -15,6 +15,10 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Decoded-asset metadata](original-game/decoded-asset-summary.json): 266 unique resources, export coverage, hashes and local reference paths; no original payloads.
 - [Script-to-asset role hints](original-game/asset-role-hints.json): pinned source references for 53 resources; dynamic selections remain qualified.
 
+- [Screen-study recipes](original-game/screen-study-recipes.json): source-linked layers/coordinates and selected states for 18 analytical composites; no original pixels.
+- [Pass 2 source inputs](rules-audit/2026-10-15-pass2-source-inputs.json): 25 pinned source hashes for AI, needs, goods and finance research.
+- [AI target-allocation check](rules-audit/ai-goal-allocation-check.json): independent arithmetic coverage and regeneration command linked from AI-001; no runtime claim.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

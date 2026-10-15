@@ -15,3 +15,11 @@ The default result is `work/original-assets/index.html`. Open that file directly
 `--write-summary` updates the tracked analytical catalogue only after a complete decode. It contains resource IDs, hashes, counts, role hints, and statuses, not the original resource payloads. Review the diff before committing it.
 
 The tools are GPL-3.0-or-later; [provenance and notices](THIRD_PARTY.md). They deliberately support this reference edition rather than every SCI format. Unknown picture opcodes or invalid streams fail explicitly. Audio exports are finite MIDI/event references, not original-hardware playback or recordings.
+
+After decoding, render the analytical screen studies with:
+
+```sh
+work/asset-venv/bin/python tools/research/reconstruct_screen_studies.py
+```
+
+Open `work/original-screen-studies/index.html`. These are partial static composites; [state and geometry limits](../../docs/original-game/screen-reconstruction.md) apply. Recipes are committed metadata; generated original artwork stays ignored.

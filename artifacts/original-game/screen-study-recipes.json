@@ -1,0 +1,1309 @@
+{
+  "evidence": "SCRIPT placements + DECODED components; analytical composites, not runtime captures",
+  "source_revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "coordinate_basis": {
+    "canvas": [
+      320,
+      200
+    ],
+    "common_dialog_origin": [
+      69,
+      44
+    ],
+    "common_dialog_size": [
+      184,
+      119
+    ],
+    "limits": "DIcon nsLeft/nsTop are local control coordinates; no actor/baseline placement, window border/port adjustment, palette transitions or complete interpreter simulation."
+  },
+  "flow_only_screens": [
+    "restore",
+    "demo",
+    "feedback",
+    "goal-detail",
+    "handover",
+    "victory"
+  ],
+  "studies": [
+    {
+      "id": "startup",
+      "title": "Startup choices",
+      "script": "select1.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Static choice artwork before a selection.",
+      "layers": [
+        {
+          "name": "playGame",
+          "view": 10,
+          "loop": 1,
+          "cel": 0,
+          "x": 27,
+          "y": 17,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L71",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "restoreGame",
+          "view": 10,
+          "loop": 1,
+          "cel": 2,
+          "x": 27,
+          "y": 47,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L88",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "demonstration",
+          "view": 10,
+          "loop": 1,
+          "cel": 1,
+          "x": 27,
+          "y": 77,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L107",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Runtime window fill/borders, focus, help/menu, music and surrounding board state.",
+      "next": [
+        "player-count",
+        "restore",
+        "demo"
+      ],
+      "notes": []
+    },
+    {
+      "id": "player-count",
+      "title": "Number of humans",
+      "script": "select1b.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "One to four humans; text heading omitted.",
+      "layers": [
+        {
+          "name": "number1",
+          "view": 0,
+          "loop": 3,
+          "cel": 0,
+          "x": 20,
+          "y": 55,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc#L77",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "number2",
+          "view": 0,
+          "loop": 3,
+          "cel": 1,
+          "x": 60,
+          "y": 55,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc#L94",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "number3",
+          "view": 0,
+          "loop": 3,
+          "cel": 2,
+          "x": 100,
+          "y": 55,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc#L112",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "number4",
+          "view": 0,
+          "loop": 3,
+          "cel": 3,
+          "x": 140,
+          "y": 55,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc#L130",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Runtime heading, focus and window style.",
+      "next": [
+        "appearance"
+      ],
+      "notes": []
+    },
+    {
+      "id": "appearance",
+      "title": "Choose appearance",
+      "script": "select2.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "First player; no previous appearance dimmed.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 500,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L88",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playerNumber",
+          "view": 499,
+          "loop": 1,
+          "cel": 0,
+          "x": 42,
+          "y": 1,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L95",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "firstPlayer",
+          "view": 250,
+          "loop": 7,
+          "cel": 0,
+          "x": 6,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L112",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "secondPlayer",
+          "view": 250,
+          "loop": 7,
+          "cel": 0,
+          "x": 52,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L144",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "thirdPlayer",
+          "view": 250,
+          "loop": 7,
+          "cel": 0,
+          "x": 98,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L176",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "fourthPlayer",
+          "view": 250,
+          "loop": 7,
+          "cel": 0,
+          "x": 144,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L209",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Later-player dim overlays and dynamic focus; nsLeft43 alternate palette mode not applied.",
+      "next": [
+        "goals"
+      ],
+      "notes": []
+    },
+    {
+      "id": "goals",
+      "title": "Personal goal targets",
+      "script": "select3.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "First human of a multi-human setup, with four targets at 50; setup title uses view506 cel0. Proceed loop8 is valid before the final human.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 501,
+          "loop": 1,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L164",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "windowTitle",
+          "view": 506,
+          "loop": 0,
+          "cel": 0,
+          "x": 24,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L172",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "wealthStar",
+          "view": 501,
+          "loop": 2,
+          "cel": 4,
+          "x": 32,
+          "y": 38,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L285",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "happyStar",
+          "view": 501,
+          "loop": 2,
+          "cel": 4,
+          "x": 68,
+          "y": 38,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L298",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "educationStar",
+          "view": 501,
+          "loop": 2,
+          "cel": 4,
+          "x": 104,
+          "y": 38,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L311",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "careerStar",
+          "view": 501,
+          "loop": 2,
+          "cel": 4,
+          "x": 139,
+          "y": 38,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L324",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "questionButton",
+          "view": 250,
+          "loop": 9,
+          "cel": 0,
+          "x": 124,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L503",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exButton",
+          "view": 250,
+          "loop": 8,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L195",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Dynamic Goal Points text, player markers, focus, final-player button substitution.",
+      "next": [
+        "appearance",
+        "jones-offer",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "jones-offer",
+      "title": "Challenge Jones",
+      "script": "select4.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Initial yes/no offer; mutually exclusive with difficulty controls.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 11,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L187",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "yesButton",
+          "view": 10,
+          "loop": 3,
+          "cel": 0,
+          "x": 80,
+          "y": 62,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L254",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "noButton",
+          "view": 10,
+          "loop": 3,
+          "cel": 1,
+          "x": 80,
+          "y": 87,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L287",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Question text and focus.",
+      "next": [
+        "jones-difficulty",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "jones-difficulty",
+      "title": "Jones difficulty",
+      "script": "select4.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Difficulty controls after accepting Jones.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 11,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L187",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "takeItEasy",
+          "view": 10,
+          "loop": 2,
+          "cel": 0,
+          "x": 67,
+          "y": 57,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L299",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playFair",
+          "view": 10,
+          "loop": 2,
+          "cel": 1,
+          "x": 67,
+          "y": 74,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L316",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "goForBroke",
+          "view": 10,
+          "loop": 2,
+          "cel": 2,
+          "x": 67,
+          "y": 91,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L334",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Question text, focus and read-only Jones goals follow-up.",
+      "next": [
+        "goals",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "appliances",
+      "title": "Socket City visit",
+      "script": "appliance.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Employed here; one static clerk frame; priced item list omitted.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 808,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L258",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theTalker",
+          "view": 358,
+          "loop": 0,
+          "cel": 0,
+          "x": 115,
+          "y": 57,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L669",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L570",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "workButton",
+          "view": 250,
+          "loop": 1,
+          "cel": 0,
+          "x": 75,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L581",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Dynamic priced list, time-clock, greeting/purchase feedback, item animation, current cash.",
+      "next": [
+        "town",
+        "feedback"
+      ],
+      "notes": [
+        "Work is conditional on employment; this study deliberately includes it."
+      ]
+    },
+    {
+      "id": "bank",
+      "title": "Bank visit",
+      "script": "bank.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Employed here; one static clerk frame.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 804,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L196",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theTalker",
+          "view": 354,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L626",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 144,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L634",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "workButton",
+          "view": 250,
+          "loop": 1,
+          "cel": 0,
+          "x": 77,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L645",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Deposit/withdraw/payment controls and amount text, loan/broker labels, time-clock and balances.",
+      "next": [
+        "broker",
+        "feedback",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "employment",
+      "title": "Employment agency",
+      "script": "employment.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Employer selection shell.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 706,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L428",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theTalker",
+          "view": 356,
+          "loop": 0,
+          "cel": 0,
+          "x": 115,
+          "y": 17,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L616",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L605",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Nine text employer buttons, vacancy/qualification lists and application feedback.",
+      "next": [
+        "job-list",
+        "feedback",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "university",
+      "title": "Hi-Tech U initial course set",
+      "script": "university.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "No completed qualifications: Junior College and Trade School eligible. Books cel1 for2 eligible courses; labels placed by addCourse formula.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 807,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L507",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "books",
+          "view": 707,
+          "loop": 1,
+          "cel": 1,
+          "x": 71,
+          "y": 70,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L514",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "juniorCollege",
+          "view": 707,
+          "loop": 2,
+          "cel": 4,
+          "x": 76,
+          "y": 94,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L620",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "tradeSchool",
+          "view": 707,
+          "loop": 2,
+          "cel": 0,
+          "x": 76,
+          "y": 80,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L547",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theTalker",
+          "view": 357,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 1,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L838",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "enrollButton",
+          "view": 250,
+          "loop": 10,
+          "cel": 0,
+          "x": 105,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L716",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 147,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L703",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Fee text, session count, focus, enrolment feedback, optional Work/time-clock, diploma transition.",
+      "next": [
+        "diploma",
+        "feedback",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "lowcost",
+      "title": "Resident low-cost apartment",
+      "script": "lowcost.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Resident with initial furnishings branch global414==0.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 700,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L99",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theSaying",
+          "view": 700,
+          "loop": 0,
+          "cel": 2,
+          "x": 49,
+          "y": 28,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L154",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theChair",
+          "view": 700,
+          "loop": 0,
+          "cel": 1,
+          "x": 32,
+          "y": 60,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L144",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theStool",
+          "view": 700,
+          "loop": 0,
+          "cel": 3,
+          "x": 108,
+          "y": 81,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L163",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "relaxButton",
+          "view": 250,
+          "loop": 3,
+          "cel": 0,
+          "x": 9,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L103",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L134",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Relaxation timing/feedback and alternate nonresident art699.",
+      "next": [
+        "feedback",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "security",
+      "title": "Resident security apartment",
+      "script": "security.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Illustrative owner of TV, books and VCR; stereo deliberately excluded pending loop1 resource mismatch.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 702,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L108",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theColorTV",
+          "view": 702,
+          "loop": 0,
+          "cel": 1,
+          "x": 137,
+          "y": 34,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L152",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theBooks",
+          "view": 702,
+          "loop": 0,
+          "cel": 3,
+          "x": 120,
+          "y": 15,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L171",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theVCR",
+          "view": 702,
+          "loop": 0,
+          "cel": 2,
+          "x": 137,
+          "y": 64,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L181",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "relaxButton",
+          "view": 250,
+          "loop": 3,
+          "cel": 0,
+          "x": 9,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L112",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L142",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Nonresident art698; stereo instance uses view702 loop1 despite decoded single loop; dynamic possessions are state-dependent.",
+      "next": [
+        "feedback",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "statistics",
+      "title": "Current-player statistics",
+      "script": "inventories.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Statistics frame only; scrolling state-generated list omitted.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 505,
+          "loop": 4,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc#L225",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "doneButton",
+          "view": 250,
+          "loop": 2,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc#L232",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Statistics lines and scrollbar; no invented values.",
+      "next": [
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "comparison",
+      "title": "Who is winning",
+      "script": "viewGoals.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Four-player framing; thermometer fill omitted rather than inventing progress.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 505,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L195",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L202",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playerNumber1",
+          "view": 505,
+          "loop": 3,
+          "cel": 0,
+          "x": 18,
+          "y": 90,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L212",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playerNumber2",
+          "view": 505,
+          "loop": 3,
+          "cel": 1,
+          "x": 62,
+          "y": 90,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L234",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playerNumber3",
+          "view": 505,
+          "loop": 3,
+          "cel": 2,
+          "x": 106,
+          "y": 90,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L257",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "playerNumber4",
+          "view": 505,
+          "loop": 3,
+          "cel": 3,
+          "x": 150,
+          "y": 90,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L280",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Only actual participants appear in-game; dynamic percentages, thermometers and fine-fill.",
+      "next": [
+        "goal-detail",
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "newspaper",
+      "title": "Newspaper interruption",
+      "script": "newspaper.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Animated presentation mode (global534==0), one paper frame (cel0).",
+      "layers": [
+        {
+          "name": "background",
+          "view": 603,
+          "loop": 1,
+          "cel": 1,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L159",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "newsPaper",
+          "view": 603,
+          "loop": 0,
+          "cel": 0,
+          "x": 56,
+          "y": 35,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L180",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "doneButton",
+          "view": 250,
+          "loop": 2,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L168",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Generated headline/body, unfolding/timing and exact originating event.",
+      "next": [
+        "town"
+      ],
+      "notes": []
+    },
+    {
+      "id": "diploma",
+      "title": "Graduation interruption",
+      "script": "diploma.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Animated presentation mode (global534==0), one diploma frame (cel0).",
+      "layers": [
+        {
+          "name": "background",
+          "view": 607,
+          "loop": 1,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L101",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "theDiploma",
+          "view": 607,
+          "loop": 0,
+          "cel": 0,
+          "x": 22,
+          "y": 15,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L120",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "doneButton",
+          "view": 250,
+          "loop": 2,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L109",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Dynamic qualification/player text and animation.",
+      "next": [
+        "university"
+      ],
+      "notes": []
+    },
+    {
+      "id": "broker",
+      "title": "Broker nested investment screen",
+      "script": "broker.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Investment selectors; no holdings or market values invented.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 696,
+          "loop": 0,
+          "cel": 0,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L283",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "tBills",
+          "view": 696,
+          "loop": 1,
+          "cel": 0,
+          "x": 8,
+          "y": 27,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L323",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "gold",
+          "view": 696,
+          "loop": 1,
+          "cel": 1,
+          "x": 8,
+          "y": 40,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L346",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "silver",
+          "view": 696,
+          "loop": 1,
+          "cel": 2,
+          "x": 8,
+          "y": 53,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L374",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "porkBellies",
+          "view": 696,
+          "loop": 1,
+          "cel": 3,
+          "x": 8,
+          "y": 66,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L402",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "blueChipStocks",
+          "view": 696,
+          "loop": 1,
+          "cel": 4,
+          "x": 8,
+          "y": 79,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L430",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "pennyStocks",
+          "view": 696,
+          "loop": 1,
+          "cel": 5,
+          "x": 8,
+          "y": 92,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L458",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "buyButton",
+          "view": 250,
+          "loop": 4,
+          "cel": 0,
+          "x": 7,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L496",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "sellButton",
+          "view": 250,
+          "loop": 5,
+          "cel": 0,
+          "x": 77,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L533",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L486",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Runtime holdings, prices, buy/sell focus and transaction feedback.",
+      "next": [
+        "bank",
+        "feedback"
+      ],
+      "notes": []
+    },
+    {
+      "id": "job-list",
+      "title": "Monolith job list shell",
+      "script": "fastFoodJobs.sc",
+      "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFoodJobs.sc",
+      "dialog_origin": [
+        69,
+        44
+      ],
+      "dialog_size": [
+        184,
+        119
+      ],
+      "state": "Nested employer list inherits agency origin; static shell only.",
+      "layers": [
+        {
+          "name": "background",
+          "view": 706,
+          "loop": 0,
+          "cel": 1,
+          "x": 0,
+          "y": 0,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFoodJobs.sc#L101",
+          "selection_note": "Static instance/default values; see state note."
+        },
+        {
+          "name": "exitButton",
+          "view": 250,
+          "loop": 0,
+          "cel": 0,
+          "x": 143,
+          "y": 108,
+          "source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFoodJobs.sc#L178",
+          "selection_note": "Static instance/default values; see state note."
+        }
+      ],
+      "omitted": "Employer heading, four job/wage text rows, eligibility highlights and application result.",
+      "next": [
+        "employment",
+        "feedback"
+      ],
+      "notes": []
+    }
+  ],
+  "source_inputs": {
+    "Interface.sc": "e34a16d434a56e5b28285c0499f4f9d24967675a67b4be7f9ee08b31e8f73486",
+    "WButton.sc": "73716eac764fe5db0a7593a78912d31f451cba5c7338abfc824efd7ab2890838",
+    "appliance.sc": "7df162de8958eb12cb25ae24ed238f516627d05b85078f937c27ff4d52c77889",
+    "bank.sc": "a75a266bbf95fd8dfd434f2b2344889eb591afff5d7a1551b2407788cfe1fcdb",
+    "broker.sc": "9255495e35b8e9a72622a22ab5929825e512a5efa6e2ab7421e7889a41d23d7b",
+    "diploma.sc": "21b2d8f09023c100655a514ea6e90918870b0e3459a3c58e76be4b2c5c450dbc",
+    "employment.sc": "e89b709c83c1449d8a0206cb006e17136568570325d3f4fb19da2cdf86730b65",
+    "fastFoodJobs.sc": "4f49bd096aa4ec692a048287660332e937351af55f360f705619653975bd1388",
+    "inventories.sc": "a9598d6e3f686fc29ece829ac5e2feb026d772c788dc5b71425861ad14f43e82",
+    "lowcost.sc": "200d2929d4e7b9c90f51a7cbece1c506bfe865428bf69444e9724969ff5a1d8b",
+    "newspaper.sc": "36618c8fcd732fbaf1d91aa374155f28237810f6144b29808a854add977e3cb2",
+    "room1.sc": "3f790f0cb832ab53ece6453e2d581198ec66ba50b6bebf4a6a4ac0594d923a87",
+    "security.sc": "7f417a25f475ad3aa293c2b1d3b287e664a2f0c7ae56b12707dcdfd4d3d1bc7d",
+    "select1.sc": "88560f3ba14b7ee02bf65cb0ba7115f0764cb1abc1324262dda7b4e15e60dc39",
+    "select1b.sc": "36d5dca0119dbd9eee0e4ae5b7c4db01b28a04a0cd66c8996c43cac1eda32a8a",
+    "select2.sc": "5b4bcae4bcc416738a85aaba62b4ba8e9700423323f9ec3bc07c74f6378d0472",
+    "select3.sc": "5f49d3cdfd0135dd59199f375669a9794e5bd9a2013347c2f6d886b5e1cab2dd",
+    "select4.sc": "ee902418305c47cc7474f8fc3e720d417647e971e00e18e24a2ee62d1a87aecf",
+    "university.sc": "92eebf502e996979812ba972a4ca2a5d924016cc8d75b47490214f2ed87e6f59",
+    "viewGoals.sc": "e01edbe86d08d17081abb960ca42f19927db7013ff20b6a9598a60a5fb5eadfb",
+    "winnerScript.sc": "bf2a6af41296cbbfb6a4f47a9d4fb03974f74f2bc3766c7e83d49888263dc69b"
+  }
+}

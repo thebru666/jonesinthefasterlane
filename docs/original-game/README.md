@@ -6,12 +6,13 @@ Research date: 2026-10-15. Document **what Jones in the Fast Lane was**, then re
 
 1. [Existing summaries](existing-summaries.md): original reference material and the best located player guides, with source/edition caveats.
 2. [Setup, multiplayer, and persistence](setup-multiplayer.md): original options, personal goals, Jones, handovers, and saves.
-3. [Town and screen layout](town-and-screen-layout.md): original spatial order, central windows, status displays, and screen-to-screen flow.
-4. [Locations and actions](locations-and-actions.md): all thirteen destinations, their menus, conditions, and nested screens.
-5. [Content progression](content-progression.md): eleven courses, thirty-seven employer job entries, product pools, and possessions.
-6. [Progress and finish](progression-and-finish.md): scores, statistics, comparison views, celebration, and later placements.
-7. [Local asset catalogue and role notes](asset-catalogue-notes.md): decoded component coverage, script-role hints and university label transcription; [portable rebuild instructions](../discovery/rebuild-original-assets.md).
-8. [Packed resources](packed-resources.md): which original graphics/audio/text resources are available in the downloaded bundle and what has actually been inspected.
+3. [Screen reconstruction studies](screen-reconstruction.md): rebuildable local composites, annotated layers, state assumptions and the action/feedback flow.
+4. [Town and screen layout](town-and-screen-layout.md): original spatial order, central windows, status displays, and screen-to-screen flow.
+5. [Locations and actions](locations-and-actions.md): all thirteen destinations, their menus, conditions, and nested screens.
+6. [Content progression](content-progression.md): eleven courses, thirty-seven employer job entries, product pools, and possessions.
+7. [Progress and finish](progression-and-finish.md): scores, statistics, comparison views, celebration, and later placements.
+8. [Local asset catalogue and role notes](asset-catalogue-notes.md): decoded component coverage, script-role hints and university label transcription; [portable rebuild instructions](../discovery/rebuild-original-assets.md).
+9. [Packed resources](packed-resources.md): which original graphics/audio/text resources are available in the downloaded bundle and what has actually been inspected.
 
 The [time/weekly/economy audit](../rules-audit/README.md) supplies detailed rules beneath this player-facing reference. The [follow-up task](../planning/follow-up-original-first-iteration.md) contains suggestions for iteration separately; none of those suggestions changes the original baseline.
 

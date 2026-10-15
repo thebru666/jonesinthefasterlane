@@ -1,0 +1,157 @@
+{
+  "recorded_date": "2026-10-15",
+  "evidence": "External published decompilation inputs inspected in pass2; source hashes are not package bytecode matching.",
+  "revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "files": [
+    {
+      "name": "DialogScript.sc",
+      "sha256": "f125002d3385aa3334cc5fb9cd7fdce013bba0bad4d9f4594d38197f4d4f40c9",
+      "bytes": 1242,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/DialogScript.sc"
+    },
+    {
+      "name": "Goods.sc",
+      "sha256": "3b71998b543e0915bf65588069daea0cf872592f2bae243d958968dfdae95369",
+      "bytes": 2371,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc"
+    },
+    {
+      "name": "Main.sc",
+      "sha256": "ada11be01dbd5b6127be944bd3fa83e286d6bde1ab8ccf1980490e3f103f4b2f",
+      "bytes": 16753,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc"
+    },
+    {
+      "name": "WButton.sc",
+      "sha256": "73716eac764fe5db0a7593a78912d31f451cba5c7338abfc824efd7ab2890838",
+      "bytes": 5491,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WButton.sc"
+    },
+    {
+      "name": "WhereShouldIGo.sc",
+      "sha256": "02c3c378ade8b6d2aa0ee28dbe9274750ccee101a61d129bad322332fb2ba85a",
+      "bytes": 22973,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WhereShouldIGo.sc"
+    },
+    {
+      "name": "appliance.sc",
+      "sha256": "7df162de8958eb12cb25ae24ed238f516627d05b85078f937c27ff4d52c77889",
+      "bytes": 16066,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc"
+    },
+    {
+      "name": "bank.sc",
+      "sha256": "a75a266bbf95fd8dfd434f2b2344889eb591afff5d7a1551b2407788cfe1fcdb",
+      "bytes": 14742,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc"
+    },
+    {
+      "name": "broker.sc",
+      "sha256": "9255495e35b8e9a72622a22ab5929825e512a5efa6e2ab7421e7889a41d23d7b",
+      "bytes": 13483,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc"
+    },
+    {
+      "name": "clothing.sc",
+      "sha256": "b2b6f5fa1ca62d0e49367929973f3fe53b3e3be014f0cfb9fe882f25cd3b73f5",
+      "bytes": 9119,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc"
+    },
+    {
+      "name": "discount.sc",
+      "sha256": "0c9d5a5bacea6230eb3d48c6957ee7f1ef13e22f0b9f1227dbd82f899c18174c",
+      "bytes": 17720,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc"
+    },
+    {
+      "name": "economicIndex.sc",
+      "sha256": "780359d0e1b860aa8a8f16e39fab0514fe90c04055174b4f8b8121220ac643eb",
+      "bytes": 4895,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/economicIndex.sc"
+    },
+    {
+      "name": "employment.sc",
+      "sha256": "e89b709c83c1449d8a0206cb006e17136568570325d3f4fb19da2cdf86730b65",
+      "bytes": 14718,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc"
+    },
+    {
+      "name": "fastFood.sc",
+      "sha256": "6781c76938ae17722baa2f3c92e33d1eeb12f122683ef3b5b97792df6f246718",
+      "bytes": 12387,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc"
+    },
+    {
+      "name": "lowcost.sc",
+      "sha256": "200d2929d4e7b9c90f51a7cbece1c506bfe865428bf69444e9724969ff5a1d8b",
+      "bytes": 3269,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc"
+    },
+    {
+      "name": "market.sc",
+      "sha256": "f48d97c1a5c3eea2ab0885d70db3977f356da5d4f79b8c5fbcf129cce2519386",
+      "bytes": 13588,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc"
+    },
+    {
+      "name": "n108.sc",
+      "sha256": "7ebe252df2d1ed273486a2e730b867c89bca851fce528b96b0c6534f0f8c6f32",
+      "bytes": 2894,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n108.sc"
+    },
+    {
+      "name": "n115.sc",
+      "sha256": "7a43ca2cf8b66e59fdc0371a641e50af70b42d94fe4cf9fd8dba123db7ad9cd4",
+      "bytes": 1615,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n115.sc"
+    },
+    {
+      "name": "pawnShop.sc",
+      "sha256": "fe9801be89ade007ef1bb48cee027f2e1a0093ea76752bd8e5595fe29a441d00",
+      "bytes": 21614,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc"
+    },
+    {
+      "name": "rentOffice.sc",
+      "sha256": "defebc9878772b62195f79f99e9cfcbe5b33deaf8956882de8359b326494f257",
+      "bytes": 17761,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc"
+    },
+    {
+      "name": "room1.sc",
+      "sha256": "3f790f0cb832ab53ece6453e2d581198ec66ba50b6bebf4a6a4ac0594d923a87",
+      "bytes": 27549,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc"
+    },
+    {
+      "name": "security.sc",
+      "sha256": "7f417a25f475ad3aa293c2b1d3b287e664a2f0c7ae56b12707dcdfd4d3d1bc7d",
+      "bytes": 3627,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc"
+    },
+    {
+      "name": "select4.sc",
+      "sha256": "ee902418305c47cc7474f8fc3e720d417647e971e00e18e24a2ee62d1a87aecf",
+      "bytes": 6107,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc"
+    },
+    {
+      "name": "startTrn.sc",
+      "sha256": "3e8eb9fa90c709b85bf7e030444f0af11b98ed4cdae2d56cc74d602e8db0c237",
+      "bytes": 20928,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc"
+    },
+    {
+      "name": "university.sc",
+      "sha256": "92eebf502e996979812ba972a4ca2a5d924016cc8d75b47490214f2ed87e6f59",
+      "bytes": 18217,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc"
+    },
+    {
+      "name": "weekend.sc",
+      "sha256": "7af7f96c7662a6d0d0b5371144891b6e753805d6a79895796775ac0f0be197ae",
+      "bytes": 11164,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/weekend.sc"
+    }
+  ]
+}

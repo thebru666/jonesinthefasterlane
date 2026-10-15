@@ -11,6 +11,8 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 | `sci_resources.py` | `engines/sci/resource/decompressor.cpp`, `resource.cpp`, `resource.h`; `engines/sci/graphics/view.cpp`, `cursor.cpp`, `scifont.cpp`, `palette16.cpp` |
 | `sci_pictures.py` | `engines/sci/graphics/picture.cpp`, `screen.cpp`; shared VGA cel/palette helpers above |
 | `sci_sound.py` | `engines/sci/resource/resource_audio.cpp`; `engines/sci/sound/midiparser_sci.cpp` |
+| `check_ai_goal_allocation.py` | Original independent arithmetic check of documented target bounds/capacity, not original SCI execution; GPL-3.0-or-later |
+| `reconstruct_screen_studies.py` | Original project image composition and HTML reporting using analytical recipe metadata; GPL-3.0-or-later, no copied game script implementation |
 | `catalogue_original_assets.py` | Project orchestration, checksum lock, source-role joins, manifests and local HTML index; GPL-3.0-or-later for consistent tooling distribution |
 
 For every path above, source is available at `https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/<path>`. The decoded catalogue records hashes of the local Python implementations. The committed source lock records the upstream revision; reproducing the export does not download or build ScummVM.

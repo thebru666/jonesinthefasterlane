@@ -12,6 +12,23 @@ Subsequent original-experience research documents the [setup/layout/content/prog
 - Checked inclusive random bounds and signed division semantics against ScummVM's SCI implementation.
 - Recomputed the [arithmetic fixtures](../../artifacts/rules-audit/2026-10-15-arithmetic-fixtures.json) using an independent local calculator. These check our transcription and examples, not runtime equivalence.
 
+## Pass 2 analytical and visual checks
+
+- Peer-reviewed AI difficulty and shared-rule/information claims, food/housing source coordinates and finance anomalies against pinned sources.
+- [AI goal allocation checker](../../tools/research/check_ai_goal_allocation.py): 30,000 configurations, 712,183 permitted draw pairs; no invalid interval or redistribution-capacity failures. This is arithmetic, not original execution or measured random frequencies.
+- [Screen-study recipes](../../artifacts/original-game/screen-study-recipes.json): explicit coordinates/defaults reviewed against sources, all 21 recorded script hashes matched, all selected cels resolved; repeated local exports compared exactly.
+
+## Domain-specific reproduction cases
+
+| Domain | Pending cases | Coverage |
+| --- | --- | --- |
+| Opponent | [AI-R01–12](computer-opponent.md#reproduction-backlog-and-limits) | Goal allocation, priority, time/cash estimates, confirmations, privileged market inputs, jobs/study and demo/edition differences |
+| Food and housing | [14 scenarios](food-and-housing.md#pending-runtime-scenarios-and-gaps) | Mixed food/storage/spoilage, illness cash gates, extensions, arrears, moving and rest |
+| Goods and finance | [Nine scenario groups](goods-and-finance.md#validation-cases-and-remaining-boundaries) | Purchase happiness, grouped ownership, repairs/pawn, loan schedules/fees, trades and large balances |
+| Presentation | [Capture list](../original-game/screen-reconstruction.md#validation-and-next-evidence) | Text, palette, focus, borders, animation and screen-return equivalence |
+
+These extend the original cases below; none is marked OBSERVED.
+
 ## Runtime protocol
 
 Use the [identified website bundle](../../artifacts/discovery/2026-10-15-bundle-inventory.json). Record player setup, game/week, starting state, exact actions, clock and money before/after, and the observed result. Retain local saves with hashes where possible. Record screenshots only where useful, following the repository's original-asset policy. If setup requires a debugger or modified save, say so explicitly and keep that separate from ordinary-play observations.
@@ -45,15 +62,15 @@ Economy experiments should compare outcomes from controlled states; naturally di
 
 ## Subsequent audit domains
 
-The current pass addresses time/weekly processing/economy. Complete these before finalising the adaptation:
+Two script passes and the screen studies provide normal-path coverage; finish the remaining evidence before finalising adaptation:
 
 - All job tables, qualifications, vacancies, rejection memory, promotions, reliability, and career goal calculation.
 - Education prerequisites, enrollment capacity, course progress, possession bonuses, and degree effects.
-- Item catalogue, durations, happiness, relaxation, duplicates, theft, warranty/repair flags, and pawn values.
-- Housing payment, extension, moving, arrears, and garnishment interactions.
-- Bank interest, borrowing, repayment, default, investments, and high-value arithmetic.
+- Runtime/object-lifetime validation for [goods/repairs/pawn](goods-and-finance.md); complete ticket/weekend, clothing and joke-product effects.
+- Runtime validation of [housing payment, extension, moving, arrears and garnishment](food-and-housing.md); remaining notice/edge interactions.
+- Reproduce [bank/loan/investment findings](goods-and-finance.md), resolve high-value arithmetic and inspect remaining default/event paths.
 - All random events, frequencies, ordering, and recovery mechanisms.
-- Jones's destination/action policy, setup modes, difficulty, and any asymmetric rules.
+- Reproduce [Jones's policy and information differences](computer-opponent.md); finish demo/CD and exhaustive privilege comparison.
 - All victory, removal, continued-play, save, and restore paths.
 
 No application implementation is required to resolve these research tasks.

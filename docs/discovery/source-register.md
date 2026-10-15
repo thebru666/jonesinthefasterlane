@@ -69,6 +69,13 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - Evidence: PACKAGE for extraction/inventory and DECODED for exported components, text and sound events. All 266 unique resources decompress; 108 graphics resources render, 39 text resources decode and 34 sound resources export events/MIDI. The other 85 resources remain decompressed bytes.
 - Fresh acquisition and offline builds matched 1,390 output hashes. No complete runtime screenshot reconstruction, audio listening/hardware comparison or script-bytecode correspondence is claimed. Original resource payloads and rendered exports remain ignored local files.
 
+## S09: pass 2 scripts and analytical screen reconstruction
+
+- [AI policy](../rules-audit/computer-opponent.md), [food/housing](../rules-audit/food-and-housing.md), [goods/finance](../rules-audit/goods-and-finance.md) inspect the same S02 pinned floppy decompilation; [25 cited input hashes](../../artifacts/rules-audit/2026-10-15-pass2-source-inputs.json) identify the local source files. No bytecode match or runtime confirmation is asserted.
+- The [AI arithmetic check](../../artifacts/rules-audit/ai-goal-allocation-check.json) is reproducible with its committed independent Python checker; it establishes formula bounds/capacity only.
+- The [screen recipes](../../artifacts/original-game/screen-study-recipes.json) record 21 source hashes, selected resource/cel coordinates and explicit state assumptions; [screen studies](../original-game/screen-reconstruction.md) combine those with S08 decoded pixels. Rendered composites remain ignored local files.
+- Evidence: SCRIPT for behaviour/placement, DECODED for original components, analytical arithmetic/composition checks for the new artifacts. Full runtime text, ports/borders, palette transitions, timing and the security stereo discrepancy remain open.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

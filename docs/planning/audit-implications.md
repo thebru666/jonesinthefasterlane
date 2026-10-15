@@ -1,4 +1,4 @@
-# Design implications from audit pass 1
+# Design implications from the rules audits
 
 2026-10-15. These are recommendations and open decisions, not changes approved by the owner.
 
@@ -35,3 +35,13 @@ The manual's interaction pages and the scripts show opportunities for adjustable
 ## Gates before building
 
 Finish the rule/content areas listed in the [validation backlog](../rules-audit/validation-backlog.md), resolve the key compatibility decisions, and agree the town/content and screen plans. The first playable slice can then validate a concrete specification rather than becoming the place we invent the missing rules.
+
+## Pass 2: choices to review after runtime confirmation
+
+These follow-up suggestions remain **PROPOSAL**, separate from the original findings:
+
+- Preserve the compact town/central-window composition shown in the [screen studies](../original-game/screen-reconstruction.md), then modernise content and original illustrations within it. Complete dynamic text and feedback before approving final wireframes.
+- Keep Jones's ordered priorities as the reference policy. Decide explicitly whether the adaptation should expose market trends equally or preserve his information advantage, and whether difficulty should continue changing targets. See [AI-001/008/009](../rules-audit/computer-opponent.md).
+- Preserve the food/storage/rent tradeoffs without adding new survival meters. Decide separately on confirmed object-lifetime/spoilage/garnishment quirks after reproducing them. See [needs and housing](../rules-audit/food-and-housing.md).
+- Keep bank, broker and pawn transactions small and direct. Explain the actual payment/trade fees in the interface once verified; do not infer modern financial products from original jokes. See [finance](../rules-audit/goods-and-finance.md).
+- Maintain a compatibility ledger for apparent unreachable purchase bonuses, repeated loan-rejection penalties and large-balance arithmetic. No fix or faithful preservation of a suspected bug is approved yet.

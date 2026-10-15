@@ -1,0 +1,11 @@
+{
+  "research_date": "2026-10-15",
+  "evidence": "ANALYTICAL_CHECK",
+  "reference": "Published select4.sc at sluicebox/sci-scripts commit 870a8015b689474484bf3d8b41416956d4315432",
+  "rule_id": "AI-001",
+  "method": "Enumerate all human goals 10..100 by tens and three offsets. Enumerate all happiness/education draw pairs in the derived inclusive bounds. Check random interval validity and whether excess/shortfall career allocation can be redistributed in tens within wealth/happiness/education category limits. This is an independent mathematical check, not execution of the original SCI program, RNG, or redistribution retry loop.",
+  "configurations": 30000,
+  "draw_pairs": 712183,
+  "failures": [],
+  "result": "All tested intervals are valid and redistribution capacity is sufficient; no runtime outcome or timing verified."
+}

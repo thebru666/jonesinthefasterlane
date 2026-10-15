@@ -25,7 +25,7 @@ The game was opened in a browser and reached its opening notice. No complete mat
 
 [SCI Companion's decompiler documentation](https://scicompanion.com/Documentation/decompiler.html) describes reconstructing higher-level structures from Sierra script resources. It states that class, instance, property, and method information can survive, while parameter and temporary-variable names are not available. Some methods fall back to disassembly, and results can contain errors.
 
-This supports investigating SCI resources rather than starting with the DOSBox executable. We have not installed or run a decompiler, or extracted script resources from the website archive. The subsequent audit instead located and inspected sluicebox's published decompilation for the matching version label and a CD comparison. Script-derived formulas and probabilities are documented with limits; independent bytecode correspondence and controlled runtime verification remain pending.
+This supports investigating SCI resources rather than starting with the DOSBox executable. We have not installed or run a decompiler, or decompiled the website archive. The asset exporter subsequently extracted and decompressed script resources, without semantically decompiling them. The subsequent audit instead located and inspected sluicebox's published decompilation for the matching version label and a CD comparison. Script-derived formulas and probabilities are documented with limits; independent bytecode correspondence and controlled runtime verification remain pending.
 
 ## Source register
 
@@ -43,6 +43,8 @@ Links were accessed during initial research on 2026-10-15. Sources and remote pa
 1. Located a published script set for the matching floppy version and pinned its revision; exact bundle/script correspondence remains open.
 2. Inspected the manual's interaction pages; its separate reference card is absent from that scan but has now been located and inspected through Sierra Gamers (source S05).
 3. Traced time, weekly processing, and economy into their supporting callers and recorded the first rule groups.
-4. Next: reproduce the flagged cases and continue employment/education/content and computer-opponent audits using the [validation backlog](../rules-audit/validation-backlog.md).
+4. Pass 2 now documents [AI](../rules-audit/computer-opponent.md), [food/housing](../rules-audit/food-and-housing.md) and [goods/finance](../rules-audit/goods-and-finance.md); source correspondence and runtime validation remain open.
+5. [Local analytical screen studies](../original-game/screen-reconstruction.md) combine decoded components with script coordinates; they are not runtime screenshots.
+6. Next evidence work is the [validation backlog](../rules-audit/validation-backlog.md), remaining event/content branches and controlled runtime capture.
 
 Do not infer complete mechanics from archive filenames or unverified recollection.

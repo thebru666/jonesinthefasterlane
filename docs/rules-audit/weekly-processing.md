@@ -50,7 +50,7 @@ Evidence: [startTrn.sc, states 0–1](https://github.com/sluicebox/sci-scripts/b
 
 The food pass distinguishes available coverage from spoilage and expiry. Lack of food gives a happiness penalty and a notice whose handler spends **20 hours**. A doctor notice spends **10 hours**, plus its preceding cash and happiness effects. These can consume time before the player regains control.
 
-Doctor eligibility includes cash-on-hand and random checks; it is not simply an unconditional consequence of every missed meal. Food coverage, spoiled food, and minimum relaxation affect the path. A complete probability table and item mapping are still pending.
+Doctor eligibility includes cash-on-hand and random checks; it is not simply an unconditional consequence of every missed meal. Food coverage, spoiled food, and minimum relaxation affect the path. [NEED-001–004](food-and-housing.md) now records the item mapping, spoiled-food sentinel and analytical probability table; runtime verification remains pending.
 
 Evidence: [startTrn.sc, states 8–16](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L328); [moveNotice, state 4](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L967).
 
@@ -58,7 +58,7 @@ Evidence: [startTrn.sc, states 8–16](https://github.com/sluicebox/sci-scripts/
 
 The recurring notice paths use `week mod 4 == 0`. Rent is not automatically a weekly cash debit: the rent office has explicit payment, extension, and moving controls, while arrears can lead to garnishment at work. End-turn processing records unpaid rent using flags to avoid charging it repeatedly.
 
-The loan path checks a repayment schedule on fourth weeks; end-turn bookkeeping decrements that schedule and counts missed payments. Exact extension conditions, interest, default, and eviction behaviour are not complete in this pass.
+The loan path checks a repayment schedule on fourth weeks; end-turn bookkeeping decrements that schedule and counts missed payments. Pass 2 now traces [extensions, arrears and moving](food-and-housing.md) and [loan charges/schedules](goods-and-finance.md). No forced eviction is found in the inspected housing handlers, and no savings-interest setter is found in the inspected finance paths; these are bounded SCRIPT findings, with runtime and broader default/event paths still open.
 
 Evidence: [startTrn.sc, states 16–20](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L437); [room1.sc, endTurn](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L775); [rentOffice.sc](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L247).
 

@@ -92,7 +92,7 @@ These are menu catalogues, not assertions that every product has an audited effe
 
 | Source | Original content pool | What the reference establishes |
 | --- | --- | --- |
-| Black's Market | Food for 1 / 2 / 4 Weeks (base 55 / 100 / 190); 10 Lottery Tickets; Newspaper | Bulk food is bought in weekly units. Newspaper is a separate presentation. Exact storage/spoilage and lottery probability require separate audit. |
+| Black's Market | Food for 1 / 2 / 4 Weeks (base 55 / 100 / 190); 10 Lottery Tickets; Newspaper | Bulk food is bought in weekly units. Newspaper is a separate presentation. [Storage/spoilage is now audited](../rules-audit/food-and-housing.md); lottery probabilities remain open. |
 | Monolith Burgers | Hamburgers, Cheeseburger, Astro Chicken, Fries, Shakes, Colas | Distinct menu items with illustrations; some have turn-limited happiness bonuses. Stored-food and immediate-effect item types differ. |
 | QT Clothing | Business Suit (295), Dress Clothes (125), Casual Clothes (73) | Three clothing grades; requirements differ between jobs. |
 | Socket City | Refrigerator (876), Freezer (513), Stove (570), Color TV (525), VCR (333), Stereo (412), Microwave (330), Hot Tub (1255), Computer (1599) | Nine appliance/electronic purchase rows. The computer participates in study credits. |
@@ -112,8 +112,8 @@ The security-apartment script adds room props for an owned Color TV, Stereo, VCR
 1. Course-book label transcription is complete for view 707, loop 2; confirm the final composed university screen in a runtime capture. The dependency graph and IDs are directly present in the published script regardless of display spelling.
 2. Reproduce qualification failure, opening failure, raises, clothing gating, and work-history dismissal, including the early-week rejection-message special case.
 3. Verify Z-Mart's stock persistence through repeated visits, player handover, save/resume, and week rollover.
-4. Audit item effects individually: food storage/spoilage, reliability/breakdowns, ticket/weekend behaviour, discount attributes, and joke-product consequences. A catalogue is not a completed effects audit.
-5. Audit full banking/broker/pawn rules: interest, monthly loan due handling, trade increments, ownership/value accounting, redemption expiry, and stock availability.
+4. [Food/storage](../rules-audit/food-and-housing.md) and [ordinary goods/repairs/pawn](../rules-audit/goods-and-finance.md) now have detailed SCRIPT findings. Complete ticket/weekend and joke-product consequences and validate all suspicious branches.
+5. [Banking/broker/pawn](../rules-audit/goods-and-finance.md) now has normal-path formulas and edge questions; runtime and high-value arithmetic remain unresolved.
 6. Compare content across editions before claiming the floppy baseline describes the CD edition too.
 
 These are original-game research gaps. Suggestions for modern courses, jobs, items, and altered systems belong in a separate follow-up, so we can iterate from this reference rather than substitute a new design prematurely.
