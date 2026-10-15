@@ -20,6 +20,7 @@ Provisional reference: the website bundle identifying version **1.000.060**, ret
 ## Evidence labels
 
 - **PACKAGE:** directly inspected package or configuration fact.
+- **DECODED:** pixels, text or events exported from the hash-pinned package; not necessarily final runtime composition or behaviour.
 - **SCRIPT:** supported by an identified script/resource and interpreted control flow; record disassembly uncertainty.
 - **OBSERVED:** reproduced in the running reference game; record initial state and exact actions.
 - **DOCUMENTED:** stated in a manual or other cited source; may differ from implementation.
@@ -39,12 +40,13 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 | Weekly processing | Order of rent, food, events, economy, income, and victory checks | Partial: [WEEK-001–006](weekly-processing.md); rare branches/runtime pending |
 | Economy | State transitions, duration, randomness, price/wage/job effects | Partial: [ECON-001–007](economy.md); bytecode/runtime/long-run validation pending |
 | Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Partial: [all 37 original job rows and thresholds](../original-game/content-progression.md); rejection/raise edge cases/runtime pending |
-| Education | Prerequisites, fees, lessons, completion, goal contribution | Source baseline: [11-course graph and credits](../original-game/content-progression.md); art-label transcription/runtime pending |
+| Education | Prerequisites, fees, lessons, completion, goal contribution | Source baseline: [11-course graph and credits](../original-game/content-progression.md); [book labels decoded](../original-game/asset-catalogue-notes.md#precise-course-label-transcription-targets); runtime pending |
 | Food and basic needs | Consumption, storage, shortages, penalties | Partial: processing order and time penalties; complete item/probability mapping pending |
 | Housing | Rent schedule, upgrades, access, possessions, consequences of nonpayment | Partial: stored rent, cadence, garnishment; extensions/moving pending |
 | Goods and happiness | Purchase effects, recurring effects, duplicates, relaxation | Partial: [product pools, room props](../original-game/content-progression.md), resident relaxation and UI; full effect catalogue pending |
 | Banking and investments | Interest, loans, repayment, shares, valuation, rounding | Partial: market inputs and cash gates; full transaction/high-value audit pending |
 | Random events | Triggers, eligibility, probabilities, ordering, recovery | Partial: economic shocks and ordering; remaining event catalogue pending |
+| Asset presentation | Resource inventory, decompression, graphics/text/audio coverage | [266 unique resources catalogued](../original-game/asset-catalogue-notes.md); 108 graphics resources rendered, sound events/MIDI exported; complete role transcription and runtime comparison pending |
 | Computer opponent | Policy, information, difficulty, special treatment | Not audited |
 | Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); runtime/emulator persistence pending |
 

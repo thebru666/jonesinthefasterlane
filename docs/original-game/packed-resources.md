@@ -30,10 +30,10 @@ Parsed all six-byte map entries using the SCI0/early-SCI resource directory layo
 
 The format and type mapping were checked against pinned ScummVM [resource-map reading](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/resource/resource.cpp#L1853) and [resource type mapping](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/resource/resource.cpp#L154). See the [full inventory](../../artifacts/original-game/packed-resource-inventory.json) for archive/map hashes, every resource ID/offset, and format-source hashes.
 
-No payload was decompressed, rendered, or listened to in this inspection. The counts establish availability and address/header consistency; they do not prove every payload decodes correctly or identify every pictured character/item. They do not prove that published decompiled scripts match these bytes.
+No payload was decompressed, rendered, or listened to in this initial header inspection. A subsequent [local decoding pass](asset-catalogue-notes.md#completed-local-decoding-pass) now exports graphics, text and sound events; it does not establish runtime equivalence. The counts establish availability and address/header consistency; they do not prove every payload decodes correctly or identify every pictured character/item. They do not prove that published decompiled scripts match these bytes.
 
 ## Next visual discovery step
 
-Use a compatible SCI resource inspector to decode the relevant pictures/views locally, catalogue them by resource ID and role, and create local reference contact sheets. Begin with the town picture, shared dialog/interface views, four player appearances, clerks, book labels, home possessions, and finish animation.
+The [reproducible exporter](../discovery/rebuild-original-assets.md) now creates a searchable local index and contact sheets for all supported graphics. Continue visual role transcription for player appearances, clothing variants, furnishings and animation sequences; script-role hints are not a complete visual catalogue.
 
 Keep decoded original art and audio in ignored research storage under the current repository policy. Commit original analytical descriptions, resource IDs, mappings, and any new project-owned diagrams. Exporting art for inspection and deciding what assets to use in a public release are separate decisions; no reuse decision has been made here.

@@ -1,0 +1,2768 @@
+{
+  "coverage": {
+    "source": {
+      "url": "https://jonesinthefastlane.com/bundle.jsdos",
+      "archive_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+      "archive_bytes": 1078159,
+      "version": "1.000.060",
+      "map_sha256": "f070a57f0e2c86bbf79339b1d41777a15e835d228cb52ff9cd3728a098fa053e"
+    },
+    "tool_version": "1",
+    "tool_sha256": {
+      "catalogue_original_assets.py": "96bddc57d56e2910fd605dcfafcf71e467de9a411a85963daead9f7498cd264d",
+      "sci_pictures.py": "70fd04bde7451be049c6b61e2b180d0498e2c51f872bd0b869b23837477bea02",
+      "sci_resources.py": "c79fad6484b72310218d87ab8ffc51cad423f8f606687abc548d708ac183e0dd",
+      "sci_sound.py": "19b73d7659f612406c228ce2ea77a72c0abb969bb51411ac4c4e4de94cb87956"
+    },
+    "runtime": {
+      "python": "3.12.14",
+      "Pillow": "12.3.0"
+    },
+    "map_entries": 299,
+    "unique_resources": 266,
+    "identical_duplicate_entries": 33,
+    "by_type": {
+      "cursor": 2,
+      "font": 8,
+      "palette": 1,
+      "patch": 3,
+      "picture": 7,
+      "script": 69,
+      "sound": 34,
+      "text": 39,
+      "view": 90,
+      "vocabulary": 13
+    },
+    "by_status": {
+      "rendered": 108,
+      "decompressed": 85,
+      "directory_and_events_decoded": 34,
+      "decoded": 39
+    },
+    "view_cels": 752,
+    "font_glyph_slots": 1024,
+    "text_strings": 677,
+    "midi_files": 169,
+    "failures": [],
+    "limitations": [
+      "Rendered resources are component references, not reconstructed gameplay screenshots.",
+      "Sound event/MIDI exports do not synthesize original hardware instruments or execute SCI runtime loops.",
+      "Scripts, vocabulary and patch resources are decompressed bytes, not semantically decompiled or rendered.",
+      "Palette state, compositing, scaling and timing can differ in the running game."
+    ]
+  },
+  "resources": [
+    {
+      "type": "cursor",
+      "number": 997,
+      "sha256": "5ff2fbf10f8f0fe331c18d05dd752709ff7af091d0ccefb8d73f13ff9c18ace4",
+      "unpacked_bytes": 68,
+      "status": "rendered",
+      "roles": []
+    },
+    {
+      "type": "cursor",
+      "number": 999,
+      "sha256": "7d18b65b1020427c8a3aad666ee99de916cf01220c7f2feef2dae7f24f322638",
+      "unpacked_bytes": 68,
+      "status": "rendered",
+      "roles": []
+    },
+    {
+      "type": "font",
+      "number": 0,
+      "sha256": "383af3735b3e77aa6d60f57c43ac5a3b42e04dab100328a853510b7d2dac62c1",
+      "unpacked_bytes": 1747,
+      "status": "rendered",
+      "roles": [
+        "select3.sc: goalPoints"
+      ],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 1,
+      "sha256": "7258bd9fd61883897a4ef0c383a32fdc526574c2b196bd2d4417fb70da0d5b5d",
+      "unpacked_bytes": 1674,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 3,
+      "sha256": "a2ce7a162ed0f8abd8b786e3c180050d90df24ffe9b6b182f0f38b9e558dd5ec",
+      "unpacked_bytes": 1282,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 4,
+      "sha256": "c0792d4eb998dee9a666fb31edc05f169fcfb1194d102b349f4cb1d448482528",
+      "unpacked_bytes": 1294,
+      "status": "rendered",
+      "roles": [
+        "Small text, inventories and goal details",
+        "pawnShop.sc: pawnSelector",
+        "goalsDefine.sc: textOne",
+        "inventories.sc: invSelector"
+      ],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 8,
+      "sha256": "d6dd0b93231ad0397b120ee001c7e07e2ae146574124f86b75e8240d11a0ef50",
+      "unpacked_bytes": 1931,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 10,
+      "sha256": "907636deb51a7f957e225827c729cc6bc77cfe165c139db455bbbc18bdfe6f14",
+      "unpacked_bytes": 1115,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 14,
+      "sha256": "cd659d02e1559d5a053f19136739b577d582c1b1045bf0b08865a8319f9e3b95",
+      "unpacked_bytes": 1144,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "font",
+      "number": 999,
+      "sha256": "c3473eedc201ca059c2581952a42e850f78a90f230e3c1b1cc49b2381f31469f",
+      "unpacked_bytes": 1216,
+      "status": "rendered",
+      "roles": [],
+      "glyph_count": 128
+    },
+    {
+      "type": "palette",
+      "number": 999,
+      "sha256": "a943551cf987433660bd4e4ebf73dd0f4e3c59681546824592df2efbbb2a071e",
+      "unpacked_bytes": 1284,
+      "status": "rendered",
+      "roles": []
+    },
+    {
+      "type": "patch",
+      "number": 1,
+      "sha256": "c7fcd85c0f2a8f6bf3bbeaf87f87797d0aa43283be0cb858ea81a5e920b6b9cc",
+      "unpacked_bytes": 5573,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "patch",
+      "number": 3,
+      "sha256": "b8e8958b8b0358682cc6760fa6a7c7237d3ac0f716a38eace013d77edafc19ad",
+      "unpacked_bytes": 1344,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "patch",
+      "number": 101,
+      "sha256": "b1bd1a58f31085406d4836c7a900a872b0d15cf065a167e0179de0aa14b0a622",
+      "unpacked_bytes": 610,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "picture",
+      "number": 0,
+      "sha256": "f27f2db16d3fba181c9b7d4b435837a027c757ed1a2a83557f38ec43debac34d",
+      "unpacked_bytes": 13616,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 1,
+      "sha256": "1594b2b6607f4a288a2d2b98adc52bd7cf6a5c530bc6b3435ef2ffc08578bab7",
+      "unpacked_bytes": 2084,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 2,
+      "sha256": "c50199acc3483aee27a2333172aaf7c77c31b105f8ceab192a410270b2a42ba3",
+      "unpacked_bytes": 2084,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 3,
+      "sha256": "a231f9696af30bef6d013a5e99a7709457e934affbe73145558fb5ca3e8d899a",
+      "unpacked_bytes": 2084,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 4,
+      "sha256": "7201612675c170b216ccc6f27f77283f5ad42113405594173e3bcbb0ba76ddd5",
+      "unpacked_bytes": 2084,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 5,
+      "sha256": "8de723e2123d8aa561f9bf3813f5804d3f19d5352e2faa24fd0f5f396314371f",
+      "unpacked_bytes": 2084,
+      "status": "rendered",
+      "roles": [],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "picture",
+      "number": 11,
+      "sha256": "142fff18987fffea16bb47369b7423505893a4c8cd9dd73c293130600d72efb1",
+      "unpacked_bytes": 55611,
+      "status": "rendered",
+      "roles": [
+        "Town board background",
+        "Town board background",
+        "room1.sc: room1"
+      ],
+      "width": 320,
+      "height": 200
+    },
+    {
+      "type": "script",
+      "number": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "unpacked_bytes": 4008,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "unpacked_bytes": 10672,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 2,
+      "sha256": "36eb7316df75a3b55fbcc0e9498d5fb7a11a8bfd767821098f5c21cb4742f3d5",
+      "unpacked_bytes": 2912,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 100,
+      "sha256": "33be4491ff427c4f4fabf7ef6173ba7ab8ccea7a33b54ac0d8efd0af7753e2b2",
+      "unpacked_bytes": 720,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 101,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf",
+      "unpacked_bytes": 1378,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 102,
+      "sha256": "a9e1866fb639dc6dfe3c90ea5123594dd9ef2887313c9173fc0898684ffc97f5",
+      "unpacked_bytes": 116,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 103,
+      "sha256": "333acbc356512a0d2580e001fd817e6b3db5705e2bd240468d54a6cc69de9786",
+      "unpacked_bytes": 378,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "unpacked_bytes": 2100,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 105,
+      "sha256": "1448a1e8811dea2ffc1930e777a4185f02cd0572734c019a7c93de191c2700a8",
+      "unpacked_bytes": 284,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "unpacked_bytes": 990,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 107,
+      "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525",
+      "unpacked_bytes": 1814,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "unpacked_bytes": 850,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd",
+      "unpacked_bytes": 136,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc",
+      "unpacked_bytes": 420,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "unpacked_bytes": 6840,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 113,
+      "sha256": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0",
+      "unpacked_bytes": 1666,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 114,
+      "sha256": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47",
+      "unpacked_bytes": 1318,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf",
+      "unpacked_bytes": 390,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 116,
+      "sha256": "5dc81822cc8f794c75786047fba9702f0b89c3c515234c8446e4bcf5fb06a77a",
+      "unpacked_bytes": 2708,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea",
+      "unpacked_bytes": 1430,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "unpacked_bytes": 5680,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca",
+      "unpacked_bytes": 1602,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "unpacked_bytes": 4376,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "unpacked_bytes": 4922,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969",
+      "unpacked_bytes": 1562,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "unpacked_bytes": 5636,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "unpacked_bytes": 6272,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "unpacked_bytes": 5432,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "unpacked_bytes": 3138,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "unpacked_bytes": 3974,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "unpacked_bytes": 7126,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "unpacked_bytes": 8430,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "unpacked_bytes": 5380,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 215,
+      "sha256": "bb0c4587b0b0ab68bfe64a819e84ea204f56750dec093968b0f7e7ead38a5aef",
+      "unpacked_bytes": 2238,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 216,
+      "sha256": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84",
+      "unpacked_bytes": 1298,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 217,
+      "sha256": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e",
+      "unpacked_bytes": 1448,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 218,
+      "sha256": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49",
+      "unpacked_bytes": 1300,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 219,
+      "sha256": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4",
+      "unpacked_bytes": 1310,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 220,
+      "sha256": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b",
+      "unpacked_bytes": 1292,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 221,
+      "sha256": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97",
+      "unpacked_bytes": 2242,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 222,
+      "sha256": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516",
+      "unpacked_bytes": 1584,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 223,
+      "sha256": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064",
+      "unpacked_bytes": 1596,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 224,
+      "sha256": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58",
+      "unpacked_bytes": 1156,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 229,
+      "sha256": "5a446ec452eb2f17825b5b0f80d8ca6775ca5165ebf01687fb6d47cc4d2c4b9c",
+      "unpacked_bytes": 2212,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 230,
+      "sha256": "eb748d05f0a105447d2fb1fa4320d3233bc07d6c8a6f017dfe28f3171e3f0193",
+      "unpacked_bytes": 1264,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 231,
+      "sha256": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2",
+      "unpacked_bytes": 3380,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee",
+      "unpacked_bytes": 2560,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 233,
+      "sha256": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0",
+      "unpacked_bytes": 734,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 234,
+      "sha256": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded",
+      "unpacked_bytes": 3146,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 235,
+      "sha256": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e",
+      "unpacked_bytes": 2066,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 236,
+      "sha256": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13",
+      "unpacked_bytes": 3802,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 237,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062",
+      "unpacked_bytes": 2586,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 238,
+      "sha256": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974",
+      "unpacked_bytes": 3898,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 239,
+      "sha256": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2",
+      "unpacked_bytes": 904,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1",
+      "unpacked_bytes": 7264,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 300,
+      "sha256": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d",
+      "unpacked_bytes": 6628,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 764,
+      "sha256": "ca0e8df361e29803eb38819e7ed07b47fabdc8e901cd7a8dd12d7114d4a79258",
+      "unpacked_bytes": 194,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 891,
+      "sha256": "08f3b02bce2bda058f39316c35db15e6427704baa21ecf6577a5c4bb1b1d5f07",
+      "unpacked_bytes": 800,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 967,
+      "sha256": "c37ec5defc72c49e5c1a4944fccfc54c6a664903ed5f5fa606987aa13a55a3e9",
+      "unpacked_bytes": 364,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 987,
+      "sha256": "d5c8ad8de5d3f8d5af4c23ca42a25542daffeee830a9e8ac91a586453dac6bf0",
+      "unpacked_bytes": 1122,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 989,
+      "sha256": "bcdf6ace414a7622f7439a37c819389f28491d1a973c8a261b127900ff62148f",
+      "unpacked_bytes": 712,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 990,
+      "sha256": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772",
+      "unpacked_bytes": 896,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 992,
+      "sha256": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3",
+      "unpacked_bytes": 1628,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 993,
+      "sha256": "a40fd40d1e805de5ce910094a0b9d156da1587f17dd33ec32171447de4fdd5d1",
+      "unpacked_bytes": 282,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 994,
+      "sha256": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8",
+      "unpacked_bytes": 2170,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 996,
+      "sha256": "3d95ec9eea2041a866e0dfb48bde86199810fdcf221bc58c7023b52d19da6918",
+      "unpacked_bytes": 452,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52",
+      "unpacked_bytes": 3116,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 998,
+      "sha256": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793",
+      "unpacked_bytes": 2020,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "script",
+      "number": 999,
+      "sha256": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e",
+      "unpacked_bytes": 2332,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "sound",
+      "number": 5,
+      "sha256": "fed2c680b975ab48291f8bf85987e91c8f9e005bdb4465cd37162328b7eb376a",
+      "unpacked_bytes": 4320,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 6,
+      "sha256": "9b1f0d0b710af22d474db653871329fbee1a5f05528e75a95af9248a25576fe5",
+      "unpacked_bytes": 46715,
+      "status": "directory_and_events_decoded",
+      "roles": [
+        "Default shared sound object initialization; runtime playback replaces this ID",
+        "Main.sc: aSong",
+        "Main.sc: aSoundEffect"
+      ],
+      "device_track_count": 4,
+      "midi_export_count": 4
+    },
+    {
+      "type": "sound",
+      "number": 7,
+      "sha256": "cc14857505531c2a1a69a127e393563771cab51a7ad68427534e0f269b2d05e1",
+      "unpacked_bytes": 3697,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 8,
+      "sha256": "9883768cf87979e9b6d57b0c37fb1016c6c73a6a4f21165b36a3fe184f4c0f23",
+      "unpacked_bytes": 1203,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 9,
+      "sha256": "c402c753a7b7fd09c7ec03d9c6eb0c943e37e11653a251020dece49f51b6cfcf",
+      "unpacked_bytes": 2252,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 10,
+      "sha256": "dd505bcd713e4ce62f09f607c8afc475618feb564ef8f6dadaf50b5001514fcb",
+      "unpacked_bytes": 4371,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 20,
+      "sha256": "d6e4a886c2921024f9d31637e3d9f10903e7e060ca58aa12412bcb75253009f9",
+      "unpacked_bytes": 293,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 21,
+      "sha256": "1964e9110fc7af518ba1b1f31714b351ca357fdf0c5bbd8a8e177d35ff359cc6",
+      "unpacked_bytes": 769,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 23,
+      "sha256": "4f97e921e1b0710f8cadef340fb22a5644e680ab5c1cb74328fb9a11a1f83917",
+      "unpacked_bytes": 73,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 25,
+      "sha256": "d983916213d1e7ccd1a461755a80474acc631a568d4130b39a41a3320d8f34a2",
+      "unpacked_bytes": 1262,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 27,
+      "sha256": "a21b94f26197795e9fd494ae9b5ba861002a56e55664d79f0bc822b35884ad8e",
+      "unpacked_bytes": 102,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 28,
+      "sha256": "c22dc0cdf53077331441e14fe20ddbe1a7bf630aa9f72543f838dd763417849b",
+      "unpacked_bytes": 208,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 29,
+      "sha256": "1894679a98333c6e10c1761afc8c5d9e080c1a0ef35dad446e6b354f90fa8dd4",
+      "unpacked_bytes": 290,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 30,
+      "sha256": "d1f56e537f1e08da8ba6bfc24f380f81ae049052f8fbe357b15e096664c0f954",
+      "unpacked_bytes": 227,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 31,
+      "sha256": "a50390427b1ba8fa58f31a4f6b542dc6e9bb0c6f953b91ec4c8d9ff4fc28a752",
+      "unpacked_bytes": 127,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 32,
+      "sha256": "ffd7fcf350a943506d579a597313b3ff81140ce5e30a4b9df6e06d39f09b71ae",
+      "unpacked_bytes": 559,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 34,
+      "sha256": "3c8ff12a4ac79e11310870387545b9d448ec46e4b1fe5e473b443173ba3169fa",
+      "unpacked_bytes": 2395,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 35,
+      "sha256": "f42536b4551d307ded6a37ffa52523599b5c1e5d9d45e3b3342ed1b372427963",
+      "unpacked_bytes": 3248,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 36,
+      "sha256": "12c246f090329249fd776cbb728263f98121eb7f06c47139d334fcdb016ba7bf",
+      "unpacked_bytes": 1579,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 37,
+      "sha256": "7f979ec4d6b38578b1bb42dd6b71660f7624abed107ca9dd152004f2a1a60b25",
+      "unpacked_bytes": 2085,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 38,
+      "sha256": "75e881031447eed9fa5044f8b7b41a041b252a2525ae912ac350f4336a70c5f1",
+      "unpacked_bytes": 4218,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 39,
+      "sha256": "6bb36e2ed48f54aac544e4f8e1d1df699aee759fb6fd9b263be75e73c4ae8a65",
+      "unpacked_bytes": 3762,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 40,
+      "sha256": "536a163a643f4f88365b1b9317d480b3914380bf0c9cadba89d714a8fdece755",
+      "unpacked_bytes": 2883,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 41,
+      "sha256": "11c8333fe4857b5f613e11b70bd680026172a0bef0b0a271b30f8b70a1631fd0",
+      "unpacked_bytes": 2376,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 42,
+      "sha256": "e321403bca83b33d93be0cffd2bf4e9f6ad671916f67b586b6d885261a230d36",
+      "unpacked_bytes": 277,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 43,
+      "sha256": "4ea809c5762f0f6d05fecdd99366e1ae1375269b0b66f16dad233ca0c08c1d80",
+      "unpacked_bytes": 2010,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 44,
+      "sha256": "99b9763b4ebda6afb6583ddfb06815b8283c3b898ade4311e5185612349ced00",
+      "unpacked_bytes": 273,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 45,
+      "sha256": "4b55bbec4575ccc72ce7ba126fc2bc2865ebe8e2df9cb85395528d204abc87f5",
+      "unpacked_bytes": 349,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 46,
+      "sha256": "9ec60de5aad4ab8082620b4bcf066a68ad81323fd79814c40ff3b167d1874802",
+      "unpacked_bytes": 2355,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 47,
+      "sha256": "e444c9c47332b2ab3ddd27281b42d41ee60bd81c519aff808ed24c98d8d3b487",
+      "unpacked_bytes": 1584,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 48,
+      "sha256": "7be061000202ea27214642294503bc05e907a804ed2b62eba143b3c878abeef9",
+      "unpacked_bytes": 973,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 49,
+      "sha256": "c2f28b9d824adf2014c3f88f98c81cb376e5f94d2b0b1b4f4df27ab870b32d58",
+      "unpacked_bytes": 1980,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 50,
+      "sha256": "14feb1f54a5d249a92c4c7e09a45d1e822cec72996ef6c4f0ce5b3cd434aa634",
+      "unpacked_bytes": 1587,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "sound",
+      "number": 100,
+      "sha256": "46e7e69c285f2acfb4d0393547944395b0e9769dee746fbd59b3c27796d761eb",
+      "unpacked_bytes": 18164,
+      "status": "directory_and_events_decoded",
+      "roles": [],
+      "device_track_count": 5,
+      "midi_export_count": 5
+    },
+    {
+      "type": "text",
+      "number": 0,
+      "sha256": "56dc9524e01ce1e86112f0c55a37d9d6621769abdc2f6113fa2bb34bdb1ac570",
+      "unpacked_bytes": 68,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 4
+    },
+    {
+      "type": "text",
+      "number": 1,
+      "sha256": "1b00901dfd42bff1ff755f9caf44a3e980eddda0e59a5bfefeb61e6ab422fea7",
+      "unpacked_bytes": 100,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 3
+    },
+    {
+      "type": "text",
+      "number": 104,
+      "sha256": "1f7729b893eac74d8b97084cd08be52e5aca218ff42fcd2d721390bbd308a4d2",
+      "unpacked_bytes": 16,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 3
+    },
+    {
+      "type": "text",
+      "number": 108,
+      "sha256": "48b03b56996540f88029608a73b45255853b73e911c7cd9a9ea91a73d1c245fa",
+      "unpacked_bytes": 225,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 6
+    },
+    {
+      "type": "text",
+      "number": 111,
+      "sha256": "16f6f75e6ac2a5b7285b2d7bbe037452a8a892320401e4e9c502cd7e17d14738",
+      "unpacked_bytes": 69,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 4
+    },
+    {
+      "type": "text",
+      "number": 115,
+      "sha256": "0b782fc3030dbdf3756f17e7adf2ce5808dfc513ca7589adeb679c7d25eaef6f",
+      "unpacked_bytes": 3,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 116,
+      "sha256": "2b622376bda4c02707f1d16ebd66890922c2457534b02cdbfd3372a2087331f2",
+      "unpacked_bytes": 6,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 2
+    },
+    {
+      "type": "text",
+      "number": 200,
+      "sha256": "130303fe1bcafdb9cccc3facbe265964bb3e7086b159e82082d89ce45e7a1815",
+      "unpacked_bytes": 26,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 201,
+      "sha256": "c1502465aaf67d077b1d9433829e74f8ce72a4b1bc21724ecdb41f212f5c494b",
+      "unpacked_bytes": 2395,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 39
+    },
+    {
+      "type": "text",
+      "number": 202,
+      "sha256": "130303fe1bcafdb9cccc3facbe265964bb3e7086b159e82082d89ce45e7a1815",
+      "unpacked_bytes": 26,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 203,
+      "sha256": "be4479499526e80ed1860c6c5882bf4fc08fbec9e090c3995f3f1c49115c1ee9",
+      "unpacked_bytes": 2759,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 53
+    },
+    {
+      "type": "text",
+      "number": 204,
+      "sha256": "68c194d11e3e0eaca9c88a8979f6bf61d63f087aeb254a6e535944b92b987b72",
+      "unpacked_bytes": 1867,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 26
+    },
+    {
+      "type": "text",
+      "number": 205,
+      "sha256": "607e5906ec7588ae058ddc045411bb5ea97008cae848ae516fb2dbac5658fe79",
+      "unpacked_bytes": 616,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 8
+    },
+    {
+      "type": "text",
+      "number": 206,
+      "sha256": "8f13bd347f2983a86e4f4bd311a539936ed0292f22ec92fe29afe4c6c2ad94e0",
+      "unpacked_bytes": 894,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 16
+    },
+    {
+      "type": "text",
+      "number": 207,
+      "sha256": "0cc85e2b6d4bfbe70b318b436a387a9d97919e5d90ba6a7517f393034ad16fc2",
+      "unpacked_bytes": 1858,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 31
+    },
+    {
+      "type": "text",
+      "number": 208,
+      "sha256": "20126d966ee1900c863335e6be46f2ae528c4b1d7ce18e24eac40da245f30c5e",
+      "unpacked_bytes": 3045,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 50
+    },
+    {
+      "type": "text",
+      "number": 209,
+      "sha256": "ae3d06fc173255352358f4a12310d32b5b30cb04070fabc144a87d4376b02e1f",
+      "unpacked_bytes": 1488,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 31
+    },
+    {
+      "type": "text",
+      "number": 210,
+      "sha256": "7f52b4c9c9fa6f42cf3a676c5b762e1859b4808f03ea73b6424e5c20b0228984",
+      "unpacked_bytes": 3228,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 56
+    },
+    {
+      "type": "text",
+      "number": 211,
+      "sha256": "83862680edfd54c60b0c3e1390895d03e1997839b3c4d4f007c26e2f9396e566",
+      "unpacked_bytes": 1652,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 30
+    },
+    {
+      "type": "text",
+      "number": 212,
+      "sha256": "cdf827243c81b7a1ce9284a32285d0f272a0d6cafc08c00bec3b7873edd55c07",
+      "unpacked_bytes": 1095,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 27
+    },
+    {
+      "type": "text",
+      "number": 213,
+      "sha256": "be2d2cc477cae998ddac809970779d67dbad5ef615dc677282a011dff9973559",
+      "unpacked_bytes": 186,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 12
+    },
+    {
+      "type": "text",
+      "number": 215,
+      "sha256": "edc6005b936bcc39b560ecf0dea2924af1500dd2a564b56ec266ac00e1cca24e",
+      "unpacked_bytes": 2110,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 65
+    },
+    {
+      "type": "text",
+      "number": 230,
+      "sha256": "2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff",
+      "unpacked_bytes": 3,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 231,
+      "sha256": "619bd6a09ecf96a8d687f1ee7b066d0d206378f52428f0bd247dbcc0eb3f4613",
+      "unpacked_bytes": 340,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 22
+    },
+    {
+      "type": "text",
+      "number": 232,
+      "sha256": "e775f18d0727ebda5d60c9320b8258b5e292d3a7b7e3ddad4a51dd1cc8357219",
+      "unpacked_bytes": 4270,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 62
+    },
+    {
+      "type": "text",
+      "number": 234,
+      "sha256": "9018d4198a12969bf63f8278c0322fd4837c9c1935cee1a8ab9f46c23777cb87",
+      "unpacked_bytes": 39,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 4
+    },
+    {
+      "type": "text",
+      "number": 236,
+      "sha256": "e4184cc008aabc3643509eae4ff17f7a637965a89e07a99de3fe2e913062fa53",
+      "unpacked_bytes": 7,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 237,
+      "sha256": "2f3a3f9b55f5df846abf81c7d13ff74998bdda8664df664173220675150020ff",
+      "unpacked_bytes": 3,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 238,
+      "sha256": "1dd9e9865b98dfd6683d9d90e0ca70fc9dcf11c941c5d210c6b9fd61c4c03f7d",
+      "unpacked_bytes": 5,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 239,
+      "sha256": "a80165b4a24d771310c16df492e11bc4ff40ae5911106b6891d75e782ec5f6d1",
+      "unpacked_bytes": 18,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 255,
+      "sha256": "0b782fc3030dbdf3756f17e7adf2ce5808dfc513ca7589adeb679c7d25eaef6f",
+      "unpacked_bytes": 3,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 700,
+      "sha256": "f390212cd4b4b05033466fae9fcd47e665782bc3349d31b801e1ea46d9ace3ce",
+      "unpacked_bytes": 1049,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 87
+    },
+    {
+      "type": "text",
+      "number": 764,
+      "sha256": "c17fd08465d2f4ce78f45c33cdd4b220ae896107152e17285c6bf12b20dd6464",
+      "unpacked_bytes": 401,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 990,
+      "sha256": "38cec4d93fc2102ee7b44fd7b8cce1c6982e1215cdce5a4f7b26448eeca0cad8",
+      "unpacked_bytes": 307,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 7
+    },
+    {
+      "type": "text",
+      "number": 993,
+      "sha256": "8534843db4ce3fcc85a3a1024d9c2406dbd9b4063372e1c83111734a064c623d",
+      "unpacked_bytes": 9,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 994,
+      "sha256": "0ffd2c38f03d77294e36ce2f97e977703c622256c29b6eaf9b6ce87878ef808f",
+      "unpacked_bytes": 10,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 996,
+      "sha256": "faeb8a8f471dc99d5b978ef558975ca4bb9c47e0ee7f47f889842a6a6240b2c6",
+      "unpacked_bytes": 3,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 1
+    },
+    {
+      "type": "text",
+      "number": 997,
+      "sha256": "026130442bfac892f838e179037bea39a70afe774f7f86c1d21bdd7d83153029",
+      "unpacked_bytes": 1274,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 13
+    },
+    {
+      "type": "text",
+      "number": 999,
+      "sha256": "08df7b131dcdafa17060251cbce00f9b0dca2258e79b218612a6ef5971100921",
+      "unpacked_bytes": 68,
+      "status": "decoded",
+      "roles": [],
+      "string_count": 3
+    },
+    {
+      "type": "view",
+      "number": 0,
+      "sha256": "637454b9df3bd108ff5325d7ec434ce06b8a1b5a589ab0f90993eb058b0293bf",
+      "unpacked_bytes": 17175,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 13,
+      "cel_count": 145
+    },
+    {
+      "type": "view",
+      "number": 1,
+      "sha256": "cf4654f0262d7c7586bda1e7e9809a41c8389cfbb634d008a05102b40f5d5f25",
+      "unpacked_bytes": 16566,
+      "status": "rendered",
+      "roles": [
+        "introRoom.sc: littlepic1",
+        "introRoom.sc: littlename1"
+      ],
+      "loop_count": 3,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 2,
+      "sha256": "ce71f25ec1ab457afe2aa4a8f032c520a06dd4559fceebea796ca1f5603f6e38",
+      "unpacked_bytes": 15779,
+      "status": "rendered",
+      "roles": [
+        "introRoom.sc: littlepic2",
+        "introRoom.sc: littlename2"
+      ],
+      "loop_count": 3,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 3,
+      "sha256": "ed524afbc9f89e1ffa1fbea17945fc26609b0a96540aa06c10bcafb065ffc6ed",
+      "unpacked_bytes": 21219,
+      "status": "rendered",
+      "roles": [
+        "introRoom.sc: littlepic3",
+        "introRoom.sc: littlename3"
+      ],
+      "loop_count": 3,
+      "cel_count": 8
+    },
+    {
+      "type": "view",
+      "number": 4,
+      "sha256": "927e5c853a131aa79787ccd81f3c4ca3ea9e8dc6a531fb810a761b7a59114931",
+      "unpacked_bytes": 19580,
+      "status": "rendered",
+      "roles": [
+        "introRoom.sc: littlepic4",
+        "introRoom.sc: littlename4top",
+        "introRoom.sc: littlename4bot"
+      ],
+      "loop_count": 3,
+      "cel_count": 9
+    },
+    {
+      "type": "view",
+      "number": 5,
+      "sha256": "ba28df10d839a8ff16225f32ceb470ac058e304183717c2381666715c5af85a5",
+      "unpacked_bytes": 24257,
+      "status": "rendered",
+      "roles": [
+        "introRoom.sc: littlepic5",
+        "introRoom.sc: littlename5top",
+        "introRoom.sc: littlename5bot"
+      ],
+      "loop_count": 3,
+      "cel_count": 7
+    },
+    {
+      "type": "view",
+      "number": 10,
+      "sha256": "ca2c7dc7b9d40a734d0f99882ca307d800ae14b0235a8b6810b087c5a1392f8f",
+      "unpacked_bytes": 9697,
+      "status": "rendered",
+      "roles": [
+        "Game setup choices",
+        "select1.sc: playGame",
+        "select1.sc: restoreGame",
+        "select1.sc: demonstration",
+        "select4.sc: yesButton",
+        "select4.sc: noButton",
+        "select4.sc: takeItEasy",
+        "select4.sc: playFair",
+        "select4.sc: goForBroke"
+      ],
+      "loop_count": 4,
+      "cel_count": 9
+    },
+    {
+      "type": "view",
+      "number": 11,
+      "sha256": "a01d38bfe15dfb4152314a3c247ab643bf4324b04f93efdf2e75332b8a62f6c3",
+      "unpacked_bytes": 4323,
+      "status": "rendered",
+      "roles": [
+        "Challenge-Jones setup dialog background",
+        "select4.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 250,
+      "sha256": "16e1fea46afb8a16b66db2fb3313500321c05549ab70376f38ab47cb04ea621a",
+      "unpacked_bytes": 3712,
+      "status": "rendered",
+      "roles": [
+        "Shared action controls across location and progress dialogs",
+        "select2.sc: firstPlayer",
+        "select2.sc: secondPlayer",
+        "select2.sc: thirdPlayer",
+        "select2.sc: fourthPlayer",
+        "select3.sc: exButton",
+        "select3.sc: questionButton",
+        "rentOffice.sc: exitButton",
+        "rentOffice.sc: workButton",
+        "lowcost.sc: relaxButton",
+        "lowcost.sc: exitButton",
+        "security.sc: relaxButton",
+        "security.sc: exitButton",
+        "market.sc: exitButton",
+        "market.sc: workButton",
+        "bank.sc: exitButton",
+        "bank.sc: workButton",
+        "broker.sc: exitButton",
+        "broker.sc: buyButton",
+        "broker.sc: sellButton",
+        "factory.sc: exitButton",
+        "factory.sc: workButton",
+        "employment.sc: exitButton",
+        "university.sc: exitButton",
+        "university.sc: enrollButton",
+        "university.sc: workButton",
+        "appliance.sc: exitButton",
+        "appliance.sc: workButton",
+        "clothing.sc: exitButton",
+        "clothing.sc: workButton",
+        "fastFood.sc: exitButton",
+        "fastFood.sc: workButton",
+        "discount.sc: exitButton",
+        "discount.sc: workButton",
+        "pawnShop.sc: exitButton",
+        "pawnShop.sc: pawn",
+        "pawnShop.sc: donePawning",
+        "pawnShop.sc: doneRedeeming",
+        "pawnShop.sc: doneBuying",
+        "goalsDefine.sc: doneButton",
+        "goalsDefine.sc: rightArrow",
+        "viewGoals.sc: exitButton",
+        "inventories.sc: doneButton",
+        "newspaper.sc: doneButton",
+        "diploma.sc: doneButton"
+      ],
+      "loop_count": 14,
+      "cel_count": 14
+    },
+    {
+      "type": "view",
+      "number": 270,
+      "sha256": "16dbf036adbf9c2ab37c61d770d9d1d426ea6a3e809aabe62ddba7861cf7544d",
+      "unpacked_bytes": 6608,
+      "status": "rendered",
+      "roles": [
+        "Main-board remaining-time display",
+        "room1.sc: timeKeep"
+      ],
+      "loop_count": 7,
+      "cel_count": 61
+    },
+    {
+      "type": "view",
+      "number": 274,
+      "sha256": "f5d04fb4e6bdb58a903e29d5db3528afa7e6e7b943b70fb243ef43fb7cfad362",
+      "unpacked_bytes": 8713,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 275,
+      "sha256": "b6f6fb9a4e9e62c6f0b154856ec0bb560e8060ad77ba3d4f17c70b278e758d9a",
+      "unpacked_bytes": 8588,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 276,
+      "sha256": "d056a05726637ac0b3d8f48dee6d9b51acba0f11df2fddeee40f426f019453eb",
+      "unpacked_bytes": 8397,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 277,
+      "sha256": "1e98c0044d1f3c9b4c21537ea92682a1f78af5691f71fbc3350332df6f70ffd1",
+      "unpacked_bytes": 8337,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 280,
+      "sha256": "0a96e85a41bcc00341f373907bff8338b4a2a7ecaa2de2ae4ee22c929d0c010d",
+      "unpacked_bytes": 11607,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 281,
+      "sha256": "23d3dbdf69263e828e994830edb507093a6ee3d652853dda3ef9943ef9dce1c6",
+      "unpacked_bytes": 11039,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 282,
+      "sha256": "ab2f17f547349e29a2c9c9e17ce0cc6156a25fcd9026132d096b10cde300e302",
+      "unpacked_bytes": 9549,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 283,
+      "sha256": "11cdd1afe2dd3f2564c3b17ba55bc07c546eb0ef10a6ef910017b4e804a9ee4a",
+      "unpacked_bytes": 9673,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 284,
+      "sha256": "879f567d92eae34a5691f30bdfc1836fbb1f84554b870b0b22ddb3823810815e",
+      "unpacked_bytes": 11073,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 285,
+      "sha256": "6c0f70e46d8dec974695b3e24bdbe2975b3f9de45a56450acfa2fbd9017db2da",
+      "unpacked_bytes": 9966,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 286,
+      "sha256": "7ef489c0c2949dc665c563716968bfa733321c4335132683dd84ff2504a8446a",
+      "unpacked_bytes": 10031,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 287,
+      "sha256": "e1de37b53a92fa676ad924467a90e619061d3b30bc895152725ff01feb1f8858",
+      "unpacked_bytes": 10235,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 290,
+      "sha256": "b06fc22ad039f1e766d18307e9039bf41859d088263efaa125a690365e097637",
+      "unpacked_bytes": 11708,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 291,
+      "sha256": "fe084dbbdd5e8ee400ca9e4bf89b71bc8541bb62fa9496045180363181b86a13",
+      "unpacked_bytes": 11168,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 292,
+      "sha256": "1e10f0d8aee61aab05a3f6996b3e0e50391004127ba817ec7be974d328d0adf0",
+      "unpacked_bytes": 10648,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 293,
+      "sha256": "36564edfe7ef44679d6618cdd51e4451192bba6395423be12093c42abc8e603b",
+      "unpacked_bytes": 12470,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 2,
+      "cel_count": 8
+    },
+    {
+      "type": "view",
+      "number": 294,
+      "sha256": "ddc995ef729b4d584c3fde214786ec0627ff5f31d19b4c0b4227d889de93914a",
+      "unpacked_bytes": 11955,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 295,
+      "sha256": "6ab1670589ddb529c65ce36dd56c0e2cd6e1cbc665a8ad324b01d25964072bcc",
+      "unpacked_bytes": 11168,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 296,
+      "sha256": "eb8d4b25971318ed0cd9bc7d9a399ee6fb911e2a71792284cb1cdb5274f4bc80",
+      "unpacked_bytes": 10628,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 297,
+      "sha256": "4287bc3a3daa95edfc2114b355f602fce5fce4de6b3dd2ca5ab4de22e612ba1f",
+      "unpacked_bytes": 9664,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 310,
+      "sha256": "fd4516bb5a6ff42dba3e4a5d6d4ef764b851f5b6d180a0e17065a768878418d1",
+      "unpacked_bytes": 3961,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 311,
+      "sha256": "eca1fbaca7e9439ce49e2631b58a429a5195ef713d141db564424f2b6781eb22",
+      "unpacked_bytes": 3736,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 312,
+      "sha256": "ce462caf8b8f1bed48a7c0cd651d6135ee36ad911fff029a6044df68c1b98966",
+      "unpacked_bytes": 4127,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 313,
+      "sha256": "a77ca8bc657fdc890076ca13552a7e1e3a4b5c85f1711fc1b069fa4b1f2c73c9",
+      "unpacked_bytes": 3465,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 314,
+      "sha256": "a8f9b1c1fc1b1012712624685389d2187a386f6d9b44465bc6909f15e16acca1",
+      "unpacked_bytes": 3682,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 315,
+      "sha256": "a78fe80648707793e1f75b2c1ea4ba6312fac3927ea609aed672e2a1d0d05c01",
+      "unpacked_bytes": 3453,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 316,
+      "sha256": "6517074df520df9293259f068ed105396b129e2485d9ed225bf7025ca30d7657",
+      "unpacked_bytes": 3554,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 317,
+      "sha256": "3842bbdf2d856ec3c7ce79fed70ba824c03d2515ca5d83e8c27a022cd70c0e36",
+      "unpacked_bytes": 4112,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 318,
+      "sha256": "f5c548ab664cb1281dc745beaac44d6616e2d9bd6169f537e77a5a6539cd47c0",
+      "unpacked_bytes": 4090,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 319,
+      "sha256": "86ee67771057e80a4e08e95b4be3d10e263d7e670c3e3a7ca56a29711db0840a",
+      "unpacked_bytes": 3755,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 320,
+      "sha256": "54a2d9bf9e72f336b70114940aa68a5428943b7ea42962f0ee38a5e58e9be3e1",
+      "unpacked_bytes": 3907,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 321,
+      "sha256": "c637cf3d45c53c5c5243ceea9e2bf25a1018ca8bbde3837c53f7f60bcf61bd67",
+      "unpacked_bytes": 4662,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 322,
+      "sha256": "816e6c62750afb6a5663b5b200e16a238d9d0e1752e7413a7e5279802cd06687",
+      "unpacked_bytes": 3976,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 340,
+      "sha256": "670103f32d854d09f7b9839ddf7f83c6e4f125abcbb97d52675cdd1a307ee0d7",
+      "unpacked_bytes": 15962,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 8,
+      "cel_count": 39
+    },
+    {
+      "type": "view",
+      "number": 351,
+      "sha256": "e666f1c9437be6e03abd6a9edf69f163493bb7e3c5b43bc07eb03ae0cd8fbfce",
+      "unpacked_bytes": 19633,
+      "status": "rendered",
+      "roles": [
+        "rentOffice clerk Talker graphics",
+        "rentOffice.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 353,
+      "sha256": "dc57d6d6c2b6034fcb22d166a21e4df059d612a84e2d25753f09134d352ab693",
+      "unpacked_bytes": 15735,
+      "status": "rendered",
+      "roles": [
+        "market clerk Talker graphics",
+        "market.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 354,
+      "sha256": "a8e3ea4e12014d6cb1885055233db97a75bd4297030dfcb45da5064e1fb8b4e5",
+      "unpacked_bytes": 14508,
+      "status": "rendered",
+      "roles": [
+        "bank clerk Talker graphics",
+        "bank.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 355,
+      "sha256": "888ca37608865319d612fabb2a721df8e03a4b3e77cd431f6342bc5759ae85ab",
+      "unpacked_bytes": 16453,
+      "status": "rendered",
+      "roles": [
+        "factory clerk Talker graphics",
+        "factory.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 356,
+      "sha256": "b48325a766b46a9e70f0dd98e2321ab4d09028e8c3942e93cc7585ab286e344c",
+      "unpacked_bytes": 13778,
+      "status": "rendered",
+      "roles": [
+        "employment clerk Talker graphics",
+        "employment.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 357,
+      "sha256": "aa864bcf3a95b3f99cde81d61aeede06f31ad8233e1afb51375a3bf85f62769c",
+      "unpacked_bytes": 14356,
+      "status": "rendered",
+      "roles": [
+        "university clerk Talker graphics",
+        "university.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 358,
+      "sha256": "3846c973bb64a0ba61f0b28634228f3500bba84b0ff002bf8fd06d8adda7bce8",
+      "unpacked_bytes": 14945,
+      "status": "rendered",
+      "roles": [
+        "appliance clerk Talker graphics",
+        "appliance.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 359,
+      "sha256": "65a64ac4aa399e971c44ff74d7d32ace778f03e84a9e40c4a062a66e2d58d428",
+      "unpacked_bytes": 14546,
+      "status": "rendered",
+      "roles": [
+        "clothing clerk Talker graphics",
+        "clothing.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 360,
+      "sha256": "4f93eae9ab9639c9b0247b42da749137786c6c2257d97264c5a69e6bc6c9e637",
+      "unpacked_bytes": 12302,
+      "status": "rendered",
+      "roles": [
+        "fastFood clerk Talker graphics",
+        "fastFood.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 361,
+      "sha256": "ec56e4d614ae7b1ebfac859e18dbc8933cce0c4f7044ab9b57e29fd997da5f01",
+      "unpacked_bytes": 15648,
+      "status": "rendered",
+      "roles": [
+        "discount clerk Talker graphics",
+        "discount.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 362,
+      "sha256": "fde8e1ed41e44d251c19c550227365c55e6e9df686652ce280e60cc6e0e4590d",
+      "unpacked_bytes": 15301,
+      "status": "rendered",
+      "roles": [
+        "pawnShop clerk Talker graphics",
+        "pawnShop.sc: theTalker"
+      ],
+      "loop_count": 1,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 499,
+      "sha256": "7c091ff788256e81c0acf721f73428d9cc4c7220280ff2f6afbae031cd980020",
+      "unpacked_bytes": 19543,
+      "status": "rendered",
+      "roles": [
+        "Character-selection graphics and numbered choices",
+        "select2.sc: playerNumber",
+        "select2.sc: firstDim",
+        "select2.sc: secondDim",
+        "select2.sc: thirdDim",
+        "select2.sc: fourthDim"
+      ],
+      "loop_count": 2,
+      "cel_count": 8
+    },
+    {
+      "type": "view",
+      "number": 500,
+      "sha256": "6d7a92f1424d257307b7b6774c65912491661d7e8a52cabbd145989d577ff658",
+      "unpacked_bytes": 13925,
+      "status": "rendered",
+      "roles": [
+        "Character-selection background",
+        "select2.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 501,
+      "sha256": "6dd124246bbb9c820c23121340c7cdb293b77f08547aba35399894e48e5f55b9",
+      "unpacked_bytes": 15897,
+      "status": "rendered",
+      "roles": [
+        "Goal-selection and goal-progress controls/backgrounds",
+        "select3.sc: background",
+        "select3.sc: windowTitle",
+        "select3.sc: currentWealth",
+        "select3.sc: currentHappy",
+        "select3.sc: currentEducation",
+        "select3.sc: currentCareer",
+        "goalsDefine.sc: background",
+        "goalsDefine.sc: corner1",
+        "goalsDefine.sc: corner2",
+        "goalsDefine.sc: corner3",
+        "goalsDefine.sc: corner4",
+        "goalsDefine.sc: theTitle"
+      ],
+      "loop_count": 7,
+      "cel_count": 24
+    },
+    {
+      "type": "view",
+      "number": 505,
+      "sha256": "0c778d1221f74a7492378c1536574034a0b2c920994fca851a6479ce68db01e5",
+      "unpacked_bytes": 12596,
+      "status": "rendered",
+      "roles": [
+        "Inventory dialog background",
+        "viewGoals.sc: background",
+        "viewGoals.sc: playerNumber1",
+        "viewGoals.sc: playerNumber2",
+        "viewGoals.sc: playerNumber3",
+        "viewGoals.sc: playerNumber4",
+        "viewGoals.sc: therm1",
+        "viewGoals.sc: therm2",
+        "viewGoals.sc: therm3",
+        "viewGoals.sc: therm4",
+        "viewGoals.sc: fineTherm1",
+        "viewGoals.sc: fineTherm2",
+        "viewGoals.sc: fineTherm3",
+        "viewGoals.sc: fineTherm4",
+        "inventories.sc: background"
+      ],
+      "loop_count": 5,
+      "cel_count": 23
+    },
+    {
+      "type": "view",
+      "number": 506,
+      "sha256": "d625abfba0010ca1b12fc4fa7d443fd5bc385825e3075468a440f0101870cb86",
+      "unpacked_bytes": 5178,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 2
+    },
+    {
+      "type": "view",
+      "number": 603,
+      "sha256": "3e7fbb28eec77160016999ba75d6ecd6f5fcdcaece34038700031c3b2b469bf1",
+      "unpacked_bytes": 24755,
+      "status": "rendered",
+      "roles": [
+        "Newspaper background and paper control",
+        "newspaper.sc: background",
+        "newspaper.sc: newsPaper"
+      ],
+      "loop_count": 2,
+      "cel_count": 8
+    },
+    {
+      "type": "view",
+      "number": 607,
+      "sha256": "281eba645ef9826d49f2dd96747d194c4f46cc4045db960ba892db4f0125c77c",
+      "unpacked_bytes": 23248,
+      "status": "rendered",
+      "roles": [
+        "Graduation/diploma display and animation",
+        "diploma.sc: background",
+        "diploma.sc: theDiploma"
+      ],
+      "loop_count": 2,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 608,
+      "sha256": "f5537dbed19f3802aa4e6345c2432798a46d9105aad25fe613e7e126435be90f",
+      "unpacked_bytes": 5940,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 2,
+      "cel_count": 5
+    },
+    {
+      "type": "view",
+      "number": 609,
+      "sha256": "f4eb596c89e41cde004300b685ede1904459130c6dd4690b3ceb637d9cbcb7cb",
+      "unpacked_bytes": 12442,
+      "status": "rendered",
+      "roles": [
+        "Victory celebration: Jones, confetti and stars",
+        "winnerScript.sc: jonesGuy",
+        "winnerScript.sc: confetti",
+        "winnerScript.sc: star1",
+        "winnerScript.sc: star2",
+        "winnerScript.sc: star3",
+        "winnerScript.sc: star4",
+        "winnerScript.sc: star5",
+        "winnerScript.sc: star6",
+        "winnerScript.sc: star7",
+        "winnerScript.sc: star8",
+        "winnerScript.sc: star9",
+        "winnerScript.sc: star10",
+        "winnerScript.sc: pedistal"
+      ],
+      "loop_count": 6,
+      "cel_count": 42
+    },
+    {
+      "type": "view",
+      "number": 696,
+      "sha256": "fd6437874cdea42ea1158bd692857839687636b2c2996f8b62931051e52a8696",
+      "unpacked_bytes": 5820,
+      "status": "rendered",
+      "roles": [
+        "broker dialog background / display components",
+        "broker.sc: background"
+      ],
+      "loop_count": 2,
+      "cel_count": 7
+    },
+    {
+      "type": "view",
+      "number": 697,
+      "sha256": "1902a43d1693e472535f3712b5bb48849feab8cb1910cbd822359136f0638608",
+      "unpacked_bytes": 14762,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 698,
+      "sha256": "d27e3a94f431aa3bb6adef847620c690e05e37150f86a7792e4f81ff4b22bfe9",
+      "unpacked_bytes": 15957,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 699,
+      "sha256": "7cb1829494c1cb2a50de291b77bed69e2375aa74b82105eb3ec49ea587c72d8e",
+      "unpacked_bytes": 15022,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 700,
+      "sha256": "ae22add43e73c5622fbfdba9e816c747d1905c1128a15610483345617581ee89",
+      "unpacked_bytes": 21461,
+      "status": "rendered",
+      "roles": [
+        "lowcost dialog background / display components",
+        "lowcost.sc: theChair",
+        "lowcost.sc: theSaying",
+        "lowcost.sc: theStool"
+      ],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 701,
+      "sha256": "681d5f7fcc6206808c7070a534df38555d2198b29d71be777ac1817fec8a3abe",
+      "unpacked_bytes": 4523,
+      "status": "rendered",
+      "roles": [
+        "rentOffice dialog background / display components",
+        "rentOffice.sc: background",
+        "rentOffice.sc: theShortTitle",
+        "rentOffice.sc: theLongTitleLeft"
+      ],
+      "loop_count": 2,
+      "cel_count": 3
+    },
+    {
+      "type": "view",
+      "number": 702,
+      "sha256": "977152c2ac0adb13582a8d4dc21f33af54798ed874e75ea992da1257366aaafd",
+      "unpacked_bytes": 17791,
+      "status": "rendered",
+      "roles": [
+        "security dialog background / display components",
+        "security.sc: theColorTV",
+        "security.sc: theStereo",
+        "security.sc: theBooks",
+        "security.sc: theVCR"
+      ],
+      "loop_count": 1,
+      "cel_count": 5
+    },
+    {
+      "type": "view",
+      "number": 703,
+      "sha256": "7aa482d00e44fdc38de36c5cf4a17c37ad9b7a742ff0fd23f7b11a2743c88c3c",
+      "unpacked_bytes": 10992,
+      "status": "rendered",
+      "roles": [
+        "market.sc: items"
+      ],
+      "loop_count": 2,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 704,
+      "sha256": "f3f6b39d0eea977576a9675facd3599601c64c4e71afb89e7c2aef66941e2e97",
+      "unpacked_bytes": 7877,
+      "status": "rendered",
+      "roles": [
+        "bank.sc: piggyBank"
+      ],
+      "loop_count": 2,
+      "cel_count": 6
+    },
+    {
+      "type": "view",
+      "number": 705,
+      "sha256": "f1293a591b894100f4bd37bd2ff303aad0e457cc21e803483449c4b236e7965c",
+      "unpacked_bytes": 8379,
+      "status": "rendered",
+      "roles": [
+        "factory dialog background / display components",
+        "factory.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 706,
+      "sha256": "4252001dae2b0174ada3c325b445417ac54d16901235ff84f4b72a8a2296ad72",
+      "unpacked_bytes": 5068,
+      "status": "rendered",
+      "roles": [
+        "employment dialog background / display components",
+        "employment.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 2
+    },
+    {
+      "type": "view",
+      "number": 707,
+      "sha256": "6ac38b0a51f786663d2ebb1cc55113ab9a9486bc1be276fea666479a70e844d2",
+      "unpacked_bytes": 9193,
+      "status": "rendered",
+      "roles": [
+        "University books/course controls: loop 2 course selectors; loop 1 books",
+        "university.sc: books",
+        "university.sc: tradeSchool",
+        "university.sc: electronics",
+        "university.sc: preEngineering",
+        "university.sc: engineering",
+        "university.sc: juniorCollege",
+        "university.sc: ba",
+        "university.sc: academic",
+        "university.sc: graduate",
+        "university.sc: postDoctoral",
+        "university.sc: research",
+        "university.sc: publishing"
+      ],
+      "loop_count": 3,
+      "cel_count": 16
+    },
+    {
+      "type": "view",
+      "number": 708,
+      "sha256": "338c11f53ec48f1ed09cc9b676b20902dea3c5cc37018e7a23417bfc4875510a",
+      "unpacked_bytes": 24243,
+      "status": "rendered",
+      "roles": [
+        "Appliance display/animation components; pawn-shop merchandise cross-reference",
+        "appliance.sc: items",
+        "pawnShop.sc: items"
+      ],
+      "loop_count": 2,
+      "cel_count": 15
+    },
+    {
+      "type": "view",
+      "number": 709,
+      "sha256": "8721c03417cfbd67123b27db3dc0fb251257217a1193098a9ba709e9fb8557ef",
+      "unpacked_bytes": 8395,
+      "status": "rendered",
+      "roles": [
+        "clothing.sc: items"
+      ],
+      "loop_count": 2,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 710,
+      "sha256": "765be14bde4bfcbc984c503c986cf5782038836c7e316aafc4914f59b15333b8",
+      "unpacked_bytes": 15617,
+      "status": "rendered",
+      "roles": [
+        "fastFood.sc: items"
+      ],
+      "loop_count": 2,
+      "cel_count": 7
+    },
+    {
+      "type": "view",
+      "number": 711,
+      "sha256": "aa34d41de2a8479e993190101a3be8d7420842d5163a5ac5947d3209c0f1d285",
+      "unpacked_bytes": 34693,
+      "status": "rendered",
+      "roles": [
+        "discount.sc: items"
+      ],
+      "loop_count": 3,
+      "cel_count": 19
+    },
+    {
+      "type": "view",
+      "number": 712,
+      "sha256": "843143fda37468ffafdfb0d1603e55d3a5e41cbd5750c167080e91ffc85996a7",
+      "unpacked_bytes": 4788,
+      "status": "rendered",
+      "roles": [
+        "pawnShop dialog background / display components",
+        "pawnShop.sc: background",
+        "pawnShop.sc: pawnButton",
+        "pawnShop.sc: redeemButton",
+        "pawnShop.sc: buyButton"
+      ],
+      "loop_count": 2,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 750,
+      "sha256": "0e18c6088f898ec915e961631717350716aa13f81317a5cab2f425f458c5f776",
+      "unpacked_bytes": 7520,
+      "status": "rendered",
+      "roles": [],
+      "loop_count": 1,
+      "cel_count": 4
+    },
+    {
+      "type": "view",
+      "number": 751,
+      "sha256": "f9b116152b0e08dcc5dc2a5ee51c3cbc43438555506a5318ffce64bbf09b1fcc",
+      "unpacked_bytes": 7760,
+      "status": "rendered",
+      "roles": [
+        "Board door prop",
+        "room1.sc: door"
+      ],
+      "loop_count": 13,
+      "cel_count": 52
+    },
+    {
+      "type": "view",
+      "number": 803,
+      "sha256": "8af93c8c26191ba5cd449b90101f64058862f93eb10cef119b82e7c28235f2d7",
+      "unpacked_bytes": 3946,
+      "status": "rendered",
+      "roles": [
+        "market dialog background / display components",
+        "market.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 804,
+      "sha256": "4e17f8cfe5572133a176f8cadb20578ce8daec19c671f9c01dac9bc115444c07",
+      "unpacked_bytes": 3893,
+      "status": "rendered",
+      "roles": [
+        "bank dialog background / display components",
+        "bank.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 807,
+      "sha256": "8d53a8c31c077913ddb6aa0b11f806110dba0d7575bc966d2138655227f23b31",
+      "unpacked_bytes": 4582,
+      "status": "rendered",
+      "roles": [
+        "university dialog background / display components",
+        "university.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 808,
+      "sha256": "08d2bcdacada991f5f28e53452d61a309e87d884d5dacd26d6f12ec3d7a6913b",
+      "unpacked_bytes": 3685,
+      "status": "rendered",
+      "roles": [
+        "appliance dialog background / display components",
+        "appliance.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 809,
+      "sha256": "7b2883eee005a4f941cd6c7b425bfe121b1721c44d8d0386d5098fa9264fd703",
+      "unpacked_bytes": 7296,
+      "status": "rendered",
+      "roles": [
+        "clothing dialog background / display components",
+        "clothing.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 810,
+      "sha256": "0180b02e9188be6898ea5a6e6a2a7ce550b8210570e4a15da4559124b7cc1efb",
+      "unpacked_bytes": 3859,
+      "status": "rendered",
+      "roles": [
+        "fastFood dialog background / display components",
+        "fastFood.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "view",
+      "number": 811,
+      "sha256": "992a1b6b00431dd42eeeb8e594f173fc783dcd549b81cd9c333427562e8dc5ee",
+      "unpacked_bytes": 3883,
+      "status": "rendered",
+      "roles": [
+        "discount dialog background / display components",
+        "discount.sc: background"
+      ],
+      "loop_count": 1,
+      "cel_count": 1
+    },
+    {
+      "type": "vocabulary",
+      "number": 900,
+      "sha256": "d41f3585cac6115aa4c2bd7547663fb044d356b6e3d10f62740f20f6c95001a7",
+      "unpacked_bytes": 1100,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 901,
+      "sha256": "cac1e1eb7700624a68fd74eae68753427ef9077762f73e8b2773a95fab1124f0",
+      "unpacked_bytes": 603,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 902,
+      "sha256": "983af399936d8bfc4f83d0556bdc4da6c66d7375119a14f2d075de79946638ca",
+      "unpacked_bytes": 633,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 910,
+      "sha256": "c72ae82a169bcb0be7e0bbe5fa08b98f0fbbdd86861294eb807603682ab55325",
+      "unpacked_bytes": 4088,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 911,
+      "sha256": "85698ff9e261193f6043b6fe69f8be095681e2635cf5a29afcad12c8d009400f",
+      "unpacked_bytes": 1220,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 912,
+      "sha256": "983af399936d8bfc4f83d0556bdc4da6c66d7375119a14f2d075de79946638ca",
+      "unpacked_bytes": 633,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 913,
+      "sha256": "2520b72e9856eeaf5dd0a1ea85f40df0988ee158badb9459b0a366c7d84a3d4e",
+      "unpacked_bytes": 2447,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 994,
+      "sha256": "47259503b968834df7e6fd0095f4676b2af4fc56165617c20cdb354ad79c91ea",
+      "unpacked_bytes": 110,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 995,
+      "sha256": "19a723f25639d2f98f588874e5514bca39572ec1fcb387be2817a74a1e7c9130",
+      "unpacked_bytes": 607,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 996,
+      "sha256": "d43943a49c1c5f7b48017e53097e9cf4a0213f1ff00403951b7dc9c7e1d7eb66",
+      "unpacked_bytes": 332,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 997,
+      "sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850",
+      "unpacked_bytes": 5565,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 998,
+      "sha256": "4da0f712e60c012601efd5e04b41f83c07f76cbd102fea6a8b58798681dacf00",
+      "unpacked_bytes": 1227,
+      "status": "decompressed",
+      "roles": []
+    },
+    {
+      "type": "vocabulary",
+      "number": 999,
+      "sha256": "786a885156e856d5e584034ff9da16273456a5bdc659fb67b55a31f0800c19d5",
+      "unpacked_bytes": 1111,
+      "status": "decompressed",
+      "roles": []
+    }
+  ],
+  "local_reference": "work/original-assets/index.html",
+  "note": "Analytical metadata only. Original artwork/audio/text payloads and contact sheets are not committed."
+}

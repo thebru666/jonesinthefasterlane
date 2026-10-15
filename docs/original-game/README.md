@@ -10,7 +10,8 @@ Research date: 2026-10-15. Document **what Jones in the Fast Lane was**, then re
 4. [Locations and actions](locations-and-actions.md): all thirteen destinations, their menus, conditions, and nested screens.
 5. [Content progression](content-progression.md): eleven courses, thirty-seven employer job entries, product pools, and possessions.
 6. [Progress and finish](progression-and-finish.md): scores, statistics, comparison views, celebration, and later placements.
-7. [Packed resources](packed-resources.md): which original graphics/audio/text resources are available in the downloaded bundle and what has actually been inspected.
+7. [Local asset catalogue and role notes](asset-catalogue-notes.md): decoded component coverage, script-role hints and university label transcription; [portable rebuild instructions](../discovery/rebuild-original-assets.md).
+8. [Packed resources](packed-resources.md): which original graphics/audio/text resources are available in the downloaded bundle and what has actually been inspected.
 
 The [time/weekly/economy audit](../rules-audit/README.md) supplies detailed rules beneath this player-facing reference. The [follow-up task](../planning/follow-up-original-first-iteration.md) contains suggestions for iteration separately; none of those suggestions changes the original baseline.
 
@@ -25,7 +26,9 @@ The newly located reference card is ©1992. It supplies annotated original inter
 - [Analytical town arrangement](../../artifacts/original-game/town-arrangement.svg): an original schematic, not game artwork.
 - [Destination data](../../artifacts/original-game/town-destinations.csv): script IDs, path indices, and click rectangles.
 - [Additional source inputs](../../artifacts/original-game/2026-10-15-source-inputs.json): pinned script files and reference-card hash.
-- [Packed-resource inventory](../../artifacts/original-game/packed-resource-inventory.json): 299 map entries, with matched volume/resource headers; payload decoding is still pending.
+- [Packed-resource inventory](../../artifacts/original-game/packed-resource-inventory.json): 299 map entries, with matched volume/resource headers; the initial package/header check.
+
+- [Decoded-asset metadata](../../artifacts/original-game/decoded-asset-summary.json): coverage, hashes and role hints; original exports remain local.
 
 The packed game resources, downloaded scripts, original PDF scans, and rendered reference images stay in local ignored research storage. No application code has been built.
 
@@ -33,4 +36,4 @@ The packed game resources, downloaded scripts, original PDF scans, and rendered 
 
 The original's player journey, normal supported modes, town topology, functional screen families, location services, and progression content are now described sufficiently to serve as the starting point for faithful wireframes and a keep/reskin/change review. We no longer need to invent those structures as generic UX proposals.
 
-Remaining original-game research includes exact visual resource transcription/capture, complete item and finance effects, AI policy, arithmetic/runtime edge cases, and edition selection. This is a substantially fuller baseline, not a claim that every original detail has been proved.
+Remaining original-game research includes complete visual role transcription and runtime capture, complete item and finance effects, AI policy, arithmetic/runtime edge cases, and edition selection. This is a substantially fuller baseline, not a claim that every original detail has been proved.

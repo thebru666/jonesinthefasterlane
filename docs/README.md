@@ -17,6 +17,7 @@
 
 - [Findings](discovery/findings.md): inspected package, tool feasibility, sources, and limitations.
 - [Source register](discovery/source-register.md): pinned script references, manual inspection, and arithmetic semantics.
+- [Rebuild original assets locally](discovery/rebuild-original-assets.md): checksum-locked source, exporters, catalogue coverage and limitations.
 - [Artifact index](../artifacts/README.md): committed research evidence and local-only material policy.
 
 ## Rules audit

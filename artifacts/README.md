@@ -12,10 +12,13 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Original-experience source inputs](original-game/2026-10-15-source-inputs.json): additional pinned script inputs and the original reference-card identification.
 - [Packed-resource inventory](original-game/packed-resource-inventory.json): all 299 original map entries, type counts, volume offsets, and matched header IDs; no original payloads included.
 
+- [Decoded-asset metadata](original-game/decoded-asset-summary.json): 266 unique resources, export coverage, hashes and local reference paths; no original payloads.
+- [Script-to-asset role hints](original-game/asset-role-hints.json): pinned source references for 53 resources; dynamic selections remain qualified.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.
 
 Keep downloaded original game bundles, executables, extracted art/audio, and decompiled source in ignored local research folders. They are not project deliverables and must not be included in commits. `artifacts/private/` and the repository's `work/` directory are ignored for that purpose. Local-only material is not backed up by Git.
 
-The initial bundle was retrieved during the preceding discovery conversation and remains outside the repository in the chat workspace's `work/jones-research/` directory. The committed inventory is sufficient to identify the inspected bytes; it does not include those bytes.
+The original archive is now also cached under ignored `work/original-assets/source/`. The [portable rebuild guide](../docs/discovery/rebuild-original-assets.md) records its download URL, checksums, dependency versions and exact commands; another computer can regenerate the local catalogue without this machine’s paths.

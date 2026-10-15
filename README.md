@@ -17,6 +17,7 @@ Start with the [original-game baseline](docs/original-game/README.md) for how th
 - [Discovery findings and sources](docs/discovery/findings.md)
 - [Rules audit](docs/rules-audit/README.md)
 - [Discovery artifacts](artifacts/README.md)
+- [Rebuild the local original-asset catalogue](docs/discovery/rebuild-original-assets.md)
 
 The intended implementation is a browser game using React and TypeScript, with a separate TypeScript simulation and no application backend initially. Shared-device multiplayer and a computer opponent must inform the design from the start.
 
@@ -29,4 +30,4 @@ The intended implementation is a browser game using React and TypeScript, with a
 
 Commit and push each completed, coherent step to this repository. Planning comes before implementation.
 
-Original game archives, executables, extracted assets, and decompiled source are not included. Research evidence in this repository consists of notes, metadata, and inventories. No project licence has been selected yet.
+Original game archives, executables, extracted assets, and decompiled source are not included. Research evidence in this repository consists of notes, metadata, and inventories. No application licence has been selected yet. The separate research exporters carry GPL-3.0-or-later notices and documented upstream attribution.

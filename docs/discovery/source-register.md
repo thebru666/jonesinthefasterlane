@@ -61,6 +61,14 @@ The [existing-summaries guide](../original-game/existing-summaries.md) identifie
 
 The S01 archive's map was parsed and all 299 volume addresses/resource header IDs validated. [Inventory](../../artifacts/original-game/packed-resource-inventory.json) and [interpretation/limits](../original-game/packed-resources.md). Format/type definitions were checked against `engines/sci/resource/resource.cpp` and `resource.h` at the S04 pinned ScummVM revision; source hashes are recorded with the inventory. This is PACKAGE evidence, without payload decoding or rendered-art inspection.
 
+## S08: local decoded resource catalogue
+
+- Rebuilt 2026-10-15 from the exact S01 bundle, validated against its archive and map hashes; no alternate game edition substituted.
+- [Portable recipe and validation](rebuild-original-assets.md), [tracked coverage and metadata](../../artifacts/original-game/decoded-asset-summary.json), [script-role hints](../../artifacts/original-game/asset-role-hints.json).
+- Algorithms adapted from S04 pinned ScummVM source, with paths, attribution and GPL notices in [tool provenance](../../tools/research/THIRD_PARTY.md). Python source hashes and Python/Pillow versions are recorded with each run.
+- Evidence: PACKAGE for extraction/inventory and DECODED for exported components, text and sound events. All 266 unique resources decompress; 108 graphics resources render, 39 text resources decode and 34 sound resources export events/MIDI. The other 85 resources remain decompressed bytes.
+- Fresh acquisition and offline builds matched 1,390 output hashes. No complete runtime screenshot reconstruction, audio listening/hardware comparison or script-bytecode correspondence is claimed. Original resource payloads and rendered exports remain ignored local files.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

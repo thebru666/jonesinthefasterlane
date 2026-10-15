@@ -4,7 +4,7 @@ Research date: 2026-10-15. **Script findings** from the published DOS floppy **1
 
 ## Education: the two original starting branches
 
-The university defines 11 qualifications. Trade School and Junior College are available without a completed prerequisite. A completed qualification disappears from the selectable list, and newly eligible successors appear. The following names normalize the script instance names; exact displayed course labels are image resources and still need visual transcription. IDs allow unambiguous cross-reference to jobs.
+The university defines 11 qualifications. Trade School and Junior College are available without a completed prerequisite. A completed qualification disappears from the selectable list, and newly eligible successors appear. The following names normalize the script instance names; the [decoded book-label table](asset-catalogue-notes.md#precise-course-label-transcription-targets) records the actual graphical wording. In particular, qualification 15 (`ba`) is shown as “Bus. Admin.” and 16 as “Academic”. IDs allow unambiguous cross-reference to jobs.
 
 | ID | Course / qualification | Required completed qualification | Direct progression / selected job relevance |
 | --- | --- | --- | --- |
@@ -109,7 +109,7 @@ The security-apartment script adds room props for an owned Color TV, Stereo, VCR
 
 ## What is still unresolved
 
-1. Transcribe course-book image labels and confirm the normalized names above, especially BA versus business-related wording and Academic versus degree-level wording. The dependency graph and IDs are directly present in the script regardless of display spelling.
+1. Course-book label transcription is complete for view 707, loop 2; confirm the final composed university screen in a runtime capture. The dependency graph and IDs are directly present in the published script regardless of display spelling.
 2. Reproduce qualification failure, opening failure, raises, clothing gating, and work-history dismissal, including the early-week rejection-message special case.
 3. Verify Z-Mart's stock persistence through repeated visits, player handover, save/resume, and week rollover.
 4. Audit item effects individually: food storage/spoilage, reliability/breakdowns, ticket/weekend behaviour, discount attributes, and joke-product consequences. A catalogue is not a completed effects audit.

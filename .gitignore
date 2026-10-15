@@ -13,3 +13,7 @@ coverage/
 .env.*
 !.env.example
 .DS_Store
+
+# Python research tooling caches
+__pycache__/
+*.py[cod]

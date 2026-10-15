@@ -1,0 +1,1957 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-15",
+  "game_version": "DOS 1.000.060",
+  "source_revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "source_manifest": "artifacts/original-game/2026-10-15-source-inputs.json",
+  "status": "Script-derived analytical hints, not visual identifications or proof that published scripts match the downloaded game bytes.",
+  "limitations": [
+    "Only explicit numeric instance properties are indexed here. No complete dynamic resource-use analysis is claimed.",
+    "Loop/cel omitted means not explicitly assigned in that property list, not necessarily zero.",
+    "Runtime overrides, inherited defaults and palette changes can alter rendering.",
+    "Names and default properties are script evidence; their final visible contents need decoded-asset inspection.",
+    "Sound entries identify calls/defaults; no claim that audio has been rendered or listened to."
+  ],
+  "resources": [
+    {
+      "resource_type": "font",
+      "resource_id": 0,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select3.sc",
+          "instance": "goalPoints",
+          "class": "DText",
+          "line": 337,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L337"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "font",
+      "resource_id": 4,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "pawnShop.sc",
+          "instance": "pawnSelector",
+          "class": "DSelector",
+          "line": 825,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L825"
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "textOne",
+          "class": "DText",
+          "line": 201,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L201"
+        },
+        {
+          "script": "inventories.sc",
+          "instance": "invSelector",
+          "class": "DSelector",
+          "line": 242,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc#L242"
+        }
+      ],
+      "role_hint": "Small text, inventories and goal details"
+    },
+    {
+      "resource_type": "picture",
+      "resource_id": 11,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "room1.sc",
+          "instance": "room1",
+          "class": "Rm",
+          "line": 1159,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1159"
+        }
+      ],
+      "role_hint": "Town board background"
+    },
+    {
+      "resource_type": "sound",
+      "resource_id": 6,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "Main.sc",
+          "instance": "aSong",
+          "class": "Sound",
+          "line": 1244,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc#L1244"
+        },
+        {
+          "script": "Main.sc",
+          "instance": "aSoundEffect",
+          "class": "Sound",
+          "line": 1277,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc#L1277"
+        }
+      ],
+      "role_hint": "Default shared sound object initialization; runtime playback replaces this ID"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 1,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "introRoom.sc",
+          "instance": "littlepic1",
+          "class": "View",
+          "line": 204,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L204"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename1",
+          "class": "View",
+          "line": 216,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L216"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 2,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "introRoom.sc",
+          "instance": "littlepic2",
+          "class": "View",
+          "line": 228,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L228"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename2",
+          "class": "View",
+          "line": 240,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L240"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 3,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "introRoom.sc",
+          "instance": "littlepic3",
+          "class": "View",
+          "line": 252,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L252"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename3",
+          "class": "View",
+          "line": 264,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L264"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 4,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "introRoom.sc",
+          "instance": "littlepic4",
+          "class": "View",
+          "line": 276,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L276"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename4top",
+          "class": "View",
+          "line": 288,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L288"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename4bot",
+          "class": "View",
+          "line": 300,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L300"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 5,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "introRoom.sc",
+          "instance": "littlepic5",
+          "class": "View",
+          "line": 312,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L312"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename5top",
+          "class": "View",
+          "line": 324,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L324"
+        },
+        {
+          "script": "introRoom.sc",
+          "instance": "littlename5bot",
+          "class": "View",
+          "line": 336,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/introRoom.sc#L336"
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 10,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select1.sc",
+          "instance": "playGame",
+          "class": "ErasableDIcon",
+          "line": 71,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L71",
+          "loop": 1
+        },
+        {
+          "script": "select1.sc",
+          "instance": "restoreGame",
+          "class": "ErasableDIcon",
+          "line": 88,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L88",
+          "loop": 1,
+          "cel": 2
+        },
+        {
+          "script": "select1.sc",
+          "instance": "demonstration",
+          "class": "ErasableDIcon",
+          "line": 107,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc#L107",
+          "loop": 1,
+          "cel": 1
+        },
+        {
+          "script": "select4.sc",
+          "instance": "yesButton",
+          "class": "ErasableDIcon",
+          "line": 254,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L254",
+          "loop": 3
+        },
+        {
+          "script": "select4.sc",
+          "instance": "noButton",
+          "class": "ErasableDIcon",
+          "line": 287,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L287",
+          "loop": 3,
+          "cel": 1
+        },
+        {
+          "script": "select4.sc",
+          "instance": "takeItEasy",
+          "class": "ErasableDIcon",
+          "line": 299,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L299",
+          "loop": 2
+        },
+        {
+          "script": "select4.sc",
+          "instance": "playFair",
+          "class": "ErasableDIcon",
+          "line": 316,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L316",
+          "loop": 2,
+          "cel": 1
+        },
+        {
+          "script": "select4.sc",
+          "instance": "goForBroke",
+          "class": "ErasableDIcon",
+          "line": 334,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L334",
+          "loop": 2,
+          "cel": 2
+        }
+      ],
+      "role_hint": "Game setup choices"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 11,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select4.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 187,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select4.sc#L187"
+        }
+      ],
+      "role_hint": "Challenge-Jones setup dialog background"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 250,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select2.sc",
+          "instance": "firstPlayer",
+          "class": "ErasableDIcon",
+          "line": 112,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L112",
+          "loop": 7
+        },
+        {
+          "script": "select2.sc",
+          "instance": "secondPlayer",
+          "class": "ErasableDIcon",
+          "line": 144,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L144",
+          "loop": 7
+        },
+        {
+          "script": "select2.sc",
+          "instance": "thirdPlayer",
+          "class": "ErasableDIcon",
+          "line": 176,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L176",
+          "loop": 7
+        },
+        {
+          "script": "select2.sc",
+          "instance": "fourthPlayer",
+          "class": "ErasableDIcon",
+          "line": 209,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L209",
+          "loop": 7
+        },
+        {
+          "script": "select3.sc",
+          "instance": "exButton",
+          "class": "ErasableDIcon",
+          "line": 195,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L195",
+          "loop": 8
+        },
+        {
+          "script": "select3.sc",
+          "instance": "questionButton",
+          "class": "ErasableDIcon",
+          "line": 503,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L503",
+          "loop": 9
+        },
+        {
+          "script": "rentOffice.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 768,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L768"
+        },
+        {
+          "script": "rentOffice.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 779,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L779",
+          "loop": 1
+        },
+        {
+          "script": "lowcost.sc",
+          "instance": "relaxButton",
+          "class": "ErasableDIcon",
+          "line": 103,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L103",
+          "loop": 3
+        },
+        {
+          "script": "lowcost.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 134,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L134"
+        },
+        {
+          "script": "security.sc",
+          "instance": "relaxButton",
+          "class": "ErasableDIcon",
+          "line": 112,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L112",
+          "loop": 3
+        },
+        {
+          "script": "security.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 142,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L142"
+        },
+        {
+          "script": "market.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 450,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc#L450"
+        },
+        {
+          "script": "market.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 461,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc#L461",
+          "loop": 1
+        },
+        {
+          "script": "bank.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 634,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L634"
+        },
+        {
+          "script": "bank.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 645,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L645",
+          "loop": 1
+        },
+        {
+          "script": "broker.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 486,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L486"
+        },
+        {
+          "script": "broker.sc",
+          "instance": "buyButton",
+          "class": "ErasableDIcon",
+          "line": 496,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L496",
+          "loop": 4
+        },
+        {
+          "script": "broker.sc",
+          "instance": "sellButton",
+          "class": "ErasableDIcon",
+          "line": 533,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L533",
+          "loop": 5
+        },
+        {
+          "script": "factory.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 146,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factory.sc#L146"
+        },
+        {
+          "script": "factory.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 157,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factory.sc#L157",
+          "loop": 1
+        },
+        {
+          "script": "employment.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 605,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L605"
+        },
+        {
+          "script": "university.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 703,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L703"
+        },
+        {
+          "script": "university.sc",
+          "instance": "enrollButton",
+          "class": "ErasableDIcon",
+          "line": 716,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L716",
+          "loop": 10
+        },
+        {
+          "script": "university.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 798,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L798",
+          "loop": 1
+        },
+        {
+          "script": "appliance.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 570,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L570"
+        },
+        {
+          "script": "appliance.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 581,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L581",
+          "loop": 1
+        },
+        {
+          "script": "clothing.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 309,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc#L309"
+        },
+        {
+          "script": "clothing.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 320,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc#L320",
+          "loop": 1
+        },
+        {
+          "script": "fastFood.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 383,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L383"
+        },
+        {
+          "script": "fastFood.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 394,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L394",
+          "loop": 1
+        },
+        {
+          "script": "discount.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 784,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc#L784"
+        },
+        {
+          "script": "discount.sc",
+          "instance": "workButton",
+          "class": "ErasableDIcon",
+          "line": 795,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc#L795",
+          "loop": 1
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 699,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L699",
+          "loop": 13
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "pawn",
+          "class": "ErasableDIcon",
+          "line": 729,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L729",
+          "loop": 6
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "donePawning",
+          "class": "ErasableDIcon",
+          "line": 834,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L834",
+          "loop": 2
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "doneRedeeming",
+          "class": "ErasableDIcon",
+          "line": 855,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L855",
+          "loop": 2
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "doneBuying",
+          "class": "ErasableDIcon",
+          "line": 876,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L876",
+          "loop": 2
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "doneButton",
+          "class": "ErasableDIcon",
+          "line": 131,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L131",
+          "loop": 2
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "rightArrow",
+          "class": "ErasableDIcon",
+          "line": 141,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L141",
+          "loop": 8
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "exitButton",
+          "class": "ErasableDIcon",
+          "line": 202,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L202"
+        },
+        {
+          "script": "inventories.sc",
+          "instance": "doneButton",
+          "class": "ErasableDIcon",
+          "line": 232,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc#L232",
+          "loop": 2
+        },
+        {
+          "script": "newspaper.sc",
+          "instance": "doneButton",
+          "class": "ErasableDIcon",
+          "line": 168,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L168",
+          "loop": 2
+        },
+        {
+          "script": "diploma.sc",
+          "instance": "doneButton",
+          "class": "ErasableDIcon",
+          "line": 109,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L109",
+          "loop": 2
+        }
+      ],
+      "role_hint": "Shared action controls across location and progress dialogs"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 270,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "room1.sc",
+          "instance": "timeKeep",
+          "class": "View",
+          "line": 1460,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1460"
+        }
+      ],
+      "role_hint": "Main-board remaining-time display"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 351,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "rentOffice.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 831,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L831"
+        }
+      ],
+      "role_hint": "rentOffice clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 353,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "market.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 505,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc#L505"
+        }
+      ],
+      "role_hint": "market clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 354,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "bank.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 626,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L626"
+        }
+      ],
+      "role_hint": "bank clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 355,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "factory.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 196,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factory.sc#L196"
+        }
+      ],
+      "role_hint": "factory clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 356,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "employment.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 616,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L616"
+        }
+      ],
+      "role_hint": "employment clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 357,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "university.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 838,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L838"
+        }
+      ],
+      "role_hint": "university clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 358,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "appliance.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 669,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L669"
+        }
+      ],
+      "role_hint": "appliance clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 359,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "clothing.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 408,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc#L408"
+        }
+      ],
+      "role_hint": "clothing clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 360,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "fastFood.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 438,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L438"
+        }
+      ],
+      "role_hint": "fastFood clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 361,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "discount.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 887,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc#L887"
+        }
+      ],
+      "role_hint": "discount clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 362,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "pawnShop.sc",
+          "instance": "theTalker",
+          "class": "Talker",
+          "line": 711,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L711"
+        }
+      ],
+      "role_hint": "pawnShop clerk Talker graphics"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 499,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select2.sc",
+          "instance": "playerNumber",
+          "class": "DIcon",
+          "line": 95,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L95",
+          "loop": 1
+        },
+        {
+          "script": "select2.sc",
+          "instance": "firstDim",
+          "class": "DIcon",
+          "line": 241,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L241"
+        },
+        {
+          "script": "select2.sc",
+          "instance": "secondDim",
+          "class": "DIcon",
+          "line": 250,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L250",
+          "cel": 1
+        },
+        {
+          "script": "select2.sc",
+          "instance": "thirdDim",
+          "class": "DIcon",
+          "line": 260,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L260",
+          "cel": 2
+        },
+        {
+          "script": "select2.sc",
+          "instance": "fourthDim",
+          "class": "DIcon",
+          "line": 270,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L270",
+          "cel": 3
+        }
+      ],
+      "role_hint": "Character-selection graphics and numbered choices"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 500,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select2.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 88,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select2.sc#L88"
+        }
+      ],
+      "role_hint": "Character-selection background"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 501,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "select3.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 164,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L164",
+          "loop": 1
+        },
+        {
+          "script": "select3.sc",
+          "instance": "windowTitle",
+          "class": "DIcon",
+          "line": 172,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L172"
+        },
+        {
+          "script": "select3.sc",
+          "instance": "currentWealth",
+          "class": "DIcon",
+          "line": 371,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L371",
+          "loop": 3
+        },
+        {
+          "script": "select3.sc",
+          "instance": "currentHappy",
+          "class": "DIcon",
+          "line": 404,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L404",
+          "loop": 3
+        },
+        {
+          "script": "select3.sc",
+          "instance": "currentEducation",
+          "class": "DIcon",
+          "line": 437,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L437",
+          "loop": 3
+        },
+        {
+          "script": "select3.sc",
+          "instance": "currentCareer",
+          "class": "DIcon",
+          "line": 470,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select3.sc#L470",
+          "loop": 3
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 124,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L124",
+          "loop": 4
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "corner1",
+          "class": "DIcon",
+          "line": 160,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L160",
+          "loop": 6
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "corner2",
+          "class": "DIcon",
+          "line": 167,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L167",
+          "loop": 6
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "corner3",
+          "class": "DIcon",
+          "line": 175,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L175",
+          "loop": 6
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "corner4",
+          "class": "DIcon",
+          "line": 183,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L183",
+          "loop": 6
+        },
+        {
+          "script": "goalsDefine.sc",
+          "instance": "theTitle",
+          "class": "DIcon",
+          "line": 192,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L192",
+          "loop": 5
+        }
+      ],
+      "role_hint": "Goal-selection and goal-progress controls/backgrounds"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 505,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "viewGoals.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 195,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L195"
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "playerNumber1",
+          "class": "ErasableDIcon",
+          "line": 212,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L212",
+          "loop": 3
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "playerNumber2",
+          "class": "ErasableDIcon",
+          "line": 234,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L234",
+          "loop": 3,
+          "cel": 1
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "playerNumber3",
+          "class": "ErasableDIcon",
+          "line": 257,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L257",
+          "loop": 3,
+          "cel": 2
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "playerNumber4",
+          "class": "ErasableDIcon",
+          "line": 280,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L280",
+          "loop": 3,
+          "cel": 3
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "therm1",
+          "class": "DIcon",
+          "line": 303,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L303",
+          "loop": 1
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "therm2",
+          "class": "DIcon",
+          "line": 313,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L313",
+          "loop": 1
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "therm3",
+          "class": "DIcon",
+          "line": 323,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L323",
+          "loop": 1
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "therm4",
+          "class": "DIcon",
+          "line": 333,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L333",
+          "loop": 1
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "fineTherm1",
+          "class": "DIcon",
+          "line": 343,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L343",
+          "loop": 2
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "fineTherm2",
+          "class": "DIcon",
+          "line": 353,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L353",
+          "loop": 2
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "fineTherm3",
+          "class": "DIcon",
+          "line": 363,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L363",
+          "loop": 2
+        },
+        {
+          "script": "viewGoals.sc",
+          "instance": "fineTherm4",
+          "class": "DIcon",
+          "line": 373,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/viewGoals.sc#L373",
+          "loop": 2
+        },
+        {
+          "script": "inventories.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 225,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/inventories.sc#L225",
+          "loop": 4
+        }
+      ],
+      "role_hint": "Inventory dialog background"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 603,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "newspaper.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 159,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L159",
+          "loop": 1,
+          "cel": 1
+        },
+        {
+          "script": "newspaper.sc",
+          "instance": "newsPaper",
+          "class": "DCIcon",
+          "line": 180,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/newspaper.sc#L180"
+        }
+      ],
+      "role_hint": "Newspaper background and paper control"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 607,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "diploma.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 101,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L101",
+          "loop": 1
+        },
+        {
+          "script": "diploma.sc",
+          "instance": "theDiploma",
+          "class": "DCIcon",
+          "line": 120,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/diploma.sc#L120"
+        }
+      ],
+      "role_hint": "Graduation/diploma display and animation"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 609,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "winnerScript.sc",
+          "instance": "jonesGuy",
+          "class": "Act",
+          "line": 155,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L155"
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "confetti",
+          "class": "Prop",
+          "line": 183,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L183"
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star1",
+          "class": "Prop",
+          "line": 193,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L193",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star2",
+          "class": "Prop",
+          "line": 208,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L208",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star3",
+          "class": "Prop",
+          "line": 223,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L223",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star4",
+          "class": "Prop",
+          "line": 238,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L238",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star5",
+          "class": "Prop",
+          "line": 253,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L253",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star6",
+          "class": "Prop",
+          "line": 268,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L268",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star7",
+          "class": "Prop",
+          "line": 283,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L283",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star8",
+          "class": "Prop",
+          "line": 298,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L298",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star9",
+          "class": "Prop",
+          "line": 313,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L313",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "star10",
+          "class": "Prop",
+          "line": 328,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L328",
+          "loop": 1
+        },
+        {
+          "script": "winnerScript.sc",
+          "instance": "pedistal",
+          "class": "View",
+          "line": 343,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L343"
+        }
+      ],
+      "role_hint": "Victory celebration: Jones, confetti and stars"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 696,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "broker.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 283,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/broker.sc#L283"
+        }
+      ],
+      "role_hint": "broker dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 700,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "lowcost.sc",
+          "instance": "theChair",
+          "class": "DIcon",
+          "line": 144,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L144",
+          "cel": 1
+        },
+        {
+          "script": "lowcost.sc",
+          "instance": "theSaying",
+          "class": "DIcon",
+          "line": 154,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L154",
+          "cel": 2
+        },
+        {
+          "script": "lowcost.sc",
+          "instance": "theStool",
+          "class": "DIcon",
+          "line": 163,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L163",
+          "cel": 3
+        }
+      ],
+      "role_hint": "lowcost dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 701,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "rentOffice.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 225,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L225",
+          "loop": 1
+        },
+        {
+          "script": "rentOffice.sc",
+          "instance": "theShortTitle",
+          "class": "DIcon",
+          "line": 815,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L815"
+        },
+        {
+          "script": "rentOffice.sc",
+          "instance": "theLongTitleLeft",
+          "class": "DIcon",
+          "line": 823,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L823",
+          "cel": 1
+        }
+      ],
+      "role_hint": "rentOffice dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 702,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "security.sc",
+          "instance": "theColorTV",
+          "class": "DIcon",
+          "line": 152,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L152",
+          "cel": 1
+        },
+        {
+          "script": "security.sc",
+          "instance": "theStereo",
+          "class": "DIcon",
+          "line": 161,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L161",
+          "loop": 1,
+          "cel": 4
+        },
+        {
+          "script": "security.sc",
+          "instance": "theBooks",
+          "class": "DIcon",
+          "line": 171,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L171",
+          "cel": 3
+        },
+        {
+          "script": "security.sc",
+          "instance": "theVCR",
+          "class": "DIcon",
+          "line": 181,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L181",
+          "cel": 2
+        }
+      ],
+      "role_hint": "security dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 703,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "market.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 512,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc#L512",
+          "loop": 1
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 704,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "bank.sc",
+          "instance": "piggyBank",
+          "class": "DCIcon",
+          "line": 688,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L688",
+          "loop": 1
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 705,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "factory.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 139,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/factory.sc#L139"
+        }
+      ],
+      "role_hint": "factory dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 706,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "employment.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 428,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/employment.sc#L428"
+        }
+      ],
+      "role_hint": "employment dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 707,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "university.sc",
+          "instance": "books",
+          "class": "DIcon",
+          "line": 514,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L514",
+          "loop": 1
+        },
+        {
+          "script": "university.sc",
+          "instance": "tradeSchool",
+          "class": "UniversityDIcon",
+          "line": 547,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L547",
+          "loop": 2
+        },
+        {
+          "script": "university.sc",
+          "instance": "electronics",
+          "class": "UniversityDIcon",
+          "line": 584,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L584",
+          "loop": 2,
+          "cel": 1
+        },
+        {
+          "script": "university.sc",
+          "instance": "preEngineering",
+          "class": "UniversityDIcon",
+          "line": 596,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L596",
+          "loop": 2,
+          "cel": 2
+        },
+        {
+          "script": "university.sc",
+          "instance": "engineering",
+          "class": "UniversityDIcon",
+          "line": 608,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L608",
+          "loop": 2,
+          "cel": 3
+        },
+        {
+          "script": "university.sc",
+          "instance": "juniorCollege",
+          "class": "UniversityDIcon",
+          "line": 620,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L620",
+          "loop": 2,
+          "cel": 4
+        },
+        {
+          "script": "university.sc",
+          "instance": "ba",
+          "class": "UniversityDIcon",
+          "line": 631,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L631",
+          "loop": 2,
+          "cel": 5
+        },
+        {
+          "script": "university.sc",
+          "instance": "academic",
+          "class": "UniversityDIcon",
+          "line": 643,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L643",
+          "loop": 2,
+          "cel": 6
+        },
+        {
+          "script": "university.sc",
+          "instance": "graduate",
+          "class": "UniversityDIcon",
+          "line": 655,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L655",
+          "loop": 2,
+          "cel": 7
+        },
+        {
+          "script": "university.sc",
+          "instance": "postDoctoral",
+          "class": "UniversityDIcon",
+          "line": 667,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L667",
+          "loop": 2,
+          "cel": 8
+        },
+        {
+          "script": "university.sc",
+          "instance": "research",
+          "class": "UniversityDIcon",
+          "line": 679,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L679",
+          "loop": 2,
+          "cel": 9
+        },
+        {
+          "script": "university.sc",
+          "instance": "publishing",
+          "class": "UniversityDIcon",
+          "line": 691,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L691",
+          "loop": 2,
+          "cel": 10
+        }
+      ],
+      "role_hint": "University books/course controls: loop 2 course selectors; loop 1 books"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 708,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "appliance.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 609,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L609",
+          "loop": 1
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 1007,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L1007",
+          "loop": 1,
+          "cel": 13
+        }
+      ],
+      "role_hint": "Appliance display/animation components; pawn-shop merchandise cross-reference"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 709,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "clothing.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 348,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc#L348",
+          "loop": 1
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 710,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "fastFood.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 445,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L445",
+          "loop": 1
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 711,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "discount.sc",
+          "instance": "items",
+          "class": "DCIcon",
+          "line": 839,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc#L839",
+          "loop": 1
+        }
+      ],
+      "role_hint": "See script instances; semantic/visual identity requires review"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 712,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "pawnShop.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 549,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L549"
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "pawnButton",
+          "class": "DIcon",
+          "line": 555,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L555",
+          "loop": 1
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "redeemButton",
+          "class": "DIcon",
+          "line": 617,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L617",
+          "loop": 1,
+          "cel": 1
+        },
+        {
+          "script": "pawnShop.sc",
+          "instance": "buyButton",
+          "class": "DIcon",
+          "line": 658,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/pawnShop.sc#L658",
+          "loop": 1,
+          "cel": 2
+        }
+      ],
+      "role_hint": "pawnShop dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 751,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "room1.sc",
+          "instance": "door",
+          "class": "Prop",
+          "line": 66,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L66"
+        }
+      ],
+      "role_hint": "Board door prop"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 803,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "market.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 263,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc#L263"
+        }
+      ],
+      "role_hint": "market dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 804,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "bank.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 196,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L196"
+        }
+      ],
+      "role_hint": "bank dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 807,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "university.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 507,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L507"
+        }
+      ],
+      "role_hint": "university dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 808,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "appliance.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 258,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L258"
+        }
+      ],
+      "role_hint": "appliance dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 809,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "clothing.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 225,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/clothing.sc#L225"
+        }
+      ],
+      "role_hint": "clothing dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 810,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "fastFood.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 251,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L251"
+        }
+      ],
+      "role_hint": "fastFood dialog background / display components"
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 811,
+      "evidence_class": "SCRIPT",
+      "references": [
+        {
+          "script": "discount.sc",
+          "instance": "background",
+          "class": "DIcon",
+          "line": 318,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc#L318"
+        }
+      ],
+      "role_hint": "discount dialog background / display components"
+    }
+  ],
+  "additional_callsite_hints": [
+    {
+      "resource_type": "view",
+      "resource_id": 0,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Shared inherited icon resource; calculator loop 4, number markers loop 3, board marble loop 2",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1283,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1283"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 282,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Initial body-0 walker graphic",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1300,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1300"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 286,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Initial body-1 walker graphic",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1301,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1301"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 292,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Initial body-2 walker graphic",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1302,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1302"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 296,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Initial body-3 walker graphic",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1303,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1303"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 276,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Jones walker graphic",
+      "references": [
+        {
+          "script": "room1.sc",
+          "line": 1307,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1307"
+        }
+      ]
+    },
+    {
+      "resource_type": "sound",
+      "resource_id": 7,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Victory music playback",
+      "references": [
+        {
+          "script": "winnerScript.sc",
+          "line": 65,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/winnerScript.sc#L65"
+        }
+      ]
+    },
+    {
+      "resource_type": "sound",
+      "resource_id": 23,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Work/action clock effect (university example)",
+      "references": [
+        {
+          "script": "university.sc",
+          "line": 810,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L810"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 698,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Security apartment dialog background when current player does not live there",
+      "references": [
+        {
+          "script": "security.sc",
+          "line": 47,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/security.sc#L47"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 699,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Low-cost apartment dialog background when current player does not live there",
+      "references": [
+        {
+          "script": "lowcost.sc",
+          "line": 47,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/lowcost.sc#L47"
+        }
+      ]
+    },
+    {
+      "resource_type": "view",
+      "resource_id": 0,
+      "evidence_class": "SCRIPT",
+      "role_hint": "Body-coloured dialog header drawing, loop 0, cel selected from body index",
+      "references": [
+        {
+          "script": "Main.sc",
+          "line": 1143,
+          "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc#L1143"
+        }
+      ]
+    }
+  ]
+}

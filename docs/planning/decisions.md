@@ -15,6 +15,7 @@ Last updated: 2026-10-15.
 | D007 | Preserve the original visual feel; explore illustrated retro | Owner preference; specific style pending |
 | D008 | Use this repository for planning, discovery evidence, audit, and later code; commit and push completed steps | Explicit owner instruction |
 | D009 | Document the existing game's flow, layout, and content first; iterate from that reference, with suggestions kept in a separate follow-up | Explicit owner instruction after the consistency review |
+| D010 | Keep original assets local and ignored; commit source provenance, reproducible export tools and analytical metadata so the reference can be rebuilt elsewhere | Explicit owner instruction during asset discovery |
 
 ## Proposed technical and design choices
 
