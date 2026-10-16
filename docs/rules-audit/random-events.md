@@ -2,6 +2,8 @@
 
 Pass 3, 2026-10-15. Evidence: **SCRIPT**, external published floppy 1.000.060 decompilation at revision `870a8015b689474484bf3d8b41416956d4315432` ([S02](../discovery/source-register.md)). No outcomes below are runtime-confirmed. Adaptation mappings remain **undecided**. [Inspected source hashes](../../artifacts/rules-audit/2026-10-15-events-source-inputs.json) support reproduction of this analysis, not independent bytecode matching.
 
+A subsequent [direct package trace](bytecode-needs-events.md) confirms selected weekend priority/debit/redraw, lottery resolution, mugging entry/exit and computer-windfall paths. The redraw branch is real, but its ordinary repeated invocation remains unproved; this is not an observed exploit. Other event paths retain their earlier evidence labels.
+
 Probabilities assume inclusive, uniform `Random(a,b)` draws and ordinary non-overflow quantities. Arithmetic divisions below truncate. Cosmetic animation draws also consume randomness; a faithful deterministic replay would need their actual call order, not just outcome percentages. [Weekly processing](weekly-processing.md) records the overall order; economic shocks, illness, apartment theft and repairs retain their existing [economy](economy.md), [food/housing](food-and-housing.md) and [goods](goods-and-finance.md) records.
 
 ## EVENT-001: weekend selection and spending tiers
@@ -41,7 +43,7 @@ Evidence: [weekend.sc, localproc_1](https://github.com/sluicebox/sci-scripts/blo
 
 After selecting an outcome, the dialog retains its text index in `local8`. A subsequent `weekendText.draw` enters a separate first branch: draw a fresh $1–$20 expense and call the **same cash-debit helper** again for that remembered outcome. It does not merely repaint the first result. Tickets are not consumed again and the general pool's happiness award is not repeated in this branch.
 
-This is a bounded script anomaly, not a confirmed user-triggerable exploit or normal repeated charge. Determine which runtime redraw operations actually invoke this element's `draw`, whether restoring a dialog or repainting a covered window does so, and whether the package bytecode matches this published branch before deciding compatibility.
+This is a bounded script anomaly, not a confirmed user-triggerable exploit or normal repeated charge. Determine which runtime redraw operations actually invoke this element's `draw`, whether restoring a dialog or repainting a covered window does so, and how that reachability affects compatibility; the branch itself is now [package-confirmed](bytecode-needs-events.md#ev-b01-weekends-prioritize-tickets-redraw-really-calls-the-debit-helper).
 
 Evidence: [weekend.sc, redraw branch](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/weekend.sc#L244), [debit helper](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/weekend.sc#L111).
 
@@ -124,4 +126,4 @@ Evidence: [startTrn.sc, state 34](https://github.com/sluicebox/sci-scripts/blob/
 - **EVENT-006:** purchase each joke item twice; inspect cash, happiness, durable list and food coverage. Verify failed purchase has no penalty.
 - **EVENT-007/008:** computer award before possible theft; recovery with savings present but zero cash, pawned stock, each uniform and an intervening clothing purchase.
 
-Still outside this bounded event pass: exhaustive flavour-text transcription, random clerk chatter/animation schedules, runtime RNG distribution/seeding, demo/CD comparisons, all shared-state save boundaries, and independent source-to-package bytecode equivalence. Apartment burglary, food illness and repairs remain covered by their existing rule IDs rather than duplicated here.
+Still outside this bounded event pass: exhaustive flavour-text transcription, random clerk chatter/animation schedules, runtime RNG distribution/seeding, demo/CD comparisons, all shared-state save boundaries, and source-to-package correspondence beyond the selected [verified paths](bytecode-needs-events.md). Apartment burglary, food illness and repairs remain covered by their existing rule IDs rather than duplicated here.

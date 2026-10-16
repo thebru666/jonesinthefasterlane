@@ -73,7 +73,7 @@ Use the [town and screen layout](town-and-screen-layout.md), [thirteen-destinati
 6. Process computer ownership income, relaxation decay, apartment theft, food/spoilage/hunger/doctor, consumable decay, rent, clothing, loan warnings, repairs, economic news, cross-player crash consequences and emergency support.
 7. Restore board readiness. Notices/child scripts can suspend this sequence; acknowledge them before resuming at the appropriate stage.
 
-Week1 skips much of steps6, **after** economy, goal checks and the initial lottery path. It does not skip all preparation. See the [state-by-state trace and ranges](../rules-audit/bytecode-weekly-opponent.md#week-b04-pre-turn-state-sequence-and-interruption-contract). Detailed random probabilities and item effects retain the evidence tier of their domain records.
+Week1 skips much of steps6, **after** economy, goal checks and the initial lottery path. It does not skip all preparation. See the [state-by-state trace and ranges](../rules-audit/bytecode-weekly-opponent.md#week-b04-pre-turn-state-sequence-and-interruption-contract). Selected food/illness and event predicates now have a [direct package trace](../rules-audit/bytecode-needs-events.md); other probabilities and item effects retain the evidence tier of their domain records.
 
 ## The ordinary action loops
 
@@ -95,7 +95,7 @@ With one hour left, a normal work shift prorates pay, a lesson still awards one 
 
 For each action, preserve the original order of eligibility, random draws, payment/time, mutations, score refresh and notices. Same-job applications still run qualification randomness before the raise branch ignores its combined result. A failed opening can be remembered for the remainder of the turn. These are simulation effects even if the feedback looks like a simple refusal.
 
-Human confirmations and clerk/notice presentation are distinct from the action mutation. Jones's policy chooses plans and the common controller emits normal work/exit events. Every individual AI action consumer is not yet package-verified; [AI trace and boundaries](../rules-audit/bytecode-weekly-opponent.md#ai-b01-policy-location-controller-and-shared-action-are-separate-layers).
+Human confirmations and clerk/notice presentation are distinct from the action mutation. Jones's policy chooses plans and the common controller emits normal work/exit events. The [all-destination controller inventory](../rules-audit/bytecode-ai-actions.md) confirms selected ordinary dispatch and confirmation shortcuts; full policy/dynamic-path parity remains unproved. [AI trace and boundaries](../rules-audit/bytecode-weekly-opponent.md#ai-b01-policy-location-controller-and-shared-action-are-separate-layers).
 
 ## State a faithful model must preserve
 

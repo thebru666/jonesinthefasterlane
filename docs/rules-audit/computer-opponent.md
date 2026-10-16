@@ -97,6 +97,8 @@ Evidence: [survival priorities](https://github.com/sluicebox/sci-scripts/blob/87
 
 The priority order is significant: having only wealth left suppresses some redemption/books/study, but not every discretionary branch. Having happiness complete suppresses appliance objectives, but does not universally prohibit spending.
 
+The later [all-destination action trace](bytecode-ai-actions.md) inventories the actual controllers and shared dialog route for all thirteen destinations plus broker, including selected computer confirmation shortcuts. Candidate-ranking and other unexamined strategy arithmetic below retain SCRIPT status.
+
 ## AI-005: employment and work execution
 
 At employment, Jones examines candidate jobs in descending **catalogue index**, not a global best-pay sort. Starting limit is all 37 entries; unsuccessful attempts continue lower in the catalogue. Candidate screening requires the listed experience and dependability, an improvement over wage (or a different job within one unit of its wage comparison), required degrees if a previous education rejection is flagged, and a clothing/food affordability buffer. That buffer is repriced nominal food 65 plus clothing 0/125/295 for casual/leisure/business uniforms; it is not the vacancy roll. The wage comparison uses the catalogue wage values, so its ranking should not be described as sorting all live offers. Actual applications still invoke the normal hiring logic, including qualification checks, vacancy randomness and the per-visit rejection list. An unsuccessful degree check sets `notEnoughEd` and influences future study. A raise selects the current workplace/job key.

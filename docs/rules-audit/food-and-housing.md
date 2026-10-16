@@ -2,6 +2,8 @@
 
 Pass 2, 2026-10-15. Evidence: **SCRIPT**, an interpretation of the externally published floppy DOS 1.000.060 decompilation, [S02](../discovery/source-register.md), pinned to `870a8015b689474484bf3d8b41416956d4315432`. Most sections retain that published-source evidence. HOME-003’s garnishment calculation now also has direct website-bytecode verification, linked below. Runtime observations are recorded separately and do not establish every precision scenario here; CD and other editions may differ. Adaptation mapping for every rule is **undecided**.
 
+The subsequent [package needs/event trace](bytecode-needs-events.md) confirms selected food coverage/storage, hunger sentinel, illness predicates/bills/notice time and apartment-theft paths directly. Object-lifetime/restored-state limits remain open; other housing/rent/moving rules retain SCRIPT status unless separately linked.
+
 This fills in [WEEK-004/005](weekly-processing.md) and cross-references [TIME-006](time-and-actions.md#time-006-rent-garnishment-appears-to-overwrite-partial-shift-pay). The order is significant: relaxation decay/theft → food detection → grocery spoilage → fast-food expiry/hunger → illness → consumable decrement → rent notice. Week 1 skips the recurring path. These are turn-start calculations for the active player, not simultaneous round-wide consumption.
 
 ## NEED-001: coverage is an inventory test, not a nutrition meter
@@ -31,7 +33,7 @@ Only grocery ID 1 takes this storage branch:
 - With a refrigerator but no freezer object (durable 22), stock above six is capped at six, with −1 happiness and an excess-stock notice.
 - With both objects, stock above twelve is capped at twelve, with −1 happiness and that notice.
 
-After the later universal decrement, those capped amounts become five and eleven. A freezer alone does not bypass the refrigerator requirement. The storage checks use **object presence**, not the `objectAtIndexQuan` quantity check used elsewhere. A zero-quantity object retained after breakage or another event may therefore still count; this is a script-level edge requiring runtime reproduction, not an approved compatibility decision.
+After the later universal decrement, those capped amounts become five and eleven. A freezer alone does not bypass the refrigerator requirement. The storage checks use **object presence**, not the `objectAtIndexQuan` quantity check used elsewhere. A zero-quantity object can therefore still count. The [package pack/pawn/storage trace](bytecode-needs-events.md#ne-b05-packing-does-not-discard-empty-inventory-records) now establishes a selected retention chain: pack does not generically discard empty records, and an accepted pawn action can leave the indexed record at quantity0. Exact visible scenarios and every removal/expiry route remain unverified; this is not an approved compatibility decision.
 
 Evidence: [startTrn.sc, state 10, line 347](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L347), [appliance.sc, IDs 21/22, line 265](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/appliance.sc#L265), [Goods.sc, lookup methods, line 93](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc#L93).
 

@@ -12,6 +12,8 @@ Goods are grouped by index. Buying the same type increases the existing object's
 
 Evidence: [WButton.sc, CostDItem, lines 162–255](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WButton.sc#L162), [Goods.sc, receive/grouping, lines 46–72](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc#L46).
 
+The [later package inventory trace](bytecode-needs-events.md#ne-b05-packing-does-not-discard-empty-inventory-records) confirms that `pack` does not generically remove quantity0 records. Its attribute-bit replacement logic and the selected pawn decrement/storage chain are now traced directly; broader removal/default paths remain separate.
+
 ## GOODS-002: durable catalogue and purchase-happiness trap
 
 | Index | Item | Appliance base | Discount base | Nominal appliance bonus in item method |

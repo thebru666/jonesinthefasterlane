@@ -12,7 +12,9 @@ All 69 website scripts have been independently decoded; [coverage and limits](by
 
 [Employment](employment.md), [education](education.md), [weekly/opponent](bytecode-weekly-opponent.md) and [location/clock/save](bytecode-flow-and-persistence.md) now directly trace the normal core loop. All37 job records, all11 course records and all13 entry charges are package-checked. Ordinary hiring/raise/study flow no longer depends solely on published-source interpretation. [Connected flow](../original-game/game-flow-and-rule-contract.md) and [readiness](../planning/rules-readiness.md) record what can guide the build and what remains open.
 
-Further work: exact route-clock equivalence, complete score-refresh callers, omitted economy parameter/interpreter, remaining event predicates/high-word arithmetic, all AI action consumers and saved intermediate states. This does not mark their runtime cases passed.
+[All-destination AI dispatch](bytecode-ai-actions.md) and [selected needs/event predicates](bytecode-needs-events.md) have since been package-checked. The weekend redraw debit is confirmed in bytes, while ordinary redraw reachability remains open.
+
+Further work: exact route-clock equivalence, complete score-refresh callers, omitted economy parameter/interpreter, remaining event predicates/high-word arithmetic, remaining AI policy arithmetic/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
 
 ## Runtime progress
 

@@ -33,6 +33,9 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Weekly/opponent verification](rules-audit/bytecode-weekly-opponent-verification.json): methods, resources and bounded branch/call checks.
 - [Flow/persistence verification](rules-audit/bytecode-flow-verification.json): all13 entry calls, clock and lifecycle landmarks, scoring/save boundaries.
 
+- [AI action verification](rules-audit/bytecode-ai-actions-verification.json): all14 destination/broker controller entries, shared dispatch and selected confirmation branches.
+- [Needs/event verification](rules-audit/bytecode-needs-events-verification.json): selected condition/amount/order checks and raw landmarks.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

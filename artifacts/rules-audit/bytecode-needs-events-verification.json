@@ -1,0 +1,130 @@
+{
+  "verified_date": "2026-10-16",
+  "version": "1.000.060",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "evidence": "BYTECODE: selected needs/event conditions, mutation/order and constants; no runtime frequency or reachability experiment",
+  "resources": [
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "ranges": [
+        "0x046d\u20130x0515",
+        "0x0530\u20130x0702",
+        "0x0702\u20130x097c",
+        "0x097c\u20130x0a17",
+        "0x0b64\u20130x0d11",
+        "0x1665\u20130x169c"
+      ],
+      "instruction_records_checked": 964
+    },
+    {
+      "script": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee",
+      "ranges": [
+        "0x0360\u20130x0468",
+        "0x0488\u20130x050a",
+        "0x0722\u20130x08b8"
+      ],
+      "instruction_records_checked": 387
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "ranges": [
+        "0x054e\u20130x05b6"
+      ],
+      "instruction_records_checked": 52
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "ranges": [
+        "0x02f4\u20130x035c"
+      ],
+      "instruction_records_checked": 52
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "ranges": [
+        "0x0034\u20130x003c",
+        "0x0172\u20130x0240"
+      ],
+      "instruction_records_checked": 117
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "ranges": [
+        "0x130b\u20130x13a7"
+      ],
+      "instruction_records_checked": 82
+    }
+  ],
+  "instruction_records_checked": 1654,
+  "independent_raw_constant_and_comparison_landmarks": 10,
+  "findings": [
+    {
+      "id": "NE-B01",
+      "script": 111,
+      "range": "0x0702\u20130x097b",
+      "finding": "Food IDs5..1 sampled before expiry; sole spoiled groceries set\u22121 sentinel avoiding separate hunger charge; doctor gate needs carried cash"
+    },
+    {
+      "id": "NE-B02",
+      "script": 111,
+      "range": "0x1665\u20130x169b",
+      "finding": "Notice register3 charges10 hours; register0 charges20 hours"
+    },
+    {
+      "id": "NE-B03",
+      "script": 111,
+      "range": "0x0595\u20130x06f3",
+      "finding": "Lowcost-apartment theft gate, appliance exclusions and quantity clearing"
+    },
+    {
+      "id": "NE-B04",
+      "script": 111,
+      "range": "0x0b64\u20130x0d10",
+      "finding": "Repair gate cash>500, book exclusions, attributes and inclusive0..35 or0..50 draw"
+    },
+    {
+      "id": "NE-B05",
+      "script": 106,
+      "range": "0x0172\u20130x023f",
+      "finding": "pack tests attribute bit1 and never quantity; zero stock is not generic deletion criterion"
+    },
+    {
+      "id": "EV-B01",
+      "script": 232,
+      "range": "0x0722\u20130x08b7",
+      "finding": "Ticket priority37\u219238\u219239\u2192possessions\u2192general; remembered-outcome redraw calls debit helper again"
+    },
+    {
+      "id": "EV-B02",
+      "script": 111,
+      "range": "0x046d\u20130x0514",
+      "finding": "Lottery one draw0..500; Q>r, ordered Q/20,Q/5 tiers and all tickets consumed"
+    },
+    {
+      "id": "EV-B03",
+      "scripts": [
+        203,
+        204
+      ],
+      "finding": "Fresh entry roll precedes positive-cash gate; dialog exit clears both carried-cash words on pending mug flag"
+    },
+    {
+      "id": "EV-B04",
+      "script": 111,
+      "range": "0x0530\u20130x0586",
+      "finding": "Positive computer quantity, draw0..6==0, cash20..100 and happiness3"
+    }
+  ],
+  "limits": [
+    "Method/range framing consistency is not an independently implemented interpreter.",
+    "Uniform probability calculations assume reference Random semantics; actual DOS RNG distribution unmeasured.",
+    "No universal claim about redraw reachability, zero-quantity object lifetime, restored events or extreme-value arithmetic.",
+    "Remaining rent/moving/pawn/default/crash/emergency/joke paths retain earlier evidence labels unless separately verified."
+  ]
+}

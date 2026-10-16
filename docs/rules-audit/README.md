@@ -56,6 +56,10 @@ These findings do not automatically pass every component of the prescribed runti
 
 Selected-path findings are package-verified. Remaining numerical/random paths, every AI consumer, exact travel timing, extreme balances and restored intermediate states are not silently upgraded. No new runtime tests were performed in this pass.
 
+## Action-controller and needs/event extension (2026-10-16)
+
+[Computer action routing](bytecode-ai-actions.md) now inventories all thirteen destination controllers plus broker and traces ordinary event/control dispatch with selected confirmation shortcuts. [Needs/events](bytecode-needs-events.md) confirms selected food/illness, theft/repair, weekend, lottery, mugging and computer-income conditions. Precise scopes and unverified runtime/object-lifetime edges remain explicit; this does not upgrade every event or AI formula.
+
 ## Evidence labels
 
 - **PACKAGE:** directly inspected package or configuration fact.
@@ -87,7 +91,7 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 | Banking and investments | Interest, loans, repayment, shares, valuation, rounding | Detailed SCRIPT: [FIN-001–005](goods-and-finance.md); transfer/loan/trade/valuation paths; [loan rejection/payment bytes verified](bytecode-finance-findings.md); high-value anomalies and runtime pending |
 | Random events | Triggers, eligibility, probabilities, ordering, recovery | Detailed SCRIPT: [EVENT-001–008](random-events.md), plus shocks/illness/theft/repairs in their domain records; runtime, exhaustive flavour/animation and RNG/edition validation pending |
 | Asset presentation | Resource inventory, decompression, graphics/text/audio coverage | [266 unique resources catalogued](../original-game/asset-catalogue-notes.md); 108 graphics resources rendered, sound events/MIDI exported; [18 screen composites](../original-game/screen-reconstruction.md); full text/animation/role transcription and runtime comparison pending |
-| Computer opponent | Policy, information, difficulty, special treatment | SCRIPT plus selected BYTECODE: [AI-001–009](computer-opponent.md), [work/exit bridge and policy anomalies](bytecode-weekly-opponent.md); all action consumers/runtime/demo-CD remain pending |
+| Computer opponent | Policy, information, difficulty, special treatment | SCRIPT plus selected BYTECODE: [AI-001–009](computer-opponent.md), [work/exit bridge and policy anomalies](bytecode-weekly-opponent.md); [all-destination dispatch inventoried](bytecode-ai-actions.md); exhaustive policy/arithmetic/runtime/demo-CD remain pending |
 | Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); runtime/emulator persistence pending |
 
 ## Method

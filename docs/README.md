@@ -33,6 +33,8 @@
 - [Employment](rules-audit/employment.md): package-verified hiring, raises, work, growth and dismissal.
 - [Education](rules-audit/education.md): package-verified enrollment, course progression, equipment and rewards.
 - [Turn and opponent bytecode trace](rules-audit/bytecode-weekly-opponent.md): rotation, preparation, finish gates and computer execution.
+- [All-destination computer action trace](rules-audit/bytecode-ai-actions.md): event routing and confirmation shortcuts.
+- [Needs/event bytecode trace](rules-audit/bytecode-needs-events.md): food, illness, selected theft/repairs, weekends, lottery, mugging and computer income.
 - [Location, clock, score and persistence trace](rules-audit/bytecode-flow-and-persistence.md).
 - [Time and actions](rules-audit/time-and-actions.md)
 - [Turn and weekly processing](rules-audit/weekly-processing.md)

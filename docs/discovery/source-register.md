@@ -103,6 +103,12 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - A pseudocode snapshot error found during the trace was corrected: variable/property loads now capture instruction-time values rather than referring to variables that can later mutate. Fourteen fixtures include read/mutation/index checks; disassembly and resource hashes are unaffected.
 - No new runtime execution, original save roundtrip or original RNG reproduction was performed. Original code, source payloads and scratch verification helpers remain ignored.
 
+## S14: destination action and needs/event package extension (2026-10-16)
+
+- Same website edition/resources; [AI action trace](../rules-audit/bytecode-ai-actions.md) resolves all thirteen destination controllers plus broker and shared dialog dispatch. [Verification metadata](../../artifacts/rules-audit/bytecode-ai-actions-verification.json) identifies2,811 checked instruction spans, controller entries and selected event writes/confirmation branches.
+- [Needs/event trace](../rules-audit/bytecode-needs-events.md) and [metadata](../../artifacts/rules-audit/bytecode-needs-events-verification.json) identify1,654 selected instruction spans and ten independently read raw constants/comparison senses. The existing1,503-case lottery checker corresponds to the confirmed ordinary-range thresholds.
+- Evidence is BYTECODE for explicitly traced predicates/ordering and analytical probability for inclusive uniform draws, not observed behaviour or reproduction of the DOS RNG. Weekend redraw reachability, object lifetime, every event/default branch and exhaustive human/AI parity remain unproved. Original payloads/listings stay ignored.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

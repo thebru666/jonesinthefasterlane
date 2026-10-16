@@ -1,0 +1,295 @@
+{
+  "verified_date": "2026-10-16",
+  "version": "1.000.060",
+  "evidence": "BYTECODE: controller inventory, event dispatch frames and selected confirmation branches; not exhaustive policy arithmetic or runtime parity",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "controllers": [
+    {
+      "script": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea",
+      "controller_entry": "0x0472",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 54,
+      "message_write_offsets": [
+        "0x04c5"
+      ],
+      "shared_controller_call_offsets": [
+        "0x04d8"
+      ]
+    },
+    {
+      "script": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "controller_entry": "0x1300",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 190,
+      "message_write_offsets": [
+        "0x1344",
+        "0x13af",
+        "0x13f9",
+        "0x1420",
+        "0x1464"
+      ],
+      "shared_controller_call_offsets": [
+        "0x146f"
+      ]
+    },
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca",
+      "controller_entry": "0x0512",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 54,
+      "message_write_offsets": [
+        "0x0565"
+      ],
+      "shared_controller_call_offsets": [
+        "0x0578"
+      ]
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "controller_entry": "0x0daa",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 236,
+      "message_write_offsets": [
+        "0x0dfe",
+        "0x0e1d",
+        "0x0e30",
+        "0x0e6c",
+        "0x0eb7",
+        "0x0ee9",
+        "0x0f60"
+      ],
+      "shared_controller_call_offsets": [
+        "0x0f73"
+      ]
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "controller_entry": "0x1016",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 212,
+      "message_write_offsets": [
+        "0x105f",
+        "0x10b1",
+        "0x10e0",
+        "0x1110",
+        "0x114f",
+        "0x1199",
+        "0x11b3"
+      ],
+      "shared_controller_call_offsets": [
+        "0x11c3"
+      ]
+    },
+    {
+      "script": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969",
+      "controller_entry": "0x0542",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 23,
+      "message_write_offsets": [],
+      "shared_controller_call_offsets": [
+        "0x0568"
+      ]
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "controller_entry": "0x0fda",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 206,
+      "message_write_offsets": [
+        "0x10f3"
+      ],
+      "shared_controller_call_offsets": [
+        "0x1199"
+      ]
+    },
+    {
+      "script": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "controller_entry": "0x144c",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 313,
+      "message_write_offsets": [
+        "0x1603",
+        "0x164c"
+      ],
+      "shared_controller_call_offsets": [
+        "0x16b3"
+      ]
+    },
+    {
+      "script": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "controller_entry": "0x1098",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 320,
+      "message_write_offsets": [
+        "0x10e8",
+        "0x1109",
+        "0x112a",
+        "0x114b",
+        "0x116c",
+        "0x118d",
+        "0x11ae",
+        "0x11f8",
+        "0x1219",
+        "0x123a",
+        "0x125b",
+        "0x127c",
+        "0x129d",
+        "0x12be",
+        "0x12df",
+        "0x1300"
+      ],
+      "shared_controller_call_offsets": [
+        "0x1321"
+      ]
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "controller_entry": "0x09fe",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 136,
+      "message_write_offsets": [],
+      "shared_controller_call_offsets": [
+        "0x0afd"
+      ]
+    },
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "controller_entry": "0x0caa",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 150,
+      "message_write_offsets": [
+        "0x0d76"
+      ],
+      "shared_controller_call_offsets": [
+        "0x0dcf"
+      ]
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "controller_entry": "0x167e",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 251,
+      "message_write_offsets": [
+        "0x16e2",
+        "0x1739",
+        "0x1790",
+        "0x17d7",
+        "0x1804",
+        "0x1857"
+      ],
+      "shared_controller_call_offsets": [
+        "0x1866"
+      ]
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "controller_entry": "0x1a00",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 202,
+      "message_write_offsets": [
+        "0x1a50",
+        "0x1a77",
+        "0x1ae0",
+        "0x1b68"
+      ],
+      "shared_controller_call_offsets": [
+        "0x1a87",
+        "0x1b06",
+        "0x1b7f"
+      ]
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "controller_entry": "0x0f70",
+      "controller_superclass": 68,
+      "controller_instruction_records_checked": 464,
+      "message_write_offsets": [
+        "0x104b",
+        "0x10a6",
+        "0x116e",
+        "0x11c7",
+        "0x11eb",
+        "0x123a",
+        "0x12bd"
+      ],
+      "shared_controller_call_offsets": [
+        "0x130e"
+      ]
+    }
+  ],
+  "additional_resources": [
+    {
+      "script": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc"
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1"
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    }
+  ],
+  "selected_boundaries": [
+    {
+      "script": 255,
+      "range": "0x0e15\u20130x0e4f",
+      "finding": "Create event, invoke attached controller then pass same event into ordinary dialog handler"
+    },
+    {
+      "script": 255,
+      "range": "0x108b\u20130x10eb",
+      "finding": "Dispatch control event and call selected control doit"
+    },
+    {
+      "script": 206,
+      "range": "0x06a0\u20130x06e0",
+      "finding": "JobScript sends selected job key436 then ordinary dialog action executes"
+    },
+    {
+      "script": 207,
+      "range": "0x118a\u20130x1225",
+      "finding": "Jones enrollment skips confirmation, calls same enrollmentFee.doit"
+    },
+    {
+      "script": 204,
+      "range": "0x0a8e\u20130x0b0d",
+      "finding": "Jones autoaccepts loan then normal approval mutation"
+    },
+    {
+      "script": 212,
+      "range": "0x12a8\u20130x12ff",
+      "finding": "Jones bypasses human pawn offer confirmation"
+    },
+    {
+      "script": 201,
+      "range": "0x0bc1\u20130x0bdd",
+      "finding": "Jones clears prepaid lowcost rent without forfeiture question"
+    },
+    {
+      "script": 201,
+      "range": "0x0e15\u20130x0e31",
+      "finding": "Jones clears prepaid security rent without forfeiture question"
+    }
+  ],
+  "limits": [
+    "All thirteen destination controllers plus broker inventoried; selected action dispatch proven, not all plan arithmetic.",
+    "Shared event routing does not imply equal policy information or exhaustive fairness.",
+    "No live DOS run, complete dynamic re-entry or hidden-state privilege scan."
+  ]
+}

@@ -5,9 +5,9 @@ Updated 2026-10-16. The owner's objective is to extract and document original ga
 ## Established planning foundation
 
 - Original setup, thirteen destinations, location/child-screen returns, personal goals, shared-device rotation and supported Jones combination are documented.
-- All69 compiled scripts are decoded locally with reproducible hashes; selected actual paths now confirm employment, all37 job records, education/all11 courses, turn order, goal gates, AI work/exit dispatch, entry costs, clock and save calls.
+- All69 compiled scripts are decoded locally with reproducible hashes; selected actual paths now confirm employment, all37 job records, education/all11 courses, turn order, goal gates, AI all-destination action dispatch, entry costs, clock and save calls.
 - Employment and education join through qualifications, experience, dependability and graduation credits; these cannot be designed as isolated screens.
-- Baseline needs, goods, finance, personal events and economy have detailed published-script audits. Selected anomalies are independently package-confirmed; that does not upgrade every numerical statement to BYTECODE.
+- Baseline needs, goods, finance, personal events and economy have detailed published-script audits. Food/illness and selected theft/repair/weekend/lottery/mugging/computer-income predicates now have direct package checks. Selected anomalies are independently package-confirmed; that does not upgrade every numerical statement to BYTECODE.
 - Existing local art catalogue and partial screen composites support layout/art planning. They do not provide complete runtime composition, font/focus/animation equivalence.
 
 ## Remaining research, ordered by effect on the build
@@ -18,8 +18,8 @@ Updated 2026-10-16. The owner's objective is to extract and document original ga
 | Score freshness | Cash helper uses cached assets; panel refreshes assets separately; start-turn compares stored scores | Every refresh caller and visible lag under ordinary actions | Specify authoritative refresh points before goal/completion tests |
 | Economy | Layered indices, price arithmetic, per-player updates, duplicate condition confirmed | Original missing-parent-argument value; long-run behaviour and some high-word effects | A safe default or condition repair changes compatibility |
 | Randomness | Inclusive scripted draws, application draws on otherwise ignored qualify results, Random calls during winner animation | DOS algorithm/state, full call order and save/replay interaction | Reproducible modern seeds require an explicit new contract; separate visual draws is a proposal |
-| Computer execution | Policy, goal-based difficulty, work/exit bridge, hidden market inputs and two policy anomalies | Every location action consumer/confirmation bypass and rare fallback | Do not claim exhaustive human/AI parity yet |
-| Needs/events/finance | Detailed source formulas and selected package checks | Remaining random predicates, lifetime/default branches and extreme-value arithmetic | Keep bounded evidence; verify a disputed formula from bytes before implementing it as exact |
+| Computer execution | Policy, goal-based difficulty, all-destination dispatch inventory, selected confirmation bypasses, hidden market inputs and two policy anomalies | Remaining policy arithmetic, dynamic action consumers and rare fallback | Do not claim exhaustive human/AI parity yet |
+| Needs/events/finance | Detailed source formulas plus selected needs/event/payment package checks | Remaining random predicates, lifetime/default branches and extreme-value arithmetic | Keep bounded evidence; verify a disputed formula from bytes before implementing it as exact |
 | Completion/removal | Two pre-turn gates, placement allocation, inactive/removal distinction | Every resumed/deleted/restored intermediate state | Decide supported save points and continuation behaviour |
 | Saving | Fixed slot1/version calls, menu flags | DOS save format and browser persistence | Future local saves should follow the agreed modern state model |
 | Presentation | Screen inventory, decoded art and partial composites | Full text/focus/animation/sound and exact clerk returns | Needed for visual fidelity, separate from core simulation correctness |
