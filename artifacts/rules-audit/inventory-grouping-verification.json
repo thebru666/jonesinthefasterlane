@@ -1,0 +1,298 @@
+{
+  "research_date": "2026-10-16",
+  "evidence": "BYTECODE: selected ranges; DOS-STATIC: selected Clone copy confirmation; not runtime execution",
+  "version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "published_comparison": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc",
+  "resources": [
+    {
+      "script": 106,
+      "bytes": 990,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d"
+    },
+    {
+      "script": 104,
+      "bytes": 2100,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    },
+    {
+      "script": 211,
+      "bytes": 7126,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d"
+    },
+    {
+      "script": 111,
+      "bytes": 6840,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b"
+    },
+    {
+      "script": 999,
+      "bytes": 2332,
+      "sha256": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e"
+    },
+    {
+      "script": 1,
+      "bytes": 10672,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    }
+  ],
+  "ranges": [
+    {
+      "script": 106,
+      "start": "0x00dd",
+      "end_exclusive": "0x0121",
+      "purpose": "receipt",
+      "sha256": "91cc4a7008f548e49809d03cb8bf9c0c2a1224d20b32384ad59f891af65eb41b",
+      "decoded_instruction_payload_comparisons": 36
+    },
+    {
+      "script": 106,
+      "start": "0x0121",
+      "end_exclusive": "0x0172",
+      "purpose": "mutating index match",
+      "sha256": "7fae857090d0545150c5f538dfd242bdf9c86fd1cb5a6127f0973ea1a876e01a",
+      "decoded_instruction_payload_comparisons": 45
+    },
+    {
+      "script": 106,
+      "start": "0x0172",
+      "end_exclusive": "0x0240",
+      "purpose": "pack",
+      "sha256": "e54a7159f5b9ed91b6ce31b14094a14768cb2d33ff68038f5d7b6b356a9b9b5d",
+      "decoded_instruction_payload_comparisons": 113
+    },
+    {
+      "script": 106,
+      "start": "0x0240",
+      "end_exclusive": "0x0272",
+      "purpose": "object lookup",
+      "sha256": "4afd7c317c7479cfb5a40173d92eeb9e7ff04b06693499b7c0f62efc94caaf5d",
+      "decoded_instruction_payload_comparisons": 27
+    },
+    {
+      "script": 106,
+      "start": "0x0272",
+      "end_exclusive": "0x0289",
+      "purpose": "quantity wrapper",
+      "sha256": "2254070e1a4e66d08f83158970b9ea0b2ce77608af5f877844b3430f787acd34",
+      "decoded_instruction_payload_comparisons": 12
+    },
+    {
+      "script": 106,
+      "start": "0x02ce",
+      "end_exclusive": "0x02d6",
+      "purpose": "consumable factory",
+      "sha256": "6d992146ca26d9651901de09f2c64caf7c77522c93ea8c1dadb5c7d0fbab6f76",
+      "decoded_instruction_payload_comparisons": 5
+    },
+    {
+      "script": 106,
+      "start": "0x0306",
+      "end_exclusive": "0x030e",
+      "purpose": "durable factory",
+      "sha256": "8c3d2ab660fe7eb7bb775081b7c544588b74e2d1686f2e698f68204186855927",
+      "decoded_instruction_payload_comparisons": 5
+    },
+    {
+      "script": 106,
+      "start": "0x033e",
+      "end_exclusive": "0x0346",
+      "purpose": "education factory",
+      "sha256": "06c4c69f99a4c80b1b35b612e42d27793545611ffb5d405bb6e00d5a33e8067f",
+      "decoded_instruction_payload_comparisons": 5
+    },
+    {
+      "script": 104,
+      "start": "0x03ad",
+      "end_exclusive": "0x051e",
+      "purpose": "shared purchase and protected stored price",
+      "sha256": "40a7abab9b68af2a4a2ba1a75824c04d72f188448118902b6bef96713795a9c5",
+      "decoded_instruction_payload_comparisons": 178
+    },
+    {
+      "script": 211,
+      "start": "0x02f2",
+      "end_exclusive": "0x0323",
+      "purpose": "discount group flag",
+      "sha256": "3b6bc5e340b995f1b67a8ebe041d45655f4f600782d4ec7649e0eacace9ceeb1",
+      "decoded_instruction_payload_comparisons": 23
+    },
+    {
+      "script": 111,
+      "start": "0x0ba8",
+      "end_exclusive": "0x0d08",
+      "purpose": "selected repair candidate loop",
+      "sha256": "2941596435f17083b6464a920aee14a0eaf15546ddeeeef8012b9cf85ac23812",
+      "decoded_instruction_payload_comparisons": 185
+    },
+    {
+      "script": 999,
+      "start": "0x007f",
+      "end_exclusive": "0x0085",
+      "purpose": "object clone boundary",
+      "sha256": "f660837c4c8c15f073df55cd91e32ad5bb0eaa1907b8756fc2ce38a88445df09",
+      "decoded_instruction_payload_comparisons": 4
+    },
+    {
+      "script": 999,
+      "start": "0x0088",
+      "end_exclusive": "0x008e",
+      "purpose": "dispose boundary",
+      "sha256": "9c00e3131664d7c1a72eb3f9232a42951d1e9e7f39562a41c2f6f90dda4d2723",
+      "decoded_instruction_payload_comparisons": 4
+    },
+    {
+      "script": 999,
+      "start": "0x01ab",
+      "end_exclusive": "0x01df",
+      "purpose": "collection append",
+      "sha256": "198aec4a8c70e07782941fcc4e5d1826f7682836878741a19d58b2556a6f6f9a",
+      "decoded_instruction_payload_comparisons": 27
+    },
+    {
+      "script": 999,
+      "start": "0x02ec",
+      "end_exclusive": "0x0316",
+      "purpose": "collection release",
+      "sha256": "2de23da795d8caab5aa8aec88d4c2980ddd680f15e2720b91aab21ce162de1ad",
+      "decoded_instruction_payload_comparisons": 22
+    },
+    {
+      "script": 1,
+      "start": "0x061d",
+      "end_exclusive": "0x0649",
+      "purpose": "location return packs three lists",
+      "sha256": "3ea2d643400208205e54b5771e5162a013c4974532b2a5d3cd3c9025d4f14c54",
+      "decoded_instruction_payload_comparisons": 21
+    }
+  ],
+  "class_defaults": [
+    {
+      "class": "Goods",
+      "defaults": {
+        "quantity": 1,
+        "attributes": 1,
+        "pricePaid": 0,
+        "indexNum": 0
+      }
+    },
+    {
+      "class": "Consumable",
+      "defaults": {
+        "quantity": 1,
+        "attributes": 129,
+        "pricePaid": 0,
+        "indexNum": 0
+      }
+    },
+    {
+      "class": "Durable",
+      "defaults": {
+        "quantity": 1,
+        "attributes": 69,
+        "pricePaid": 0,
+        "indexNum": 0,
+        "redemptionPrice": 0
+      }
+    },
+    {
+      "class": "Educational",
+      "defaults": {
+        "quantity": 1,
+        "attributes": 1,
+        "pricePaid": 0,
+        "indexNum": 0
+      }
+    }
+  ],
+  "selector_spellings": {
+    "352": "recieve",
+    "353": "quantity",
+    "356": "attributes",
+    "369": "objectAtIndex",
+    "370": "objectAtIndexQuan"
+  },
+  "selected_anchors": [
+    {
+      "script": 106,
+      "offset": "0x00df-0x00f7",
+      "finding": "Receipt defaults units to 1 if argc < 2, then calls mutating hasType."
+    },
+    {
+      "script": 106,
+      "offset": "0x0138-0x0169",
+      "finding": "The first matching index gets quantity += units and returns; quantity and flags do not filter this match."
+    },
+    {
+      "script": 106,
+      "offset": "0x0115-0x011c",
+      "finding": "An absent entry uses the list factory, sets index/quantity, appends and returns the object."
+    },
+    {
+      "script": 104,
+      "offset": "0x0489-0x049c",
+      "finding": "A successful shared purchase overwrites pricePaid with current price only when attributes & 0x38 is zero."
+    },
+    {
+      "script": 211,
+      "offset": "0x02f7-0x031e",
+      "finding": "The discount wrapper calls shared purchase, requires the returned object and success, then ORs 0x100 onto the group."
+    },
+    {
+      "script": 106,
+      "offset": "0x0193-0x01c4",
+      "finding": "Pack clones records with bit 1 set, clears bit 1 in the clone and adds it to the temporary list."
+    },
+    {
+      "script": 106,
+      "offset": "0x01e5-0x0202",
+      "finding": "Pack deletes and disposes bit 1 originals in reverse order."
+    },
+    {
+      "script": 106,
+      "offset": "0x0209-0x023f",
+      "finding": "Pack appends cloned replacements, then releases the temporary list."
+    },
+    {
+      "script": 106,
+      "offset": "0x0240-0x0288",
+      "finding": "Object lookup has no quantity filter; quantity wrapper returns current quantity, or 0 when missing."
+    },
+    {
+      "script": 111,
+      "offset": "0x0c33-0x0cdf",
+      "finding": "Repair tests record flags, then quantity only when 0x38 is set; draw bounds are 0..35 or 0..50, and bill bounds use grouped pricePaid."
+    }
+  ],
+  "checks": {
+    "all_resource_hashes_match_local_decoded_manifest": true,
+    "selected_decoded_instruction_bytes_match_payload": true,
+    "instruction_payload_comparisons": 712,
+    "pack_has_no_quantity_selector_hint": true,
+    "note": "Instruction byte comparison validates selected decoder output against the payload. Semantic trace is manual; no VM execution or whole-source equivalence is claimed."
+  },
+  "consequences": [
+    "Receipt groups by first matching index, not purchase price or quality.",
+    "An existing quantity-zero record is reused and its flags are preserved.",
+    "Ordinary purchase pricePaid becomes the latest transaction price unless protected by 0x38.",
+    "Pack does not remove empty records or coalesce duplicates.",
+    "Quantity lookup cannot distinguish a missing record from a zero-quantity record.",
+    "Repair candidacy and price are group state, not independent unit history."
+  ],
+  "limits": [
+    "No fresh audit of script 212 pawn transfer or broker.",
+    "A grouping invariant is not guaranteed under arbitrary direct list additions or corrupted saves.",
+    "No runtime callback or restoration test.",
+    "Mask bits do not prove all reachable lifecycle states.",
+    "No application implementation or adaptation choice."
+  ],
+  "native_clone_confirmation": {
+    "unpack_metadata": "artifacts/original-game/dos-interpreter-unpack.json",
+    "image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+    "kernel4_wrapper": "0x0720c calls 0b46:02da / 0x0b73a at 0x07218.",
+    "copy_span": "0x0b73a-0x0b790",
+    "sha256": "6bc9050a1c9aadefd62ff664bd12bbba38e9a1b9c12d4e191c1756d1f1d43faa",
+    "finding": "For a normal valid object, allocate property size plus header and copy words at 0xb766 before changing object metadata bits. Item quantity, attributes and pricePaid are preserved by Clone before pack clears item attribute bit 1.",
+    "evidence": "Selected native static trace; no DOS execution."
+  }
+}

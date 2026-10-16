@@ -16,6 +16,10 @@ All 69 website scripts have been independently decoded; [coverage and limits](by
 
 Follow-up checks now cover [conditional travel timing](travel-timing.md), [bounded score writer/caller inventory](score-refresh.md), [finance lifecycles](finance-lifecycle.md) and the [native DOS random generator/scaling](dos-randomness.md). The [native update ordering](dos-travel-ordering.md), [ordinary bank continuation](bank-refresh-continuation.md), [native save regions/RNG exclusion](dos-save-state.md) and [stereo fallback](dos-stereo-fallback.md) now have selected static traces. Further work: interrupted travel, visible bank/message/Statistics corroboration, complete RNG initialization/call order/post-restore interaction, remaining event/high-word arithmetic, remaining AI policy/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
 
+## Inventory and trading extension
+
+[Grouping/packing](inventory-grouping.md), [pawn used stock](pawn-used-stock.md) and [investment transactions](investment-transactions.md) now verify selected ordinary transaction rules against actual package resources. The nine [money boundary fixtures](money-word-boundaries.md) identify concrete cash/pair/formatter differences, with native signed/unsigned arithmetic support. Remaining work is full high-word valuation and observed edge behavior, not merely locating those constants or the used-stock ownership branches.
+
 ## Runtime progress
 
 | Area | Actual progress | Still pending |

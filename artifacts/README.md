@@ -48,6 +48,11 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Native save regions](rules-audit/dos-save-state-verification.json): fixed/heap serialization, matching restore destinations and PRNG seed exclusion.
 - [Native stereo fallback](rules-audit/dos-stereo-fallback-verification.json): relocated kernel pointers, control type4 path and shared cell lookup range hashes.
 
+- [Inventory grouping verification](rules-audit/inventory-grouping-verification.json): six payload hashes, selected receipt/pack/purchase/repair spans and normal native Clone confirmation.
+- [Pawn used-stock verification](rules-audit/pawn-used-stock-verification.json): capacity, list-time quality writes and ownership/duplicate branches.
+- [Investment transaction verification](rules-audit/investment-transactions-verification.json): six owned/icon records, market price setters, fee and broker-entry lifecycle.
+- [Money boundary fixtures](rules-audit/money-word-boundaries.json): selected helper/native hashes and nine analytical outputs; original helper transcription is ignored.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

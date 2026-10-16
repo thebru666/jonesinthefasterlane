@@ -128,6 +128,13 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - [Bank continuation](../rules-audit/bank-refresh-continuation.md) checks3,018 selected instruction spans across five package scripts, extending the prior score inventory through modal housekeeping, Print/BubbleWindow callbacks and Statistics/Goals return. Its normal stale-cache path is BYTECODE analysis; visible score lag remains unobserved.
 - Subagents supplied static traces; the parent checked the files and key paths after agent usage-limit errors interrupted final reporting. No original code/assets were committed and no new-game implementation was started.
 
+## S18: inventory grouping, used stock, investments and money boundaries (2026-10-16)
+
+- Same hash-pinned website package and S12 decoder. [Inventory grouping](../rules-audit/inventory-grouping.md) verifies712 selected instruction spans across six resources and selected original native Clone behavior. [Used stock](../rules-audit/pawn-used-stock.md) traces ten selected ranges in scripts212/106, with group capacity, list-time flags and ownership/duplicate resolution.
+- [Investment transactions](../rules-audit/investment-transactions.md) identifies all six persistent owned records and separate broker icons, five price setters, selected action/fee/entry branches and fresh bank-local guard defaults. This is package analysis, not a complete loader/refcount or restored-state proof.
+- [Money boundaries](../rules-audit/money-word-boundaries.md) identifies the actual32767/32768/32766 constants and signed/unsigned paths in scripts0/115, with selected native arithmetic handlers. Nine finite analytical fixtures were independently checked against the bytecode. The artifact records inputs/results and552 instruction spans; translated helper code stays ignored locally. No universal monetary radix, complete overflow model or observed display outcome is inferred.
+- Each note links its input/range metadata and limitations. No application code or original payloads accompany this extension.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

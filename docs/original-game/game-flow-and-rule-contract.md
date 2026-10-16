@@ -107,7 +107,7 @@ These are analytical groups of original state, not an agreed TypeScript schema:
 | Per-player economy | Carried cash versus savings, loan principal/schedule/late counts, rent contract versus arrears/extensions, investments versus durable goods value |
 | Career | Employer, occupation, wage/base wage, experience, dependability, declared minimum, growth ceiling, education credits, clothes and rejection memory |
 | Education | Paid enrollment count, per-course quantity, completed qualifications, equipment-credit snapshot and stored education goal score |
-| Inventory | Indexed quantities, protection/discount/repair attributes, paid price, per-turn assortment and consumable duration |
+| Inventory | Indexed grouped quantities, persistent empty records, group-wide quality/pawn fields, one stored paid price, per-turn assortment and consumable duration |
 | Progress | Four independent targets/scores, refresh timing, capped overview percentage versus finish gate |
 | Flow | Board motion and residual clock, active location/child screen, pending action/notice continuation, ready flags and controller plan |
 | Randomness | Rule draws, failed-attempt draws and presentation draws; source/version/state needed for reproducible interpretation |
@@ -117,6 +117,8 @@ Do not merge net worth into Wealth progress or treat every score as immediately 
 The [finance lifecycle trace](../rules-audit/finance-lifecycle.md) establishes that pawn aging includes the transaction's end turn, and loan lateness checks payment in the due week even with prepaid schedule credit. Preserve the separate flags and ordered mutations.
 
 The [native economy frame trace](../rules-audit/economy-frame-semantics.md) establishes the main omitted argument as the preceding initialization target draw. The [original DOS random generator](../rules-audit/dos-randomness.md) and scaling are identified statically; exact random frequencies, complete call order and saved state remain separate. Neither a zero parent default nor a uniform modern RNG is an established original rule.
+
+The [grouped inventory contract](../rules-audit/inventory-grouping.md) retains empty records and shared historical fields. [Used-stock transfers](../rules-audit/pawn-used-stock.md) can change source quality during browsing and merge a purchase into an existing buyer group without copying its price/flags. [Money boundaries](../rules-audit/money-word-boundaries.md) show why one assumed high-word radix is not an exact original numeric contract.
 
 The original writes fixed DOS slot1 with a version argument, and [native serialization excludes the PRNG seed](../rules-audit/dos-save-state.md); the browser's persistence remains unverified. A future versioned local save should capture the new simulation/continuation contract; adopting it does not require reproducing DOS serialization. [Persistence boundary](../rules-audit/bytecode-flow-and-persistence.md#save-001-fixed-slot-kernel-boundary).
 

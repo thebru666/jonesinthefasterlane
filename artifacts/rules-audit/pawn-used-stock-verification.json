@@ -1,0 +1,175 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE: selected package control-flow interpretation; no gameplay",
+  "bundle_version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "bundle_retrieved_date": "2026-10-15",
+  "provenance": "artifacts/discovery/2026-10-15-bundle-inventory.json",
+  "offset_convention": "zero-based decompressed SCI script payload, headers included, end-exclusive ranges",
+  "consistency_check": "Both complete resource hashes and every decoded instruction byte span matched raw decompressed payloads; not independent decoding or execution",
+  "resources": [
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "size": 8430,
+      "ranges": [
+        {
+          "start": "0x216",
+          "end_exclusive": "0x286",
+          "purpose": "any_player_forfeited_stock_gate",
+          "sha256": "0695a3b889356bc6766a793a30032b11721fa90b31c90cb0545bf2c1f9e2ba2d",
+          "instruction_count": 62
+        },
+        {
+          "start": "0x2c8",
+          "end_exclusive": "0x37b",
+          "purpose": "pawn_menu_eligibility",
+          "sha256": "2d28c8538312d55a59d0143179fb9212c2fa1f80760fddb350b49d3fc2da938a",
+          "instruction_count": 90
+        },
+        {
+          "start": "0x37b",
+          "end_exclusive": "0x42e",
+          "purpose": "selected_pawn_eligibility",
+          "sha256": "0d09a2aac5c92e7b3224cedd6ee77d3b6ac6cf5462c845f4422dc4fac55087f2",
+          "instruction_count": 93
+        },
+        {
+          "start": "0x42e",
+          "end_exclusive": "0x4ba",
+          "purpose": "shared_capacity_count",
+          "sha256": "f722fbc40cff5dc4dde8bedae408d3caf913f05b2fd77ca9b7e282c9da0771be",
+          "instruction_count": 77
+        },
+        {
+          "start": "0x88e",
+          "end_exclusive": "0xac2",
+          "purpose": "used_list_and_discount_mutation",
+          "sha256": "29146160354597d1eee5c0ac1e9dfcdcb524c65593315d92ccce87d11e9ff97f",
+          "instruction_count": 308
+        },
+        {
+          "start": "0xac2",
+          "end_exclusive": "0xb42",
+          "purpose": "used_list_cleanup",
+          "sha256": "1255b4badc498bf8f4e2cc865a88eee42191203567d8032842f69ebb4efbf2ba",
+          "instruction_count": 65
+        },
+        {
+          "start": "0x1044",
+          "end_exclusive": "0x10ba",
+          "purpose": "buy_mode_entry",
+          "sha256": "508e30e419c4de1eecf8f43a704b489b0d2d887a95751abe4442b49a7914c888",
+          "instruction_count": 53
+        },
+        {
+          "start": "0x11f2",
+          "end_exclusive": "0x1238",
+          "purpose": "capacity_enforcement",
+          "sha256": "6cb4555b8cabbffe5b91b2f7e123479ff4baf018b27580d9c3cc2feea6b0cb39",
+          "instruction_count": 31
+        },
+        {
+          "start": "0x1687",
+          "end_exclusive": "0x1886",
+          "purpose": "charge_redemption_used_transfer",
+          "sha256": "f2c63946b0558eef466ffcffbb578e73e3b7fc7fd976d1ad26b640be2089e988",
+          "instruction_count": 262
+        }
+      ]
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "size": 990,
+      "ranges": [
+        {
+          "start": "0x121",
+          "end_exclusive": "0x172",
+          "purpose": "hasType_mutates_matching_quantity",
+          "sha256": "7fae857090d0545150c5f538dfd242bdf9c86fd1cb5a6127f0973ea1a876e01a",
+          "instruction_count": 45
+        }
+      ]
+    }
+  ],
+  "selectors": {
+    "quantity": [
+      353
+    ],
+    "attributes": [
+      356
+    ],
+    "redemptionPrice": [
+      366
+    ],
+    "hasType": [
+      367
+    ],
+    "contains": [
+      114
+    ]
+  },
+  "findings": [
+    {
+      "id": "PAWN-B01",
+      "claim": "Shared capacity counts durable records with attributes&0x38 across all players; pawn action refuses at>=6."
+    },
+    {
+      "id": "PAWN-B02",
+      "claim": "Menu includes clear-flag records without positive-quantity check, or flagged records with quantity>1; selected flagged record always refused."
+    },
+    {
+      "id": "PAWN-B03",
+      "claim": "Building used Buy list scans all players for bit0x20, sets fixed redemptionPrice controls, and ORs0x100 into each source record immediately."
+    },
+    {
+      "id": "PAWN-B04",
+      "claim": "Successful used purchase clears source0x38, removes empty source group, then calls buyer.hasType(index,1); existing group is incremented without copying source price/attributes."
+    },
+    {
+      "id": "PAWN-B05",
+      "claim": "Without buyer same-type group, zero source is moved as quantity1; nonzero source remains and a quantity1 clone is added."
+    }
+  ],
+  "analytical_scenarios": [
+    {
+      "donor_is_buyer": false,
+      "donor_quantity": 0,
+      "buyer_has_same_type": false,
+      "result": "Remove empty donor record; set its quantity1; add same record to buyer."
+    },
+    {
+      "donor_is_buyer": false,
+      "donor_quantity": 0,
+      "buyer_has_same_type": true,
+      "result": "Remove empty donor record; increment existing buyer group by1; no price/quality field copy into buyer group."
+    },
+    {
+      "donor_is_buyer": false,
+      "donor_quantity": 2,
+      "buyer_has_same_type": false,
+      "result": "Donor retains quantity2 with cleared pawn bits and discount flag; add quantity1 clone to buyer."
+    },
+    {
+      "donor_is_buyer": false,
+      "donor_quantity": 2,
+      "buyer_has_same_type": true,
+      "result": "Donor retains quantity2 with cleared pawn bits and discount flag; existing buyer group increments by1; buyer fields retained."
+    },
+    {
+      "donor_is_buyer": true,
+      "donor_quantity": 2,
+      "buyer_has_same_type": true,
+      "result": "Same record matches hasType and becomes quantity3; no clone. Pawn bits cleared; discount flag retained."
+    }
+  ],
+  "limits": [
+    "Normal lists contain one owning player per durable record; alias/corrupt/restored lists not exhaustively traced.",
+    "UI callbacks may run before inventory mutation; end-to-end display/score refresh and callback reentry remain untested.",
+    "No fixed shared-stock container exists in these selected handlers; this does not prove all stock paths game-wide.",
+    "Zero-quantity eligibility permits arithmetic decrement to-1 in selected code, but a complete user-reachable reproduction has not been run.",
+    "No sale revenue to donor appears in the selected used purchase handler; this is scoped to these calls, not all possible callbacks."
+  ]
+}

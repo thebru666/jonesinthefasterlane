@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-16",
+  "evidence": "BYTECODE + selected DOS-STATIC arithmetic support + ANALYTICAL fixtures; not original execution",
+  "version": "DOS1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "methods": [
+        {
+          "name": "export_10",
+          "start": "0x466",
+          "end_exclusive": "0x545",
+          "instruction_count": 109,
+          "slice_sha256": "7504e489eec3c292e05727aafd2dcdad38d84e1f5a05ce8909d196a8c5f85936"
+        },
+        {
+          "name": "export_11",
+          "start": "0x545",
+          "end_exclusive": "0x582",
+          "instruction_count": 28,
+          "slice_sha256": "8f4bbd1fdffff2a81a7a6662e0e0e8acfd521283fba415f49d539afba61eaf9f"
+        },
+        {
+          "name": "export_12",
+          "start": "0x582",
+          "end_exclusive": "0x5ea",
+          "instruction_count": 46,
+          "slice_sha256": "e4f54c79da4eb725a02eac805af56a79c87e351f0fdc40879e0d94c08b205bb1"
+        }
+      ]
+    },
+    {
+      "script": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf",
+      "methods": [
+        {
+          "name": "procedure_000e",
+          "start": "0xe",
+          "end_exclusive": "0x2b",
+          "instruction_count": 18,
+          "slice_sha256": "5ff116222d383acc40f53b108cac749ff73a083db6921a5c43fbef7b5fc39a91"
+        },
+        {
+          "name": "export_0",
+          "start": "0x2b",
+          "end_exclusive": "0x12f",
+          "instruction_count": 128,
+          "slice_sha256": "f8961610ac4bee870695e7b742218a3e7c637df4d95093219e0889873548d122"
+        },
+        {
+          "name": "export_1",
+          "start": "0x12f",
+          "end_exclusive": "0x178",
+          "instruction_count": 34,
+          "slice_sha256": "6fa0afbf341e15e9dd8e78ebbba04a547a3a310b01fd36962f422cf0fc84d0b0"
+        }
+      ]
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "methods": [
+        {
+          "name": "calc.doit",
+          "start": "0x23c6",
+          "end_exclusive": "0x2465",
+          "instruction_count": 77,
+          "slice_sha256": "6fd042bbcf0bb4f73c15e163bce89571e6aea44498b0a8f6a542a70bf8e9df77"
+        },
+        {
+          "name": "Player.calcLiquidAssets",
+          "start": "0x1012",
+          "end_exclusive": "0x10d3",
+          "instruction_count": 101,
+          "slice_sha256": "5fa155b23f645f5cfdbeee5c14239f0b984be292415cb289065fd08777dfc043"
+        },
+        {
+          "name": "Player.addLiquid",
+          "start": "0x10d3",
+          "end_exclusive": "0x10eb",
+          "instruction_count": 11,
+          "slice_sha256": "d9e51859582c40566365d87624e843e8bb305c82a6ed4e217d165eb67d3767ce"
+        }
+      ]
+    }
+  ],
+  "native_image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+  "native_arithmetic_handlers": [
+    {
+      "encoded_opcode": "0x2",
+      "handler": "0x68e",
+      "start": "0x68e",
+      "end_exclusive": "0x6a4",
+      "sha256": "6ed5aea805ff1bc3afd3931fda23b17b7171d11f447a14c1b2257ff8d43b5608"
+    },
+    {
+      "encoded_opcode": "0x4",
+      "handler": "0x6a4",
+      "start": "0x6a4",
+      "end_exclusive": "0x6bd",
+      "sha256": "631886a9390b12cc6b596057f15fd8a238be8198356dce9f2b2ec12a0d9933c2"
+    },
+    {
+      "encoded_opcode": "0x22",
+      "handler": "0x88a",
+      "start": "0x88a",
+      "end_exclusive": "0x8a8",
+      "sha256": "107bfd77d7301e7c360f11950f189a67eb854307c04dc6a74ab519e508a1af83"
+    },
+    {
+      "encoded_opcode": "0x28",
+      "handler": "0x8f9",
+      "start": "0x8f9",
+      "end_exclusive": "0x917",
+      "sha256": "6743124a3035e677ba1ac749593f5b2fde6bc6b44ab6c90f45b48befd246ba2c"
+    },
+    {
+      "role": "shared_comparison_true_tail",
+      "start": "0x8c6",
+      "end_exclusive": "0x8db",
+      "sha256": "c7ed1587f1371c57a1386c14ede5b02fdbb313ab367466bbcb2a2986aafd67c3"
+    }
+  ],
+  "constant_anchors": {
+    "cash_carry_and_borrow": "0:0x04ab,0x04b6,0x04d6 =32767",
+    "paired_add_threshold": "0:0x05c7 =32767, unsigned compare0x05ca",
+    "paired_add_adjustment": "0:0x05b5 and0x05d6 =-32768",
+    "formatter_multiplier": "115:0x0058 =32766",
+    "formatter_negative_low_gate": "115:0x0035-0x0038",
+    "cash_panel_formatter_call": "1:0x2419 passes cashHi then cash"
+  },
+  "fixtures": [
+    {
+      "kind": "cash_change",
+      "input_pair": [
+        0,
+        32765
+      ],
+      "change": 1,
+      "output_pair": [
+        0,
+        32766
+      ],
+      "formatter_prediction": "32766",
+      "spendable_cash_proxy": 32766
+    },
+    {
+      "kind": "cash_change",
+      "input_pair": [
+        0,
+        32766
+      ],
+      "change": 1,
+      "output_pair": [
+        1,
+        0
+      ],
+      "formatter_prediction": "32766",
+      "spendable_cash_proxy": 32767
+    },
+    {
+      "kind": "cash_change",
+      "input_pair": [
+        0,
+        32766
+      ],
+      "change": 100,
+      "output_pair": [
+        1,
+        99
+      ],
+      "formatter_prediction": "32865",
+      "spendable_cash_proxy": 32767
+    },
+    {
+      "kind": "cash_change",
+      "input_pair": [
+        1,
+        0
+      ],
+      "change": -1,
+      "output_pair": [
+        0,
+        32766
+      ],
+      "formatter_prediction": "32766",
+      "spendable_cash_proxy": 32766
+    },
+    {
+      "kind": "cash_change",
+      "input_pair": [
+        0,
+        0
+      ],
+      "change": -1,
+      "output_pair": [
+        0,
+        -1
+      ],
+      "formatter_prediction": "-1",
+      "spendable_cash_proxy": 0
+    },
+    {
+      "kind": "paired_add",
+      "input_pairs": [
+        [
+          0,
+          32766
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "output_pair": [
+        1,
+        -1
+      ],
+      "formatter_if_called_with_pair": "-1"
+    },
+    {
+      "kind": "paired_add",
+      "input_pairs": [
+        [
+          0,
+          32766
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "output_pair": [
+        1,
+        0
+      ],
+      "formatter_if_called_with_pair": "32766"
+    },
+    {
+      "kind": "paired_add",
+      "input_pairs": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "output_pair": [
+        0,
+        32767
+      ],
+      "formatter_if_called_with_pair": "32767"
+    },
+    {
+      "kind": "paired_add",
+      "input_pairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "output_pair": [
+        0,
+        -1
+      ],
+      "formatter_if_called_with_pair": "-1"
+    }
+  ],
+  "fixture_count": 9,
+  "limits": [
+    "local mathematical transcription, not SCI execution",
+    "formatter examples only high0..2 and bounded digit arithmetic",
+    "no common radix assumed across helpers",
+    "no universal value-conservation assertion or reachable-game-state proof for every pair",
+    "no full signed-overflow/highword/formatting audit",
+    "original helper transcription remains ignored work/money-boundaries/"
+  ]
+}

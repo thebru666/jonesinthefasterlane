@@ -1,0 +1,725 @@
+{
+  "schema": 1,
+  "verified_date": "2026-10-16",
+  "edition": "website DOS 1.000.060",
+  "evidence": "BYTECODE selected ordinary transaction paths; symbolic low-word fixtures; no runtime",
+  "bundle": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "retrieved": "2026-10-15",
+    "sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180"
+  },
+  "comparison_source_revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "all_decoded_instruction_spans_match_raw": true
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "all_decoded_instruction_spans_match_raw": true
+    }
+  ],
+  "instrument_records": [
+    {
+      "key": 0,
+      "name": "tBills",
+      "broker_object_offset": "0x05ca",
+      "broker_literal_properties": {
+        "key": {
+          "value": 0,
+          "resource_offset": "0x05de"
+        },
+        "price": {
+          "value": 100,
+          "resource_offset": "0x0602"
+        },
+        "basePrice": {
+          "value": 0,
+          "resource_offset": "0x0604"
+        },
+        "fixedPrice": {
+          "value": 1,
+          "resource_offset": "0x0606"
+        }
+      },
+      "owned_base": 100,
+      "owned_index": 65,
+      "Player_init_send": "1:0x0b34"
+    },
+    {
+      "key": 1,
+      "name": "gold",
+      "broker_object_offset": "0x06ce",
+      "broker_literal_properties": {
+        "key": {
+          "value": 1,
+          "resource_offset": "0x06e2"
+        },
+        "price": {
+          "value": 0,
+          "resource_offset": "0x0706"
+        },
+        "basePrice": {
+          "value": 413,
+          "resource_offset": "0x0708"
+        },
+        "fixedPrice": {
+          "value": 0,
+          "resource_offset": "0x070a"
+        }
+      },
+      "owned_base": 413,
+      "owned_index": 66,
+      "Player_init_send": "1:0x0b50",
+      "price_initialization": {
+        "market_global": 310,
+        "helper_call_pc": "0x06ba",
+        "price_write_pc": "0x06be",
+        "range": {
+          "script": 213,
+          "start": "0x06b4",
+          "end_exclusive": "0x06c1",
+          "label": "gold.init",
+          "sha256": "770cd3d3df053f55099f00bc58ce45ad7cd22ca939b2f09424bd44b2d519af73"
+        }
+      }
+    },
+    {
+      "key": 2,
+      "name": "silver",
+      "broker_object_offset": "0x07d6",
+      "broker_literal_properties": {
+        "key": {
+          "value": 2,
+          "resource_offset": "0x07ea"
+        },
+        "price": {
+          "value": 0,
+          "resource_offset": "0x080e"
+        },
+        "basePrice": {
+          "value": 14,
+          "resource_offset": "0x0810"
+        },
+        "fixedPrice": {
+          "value": 0,
+          "resource_offset": "0x0812"
+        }
+      },
+      "owned_base": 14,
+      "owned_index": 67,
+      "Player_init_send": "1:0x0b6b",
+      "price_initialization": {
+        "market_global": 311,
+        "helper_call_pc": "0x07c2",
+        "price_write_pc": "0x07c6",
+        "range": {
+          "script": 213,
+          "start": "0x07bc",
+          "end_exclusive": "0x07c9",
+          "label": "silver.init",
+          "sha256": "8e5d7f7ce18f65f83e93c00a7b446753c102b60bb39502fa391080e081658eeb"
+        }
+      }
+    },
+    {
+      "key": 3,
+      "name": "porkBellies",
+      "broker_object_offset": "0x08de",
+      "broker_literal_properties": {
+        "key": {
+          "value": 3,
+          "resource_offset": "0x08f2"
+        },
+        "price": {
+          "value": 0,
+          "resource_offset": "0x0916"
+        },
+        "basePrice": {
+          "value": 20,
+          "resource_offset": "0x0918"
+        },
+        "fixedPrice": {
+          "value": 0,
+          "resource_offset": "0x091a"
+        }
+      },
+      "owned_base": 20,
+      "owned_index": 68,
+      "Player_init_send": "1:0x0b86",
+      "price_initialization": {
+        "market_global": 312,
+        "helper_call_pc": "0x08ca",
+        "price_write_pc": "0x08ce",
+        "range": {
+          "script": 213,
+          "start": "0x08c4",
+          "end_exclusive": "0x08d1",
+          "label": "porkBellies.init",
+          "sha256": "7bf5161e5ed14176ffe15f2f473e6dc2adf5953d87d18565f5ca0157708ae48c"
+        }
+      }
+    },
+    {
+      "key": 4,
+      "name": "blueChipStocks",
+      "broker_object_offset": "0x09e6",
+      "broker_literal_properties": {
+        "key": {
+          "value": 4,
+          "resource_offset": "0x09fa"
+        },
+        "price": {
+          "value": 0,
+          "resource_offset": "0x0a1e"
+        },
+        "basePrice": {
+          "value": 49,
+          "resource_offset": "0x0a20"
+        },
+        "fixedPrice": {
+          "value": 0,
+          "resource_offset": "0x0a22"
+        }
+      },
+      "owned_base": 49,
+      "owned_index": 69,
+      "Player_init_send": "1:0x0ba1",
+      "price_initialization": {
+        "market_global": 313,
+        "helper_call_pc": "0x09d2",
+        "price_write_pc": "0x09d6",
+        "range": {
+          "script": 213,
+          "start": "0x09cc",
+          "end_exclusive": "0x09d9",
+          "label": "blueChipStocks.init",
+          "sha256": "2b9fea54f73daca6e95b895ef1f3aa30d82522e6350b03d040e71cb87b3c63a9"
+        }
+      }
+    },
+    {
+      "key": 5,
+      "name": "pennyStocks",
+      "broker_object_offset": "0x0af0",
+      "broker_literal_properties": {
+        "key": {
+          "value": 5,
+          "resource_offset": "0x0b04"
+        },
+        "price": {
+          "value": 0,
+          "resource_offset": "0x0b28"
+        },
+        "basePrice": {
+          "value": 7,
+          "resource_offset": "0x0b2a"
+        },
+        "fixedPrice": {
+          "value": 0,
+          "resource_offset": "0x0b2c"
+        }
+      },
+      "owned_base": 7,
+      "owned_index": 70,
+      "Player_init_send": "1:0x0bbc",
+      "price_initialization": {
+        "market_global": 314,
+        "helper_call_pc": "0x0adc",
+        "price_write_pc": "0x0ae0",
+        "range": {
+          "script": 213,
+          "start": "0x0ad6",
+          "end_exclusive": "0x0ae3",
+          "label": "pennyStocks.init",
+          "sha256": "4f867e11be194c4c26648ce1af457f03dec5c16e7c509a60eb53afc167677616"
+        }
+      }
+    }
+  ],
+  "owned_I_default_shares": 0,
+  "reviewed_ranges": [
+    {
+      "script": 1,
+      "start": "0x0a8c",
+      "end_exclusive": "0x0a9b",
+      "label": "I.init",
+      "sha256": "84e3b566bb5093021a299ba60bfa644483ac9975c78d28afa00bec43629ef3e8"
+    },
+    {
+      "script": 1,
+      "start": "0x0ad0",
+      "end_exclusive": "0x0bf4",
+      "label": "Player.init",
+      "sha256": "440ce93a84a2d669892befca674e7c337bbe6e9787011efd0c4bc0266d8d425e"
+    },
+    {
+      "script": 109,
+      "start": "0x000c",
+      "end_exclusive": "0x0086",
+      "label": "export_0",
+      "sha256": "febedead0048d32be4e3ca0c6c13d4cecf3f47527b9356750cf338e0c31c70f4"
+    },
+    {
+      "script": 204,
+      "start": "0x0c88",
+      "end_exclusive": "0x0d33",
+      "label": "seeBroker.doit",
+      "sha256": "f7bbc6988df501b518c02d20a0f411fbed9630b44c98acffe539ba5f067bad6d"
+    },
+    {
+      "script": 204,
+      "start": "0x0136",
+      "end_exclusive": "0x03d8",
+      "label": "bank.init",
+      "sha256": "9a2335a3fc9fc67dcf8eb7a61c628dd868a3a8279dbd1ec188ada3a35dbf6fb8"
+    },
+    {
+      "script": 213,
+      "start": "0x0052",
+      "end_exclusive": "0x021e",
+      "label": "broker.init",
+      "sha256": "03f3e927b12b6f273aa7bc53d6e1f86c9a143e78dfa76e52173265539f33ccd9"
+    },
+    {
+      "script": 213,
+      "start": "0x027e",
+      "end_exclusive": "0x042c",
+      "label": "broker.draw",
+      "sha256": "afe4b742113bae5934f3f42d049ceef4a3f8b138fb5a07c3c0bf3f6c9d290871"
+    },
+    {
+      "script": 213,
+      "start": "0x0c40",
+      "end_exclusive": "0x0ce2",
+      "label": "buyButton.doit",
+      "sha256": "717688935a626231584611ef729e36b43f8c39e0394488104640558d5b5b250e"
+    },
+    {
+      "script": 213,
+      "start": "0x0d5e",
+      "end_exclusive": "0x0e1a",
+      "label": "sellButton.doit",
+      "sha256": "d71c0a11661955c16020b8a469b7182b7ef3bb1a96f9888f1f36dc94e8306371"
+    },
+    {
+      "script": 213,
+      "start": "0x0e7c",
+      "end_exclusive": "0x0ee2",
+      "label": "procedure_0e7c",
+      "sha256": "b83a6ed30b50cb9b20df37dd55cb423c96b5c3df83d01ffa735f72b9c71711d2"
+    },
+    {
+      "script": 213,
+      "start": "0x05be",
+      "end_exclusive": "0x0608",
+      "label": "tBills literal record",
+      "sha256": "18d5785fa06579622fbdaf73843d9850ef8561fe7eb9c05a2c068183a3b8aad2"
+    },
+    {
+      "script": 213,
+      "start": "0x06c2",
+      "end_exclusive": "0x070c",
+      "label": "gold literal record",
+      "sha256": "d8a09c722063775e5915790b32f1e08264635f77e78663a4b09fb789f9e31373"
+    },
+    {
+      "script": 213,
+      "start": "0x07ca",
+      "end_exclusive": "0x0814",
+      "label": "silver literal record",
+      "sha256": "1a90783778aaffc1e87d726baa92cb457405d2b97363c31b17a6a706391ab126"
+    },
+    {
+      "script": 213,
+      "start": "0x08d2",
+      "end_exclusive": "0x091c",
+      "label": "porkBellies literal record",
+      "sha256": "306d7987da02624f6b5c4239098c86e91e32e1bf9a351ddefa16210cce55846e"
+    },
+    {
+      "script": 213,
+      "start": "0x09da",
+      "end_exclusive": "0x0a24",
+      "label": "blueChipStocks literal record",
+      "sha256": "5f9c8851acaae1f52fbc8dda696669963adb7bed3696506bba2e0dd3923a065f"
+    },
+    {
+      "script": 213,
+      "start": "0x0ae4",
+      "end_exclusive": "0x0b2e",
+      "label": "pennyStocks literal record",
+      "sha256": "ed3a83e532004437e3c5f5bcb76adbefda043318da4526e1f275ad2ee481fc8f"
+    }
+  ],
+  "raw_instruction_anchors": [
+    {
+      "script": 213,
+      "pc": "0x0c86",
+      "operation": "ldi",
+      "arguments": [
+        1
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0c88",
+      "operation": "add",
+      "arguments": []
+    },
+    {
+      "script": 213,
+      "pc": "0x0d9b",
+      "operation": "ldi",
+      "arguments": [
+        1
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0d9d",
+      "operation": "sub",
+      "arguments": []
+    },
+    {
+      "script": 213,
+      "pc": "0x0de8",
+      "operation": "pushi",
+      "arguments": [
+        -3
+      ]
+    },
+    {
+      "script": 111,
+      "pc": "0x0032",
+      "operation": "ldi",
+      "arguments": [
+        1
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0c76",
+      "operation": "bnt",
+      "arguments": [
+        84
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0c8c",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0c9b",
+      "operation": "callb",
+      "arguments": [
+        10,
+        2
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0cba",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0cdd",
+      "operation": "send",
+      "arguments": [
+        4
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0d8b",
+      "operation": "bnt",
+      "arguments": [
+        119
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0da1",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0dae",
+      "operation": "callb",
+      "arguments": [
+        10,
+        2
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0dcd",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0de4",
+      "operation": "bnt",
+      "arguments": [
+        40
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0dea",
+      "operation": "callb",
+      "arguments": [
+        10,
+        2
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0df5",
+      "operation": "sag",
+      "arguments": [
+        537
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x0e15",
+      "operation": "send",
+      "arguments": [
+        4
+      ]
+    },
+    {
+      "script": 111,
+      "pc": "0x0034",
+      "operation": "sag",
+      "arguments": [
+        537
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cba",
+      "operation": "bnt",
+      "arguments": [
+        70
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cca",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cce",
+      "operation": "sal",
+      "arguments": [
+        0
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cee",
+      "operation": "callk",
+      "arguments": [
+        2,
+        4
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cf1",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x0cfb",
+      "operation": "send",
+      "arguments": [
+        4
+      ]
+    },
+    {
+      "script": 204,
+      "pc": "0x03d4",
+      "operation": "callk",
+      "arguments": [
+        3,
+        2
+      ]
+    },
+    {
+      "script": 213,
+      "pc": "0x021a",
+      "operation": "callk",
+      "arguments": [
+        3,
+        2
+      ]
+    }
+  ],
+  "script204_guard": {
+    "initial_local_values": [
+      0,
+      0,
+      0
+    ],
+    "only_local0_write": "0x0cce = 1",
+    "broker_disposal": "213:0x021a DisposeScript213",
+    "bank_disposal": "204:0x03d4 DisposeScript204",
+    "fresh_load_consequence": "New script204 locals begin at resource defaults; retained/re-entered state is separate."
+  },
+  "symbolic_price_checks": [
+    {
+      "reading": 70,
+      "prices": [
+        100,
+        206,
+        7,
+        10,
+        24,
+        3
+      ]
+    },
+    {
+      "reading": 100,
+      "prices": [
+        100,
+        413,
+        14,
+        20,
+        49,
+        7
+      ]
+    },
+    {
+      "reading": 130,
+      "prices": [
+        100,
+        619,
+        21,
+        30,
+        73,
+        10
+      ]
+    }
+  ],
+  "symbolic_entry_checks": [
+    {
+      "initial_spent": 57,
+      "initial_bank_guard": 0,
+      "first_open_accepted": true,
+      "requested_charge": 2,
+      "spent_after_first": 59,
+      "bank_guard_after_first": 1,
+      "second_open_accepted": true,
+      "second_requested_charge": 0
+    },
+    {
+      "initial_spent": 58,
+      "initial_bank_guard": 0,
+      "first_open_accepted": true,
+      "requested_charge": 2,
+      "spent_after_first": 60,
+      "bank_guard_after_first": 1,
+      "second_open_accepted": false,
+      "second_requested_charge": 0
+    },
+    {
+      "initial_spent": 59,
+      "initial_bank_guard": 0,
+      "first_open_accepted": true,
+      "requested_charge": 2,
+      "spent_after_first": 60,
+      "bank_guard_after_first": 1,
+      "second_open_accepted": false,
+      "second_requested_charge": 0
+    },
+    {
+      "initial_spent": 60,
+      "initial_bank_guard": 0,
+      "first_open_accepted": false,
+      "requested_charge": 0,
+      "spent_after_first": 60,
+      "bank_guard_after_first": 0,
+      "second_open_accepted": false,
+      "second_requested_charge": 0
+    }
+  ],
+  "symbolic_fee_checks": [
+    {
+      "successful_Tbill_sales": 1,
+      "gross_cash": 100,
+      "fee_cash": 3,
+      "net_cash": 97
+    },
+    {
+      "successful_Tbill_sales": 2,
+      "gross_cash": 200,
+      "fee_cash": 6,
+      "net_cash": 194,
+      "notice_if_initial_flag1": 1
+    }
+  ],
+  "limits": [
+    "Raw spans, objects and setter order verified; no complete interpreter or original runtime execution.",
+    "Price fixtures use positive values without intermediate overflow, not arbitrary precision replacements for SCI paired-money behavior.",
+    "Sell checks nonzero shares; negative/wrapped holdings outside ordinary cases.",
+    "Fresh-load guard reset follows zero local data and explicit disposal boundary; native loader/reference retention, restored global518 and exceptional reentry not fully audited.",
+    "Ordinary broker callbacks and no movement/handover are scoped to the opened modal transaction path; no exhaustive AI strategy parity."
+  ]
+}
