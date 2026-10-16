@@ -1,0 +1,411 @@
+{
+  "research_date": "2026-10-16",
+  "evidence": "BYTECODE: selected class defaults, fresh setup and allocation paths; not runtime execution",
+  "version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "comparison_source": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc",
+  "resources": [
+    {
+      "script": 1,
+      "bytes": 10672,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "script": 106,
+      "bytes": 990,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d"
+    },
+    {
+      "script": 111,
+      "bytes": 6840,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b"
+    },
+    {
+      "script": 233,
+      "bytes": 734,
+      "sha256": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0"
+    },
+    {
+      "script": 235,
+      "bytes": 2066,
+      "sha256": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e"
+    },
+    {
+      "script": 236,
+      "bytes": 3802,
+      "sha256": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13"
+    },
+    {
+      "script": 237,
+      "bytes": 2586,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062"
+    },
+    {
+      "script": 239,
+      "bytes": 904,
+      "sha256": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2"
+    }
+  ],
+  "property_blocks": [
+    {
+      "object": "I",
+      "start": "0xa9c",
+      "end_exclusive": "0xacc",
+      "sha256": "f84270bb71b59b2a6e0215e1477bcd1534e861e5908e83f47b25d23da05a990e"
+    },
+    {
+      "object": "Player",
+      "start": "0x120a",
+      "end_exclusive": "0x138a",
+      "sha256": "8480eeb9c1c842f8ba61b5700ed93d69a5ca8f973461cab7f7637e7550d1decc"
+    },
+    {
+      "object": "player1",
+      "start": "0x158c",
+      "end_exclusive": "0x1638",
+      "sha256": "e3e15be51811d6210b1b793952882057b944690d773cf3b03aeede23cabee83a"
+    },
+    {
+      "object": "player2",
+      "start": "0x1638",
+      "end_exclusive": "0x16e4",
+      "sha256": "377691eee0bcbe36983ed0d4ffabbedcaca584e851c3088ef1bd19f1f420031c"
+    },
+    {
+      "object": "player3",
+      "start": "0x16e4",
+      "end_exclusive": "0x1790",
+      "sha256": "f4b265a8e2a513ab81e39101500f22e385d63e39e4889758804279217f93200d"
+    },
+    {
+      "object": "player4",
+      "start": "0x1790",
+      "end_exclusive": "0x183c",
+      "sha256": "2ecc7bfc83a820a6be5352f9b272b0c62e90e49501b9dcf8ec92ece8dcb02c4e"
+    }
+  ],
+  "selected_ranges": [
+    {
+      "script": 1,
+      "start": "0xad0",
+      "end_exclusive": "0xbf4",
+      "purpose": "Player.init guarded by playing",
+      "sha256": "440ce93a84a2d669892befca674e7c337bbe6e9787011efd0c4bc0266d8d425e",
+      "instruction_payload_matches": 158
+    },
+    {
+      "script": 1,
+      "start": "0x138e",
+      "end_exclusive": "0x1427",
+      "purpose": "players.init participant pruning and allocation",
+      "sha256": "41fc9e28308304f252d0c8110ec6d1b8b764b140f5d737478d5f72d76f04372a",
+      "instruction_payload_matches": 80
+    },
+    {
+      "script": 1,
+      "start": "0x1f88",
+      "end_exclusive": "0x1f8b",
+      "purpose": "room setup invokes players.init",
+      "sha256": "0277b810a2fcf2a4d57228ec7587377deb3c94525ebaf1cceab39138b5b950f5",
+      "instruction_payload_matches": 2
+    },
+    {
+      "script": 1,
+      "start": "0xd6b",
+      "end_exclusive": "0xd9b",
+      "purpose": "Player.startTurn enters preparation",
+      "sha256": "a21965c006da5967136cc1f207e03d72de2cb689244c12a0bb4efce478c49f67",
+      "instruction_payload_matches": 25
+    },
+    {
+      "script": 1,
+      "start": "0x18f0",
+      "end_exclusive": "0x190d",
+      "purpose": "later handover reset and immediate clock call",
+      "sha256": "3298db09219874fdb59008239240589d32b9bbbc9d24928160975c57832934c3",
+      "instruction_payload_matches": 13
+    },
+    {
+      "script": 233,
+      "start": "0x228",
+      "end_exclusive": "0x23a",
+      "purpose": "demo playing mode assignment",
+      "sha256": "e2d3c028550f9ff75ca4d1be43a48996c1e8fdb35e8545bf71c96ebeb50533f3",
+      "instruction_payload_matches": 11
+    },
+    {
+      "script": 235,
+      "start": "0x266",
+      "end_exclusive": "0x30d",
+      "purpose": "body0 choice",
+      "sha256": "9f78d580c95f2183b9793be30fde4ad1ef4abdb1f974b2942a10408c25ca263e",
+      "instruction_payload_matches": 86
+    },
+    {
+      "script": 235,
+      "start": "0x35e",
+      "end_exclusive": "0x405",
+      "purpose": "body1 choice",
+      "sha256": "abbef8c9b1a687a96a2ee6367480613f028d490bc0d2f67e7e12d0a8d505bddc",
+      "instruction_payload_matches": 86
+    },
+    {
+      "script": 235,
+      "start": "0x456",
+      "end_exclusive": "0x502",
+      "purpose": "body2 choice",
+      "sha256": "e2e34fbc1b3e9d3493fe381a0154a2a995db374ecd5ff14e5fdfea5297eef9c9",
+      "instruction_payload_matches": 88
+    },
+    {
+      "script": 235,
+      "start": "0x552",
+      "end_exclusive": "0x5fa",
+      "purpose": "body3 choice",
+      "sha256": "107da8f280133f23471a78a8431e85fef7afc4c555ecd30b150ec6dfcea63f1f",
+      "instruction_payload_matches": 86
+    },
+    {
+      "script": 236,
+      "start": "0x28",
+      "end_exclusive": "0x3a8",
+      "purpose": "goal initialization and inherited values",
+      "sha256": "8f0624a0104b68c2fbf32c5befca02064e4016459fc484733fc8c0a324635961",
+      "instruction_payload_matches": 454
+    },
+    {
+      "script": 236,
+      "start": "0x770",
+      "end_exclusive": "0x790",
+      "purpose": "wealth target setter",
+      "sha256": "ea81596ed0e3d1d767b9cf9b6c446f5f6c10547b4d0984eafbf8f9a28d8bb1de",
+      "instruction_payload_matches": 17
+    },
+    {
+      "script": 236,
+      "start": "0x7e2",
+      "end_exclusive": "0x802",
+      "purpose": "happiness target setter",
+      "sha256": "f1b41fce401aef055bf84ef16688418d2ad43bae4e79212bf1048a699057cf05",
+      "instruction_payload_matches": 17
+    },
+    {
+      "script": 236,
+      "start": "0x854",
+      "end_exclusive": "0x874",
+      "purpose": "education target setter",
+      "sha256": "cdf1b06df43c8c550de4b61464b6564c1a6bbc975b72f3fde29cade7ec38fabf",
+      "instruction_payload_matches": 17
+    },
+    {
+      "script": 236,
+      "start": "0x8c6",
+      "end_exclusive": "0x8e6",
+      "purpose": "career target setter",
+      "sha256": "16d4f1c78d917300318d1862ace9beeaf2f905a247fa9b373eafdc64fbb47006",
+      "instruction_payload_matches": 17
+    },
+    {
+      "script": 237,
+      "start": "0xc",
+      "end_exclusive": "0x3bc",
+      "purpose": "Jones goal allocation",
+      "sha256": "c8963273b08a21c14b2051a06b4ab12bd1002b39432ce781ce0e093eb80564dc",
+      "instruction_payload_matches": 520
+    },
+    {
+      "script": 237,
+      "start": "0x6a0",
+      "end_exclusive": "0x773",
+      "purpose": "Jones acceptance mode",
+      "sha256": "50ca16f1334aa9984fcf26e3dc16f605bbfc5625a208bcc09e493847ea9e9214",
+      "instruction_payload_matches": 110
+    },
+    {
+      "script": 237,
+      "start": "0x80c",
+      "end_exclusive": "0x820",
+      "purpose": "easy offset10",
+      "sha256": "e997ffecbdc3c7d1013f405d2a7701f5a227ba38caa7e2f446f4d8b8e2a6a9a6",
+      "instruction_payload_matches": 10
+    },
+    {
+      "script": 237,
+      "start": "0x870",
+      "end_exclusive": "0x883",
+      "purpose": "fair offset0",
+      "sha256": "b1bc6a6ba8c7f8ec3dc464c5678c7494fb3c861666338580c0dff3090c9bdcfc",
+      "instruction_payload_matches": 10
+    },
+    {
+      "script": 237,
+      "start": "0x8d4",
+      "end_exclusive": "0x8e8",
+      "purpose": "hard offsetminus10",
+      "sha256": "d8e932e1256b3841f1f1e340771570ee7f4f7ddda5cd12f38941bd79fcfc32c6",
+      "instruction_payload_matches": 10
+    },
+    {
+      "script": 239,
+      "start": "0xc",
+      "end_exclusive": "0x35",
+      "purpose": "enable selected human participants",
+      "sha256": "f0e6cb8bd581039f95b8b41fba54e6dec2e0dd3a5541e101d2cbd97a1d028679",
+      "instruction_payload_matches": 22
+    },
+    {
+      "script": 111,
+      "start": "0x333",
+      "end_exclusive": "0x3e4",
+      "purpose": "study-credit reset and asset refresh",
+      "sha256": "7f216b7ee768deafb650684c898173b3ff7b0e83fb47b37c8fff105b5ab5e17a",
+      "instruction_payload_matches": 86
+    },
+    {
+      "script": 111,
+      "start": "0x515",
+      "end_exclusive": "0x530",
+      "purpose": "week1 skip of recurring states",
+      "sha256": "6945e79e50d05c7e9fbe4179f744c782a38da35189d614849580bc0bd2fbbd7d",
+      "instruction_payload_matches": 13
+    },
+    {
+      "script": 236,
+      "start": "0x564",
+      "end_exclusive": "0x61b",
+      "purpose": "Mouse target range and step calculation",
+      "sha256": "b87fe53ac43a71ec7e13b6edaf0634c71ae042247a97b731de726802c78734ad",
+      "instruction_payload_matches": 100
+    },
+    {
+      "script": 236,
+      "start": "0x62a",
+      "end_exclusive": "0x6d3",
+      "purpose": "Keyboard target range and step calculation",
+      "sha256": "73ce89190e4993b479dbe234fbbe09bb2fa895fa2a29f6c28f82997745d887b0",
+      "instruction_payload_matches": 94
+    }
+  ],
+  "analytical_player_template_fields": {
+    "cash": 200,
+    "cashHi": 0,
+    "bankBal": 0,
+    "bankBalHi": 0,
+    "rentOwed": 0,
+    "curRent": 325,
+    "rentExt": 0,
+    "triedExt": 0,
+    "leaveOpen": 0,
+    "loanBal": 0,
+    "latePayments": 0,
+    "paySched": 0,
+    "madePayment": 0,
+    "livesAt": 0,
+    "relax": 25,
+    "worksAt": 0,
+    "jobKey": 0,
+    "wage": 0,
+    "baseWage": 0,
+    "occupation": 0,
+    "raisesGiven": 0,
+    "uniform": 36,
+    "wearing": 36,
+    "dependibility": 20,
+    "minDepend": 0,
+    "experience": 10,
+    "maxExperience": 10,
+    "jobT": -1,
+    "enrollments": 0,
+    "extraCredits": 0,
+    "needEd1": 0,
+    "needEd2": 0,
+    "eduCredit": 0,
+    "expCredit": 0,
+    "coursesDone": 0,
+    "notEnoughEd": 0,
+    "monStat": 0,
+    "hapStat": 0,
+    "eduStat": 0,
+    "carStat": 0,
+    "monGoal": 50,
+    "hapGoal": 50,
+    "eduGoal": 50,
+    "carGoal": 50,
+    "netWorth": 200,
+    "netWorthHi": 0,
+    "lqAss": 200,
+    "lqAssHi": 0,
+    "invAss": 0,
+    "invAssHi": 0,
+    "finishStatus": 0,
+    "playingAsJones": 0,
+    "consumables": 0,
+    "durables": 0,
+    "education": 0,
+    "investments": 0,
+    "tBillS": 0,
+    "goldS": 0,
+    "silverS": 0,
+    "porkS": 0,
+    "blueS": 0,
+    "pennyS": 0,
+    "nakedCount": 0,
+    "turnedOver": 0
+  },
+  "initialized_inventory": {
+    "consumables": [
+      {
+        "meaning": "low-cost prepaid rent",
+        "index": 40,
+        "quantity": 3,
+        "pricePaid": 325
+      },
+      {
+        "meaning": "casual clothes",
+        "index": 36,
+        "quantity": 6,
+        "pricePaid": 30
+      }
+    ],
+    "food_records": 0,
+    "durable_records": 0,
+    "education_records": 0,
+    "investments": "Six records, indices65..70, each shares0; base-price inputs are separate from holdings."
+  },
+  "human_configuration": {
+    "playing": 1,
+    "body": "one of four selected bodies; no resource bonus in these setter paths",
+    "targets": "first defaults50 each; later inherit preceding participant then can choose10..100 by10",
+    "name": "preset Player1..4; no ordinary name entry found"
+  },
+  "optional_jones": {
+    "instance": "player2",
+    "playing": 29,
+    "playingAsJones": 1,
+    "whichNumber": 4,
+    "resources": "same selected Player defaults and common Player.init as humans",
+    "goals": "allocator offset+10/0/-10 for easy/fair/hard; total target bounded40..400; final category redistribution can alter initially assigned Wealth",
+    "separate_demo": "startup demo makes player1 playing29; not optional rival configuration"
+  },
+  "phase_boundaries": [
+    "Before Player.init, list properties are zero references.",
+    "After common allocation and before turn preparation, human and optional Jones resources agree on selected fields.",
+    "Player.startTurn updates economy and invokes startTrn; distinguish its mutations from setup defaults.",
+    "Week1 skips recurring hunger, illness and inventory decay, so initial lack of food is not an immediate first-turn hunger event.",
+    "Initial stored scores are0 despite cash200 and asset cache200; asset refresh does not itself write Wealth.",
+    "marble.cue handover reset and immediate clock call is not the room initializer first-player startTurn path."
+  ],
+  "checks": {
+    "resource_hashes_match": true,
+    "all_four_player_instances_match_selected_template_resource_fields": true,
+    "selected_instruction_payload_comparisons": 2132,
+    "scope": "Manual semantic trace; byte comparisons are decoder framing checks, not full structured decompilation or execution."
+  },
+  "limits": [
+    "No restored or edited-state initialization contract.",
+    "No complete demo strategy, global random initialization or first-turn price table.",
+    "No inference of different body abilities from appearance.",
+    "No adaptation choice or implementation approval."
+  ]
+}

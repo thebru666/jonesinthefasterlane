@@ -8,7 +8,7 @@ The town has **13 destinations**. Selecting a building moves the player's marble
 
 The dialog is not invariably available in its full form. Homes offer Relax only to their resident; the rental office's service menu depends on the rental period. Course lists depend on completed qualifications. This context sensitivity is part of the original layout, rather than an optional later enhancement.
 
-Most entries cost two units of the turn's time, in addition to movement; Work and study each consume six. Exact accounting and final-action exceptions remain in the [time-and-actions audit](../rules-audit/time-and-actions.md).
+All thirteen destination entries cost two units of the turn's time, in addition to movement; Work and study each consume six. Exact accounting and final-action exceptions remain in the [time-and-actions audit](../rules-audit/time-and-actions.md).
 
 ## Destination catalogue
 

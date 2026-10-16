@@ -1,0 +1,773 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE + bounded analytical stock examples; no gameplay",
+  "version": "DOS1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "retrieval_record": "artifacts/discovery/2026-10-15-bundle-inventory.json",
+  "offset_convention": "zero-based decompressed script payload including headers; end-exclusive ranges",
+  "resources": [
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "size": 10672,
+      "ranges": [
+        {
+          "name": "Player.init",
+          "start": "0xad0",
+          "end_exclusive": "0xbf4",
+          "sha256": "440ce93a84a2d669892befca674e7c337bbe6e9787011efd0c4bc0266d8d425e",
+          "instruction_count": 158
+        },
+        {
+          "name": "Player.dressedForWork",
+          "start": "0xbf4",
+          "end_exclusive": "0xc6f",
+          "sha256": "5036a18699c4869fc981121c7a4afa891901202ccf20ab00a6761528690998c0",
+          "instruction_count": 62
+        },
+        {
+          "name": "Player.weeksOfClothing",
+          "start": "0xc6f",
+          "end_exclusive": "0xcda",
+          "sha256": "c23629c33c86d35fa3ae2b4029c8af95ed7cc5ae419c5722b3c5f50746ebba79",
+          "instruction_count": 55
+        }
+      ]
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "size": 2100,
+      "ranges": [
+        {
+          "name": "CostDItem.init",
+          "start": "0x344",
+          "end_exclusive": "0x375",
+          "sha256": "c15d9fcdf7e3a9f2b0527d0f309545ed10c5cec4ea9cdc47ef667c346688d0e5",
+          "instruction_count": 23
+        },
+        {
+          "name": "CostDItem.doit",
+          "start": "0x3ad",
+          "end_exclusive": "0x51e",
+          "sha256": "40a7abab9b68af2a4a2ba1a75824c04d72f188448118902b6bef96713795a9c5",
+          "instruction_count": 178
+        }
+      ]
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "size": 990,
+      "ranges": [
+        {
+          "name": "Consumable.doit",
+          "start": "0x34",
+          "end_exclusive": "0x3c",
+          "sha256": "b1df6ccf80e815f84b99cc72914814ce499658aee4485fd0017b9848e7490a2c",
+          "instruction_count": 4
+        },
+        {
+          "name": "ListOfGoods.recieve",
+          "start": "0xdd",
+          "end_exclusive": "0x121",
+          "sha256": "91cc4a7008f548e49809d03cb8bf9c0c2a1224d20b32384ad59f891af65eb41b",
+          "instruction_count": 36
+        },
+        {
+          "name": "ListOfGoods.hasType",
+          "start": "0x121",
+          "end_exclusive": "0x172",
+          "sha256": "7fae857090d0545150c5f538dfd242bdf9c86fd1cb5a6127f0973ea1a876e01a",
+          "instruction_count": 45
+        },
+        {
+          "name": "Consumables.newGoods",
+          "start": "0x2ce",
+          "end_exclusive": "0x2d6",
+          "sha256": "6d992146ca26d9651901de09f2c64caf7c77522c93ea8c1dadb5c7d0fbab6f76",
+          "instruction_count": 5
+        }
+      ]
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "size": 850,
+      "ranges": [
+        {
+          "name": "export_0",
+          "start": "0xc",
+          "end_exclusive": "0x14c",
+          "sha256": "655ebbabb8cbf3e723489c798124a84c2eeaf030e43d34c43cf528954b1f29b7",
+          "instruction_count": 141
+        }
+      ]
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "size": 6840,
+      "ranges": [
+        {
+          "name": "week1_recurring_skip",
+          "start": "0x51c",
+          "end_exclusive": "0x530",
+          "sha256": "b40834a1ed95c8f1ca35d0da42e6d57f42098dfe770988430628ba19f695f059",
+          "instruction_count": 9
+        },
+        {
+          "name": "all_consumable_tick_dispatch",
+          "start": "0x983",
+          "end_exclusive": "0x993",
+          "sha256": "1420bf4aa2b3df8e017d37ea724cd608625a1dee050cefe3c7ee735255138f1a",
+          "instruction_count": 8
+        },
+        {
+          "name": "clothing_appearance_and_warning",
+          "start": "0xa25",
+          "end_exclusive": "0xade",
+          "sha256": "17f9e8d5b9be96ef12133953cb2c1f75c3bf920bf9e2d95af127070b791b31ec",
+          "instruction_count": 92
+        },
+        {
+          "name": "naked_recovery",
+          "start": "0x120d",
+          "end_exclusive": "0x1350",
+          "sha256": "04a102554ae8e9f9c8c1b124c376222240e00a6f9e770d8a9589f33ab888ee2c",
+          "instruction_count": 166
+        },
+        {
+          "name": "notice_time_effects",
+          "start": "0x165e",
+          "end_exclusive": "0x16ac",
+          "sha256": "41bf988fd1906542e2f3ee3c0e3e090f978e0d5bc6e2966f447e979074cc6c6d",
+          "instruction_count": 39
+        }
+      ]
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "size": 3138,
+      "ranges": [
+        {
+          "name": "businessSuit.doit",
+          "start": "0x592",
+          "end_exclusive": "0x5bd",
+          "sha256": "18be2a7c4a43b49bb4cb5cbf20ca360b8b79ca92ff79a2793d4f2ffa005d9002",
+          "instruction_count": 21
+        },
+        {
+          "name": "leisureSuit.doit",
+          "start": "0x62a",
+          "end_exclusive": "0x655",
+          "sha256": "75a98a7212ffe9bd9f0911271b344dbf787c9189d8bb4cf1f6a575a8ac0ae73b",
+          "instruction_count": 21
+        },
+        {
+          "name": "casualClothes.doit",
+          "start": "0x6c2",
+          "end_exclusive": "0x6e8",
+          "sha256": "63e038e55355fba12cb1056d86c34af20b20df1707a0b5705da8fe3a2e461c0d",
+          "instruction_count": 18
+        },
+        {
+          "name": "computerScript.handleEvent",
+          "start": "0x9fe",
+          "end_exclusive": "0xb02",
+          "sha256": "2c5ef19ba953b663739ce2e94365c949409431c26ba2f5fe248796e5818f0e07",
+          "instruction_count": 136
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "size": 7126,
+      "ranges": [
+        {
+          "name": "DiscountDItem.doit",
+          "start": "0x2f2",
+          "end_exclusive": "0x323",
+          "sha256": "3b6bc5e340b995f1b67a8ebe041d45655f4f600782d4ec7649e0eacace9ceeb1",
+          "instruction_count": 23
+        },
+        {
+          "name": "casualClothes.doit",
+          "start": "0xcf4",
+          "end_exclusive": "0xd1a",
+          "sha256": "df255ea0dfc80970987a0b63e2493a9a082cea1801171cba7ec45589c52333ec",
+          "instruction_count": 18
+        },
+        {
+          "name": "leisureSuit.doit",
+          "start": "0xd86",
+          "end_exclusive": "0xdac",
+          "sha256": "df255ea0dfc80970987a0b63e2493a9a082cea1801171cba7ec45589c52333ec",
+          "instruction_count": 18
+        }
+      ]
+    }
+  ],
+  "object_metadata": [
+    {
+      "script": 209,
+      "name": "businessSuit",
+      "kind": "object",
+      "object_offset": "0x5ca",
+      "species": 55,
+      "superclass": 55,
+      "block_start": "0x5be",
+      "block_end_exclusive": "0x626",
+      "block_sha256": "5ee9703f0db84dcedf393f8b6240c21f58284a52fb97c6906554644c51016d22",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 34
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 1
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 13
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 295
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 209,
+      "name": "leisureSuit",
+      "kind": "object",
+      "object_offset": "0x662",
+      "species": 55,
+      "superclass": 55,
+      "block_start": "0x656",
+      "block_end_exclusive": "0x6be",
+      "block_sha256": "8b1b6a222777cea6e9a6ca95c99d4b2cb2975abc0ffaf0b32ceb06985fd9809b",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 35
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 1
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 13
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 125
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 209,
+      "name": "casualClothes",
+      "kind": "object",
+      "object_offset": "0x6f4",
+      "species": 55,
+      "superclass": 55,
+      "block_start": "0x6e8",
+      "block_end_exclusive": "0x750",
+      "block_sha256": "3fd1d066b337892b34f67229fe0a84ec639152dae7a4e48080cc0129d08c57b2",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 36
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 1
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 11
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 73
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 211,
+      "name": "DiscountDItem",
+      "kind": "class",
+      "object_offset": "0x330",
+      "species": 75,
+      "superclass": 55,
+      "block_start": "0x324",
+      "block_end_exclusive": "0x3e0",
+      "block_sha256": "7f0cf35439e78e9f4192c58492a80e32993bc1e94972bacc623a009685c242bc",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 0
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 0
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 1
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 0
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 211,
+      "name": "casualClothes",
+      "kind": "object",
+      "object_offset": "0xd26",
+      "species": 75,
+      "superclass": 75,
+      "block_start": "0xd1a",
+      "block_end_exclusive": "0xd82",
+      "block_sha256": "aa0c25044455e009f916adc57fbcb600b775dd4b0dbadbf56d0b18babc22fab4",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 36
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 1
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 9
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 35
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 211,
+      "name": "leisureSuit",
+      "kind": "object",
+      "object_offset": "0xdb8",
+      "species": 75,
+      "superclass": 75,
+      "block_start": "0xdac",
+      "block_end_exclusive": "0xe14",
+      "block_sha256": "32886cf14e9e246c24f2b8b87d54dd222c1302722c62d44ee763ab2e54146704",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 35
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 1
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 9
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 90
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 104,
+      "name": "CostDItem",
+      "kind": "class",
+      "object_offset": "0x52a",
+      "species": 55,
+      "superclass": 54,
+      "block_start": "0x51e",
+      "block_end_exclusive": "0x5e2",
+      "block_sha256": "f580c34187ae1679d67d302246f75ab993dc121d1b76957f050c12dbf09c7061",
+      "selected_properties": {
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0x42",
+          "value": 0
+        },
+        "typeOfGoods": {
+          "selector": 344,
+          "property_offset": "0x44",
+          "value": 0
+        },
+        "units": {
+          "selector": 345,
+          "property_offset": "0x46",
+          "value": 1
+        },
+        "theSign": {
+          "selector": 346,
+          "property_offset": "0x48",
+          "value": -1
+        },
+        "basePrice": {
+          "selector": 347,
+          "property_offset": "0x4a",
+          "value": 0
+        },
+        "fixedPrice": {
+          "selector": 348,
+          "property_offset": "0x4c",
+          "value": 0
+        },
+        "visitTime": {
+          "selector": 350,
+          "property_offset": "0x50",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 106,
+      "name": "Consumable",
+      "kind": "class",
+      "object_offset": "0x48",
+      "species": 61,
+      "superclass": 60,
+      "block_start": "0x3c",
+      "block_end_exclusive": "0x70",
+      "block_sha256": "3231fcfd0f7c7e11a98fce44ed731d0cdb68571dfe6beda872732dd01394e51a",
+      "selected_properties": {
+        "attributes": {
+          "selector": 356,
+          "property_offset": "0xa",
+          "value": 129
+        },
+        "indexNum": {
+          "selector": 343,
+          "property_offset": "0xe",
+          "value": 0
+        }
+      }
+    },
+    {
+      "script": 106,
+      "name": "Consumables",
+      "kind": "class",
+      "object_offset": "0x2e2",
+      "species": 65,
+      "superclass": 64,
+      "block_start": "0x2d6",
+      "block_end_exclusive": "0x302",
+      "block_sha256": "f17182923395de5b1f8ddc0186e64d9dc3adb7d4ff56663fb1366b481b3f08f1",
+      "selected_properties": {}
+    }
+  ],
+  "purchase_table": [
+    {
+      "script": 209,
+      "name": "businessSuit",
+      "indexNum": 34,
+      "typeOfGoods": 1,
+      "units": 13,
+      "theSign": -1,
+      "basePrice": 295,
+      "fixedPrice": 0,
+      "visitTime": 0,
+      "successful_purchase_happiness": 2,
+      "reward_per_success": true,
+      "first_purchase_only_or_turn_latch": false,
+      "resets_nakedCount_on_success": true
+    },
+    {
+      "script": 209,
+      "name": "leisureSuit",
+      "indexNum": 35,
+      "typeOfGoods": 1,
+      "units": 13,
+      "theSign": -1,
+      "basePrice": 125,
+      "fixedPrice": 0,
+      "visitTime": 0,
+      "successful_purchase_happiness": 1,
+      "reward_per_success": true,
+      "first_purchase_only_or_turn_latch": false,
+      "resets_nakedCount_on_success": true
+    },
+    {
+      "script": 209,
+      "name": "casualClothes",
+      "indexNum": 36,
+      "typeOfGoods": 1,
+      "units": 11,
+      "theSign": -1,
+      "basePrice": 73,
+      "fixedPrice": 0,
+      "visitTime": 0,
+      "successful_purchase_happiness": 0,
+      "reward_per_success": true,
+      "first_purchase_only_or_turn_latch": false,
+      "resets_nakedCount_on_success": true
+    },
+    {
+      "script": 211,
+      "name": "leisureSuit",
+      "indexNum": 35,
+      "typeOfGoods": 1,
+      "units": 9,
+      "theSign": -1,
+      "basePrice": 90,
+      "fixedPrice": 0,
+      "visitTime": 0,
+      "successful_purchase_happiness": 0,
+      "reward_per_success": true,
+      "first_purchase_only_or_turn_latch": false,
+      "resets_nakedCount_on_success": true
+    },
+    {
+      "script": 211,
+      "name": "casualClothes",
+      "indexNum": 36,
+      "typeOfGoods": 1,
+      "units": 9,
+      "theSign": -1,
+      "basePrice": 35,
+      "fixedPrice": 0,
+      "visitTime": 0,
+      "successful_purchase_happiness": 0,
+      "reward_per_success": true,
+      "first_purchase_only_or_turn_latch": false,
+      "resets_nakedCount_on_success": true
+    }
+  ],
+  "nakedCount_immediate_selector_inventory": {
+    "scripts_searched": 69,
+    "references": [
+      {
+        "script": 209,
+        "offset": "0x5b0",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 209,
+        "offset": "0x648",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 209,
+        "offset": "0x6db",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 211,
+        "offset": "0xd0d",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 211,
+        "offset": "0xd9f",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x12b8",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x12bc",
+        "next_op": "push0",
+        "kind": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x12cf",
+        "next_op": "push0",
+        "kind": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x12df",
+        "next_op": "push1",
+        "kind": "setter_candidate"
+      }
+    ],
+    "limits": "Immediate selector forms only; not computed sends, restore or reflection."
+  },
+  "analytical_examples": [
+    {
+      "pre_tick": {
+        "business": 2,
+        "dress": 0,
+        "casual": 10
+      },
+      "post_tick": {
+        "business": 1,
+        "dress": 0,
+        "casual": 9
+      },
+      "wearing": 34,
+      "weeksOfClothing": 9,
+      "one_week_warning": false
+    },
+    {
+      "pre_tick": {
+        "business": 1,
+        "dress": 0,
+        "casual": 9
+      },
+      "post_tick": {
+        "business": 0,
+        "dress": 0,
+        "casual": 8
+      },
+      "wearing": 36,
+      "weeksOfClothing": 8,
+      "business_work_allowed": false
+    },
+    {
+      "stock_after_first_QT_suit": 13,
+      "stock_after_second_QT_suit": 26,
+      "happiness_calls": [
+        2,
+        2
+      ],
+      "note": "Both ordinary successful purchases, before any recurring tick; actual score subject to0..100 clamp."
+    }
+  ],
+  "limits": [
+    "Nonnegative ordinary stock; nonzero checks are not signed-positive checks and malformed negative stock is outside normal examples.",
+    "Shared callback effects and visible/model timing not executed.",
+    "Discount stock availability/reset handled separately.",
+    "AI item routing differs but selected shared transaction methods have no human/AI reward or stock branch.",
+    "Recovery value sum assumes ordinary non-overflow arithmetic; full paired/overflow valuation outside scope.",
+    "Conservative pseudocode misrenders indexed stores in the array setup; actual sati/lati instruction stack effects were used to resolve grade arrays."
+  ]
+}

@@ -135,3 +135,6 @@ Evidence: [lowcost.sc, relaxation, line 114](https://github.com/sluicebox/sci-sc
 | H07 | Low-cost/security rest at 0,1,6 hours left; repeat within turn | Partial final rest still full effect, happiness once, relaxation each successful action |
 
 Remaining gaps: use narrow runtime cases for unresolved UI/presentation and restored-state questions, verify SCI random semantics and integer boundaries against runtime, trace object cleanup after breakage/theft, inspect any script patches outside the selected verified package paths, and audit street theft/repairs/durable purchase happiness separately. These findings clarify original mechanics; they do not approve extra meters, eviction, nutrition systems, gentler penalties, or bug fixes for the adaptation.
+
+
+The [fresh-game package state](initial-player-state.md) includes no food, six casual-clothing units and three prepaid low-rent units; week1 skips the later recurring needs path. [Fast-food bonuses](fast-food-bonuses.md) now verifies all six controls, food versus drink receipt types and the shared once-per-turn meal/drink latches. That purchase-order rule is distinct from coverage, spoilage and illness above.

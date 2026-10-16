@@ -53,6 +53,11 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Investment transaction verification](rules-audit/investment-transactions-verification.json): six owned/icon records, market price setters, fee and broker-entry lifecycle.
 - [Money boundary fixtures](rules-audit/money-word-boundaries.json): selected helper/native hashes and nine analytical outputs; original helper transcription is ignored.
 
+- [Initial-player verification](rules-audit/initial-player-state-verification.json): eight resources, four default-instance comparisons and selected allocation/setup paths.
+- [Clothing lifecycle verification](rules-audit/clothing-lifecycle-verification.json): five offers, shared records, decay/dressing/warning and support-counter paths.
+- [Fast-food verification](rules-audit/fast-food-bonuses-verification.json): six product records, four reward overrides and direct latch reset/setter inventory.
+- [Z-Mart assortment verification](rules-audit/discount-assortment-verification.json): eighteen candidates, twelve deletion-position draws, same-turn replay, reset inventory and native indexed-store support.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

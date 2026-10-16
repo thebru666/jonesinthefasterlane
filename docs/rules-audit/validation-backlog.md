@@ -20,6 +20,10 @@ Follow-up checks now cover [conditional travel timing](travel-timing.md), [bound
 
 [Grouping/packing](inventory-grouping.md), [pawn used stock](pawn-used-stock.md) and [investment transactions](investment-transactions.md) now verify selected ordinary transaction rules against actual package resources. The nine [money boundary fixtures](money-word-boundaries.md) identify concrete cash/pair/formatter differences, with native signed/unsigned arithmetic support. Remaining work is full high-word valuation and observed edge behavior, not merely locating those constants or the used-stock ownership branches.
 
+## Fresh state and ordinary shopping
+
+The [initial player snapshot](initial-player-state.md), [clothing cadence/rewards](clothing-lifecycle.md), [food/drink category bonuses](fast-food-bonuses.md) and [Z-Mart stock lifecycle](discount-assortment.md) now have bounded package traces. They close normal initialization, repeated-purchase and revisit/reset questions; exact visible messages and arbitrary restored states remain separate. The decoder's symbolic indexed-store fix is covered by targeted regression cases; raw disassembly is unchanged.
+
 ## Runtime progress
 
 | Area | Actual progress | Still pending |

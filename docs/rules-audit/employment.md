@@ -112,8 +112,11 @@ No bug correction or new mechanic is approved. Before claiming exact fidelity, r
 
 - Whether to preserve early hidden work-history feedback, random consumption on raise requests, stale planning fields after shock dismissal, and full progression for partial shifts.
 - Every employer caller's eligibility/visibility and animation effects; free refused work is established only inside the shared helper.
-- Initial-state overrides in setup, loading and opponent creation.
+- Restored/retained-state overrides; ordinary fresh setup and optional Jones resources are now traced in [initial-player state](initial-player-state.md).
 - Extreme signed-word progression/score overflow; the formulas above describe normal reachable values rather than arbitrary unbounded TypeScript numbers.
 - Narrow runtime checks of feedback wording, turn-memory reset and exact boundary outcomes, only where bytecode semantics leave presentation or interpreter questions.
 
 These are compatibility choices and focused verification work, not reasons to invent additional job systems for 2.0.
+
+
+The later [initial-player contract](initial-player-state.md) verifies fresh experience10/ceiling10 and dependability20/minimum0 with no initial job; restore overrides remain separate. [Clothing lifecycle](clothing-lifecycle.md) verifies actual purchase stock, shared-grade decay, automatic best-grade selection and the warning's maximum-stock rule. These replace ordinary initialization/cadence uncertainty without changing EMP-005's work eligibility.

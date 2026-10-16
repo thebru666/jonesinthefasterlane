@@ -1,0 +1,299 @@
+{
+  "date": "2026-10-16",
+  "evidence": "BYTECODE: selected records, receipt overrides and direct global-writer inventory; no runtime",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "version": "DOS1.000.060",
+  "resources": [
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "methods": [
+        {
+          "name": "cheeseburgers.doit",
+          "start": "0x75c",
+          "end_exclusive": "0x780",
+          "instruction_count": 17,
+          "sha256": "0b4e5c30c98c15671a5de9d44bf36092c1671b9e5b775fb6803523921aae2132"
+        },
+        {
+          "name": "chicken.doit",
+          "start": "0x7ec",
+          "end_exclusive": "0x810",
+          "instruction_count": 17,
+          "sha256": "b888722137b9ad7edaa4ae62510c6b3d96979396be5b6467eecd54eb1419af8d"
+        },
+        {
+          "name": "shakes.doit",
+          "start": "0x8e0",
+          "end_exclusive": "0x904",
+          "instruction_count": 17,
+          "sha256": "64627e4423ee91664d04b8cec0f8fcff41bc00ed34d5791830f8e026cae973b7"
+        },
+        {
+          "name": "colas.doit",
+          "start": "0x970",
+          "end_exclusive": "0x994",
+          "instruction_count": 17,
+          "sha256": "a71b1a09557b08198cb8701ce3237bd90d1a2d06910dd369a783c356da416479"
+        }
+      ]
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "methods": [
+        {
+          "name": "CostDItem.init",
+          "start": "0x344",
+          "end_exclusive": "0x375",
+          "instruction_count": 23,
+          "sha256": "c15d9fcdf7e3a9f2b0527d0f309545ed10c5cec4ea9cdc47ef667c346688d0e5"
+        },
+        {
+          "name": "CostDItem.doit",
+          "start": "0x3ad",
+          "end_exclusive": "0x51e",
+          "instruction_count": 178,
+          "sha256": "40a7abab9b68af2a4a2ba1a75824c04d72f188448118902b6bef96713795a9c5"
+        }
+      ]
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "methods": [
+        {
+          "name": "startTrn.changeState",
+          "start": "0x24",
+          "end_exclusive": "0x13cd",
+          "instruction_count": 2560,
+          "sha256": "e5d67abaf9611e5230d247b3a3ca9eafbef96b8286760c48cadc7dcd0f4a900b"
+        }
+      ]
+    },
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "methods": [
+        {
+          "name": "export_13",
+          "start": "0x5ea",
+          "end_exclusive": "0x62c",
+          "instruction_count": 34,
+          "sha256": "71d574e13e10da40d95a28851c8fc5ccfce00bb800fb2ddf0692f6993fdbd6ef"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "name": "hamburgers",
+      "object_offset": "0x700",
+      "indexNum": 3,
+      "typeOfGoods": 1,
+      "units": 1,
+      "basePrice": 79,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x742",
+        "typeOfGoods": "0x744",
+        "units": "0x746",
+        "basePrice": "0x74a",
+        "visitTime": "0x750",
+        "fixedPrice": "0x74c"
+      }
+    },
+    {
+      "name": "cheeseburgers",
+      "object_offset": "0x78c",
+      "indexNum": 4,
+      "typeOfGoods": 1,
+      "units": 1,
+      "basePrice": 89,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x7ce",
+        "typeOfGoods": "0x7d0",
+        "units": "0x7d2",
+        "basePrice": "0x7d6",
+        "visitTime": "0x7dc",
+        "fixedPrice": "0x7d8"
+      }
+    },
+    {
+      "name": "chicken",
+      "object_offset": "0x81c",
+      "indexNum": 2,
+      "typeOfGoods": 1,
+      "units": 1,
+      "basePrice": 124,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x85e",
+        "typeOfGoods": "0x860",
+        "units": "0x862",
+        "basePrice": "0x866",
+        "visitTime": "0x86c",
+        "fixedPrice": "0x868"
+      }
+    },
+    {
+      "name": "fries",
+      "object_offset": "0x884",
+      "indexNum": 5,
+      "typeOfGoods": 1,
+      "units": 1,
+      "basePrice": 65,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x8c6",
+        "typeOfGoods": "0x8c8",
+        "units": "0x8ca",
+        "basePrice": "0x8ce",
+        "visitTime": "0x8d4",
+        "fixedPrice": "0x8d0"
+      }
+    },
+    {
+      "name": "shakes",
+      "object_offset": "0x910",
+      "indexNum": 6,
+      "typeOfGoods": 3,
+      "units": 1,
+      "basePrice": 102,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x952",
+        "typeOfGoods": "0x954",
+        "units": "0x956",
+        "basePrice": "0x95a",
+        "visitTime": "0x960",
+        "fixedPrice": "0x95c"
+      }
+    },
+    {
+      "name": "colas",
+      "object_offset": "0x9a0",
+      "indexNum": 7,
+      "typeOfGoods": 3,
+      "units": 1,
+      "basePrice": 69,
+      "visitTime": 0,
+      "fixedPrice": 0,
+      "property_offsets": {
+        "indexNum": "0x9e2",
+        "typeOfGoods": "0x9e4",
+        "units": "0x9e6",
+        "basePrice": "0x9ea",
+        "visitTime": "0x9f0",
+        "fixedPrice": "0x9ec"
+      }
+    }
+  ],
+  "direct_latch_writers": [
+    {
+      "script": 111,
+      "offset": "0x2f4",
+      "operation": "sag",
+      "global": 472
+    },
+    {
+      "script": 111,
+      "offset": "0x2f7",
+      "operation": "sag",
+      "global": 471
+    },
+    {
+      "script": 210,
+      "offset": "0x775",
+      "operation": "sag",
+      "global": 472
+    },
+    {
+      "script": 210,
+      "offset": "0x805",
+      "operation": "sag",
+      "global": 472
+    },
+    {
+      "script": 210,
+      "offset": "0x8f9",
+      "operation": "sag",
+      "global": 471
+    },
+    {
+      "script": 210,
+      "offset": "0x989",
+      "operation": "sag",
+      "global": 471
+    }
+  ],
+  "writer_inventory_limit": "All69 script hashes checked; direct nonindexed global writes/inc/dec only. Indexed/computed/interpreter/restore mutations not excluded.",
+  "latch_groups": [
+    {
+      "global": 472,
+      "reset": "111:0x02f4 sets0 during ordinary pre-turn reset",
+      "items": {
+        "cheeseburgers": 1,
+        "chicken": 2
+      }
+    },
+    {
+      "global": 471,
+      "reset": "111:0x02f7 sets0 during ordinary pre-turn reset",
+      "items": {
+        "shakes": 2,
+        "colas": 1
+      }
+    }
+  ],
+  "findings": [
+    "shared purchase resolves before bonus guard",
+    "success flag416 and unused corresponding latch required",
+    "latch set1 before calling bounded Happiness helper13",
+    "hamburger/fries have no item-specific override or consumption of these latches",
+    "four foods type1 receive one consumable unit; two drinks type3 do not receive consumable food",
+    "visitTime0 for all six controls; entry2 separately; no extra time gate in shared purchase"
+  ],
+  "analytical_order_examples": [
+    {
+      "sequence": [
+        "cheeseburgers",
+        "chicken"
+      ],
+      "unclamped_bonus": 1
+    },
+    {
+      "sequence": [
+        "chicken",
+        "cheeseburgers"
+      ],
+      "unclamped_bonus": 2
+    },
+    {
+      "sequence": [
+        "colas",
+        "shakes"
+      ],
+      "unclamped_bonus": 1
+    },
+    {
+      "sequence": [
+        "shakes",
+        "colas"
+      ],
+      "unclamped_bonus": 2
+    }
+  ],
+  "limits": [
+    "ordinary successful action paths; failed attempts leave shared bonus latches unconsumed",
+    "clerk callbacks occur during superclass; arbitrary callback reentry not proved absent",
+    "no observed prices/UI/happiness; bases/cash pipeline only",
+    "not complete food/needs/AI policy or all Happiness modifier audit"
+  ]
+}

@@ -84,6 +84,12 @@ The [original DOS Animate trace](dos-travel-ordering.md) now supplies the ordina
 
 These checks extend normal-path package coverage and identify specific arithmetic/grouping edges. They do not establish a complete high-balance implementation or observed UI effects.
 
+## Fresh state and everyday shopping (2026-10-16)
+
+[Fresh-game state](initial-player-state.md) now consolidates all four actual player templates, common allocation and human/Jones configuration. [Clothing lifecycle](clothing-lifecycle.md), [fast-food bonuses](fast-food-bonuses.md) and [Z-Mart assortment](discount-assortment.md) close normal shopping/cadence gaps: QT repeatable rewards, shared meal/drink latches, all-grade clothing decay/maximum warnings and turn-scoped nondepleting shelves. Each note preserves its package/static/runtime boundaries.
+
+The stock trace also exposed a symbolic indexed-store error in the research decoder. The corrected report now uses the old accumulator as target index and the popped stack value as the stored value; accumulator-destination forms update the accumulator. Sixteen fixture groups, including eight targeted indexed-store cases, pass. All69 resources were regenerated; raw instructions/targets and decode counts are unchanged.
+
 ## Evidence labels
 
 - **PACKAGE:** directly inspected package or configuration fact.

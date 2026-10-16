@@ -32,6 +32,7 @@
 - [Direct bytecode verification](rules-audit/bytecode-verification.md): actual-package logic findings and remaining gaps.
 - [Native travel ordering](rules-audit/dos-travel-ordering.md), [bank continuation](rules-audit/bank-refresh-continuation.md), [native saves/random state](rules-audit/dos-save-state.md) and [stereo fallback](rules-audit/dos-stereo-fallback.md): selected original-interpreter and callback gaps resolved statically.
 - [Inventory grouping](rules-audit/inventory-grouping.md), [used-stock transfer](rules-audit/pawn-used-stock.md), [investment transactions](rules-audit/investment-transactions.md) and [money boundaries](rules-audit/money-word-boundaries.md): grouped-state and pricing/ownership contracts.
+- [Initial player state](rules-audit/initial-player-state.md), [clothing lifecycle](rules-audit/clothing-lifecycle.md), [fast-food bonuses](rules-audit/fast-food-bonuses.md) and [Z-Mart assortment](rules-audit/discount-assortment.md): everyday initialization, rewards and reset rules.
 - [Rule record template](rules-audit/rule-template.md)
 - [Employment](rules-audit/employment.md): package-verified hiring, raises, work, growth and dismissal.
 - [Education](rules-audit/education.md): package-verified enrollment, course progression, equipment and rewards.

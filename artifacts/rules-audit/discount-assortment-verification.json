@@ -1,0 +1,1478 @@
+{
+  "schema": 1,
+  "verified_date": "2026-10-16",
+  "edition": "website DOS 1.000.060",
+  "evidence": "BYTECODE plus selected DOS-STATIC indexed-store semantics; abstract rank fixtures; no runtime",
+  "bundle": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "retrieved": "2026-10-15",
+    "sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180"
+  },
+  "comparison_source_revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "scope": {
+    "raw_script_hashes_and_all_decoded_instruction_spans_checked": 69,
+    "bounded_history_immediate_bases": [
+      385,
+      399
+    ],
+    "history_reference_count": 4,
+    "catalogue_records_checked": 18
+  },
+  "resource_hashes": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0"
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "script": 2,
+      "sha256": "36eb7316df75a3b55fbcc0e9498d5fb7a11a8bfd767821098f5c21cb4742f3d5"
+    },
+    {
+      "script": 100,
+      "sha256": "33be4491ff427c4f4fabf7ef6173ba7ab8ccea7a33b54ac0d8efd0af7753e2b2"
+    },
+    {
+      "script": 101,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf"
+    },
+    {
+      "script": 102,
+      "sha256": "a9e1866fb639dc6dfe3c90ea5123594dd9ef2887313c9173fc0898684ffc97f5"
+    },
+    {
+      "script": 103,
+      "sha256": "333acbc356512a0d2580e001fd817e6b3db5705e2bd240468d54a6cc69de9786"
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    },
+    {
+      "script": 105,
+      "sha256": "1448a1e8811dea2ffc1930e777a4185f02cd0572734c019a7c93de191c2700a8"
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d"
+    },
+    {
+      "script": 107,
+      "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525"
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9"
+    },
+    {
+      "script": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd"
+    },
+    {
+      "script": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc"
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b"
+    },
+    {
+      "script": 113,
+      "sha256": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0"
+    },
+    {
+      "script": 114,
+      "sha256": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47"
+    },
+    {
+      "script": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf"
+    },
+    {
+      "script": 116,
+      "sha256": "5dc81822cc8f794c75786047fba9702f0b89c3c515234c8446e4bcf5fb06a77a"
+    },
+    {
+      "script": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea"
+    },
+    {
+      "script": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166"
+    },
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca"
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa"
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408"
+    },
+    {
+      "script": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969"
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4"
+    },
+    {
+      "script": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999"
+    },
+    {
+      "script": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9"
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc"
+    },
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b"
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d"
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a"
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f"
+    },
+    {
+      "script": 215,
+      "sha256": "bb0c4587b0b0ab68bfe64a819e84ea204f56750dec093968b0f7e7ead38a5aef"
+    },
+    {
+      "script": 216,
+      "sha256": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84"
+    },
+    {
+      "script": 217,
+      "sha256": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e"
+    },
+    {
+      "script": 218,
+      "sha256": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49"
+    },
+    {
+      "script": 219,
+      "sha256": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4"
+    },
+    {
+      "script": 220,
+      "sha256": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b"
+    },
+    {
+      "script": 221,
+      "sha256": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97"
+    },
+    {
+      "script": 222,
+      "sha256": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516"
+    },
+    {
+      "script": 223,
+      "sha256": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064"
+    },
+    {
+      "script": 224,
+      "sha256": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58"
+    },
+    {
+      "script": 229,
+      "sha256": "5a446ec452eb2f17825b5b0f80d8ca6775ca5165ebf01687fb6d47cc4d2c4b9c"
+    },
+    {
+      "script": 230,
+      "sha256": "eb748d05f0a105447d2fb1fa4320d3233bc07d6c8a6f017dfe28f3171e3f0193"
+    },
+    {
+      "script": 231,
+      "sha256": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2"
+    },
+    {
+      "script": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee"
+    },
+    {
+      "script": 233,
+      "sha256": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0"
+    },
+    {
+      "script": 234,
+      "sha256": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded"
+    },
+    {
+      "script": 235,
+      "sha256": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e"
+    },
+    {
+      "script": 236,
+      "sha256": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13"
+    },
+    {
+      "script": 237,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062"
+    },
+    {
+      "script": 238,
+      "sha256": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974"
+    },
+    {
+      "script": 239,
+      "sha256": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2"
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1"
+    },
+    {
+      "script": 300,
+      "sha256": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d"
+    },
+    {
+      "script": 764,
+      "sha256": "ca0e8df361e29803eb38819e7ed07b47fabdc8e901cd7a8dd12d7114d4a79258"
+    },
+    {
+      "script": 891,
+      "sha256": "08f3b02bce2bda058f39316c35db15e6427704baa21ecf6577a5c4bb1b1d5f07"
+    },
+    {
+      "script": 967,
+      "sha256": "c37ec5defc72c49e5c1a4944fccfc54c6a664903ed5f5fa606987aa13a55a3e9"
+    },
+    {
+      "script": 987,
+      "sha256": "d5c8ad8de5d3f8d5af4c23ca42a25542daffeee830a9e8ac91a586453dac6bf0"
+    },
+    {
+      "script": 989,
+      "sha256": "bcdf6ace414a7622f7439a37c819389f28491d1a973c8a261b127900ff62148f"
+    },
+    {
+      "script": 990,
+      "sha256": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772"
+    },
+    {
+      "script": 992,
+      "sha256": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3"
+    },
+    {
+      "script": 993,
+      "sha256": "a40fd40d1e805de5ce910094a0b9d156da1587f17dd33ec32171447de4fdd5d1"
+    },
+    {
+      "script": 994,
+      "sha256": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8"
+    },
+    {
+      "script": 996,
+      "sha256": "3d95ec9eea2041a866e0dfb48bde86199810fdcf221bc58c7023b52d19da6918"
+    },
+    {
+      "script": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52"
+    },
+    {
+      "script": 998,
+      "sha256": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793"
+    },
+    {
+      "script": 999,
+      "sha256": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e"
+    }
+  ],
+  "catalogue": [
+    {
+      "identifier": "refrigerator",
+      "initial_list_position": 4,
+      "object_offset": "0x089a",
+      "properties": {
+        "key": 1,
+        "indexNum": 21,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 650,
+        "celNum": 0,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x08ae",
+        "indexNum": "0x08dc",
+        "typeOfGoods": "0x08de",
+        "units": "0x08e0",
+        "basePrice": "0x08e4",
+        "celNum": "0x08ec",
+        "fixedPrice": "0x08e6",
+        "visitTime": "0x08ea",
+        "value": "0x08b2"
+      }
+    },
+    {
+      "identifier": "stove",
+      "initial_list_position": 5,
+      "object_offset": "0x0964",
+      "properties": {
+        "key": 2,
+        "indexNum": 23,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 490,
+        "celNum": 1,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0978",
+        "indexNum": "0x09a6",
+        "typeOfGoods": "0x09a8",
+        "units": "0x09aa",
+        "basePrice": "0x09ae",
+        "celNum": "0x09b6",
+        "fixedPrice": "0x09b0",
+        "visitTime": "0x09b4",
+        "value": "0x097c"
+      }
+    },
+    {
+      "identifier": "stereo",
+      "initial_list_position": 6,
+      "object_offset": "0x0a2e",
+      "properties": {
+        "key": 3,
+        "indexNum": 26,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 450,
+        "celNum": 2,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0a42",
+        "indexNum": "0x0a70",
+        "typeOfGoods": "0x0a72",
+        "units": "0x0a74",
+        "basePrice": "0x0a78",
+        "celNum": "0x0a80",
+        "fixedPrice": "0x0a7a",
+        "visitTime": "0x0a7e",
+        "value": "0x0a46"
+      }
+    },
+    {
+      "identifier": "colorTV",
+      "initial_list_position": 7,
+      "object_offset": "0x0af8",
+      "properties": {
+        "key": 4,
+        "indexNum": 24,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 349,
+        "celNum": 3,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0b0c",
+        "indexNum": "0x0b3a",
+        "typeOfGoods": "0x0b3c",
+        "units": "0x0b3e",
+        "basePrice": "0x0b42",
+        "celNum": "0x0b4a",
+        "fixedPrice": "0x0b44",
+        "visitTime": "0x0b48",
+        "value": "0x0b10"
+      }
+    },
+    {
+      "identifier": "bwTV",
+      "initial_list_position": 8,
+      "object_offset": "0x0b64",
+      "properties": {
+        "key": 5,
+        "indexNum": 30,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 110,
+        "celNum": 4,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0b78",
+        "indexNum": "0x0ba6",
+        "typeOfGoods": "0x0ba8",
+        "units": "0x0baa",
+        "basePrice": "0x0bae",
+        "celNum": "0x0bb6",
+        "fixedPrice": "0x0bb0",
+        "visitTime": "0x0bb4",
+        "value": "0x0b7c"
+      }
+    },
+    {
+      "identifier": "microwave",
+      "initial_list_position": 9,
+      "object_offset": "0x0bfa",
+      "properties": {
+        "key": 6,
+        "indexNum": 27,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 220,
+        "celNum": 5,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0c0e",
+        "indexNum": "0x0c3c",
+        "typeOfGoods": "0x0c3e",
+        "units": "0x0c40",
+        "basePrice": "0x0c44",
+        "celNum": "0x0c4c",
+        "fixedPrice": "0x0c46",
+        "visitTime": "0x0c4a",
+        "value": "0x0c12"
+      }
+    },
+    {
+      "identifier": "vcr",
+      "initial_list_position": 10,
+      "object_offset": "0x0c94",
+      "properties": {
+        "key": 7,
+        "indexNum": 25,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 250,
+        "celNum": 6,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0ca8",
+        "indexNum": "0x0cd6",
+        "typeOfGoods": "0x0cd8",
+        "units": "0x0cda",
+        "basePrice": "0x0cde",
+        "celNum": "0x0ce6",
+        "fixedPrice": "0x0ce0",
+        "visitTime": "0x0ce4",
+        "value": "0x0cac"
+      }
+    },
+    {
+      "identifier": "casualClothes",
+      "initial_list_position": 11,
+      "object_offset": "0x0d26",
+      "properties": {
+        "key": 8,
+        "indexNum": 36,
+        "typeOfGoods": 1,
+        "units": 9,
+        "basePrice": 35,
+        "celNum": 7,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0d3a",
+        "indexNum": "0x0d68",
+        "typeOfGoods": "0x0d6a",
+        "units": "0x0d6c",
+        "basePrice": "0x0d70",
+        "celNum": "0x0d78",
+        "fixedPrice": "0x0d72",
+        "visitTime": "0x0d76",
+        "value": "0x0d3e"
+      }
+    },
+    {
+      "identifier": "leisureSuit",
+      "initial_list_position": 12,
+      "object_offset": "0x0db8",
+      "properties": {
+        "key": 20,
+        "indexNum": 35,
+        "typeOfGoods": 1,
+        "units": 9,
+        "basePrice": 90,
+        "celNum": 8,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0dcc",
+        "indexNum": "0x0dfa",
+        "typeOfGoods": "0x0dfc",
+        "units": "0x0dfe",
+        "basePrice": "0x0e02",
+        "celNum": "0x0e0a",
+        "fixedPrice": "0x0e04",
+        "visitTime": "0x0e08",
+        "value": "0x0dd0"
+      }
+    },
+    {
+      "identifier": "baseballTickets",
+      "initial_list_position": 13,
+      "object_offset": "0x0e48",
+      "properties": {
+        "key": 10,
+        "indexNum": 37,
+        "typeOfGoods": 1,
+        "units": 4,
+        "basePrice": 45,
+        "celNum": 9,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0e5c",
+        "indexNum": "0x0e8a",
+        "typeOfGoods": "0x0e8c",
+        "units": "0x0e8e",
+        "basePrice": "0x0e92",
+        "celNum": "0x0e9a",
+        "fixedPrice": "0x0e94",
+        "visitTime": "0x0e98",
+        "value": "0x0e60"
+      }
+    },
+    {
+      "identifier": "theatreTickets",
+      "initial_list_position": 14,
+      "object_offset": "0x0ed8",
+      "properties": {
+        "key": 11,
+        "indexNum": 38,
+        "typeOfGoods": 1,
+        "units": 4,
+        "basePrice": 30,
+        "celNum": 10,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0eec",
+        "indexNum": "0x0f1a",
+        "typeOfGoods": "0x0f1c",
+        "units": "0x0f1e",
+        "basePrice": "0x0f22",
+        "celNum": "0x0f2a",
+        "fixedPrice": "0x0f24",
+        "visitTime": "0x0f28",
+        "value": "0x0ef0"
+      }
+    },
+    {
+      "identifier": "concertTickets",
+      "initial_list_position": 15,
+      "object_offset": "0x0f68",
+      "properties": {
+        "key": 12,
+        "indexNum": 39,
+        "typeOfGoods": 1,
+        "units": 4,
+        "basePrice": 40,
+        "celNum": 11,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x0f7c",
+        "indexNum": "0x0faa",
+        "typeOfGoods": "0x0fac",
+        "units": "0x0fae",
+        "basePrice": "0x0fb2",
+        "celNum": "0x0fba",
+        "fixedPrice": "0x0fb4",
+        "visitTime": "0x0fb8",
+        "value": "0x0f80"
+      }
+    },
+    {
+      "identifier": "encyclopedia",
+      "initial_list_position": 16,
+      "object_offset": "0x102e",
+      "properties": {
+        "key": 23,
+        "indexNum": 31,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 475,
+        "celNum": 12,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x1042",
+        "indexNum": "0x1070",
+        "typeOfGoods": "0x1072",
+        "units": "0x1074",
+        "basePrice": "0x1078",
+        "celNum": "0x1080",
+        "fixedPrice": "0x107a",
+        "visitTime": "0x107e",
+        "value": "0x1046"
+      }
+    },
+    {
+      "identifier": "dictionary",
+      "initial_list_position": 17,
+      "object_offset": "0x10f8",
+      "properties": {
+        "key": 14,
+        "indexNum": 32,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 70,
+        "celNum": 13,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x110c",
+        "indexNum": "0x113a",
+        "typeOfGoods": "0x113c",
+        "units": "0x113e",
+        "basePrice": "0x1142",
+        "celNum": "0x114a",
+        "fixedPrice": "0x1144",
+        "visitTime": "0x1148",
+        "value": "0x1110"
+      }
+    },
+    {
+      "identifier": "atlas",
+      "initial_list_position": 18,
+      "object_offset": "0x11be",
+      "properties": {
+        "key": 24,
+        "indexNum": 33,
+        "typeOfGoods": 0,
+        "units": 1,
+        "basePrice": 55,
+        "celNum": 14,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x11d2",
+        "indexNum": "0x1200",
+        "typeOfGoods": "0x1202",
+        "units": "0x1204",
+        "basePrice": "0x1208",
+        "celNum": "0x1210",
+        "fixedPrice": "0x120a",
+        "visitTime": "0x120e",
+        "value": "0x11d6"
+      }
+    },
+    {
+      "identifier": "dogFood",
+      "initial_list_position": 19,
+      "object_offset": "0x1246",
+      "properties": {
+        "key": 16,
+        "indexNum": 0,
+        "typeOfGoods": 3,
+        "units": 1,
+        "basePrice": 18,
+        "celNum": 15,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x125a",
+        "indexNum": "0x1288",
+        "typeOfGoods": "0x128a",
+        "units": "0x128c",
+        "basePrice": "0x1290",
+        "celNum": "0x1298",
+        "fixedPrice": "0x1292",
+        "visitTime": "0x1296",
+        "value": "0x125e"
+      }
+    },
+    {
+      "identifier": "eightTrack",
+      "initial_list_position": 20,
+      "object_offset": "0x12cc",
+      "properties": {
+        "key": 17,
+        "indexNum": 0,
+        "typeOfGoods": 3,
+        "units": 1,
+        "basePrice": 75,
+        "celNum": 16,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x12e0",
+        "indexNum": "0x130e",
+        "typeOfGoods": "0x1310",
+        "units": "0x1312",
+        "basePrice": "0x1316",
+        "celNum": "0x131e",
+        "fixedPrice": "0x1318",
+        "visitTime": "0x131c",
+        "value": "0x12e4"
+      }
+    },
+    {
+      "identifier": "trumanCapote",
+      "initial_list_position": 21,
+      "object_offset": "0x1352",
+      "properties": {
+        "key": 18,
+        "indexNum": 0,
+        "typeOfGoods": 3,
+        "units": 1,
+        "basePrice": 100,
+        "celNum": 17,
+        "fixedPrice": 0,
+        "visitTime": 0,
+        "value": 0
+      },
+      "property_resource_offsets": {
+        "key": "0x1366",
+        "indexNum": "0x1394",
+        "typeOfGoods": "0x1396",
+        "units": "0x1398",
+        "basePrice": "0x139c",
+        "celNum": "0x13a4",
+        "fixedPrice": "0x139e",
+        "visitTime": "0x13a2",
+        "value": "0x136a"
+      }
+    }
+  ],
+  "initial_control_order": [
+    "background",
+    "theTalker",
+    "items",
+    "exitButton",
+    "refrigerator",
+    "stove",
+    "stereo",
+    "colorTV",
+    "bwTV",
+    "microwave",
+    "vcr",
+    "casualClothes",
+    "leisureSuit",
+    "baseballTickets",
+    "theatreTickets",
+    "concertTickets",
+    "encyclopedia",
+    "dictionary",
+    "atlas",
+    "dogFood",
+    "eightTrack",
+    "trumanCapote"
+  ],
+  "selection": {
+    "initial_control_count": 22,
+    "protected_leading_controls": 4,
+    "target_control_count": 10,
+    "removed_product_count": 12,
+    "remaining_product_count": 6,
+    "history_used": [
+      385,
+      396
+    ],
+    "active_turn_reset": [
+      385,
+      399
+    ],
+    "history_value": "shrinking-list position, NOT item identity",
+    "global_history_initial_values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "script211_local_defaults": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      65535
+    ],
+    "purchase_depletes_assortment": false
+  },
+  "history_references": [
+    {
+      "script": 111,
+      "pc": "0x032b",
+      "operation": "sagi",
+      "base": 385,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 211,
+      "pc": "0x050b",
+      "operation": "lagi",
+      "base": 385,
+      "owner": "discount.init"
+    },
+    {
+      "script": 211,
+      "pc": "0x0519",
+      "operation": "lsgi",
+      "base": 385,
+      "owner": "discount.init"
+    },
+    {
+      "script": 211,
+      "pc": "0x0542",
+      "operation": "sagi",
+      "base": 385,
+      "owner": "discount.init"
+    }
+  ],
+  "literal_delete_selector_loads": [
+    {
+      "pc": "0x0511",
+      "owner": "discount.init"
+    },
+    {
+      "pc": "0x0524",
+      "owner": "discount.init"
+    },
+    {
+      "pc": "0x1420",
+      "owner": "workButton.doit"
+    }
+  ],
+  "raw_instruction_anchors": [
+    {
+      "script": 211,
+      "pc": "0x04fb",
+      "operation": "self",
+      "arguments": [
+        48
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0506",
+      "operation": "bnt",
+      "arguments": [
+        65
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x050b",
+      "operation": "lagi",
+      "arguments": [
+        385
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0519",
+      "operation": "lsgi",
+      "arguments": [
+        385
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x051f",
+      "operation": "self",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0533",
+      "operation": "callk",
+      "arguments": [
+        60,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x053c",
+      "operation": "self",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x053e",
+      "operation": "lst",
+      "arguments": [
+        2
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0540",
+      "operation": "lat",
+      "arguments": [
+        0
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0542",
+      "operation": "sagi",
+      "arguments": [
+        385
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0577",
+      "operation": "self",
+      "arguments": [
+        8
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x05d9",
+      "operation": "sali",
+      "arguments": [
+        0
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0614",
+      "operation": "self",
+      "arguments": [
+        36
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x076b",
+      "operation": "callk",
+      "arguments": [
+        3,
+        2
+      ]
+    },
+    {
+      "script": 111,
+      "pc": "0x0328",
+      "operation": "push0",
+      "arguments": []
+    },
+    {
+      "script": 111,
+      "pc": "0x0329",
+      "operation": "lal",
+      "arguments": [
+        0
+      ]
+    },
+    {
+      "script": 111,
+      "pc": "0x032b",
+      "operation": "sagi",
+      "arguments": [
+        385
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x0428",
+      "operation": "sal",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x018d",
+      "operation": "callk",
+      "arguments": [
+        60,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x069b",
+      "operation": "callk",
+      "arguments": [
+        60,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x1827",
+      "operation": "callk",
+      "arguments": [
+        60,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x1851",
+      "operation": "callk",
+      "arguments": [
+        60,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x1427",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x02f7",
+      "operation": "super",
+      "arguments": [
+        55,
+        4
+      ]
+    },
+    {
+      "script": 211,
+      "pc": "0x031e",
+      "operation": "send",
+      "arguments": [
+        6
+      ]
+    }
+  ],
+  "reviewed_ranges": [
+    {
+      "script": 211,
+      "method": "discount.init",
+      "start": "0x0400",
+      "end_exclusive": "0x076f",
+      "sha256": "543f777d7b2e4e9767cb357be528d88de0ea8aefd38e897bd7638e93f5ef841e"
+    },
+    {
+      "script": 211,
+      "method": "DiscountDItem.doit",
+      "start": "0x02f2",
+      "end_exclusive": "0x0323",
+      "sha256": "3b6bc5e340b995f1b67a8ebe041d45655f4f600782d4ec7649e0eacace9ceeb1"
+    },
+    {
+      "script": 211,
+      "method": "boughtItem.doit",
+      "start": "0x0184",
+      "end_exclusive": "0x01be",
+      "sha256": "5b8343e2ccf19441df2d500e0288223e2b68beda391bd1a68557e2a64e96c7ca"
+    },
+    {
+      "script": 211,
+      "method": "items.doit",
+      "start": "0x1544",
+      "end_exclusive": "0x1587",
+      "sha256": "95bb77d4b7e0b5ad938630ea15682052eb2989355a4dcd9bf3e33a4e5a24c6f5"
+    },
+    {
+      "script": 211,
+      "method": "FS.next",
+      "start": "0x0276",
+      "end_exclusive": "0x02a1",
+      "sha256": "684f576d3830f397e40705cd9bc0761dcd8f0804d0fb440d27bd6315cd17d7da"
+    },
+    {
+      "script": 211,
+      "method": "workButton.doit",
+      "start": "0x13fa",
+      "end_exclusive": "0x145d",
+      "sha256": "f7fcef551d9cae9beb328f2963a891a88af0034bf3ffca6e9098883dd1fd37b9"
+    },
+    {
+      "script": 211,
+      "method": "computerScript.handleEvent",
+      "start": "0x167e",
+      "end_exclusive": "0x186b",
+      "sha256": "3f5657800f2c392efa92171f3b184f1b0f4fb79568bc2226f90fe2bcc2dba22b"
+    },
+    {
+      "script": 104,
+      "method": "CostDItem.init",
+      "start": "0x0344",
+      "end_exclusive": "0x0375",
+      "sha256": "c15d9fcdf7e3a9f2b0527d0f309545ed10c5cec4ea9cdc47ef667c346688d0e5"
+    },
+    {
+      "script": 104,
+      "method": "CostDItem.doit",
+      "start": "0x03ad",
+      "end_exclusive": "0x051e",
+      "sha256": "40a7abab9b68af2a4a2ba1a75824c04d72f188448118902b6bef96713795a9c5"
+    },
+    {
+      "script": 111,
+      "method": "startTrn.changeState",
+      "start": "0x0024",
+      "end_exclusive": "0x13cd",
+      "sha256": "e5d67abaf9611e5230d247b3a3ca9eafbef96b8286760c48cadc7dcd0f4a900b"
+    }
+  ],
+  "abstract_replay_fixtures": [
+    {
+      "abstract_draw_choice": "low",
+      "draw_bounds": [
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "saved_positions": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "survivors": [
+        "encyclopedia",
+        "dictionary",
+        "atlas",
+        "dogFood",
+        "eightTrack",
+        "trumanCapote"
+      ],
+      "replay_survivors": [
+        "encyclopedia",
+        "dictionary",
+        "atlas",
+        "dogFood",
+        "eightTrack",
+        "trumanCapote"
+      ],
+      "fresh_selection_draw_count": 12,
+      "replay_selection_draw_count": 0
+    },
+    {
+      "abstract_draw_choice": "high",
+      "draw_bounds": [
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "saved_positions": [
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10
+      ],
+      "survivors": [
+        "refrigerator",
+        "stove",
+        "stereo",
+        "colorTV",
+        "bwTV",
+        "microwave"
+      ],
+      "replay_survivors": [
+        "refrigerator",
+        "stove",
+        "stereo",
+        "colorTV",
+        "bwTV",
+        "microwave"
+      ],
+      "fresh_selection_draw_count": 12,
+      "replay_selection_draw_count": 0
+    },
+    {
+      "abstract_draw_choice": "alternating",
+      "draw_bounds": [
+        [
+          4,
+          21
+        ],
+        [
+          4,
+          20
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          18
+        ],
+        [
+          4,
+          17
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          4,
+          14
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          4,
+          12
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          4,
+          10
+        ]
+      ],
+      "saved_positions": [
+        4,
+        20,
+        4,
+        18,
+        4,
+        16,
+        4,
+        14,
+        4,
+        12,
+        4,
+        10
+      ],
+      "survivors": [
+        "vcr",
+        "casualClothes",
+        "leisureSuit",
+        "baseballTickets",
+        "theatreTickets",
+        "concertTickets"
+      ],
+      "replay_survivors": [
+        "vcr",
+        "casualClothes",
+        "leisureSuit",
+        "baseballTickets",
+        "theatreTickets",
+        "concertTickets"
+      ],
+      "fresh_selection_draw_count": 12,
+      "replay_selection_draw_count": 0
+    }
+  ],
+  "native_indexed_store": {
+    "input_recipe": "docs/discovery/inspect-dos-interpreter.md",
+    "load_image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+    "encoded_opcode": "0xb0",
+    "table_word_load_image_offset": "0x187fc",
+    "handler_segment_offset": "0048:0ed3",
+    "handler_range": {
+      "start": "0x01353",
+      "end_exclusive": "0x01379",
+      "sha256": "5c101575b6a103490f962c3661208407a2afc39b429ead253064090bbc101351"
+    },
+    "manual_semantics": "Target is global base plus accumulator index; actual stored value is popped from VM stack and copied to accumulator.",
+    "reference_vm": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/vm.cpp#L1277",
+    "decoder_status": "Earlier wrong indexed-accumulator-store pseudocode corrected during this audit; raw instructions unchanged."
+  },
+  "random_calls_in_script211": [
+    {
+      "pc": "0x018d",
+      "owner": "boughtItem.doit"
+    },
+    {
+      "pc": "0x0533",
+      "owner": "discount.init"
+    },
+    {
+      "pc": "0x069b",
+      "owner": "discount.init"
+    },
+    {
+      "pc": "0x1827",
+      "owner": "computerScript.handleEvent"
+    },
+    {
+      "pc": "0x1851",
+      "owner": "computerScript.handleEvent"
+    }
+  ],
+  "limits": [
+    "No uniform assortment probabilities or actual native random-stream fixtures are inferred.",
+    "Normal fresh script211 rebuild and active shared start-turn reset are covered; restored/corrupt history, interrupted init and arbitrary computed addresses are outside scope.",
+    "Product stock nondepletion covers the examined shared/override/display/feedback methods; no complete kernel callback or save equivalence is claimed.",
+    "Native indexed-store interpretation is a selected manual semantic trace, hash/dispatch checked; no x86 emulator or original interpreter executed."
+  ]
+}

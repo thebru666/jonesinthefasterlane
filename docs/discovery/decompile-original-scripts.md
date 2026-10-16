@@ -62,7 +62,7 @@ The [committed coverage](../../artifacts/original-game/bytecode-coverage.json) r
 | Alignment padding bytes | 183 |
 | Reported decode or target-validation failures | 0 |
 
-Instruction bytes plus the identified alignment bytes reconstruct each code-block payload exactly. Branches, local calls, method entries and 1,468 resource-address loads were checked against parsed targets. Fourteen fixture groups check operand widths, signed displacements, the call offset base after the frame operand, invalid-opcode rejection a synthetic class/method table, stable snapshots across variable mutation and indexed reads. A fresh second export produced identical hashes for all 209 output files.
+Instruction bytes plus the identified alignment bytes reconstruct each code-block payload exactly. Branches, local calls, method entries and 1,468 resource-address loads were checked against parsed targets. Sixteen fixture groups check operand widths, signed displacements, the call offset base after the frame operand, invalid-opcode rejection a synthetic class/method table, stable snapshots across variable mutation and indexed reads/stores. Indexed accumulator stores take their target index from the old accumulator, pop the value from the stack and replace the accumulator; indexed stack stores leave it unchanged. Eight targeted destination/opcode cases cover both forms across global/local/temp/parameter spaces. A fresh second export produced identical hashes for all 209 output files.
 
 These checks establish consistent binary decoding. They do not establish that every branch is executed in normal play, that every recovered expression has been manually reviewed, or that the program has been rebuilt and run from generated source.
 

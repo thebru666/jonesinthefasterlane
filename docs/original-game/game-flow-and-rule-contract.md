@@ -34,6 +34,8 @@ flowchart TD
 
 The diagram combines the normal setup/turn paths; it is not a complete decoder state graph. Restore resumes interpreter state rather than necessarily entering a fresh town turn. Demo is a separate computer-controlled setup route. Cancellation, restart and quit may leave the journey at several points. [Setup baseline](setup-multiplayer.md), [actual setup/location dispatch](../rules-audit/bytecode-flow-and-persistence.md), [turn trace](../rules-audit/bytecode-weekly-opponent.md).
 
+The [fresh-game state contract](../rules-audit/initial-player-state.md) supplies the initial resources, progression values, inventories and zero stored scores, distinguishing human/Jones choices from later turn effects. It is the initialization reference for this journey.
+
 ## Round, turn, travel, visit and action
 
 | Unit | Original meaning | State that crosses its boundary |
@@ -96,6 +98,8 @@ With one hour left, a normal work shift prorates pay, a lesson still awards one 
 For each action, preserve the original order of eligibility, random draws, payment/time, mutations, score refresh and notices. Same-job applications still run qualification randomness before the raise branch ignores its combined result. A failed opening can be remembered for the remainder of the turn. These are simulation effects even if the feedback looks like a simple refusal.
 
 Human confirmations and clerk/notice presentation are distinct from the action mutation. Jones's policy chooses plans and the common controller emits normal work/exit events. The [all-destination controller inventory](../rules-audit/bytecode-ai-actions.md) confirms selected ordinary dispatch and confirmation shortcuts; full policy/dynamic-path parity remains unproved. [AI trace and boundaries](../rules-audit/bytecode-weekly-opponent.md#ai-b01-policy-location-controller-and-shared-action-are-separate-layers).
+
+Ordinary shopping has item-specific reward/reset rules. [QT clothing](../rules-audit/clothing-lifecycle.md) can repeatedly award Happiness, while [fast food](../rules-audit/fast-food-bonuses.md) uses two first-success category latches. [Z-Mart](../rules-audit/discount-assortment.md) retains same-turn assortment history, but a successful purchase does not remove its control. These distinctions affect normal action order, not just rare errors.
 
 ## State a faithful model must preserve
 

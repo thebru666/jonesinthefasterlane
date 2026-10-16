@@ -180,7 +180,13 @@ def pseudocode(s,sels):
      if slot%8<4:acc=value
      else:stack.append(value)
     elif group==1:
-     x=acc if slot%8<4 else pop();stmt=f'{var} = {x};'
+     if slot>=8:
+      # Indexed accumulator stores use the old accumulator as the index,
+      # then pop the value into it. Indexed stack stores leave it unchanged.
+      x=pop()
+      if slot<12:acc=x
+     else:x=acc if slot<4 else pop()
+     stmt=f'{var} = {x};'
     else:
      stmt=f'{var}{"++" if group==2 else "--"};'
      value=f'value_{off:04x}';stmt+=f' {value} = {var};'
@@ -270,7 +276,17 @@ def self_test():
  assert 'temp[1] = value_0000;' in text
  text=symbolic_fixture('3502910548') # indexed global read snapshots its index
  assert 'value_0002 = global[5+(2)];' in text
- return {'fixtures':14,'status':'passed'}
+ for space,opcode in zip(['global','local','temp','param'],[0xb1,0xb3,0xb5,0xb7]):
+  text=symbolic_fixture('39073502'+f'{opcode:02x}'+'05a50148')
+  assert f'{space}[5+(2)] = 7;' in text
+  assert 'temp[1] = 7;' in text
+  assert 'outgoing stack:' not in text
+ for space,opcode in zip(['global','local','temp','param'],[0xb9,0xbb,0xbd,0xbf]):
+  text=symbolic_fixture('39073502'+f'{opcode:02x}'+'05a50148')
+  assert f'{space}[5+(2)] = 7;' in text
+  assert 'temp[1] = 2;' in text
+  assert 'outgoing stack:' not in text
+ return {'fixtures':16,'status':'passed'}
 
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--resources',type=Path,default=Path('work/original-assets/decoded/resources'));ap.add_argument('--output',type=Path,default=Path('work/bytecode/decoded'));ap.add_argument('--coverage',type=Path);ap.add_argument('--self-test',action='store_true');args=ap.parse_args()

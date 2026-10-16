@@ -95,7 +95,7 @@ These are menu catalogues, not assertions that every product has an audited effe
 | Source | Original content pool | What the reference establishes |
 | --- | --- | --- |
 | Black's Market | Food for 1 / 2 / 4 Weeks (base 55 / 100 / 190); 10 Lottery Tickets; Newspaper | Bulk food is bought in weekly units. Newspaper is a separate presentation. [Storage/spoilage is now audited](../rules-audit/food-and-housing.md); lottery probabilities remain open. |
-| Monolith Burgers | Hamburgers, Cheeseburger, Astro Chicken, Fries, Shakes, Colas | Distinct menu items with illustrations; some have turn-limited happiness bonuses. Stored-food and immediate-effect item types differ. |
+| Monolith Burgers | Hamburgers, Cheeseburger, Astro Chicken, Fries, Shakes, Colas | Distinct menu items with illustrations; [meal/drink bonuses share two active-turn latches](../rules-audit/fast-food-bonuses.md); purchase order matters. Stored-food and immediate-effect item types differ. |
 | QT Clothing | Business Suit (295), Dress Clothes (125), Casual Clothes (73) | Three clothing grades; requirements differ between jobs. |
 | Socket City | Refrigerator (876), Freezer (513), Stove (570), Color TV (525), VCR (333), Stereo (412), Microwave (330), Hot Tub (1255), Computer (1599) | Nine appliance/electronic purchase rows. The computer participates in study credits. |
 | Z-Mart | Refrigerator (650), Stove (490), Stereo (450), Color TV (349), Black & White TV (110), Microwave (220), VCR (250), Casual Clothes (35), Dress Clothes (90), Baseball Tickets (45), Theatre Tickets (30), Concert Tickets (40), Encyclopedia (475), Dictionary (70), Atlas (55), Dog Food (18), 8-Track Player (75), Works of Capote (100) | **Six drawn from eighteen each turn**, not eighteen permanent rows. The final three are joke/immediate-effect products; they should not be assumed to add normal durable possessions. Discount purchases get a distinct attribute. The complete three-book set supplies a study credit. |
@@ -103,7 +103,7 @@ These are menu catalogues, not assertions that every product has an audited effe
 | Bank / Broker | T-Bills, Gold, Silver, Pork Bellies, Blue Chip Stocks, Penny Stocks | Holdings and Buy/Sell controls; distinct market indices. T-Bills have fixed unit price 100. |
 | Pawn Shop | Player-owned pawnable durables, redeemable goods, available pawn stock | A conditional second-hand inventory shared across player possessions; not a fixed catalogue. |
 
-Sources: [market][market], [fast food][fastfood], [clothing][clothing], [appliances][appliance], [discount][discount], [rent][rent], [broker][broker], [pawn][pawn]. Food item base values at Monolith are intentionally omitted here until their final pricing/display is reconciled with runtime; do not transplant their raw values into a modern price list.
+Sources: [market][market], [fast food][fastfood], [clothing][clothing], [appliances][appliance], [discount][discount], [rent][rent], [broker][broker], [pawn][pawn]. The [Monolith package table](../rules-audit/fast-food-bonuses.md) now records all six bases, shared price/debit pipeline, inventory types and category bonuses; exact menu formatting remains separate. These original values are not automatically an approved modern price list.
 
 ### What the player visibly accumulates
 
@@ -113,8 +113,8 @@ The security-apartment script adds room props for an owned Color TV, Stereo, VCR
 
 1. Course-book label transcription is complete for view 707, loop 2; confirm the final composed university screen in a runtime capture. The dependency graph and IDs are directly present in the published script regardless of display spelling.
 2. Reproduce qualification failure, opening failure, raises, clothing gating, and work-history dismissal, including the early-week rejection-message special case.
-3. Verify Z-Mart's stock persistence through repeated visits, player handover, save/resume, and week rollover.
-4. [Food/storage](../rules-audit/food-and-housing.md) and [ordinary goods/repairs/pawn](../rules-audit/goods-and-finance.md) now have detailed SCRIPT findings. Complete ticket/weekend and joke-product consequences and validate all suspicious branches.
+3. Z-Mart's ordinary repeat-visit and active-turn reset paths are now [package-verified](../rules-audit/discount-assortment.md); save/resume, interrupted initialization and visible layout remain separate.
+4. [Food/storage](../rules-audit/food-and-housing.md) and [ordinary goods/repairs/pawn](../rules-audit/goods-and-finance.md) now have detailed SCRIPT findings. [Ticket/weekend and joke-product consequences](../rules-audit/random-events.md) now have detailed source findings plus [selected package checks](../rules-audit/bytecode-needs-events.md); remaining work concerns untraced branches and runtime corroboration, not an absent event baseline.
 5. [Banking/broker/pawn](../rules-audit/goods-and-finance.md) now has normal-path formulas and edge questions; runtime and high-value arithmetic remain unresolved.
 6. Compare content across editions before claiming the floppy baseline describes the CD edition too.
 
@@ -144,3 +144,6 @@ These are original-game research gaps. Suggestions for modern courses, jobs, ite
 [bankJobs]: https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bankJobs.sc
 [marketJobs]: https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/marketJobs.sc
 [rentJobs]: https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentJobs.sc
+
+
+[Clothing lifecycle](../rules-audit/clothing-lifecycle.md) now records QT13/13/11-unit and Z-Mart9-unit grants, repeatable QT rewards, all-grade decay and maximum-duration warnings. [Z-Mart assortment](../rules-audit/discount-assortment.md) resolves ordinary revisit/reset behavior: six survivors from eighteen candidates, purchases do not remove products, saved deletion positions preserve same-turn selections, and ordinary active-turn preparation clears the shared history.
