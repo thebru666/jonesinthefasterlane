@@ -1,0 +1,100 @@
+{
+  "rule_id": "EVENT-004",
+  "evidence": "ANALYTICAL: exhaustive integer draw enumeration, not gameplay or package-bytecode execution.",
+  "source_revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "source_url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L214",
+  "assumptions": [
+    "Independent uniform draw among the 501 integers 0 through 500 inclusive.",
+    "Positive ordinary ticket quantities without signed integer overflow.",
+    "Ticket purchase costs $1 each, sold in batches of ten.",
+    "Cash expectation excludes travel, other opportunities and happiness utility.",
+    "Happiness outcome counts precede the shared 0–100 clamp."
+  ],
+  "enumerated_cases": 1503,
+  "cases": [
+    {
+      "tickets": 10,
+      "draw_cases": 501,
+      "prize_outcomes": {
+        "0": 491,
+        "200": 7,
+        "500": 2,
+        "5000": 1
+      },
+      "happiness_outcomes_before_clamping": {
+        "0": 491,
+        "5": 9,
+        "10": 1
+      },
+      "winning_probability": {
+        "fraction": "10/501",
+        "decimal": 0.01996008
+      },
+      "purchase_cost_dollars": 10,
+      "expected_cash_prize_dollars": {
+        "fraction": "7400/501",
+        "decimal": 14.77045908
+      },
+      "expected_cash_net_after_purchase_dollars": {
+        "fraction": "2390/501",
+        "decimal": 4.77045908
+      }
+    },
+    {
+      "tickets": 20,
+      "draw_cases": 501,
+      "prize_outcomes": {
+        "0": 481,
+        "200": 15,
+        "500": 3,
+        "5000": 2
+      },
+      "happiness_outcomes_before_clamping": {
+        "0": 481,
+        "5": 18,
+        "10": 2
+      },
+      "winning_probability": {
+        "fraction": "20/501",
+        "decimal": 0.03992016
+      },
+      "purchase_cost_dollars": 20,
+      "expected_cash_prize_dollars": {
+        "fraction": "14500/501",
+        "decimal": 28.94211577
+      },
+      "expected_cash_net_after_purchase_dollars": {
+        "fraction": "4480/501",
+        "decimal": 8.94211577
+      }
+    },
+    {
+      "tickets": 100,
+      "draw_cases": 501,
+      "prize_outcomes": {
+        "0": 401,
+        "200": 79,
+        "500": 15,
+        "5000": 6
+      },
+      "happiness_outcomes_before_clamping": {
+        "0": 401,
+        "5": 94,
+        "10": 6
+      },
+      "winning_probability": {
+        "fraction": "100/501",
+        "decimal": 0.1996008
+      },
+      "purchase_cost_dollars": 100,
+      "expected_cash_prize_dollars": {
+        "fraction": "53300/501",
+        "decimal": 106.38722555
+      },
+      "expected_cash_net_after_purchase_dollars": {
+        "fraction": "3200/501",
+        "decimal": 6.38722555
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "recorded_date": "2026-10-15",
+  "evidence": "SCRIPT: external published floppy decompilation inspected for EVENT-001\u2013008. These input hashes do not establish bytecode equivalence with the website package.",
+  "revision": "870a8015b689474484bf3d8b41416956d4315432",
+  "files": [
+    {
+      "name": "weekend.sc",
+      "sha256": "7af7f96c7662a6d0d0b5371144891b6e753805d6a79895796775ac0f0be197ae",
+      "bytes": 11164,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/weekend.sc"
+    },
+    {
+      "name": "startTrn.sc",
+      "sha256": "3e8eb9fa90c709b85bf7e030444f0af11b98ed4cdae2d56cc74d602e8db0c237",
+      "bytes": 20928,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc"
+    },
+    {
+      "name": "market.sc",
+      "sha256": "f48d97c1a5c3eea2ab0885d70db3977f356da5d4f79b8c5fbcf129cce2519386",
+      "bytes": 13588,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/market.sc"
+    },
+    {
+      "name": "bank.sc",
+      "sha256": "a75a266bbf95fd8dfd434f2b2344889eb591afff5d7a1551b2407788cfe1fcdb",
+      "bytes": 14742,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc"
+    },
+    {
+      "name": "discount.sc",
+      "sha256": "0c9d5a5bacea6230eb3d48c6957ee7f1ef13e22f0b9f1227dbd82f899c18174c",
+      "bytes": 17720,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/discount.sc"
+    },
+    {
+      "name": "muggedByMarket.sc",
+      "sha256": "940d44e0154e5541fc4e343bc2271d254b130a5365b04d116684ec76829e3835",
+      "bytes": 2762,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/muggedByMarket.sc"
+    },
+    {
+      "name": "room1.sc",
+      "sha256": "3f790f0cb832ab53ece6453e2d581198ec66ba50b6bebf4a6a4ac0594d923a87",
+      "bytes": 27549,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc"
+    },
+    {
+      "name": "Main.sc",
+      "sha256": "ada11be01dbd5b6127be944bd3fa83e286d6bde1ab8ccf1980490e3f103f4b2f",
+      "bytes": 16753,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Main.sc"
+    },
+    {
+      "name": "Goods.sc",
+      "sha256": "3b71998b543e0915bf65588069daea0cf872592f2bae243d958968dfdae95369",
+      "bytes": 2371,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Goods.sc"
+    },
+    {
+      "name": "WButton.sc",
+      "sha256": "73716eac764fe5db0a7593a78912d31f451cba5c7338abfc824efd7ab2890838",
+      "bytes": 5491,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/WButton.sc"
+    },
+    {
+      "name": "Game.sc",
+      "sha256": "86c0861ff11e0dbf1c619c7b6f6cdb38b12df79e1da1d1e39c9f07a9c3bc7807",
+      "bytes": 6888,
+      "url": "https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/Game.sc"
+    }
+  ]
+}

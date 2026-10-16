@@ -1,0 +1,779 @@
+{
+  "recorded_date": "2026-10-16",
+  "session_dates": [
+    "2026-10-15",
+    "2026-10-16"
+  ],
+  "evidence": "Actual viewport captures from ordinary website gameplay; analytical metadata only, no original pixels. Observation scope is defined by runtime-observations.md and runtime-solo-control.md.",
+  "source_url": "https://jonesinthefastlane.com/",
+  "independently_downloaded_bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "limits": [
+    "Browser response bytes were not intercepted.",
+    "No debugger, edited saves or hidden-state inspection.",
+    "Timed food notices and happiness deltas were missed; graphical clock comparisons are partial corroboration.",
+    "A transient black-frame solo capture is context only; no game-state claim rests on it.",
+    "Original captures are local-only and require new ordinary-play runs to regenerate elsewhere."
+  ],
+  "captures": [
+    {
+      "id": "multiplayer/01-startup",
+      "local_path": "work/runtime-validation/2026-10-15/01-startup.jpg",
+      "sha256": "7237a4af0279643187dae5e5e7f66d68f8a5e3d00bc461efb0a05210d0e83084",
+      "bytes": 184035,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:15:48.590871+00:00",
+      "caption": "startup",
+      "observations": [
+        "OBS-001"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/02-player-count",
+      "local_path": "work/runtime-validation/2026-10-15/02-player-count.jpg",
+      "sha256": "2eddb0ec85ad2be096a315306c4acf0676a5275b648a29bc3a8ce01fc8c6b503",
+      "bytes": 164951,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:16:10.658447+00:00",
+      "caption": "player count",
+      "observations": [
+        "OBS-001"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/03-p1-appearance",
+      "local_path": "work/runtime-validation/2026-10-15/03-p1-appearance.jpg",
+      "sha256": "24bd2b3eeaeb86525cc8b89d5d2c4b99a99cc34bf346804bae0e51b4e8ff2976",
+      "bytes": 193837,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:16:21.231722+00:00",
+      "caption": "p1 appearance",
+      "observations": [
+        "OBS-002"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/04-p1-default-goals",
+      "local_path": "work/runtime-validation/2026-10-15/04-p1-default-goals.jpg",
+      "sha256": "92b25f8c24fbd5460826713a7bf71d02cbad16529133bab8279c76839bc01db6",
+      "bytes": 179178,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:16:48.920437+00:00",
+      "caption": "p1 default goals",
+      "observations": [
+        "OBS-002"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/05-p1-adjusted-goals",
+      "local_path": "work/runtime-validation/2026-10-15/05-p1-adjusted-goals.jpg",
+      "sha256": "25529a8749c5596e0713d3fc0af79f4b8f6c391a0a31840db4b9bb9b628aa1f9",
+      "bytes": 179619,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:17:07.092904+00:00",
+      "caption": "p1 adjusted goals",
+      "observations": [
+        "OBS-002"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/06-p2-appearance-dim",
+      "local_path": "work/runtime-validation/2026-10-15/06-p2-appearance-dim.jpg",
+      "sha256": "473ad2bae5ccf311a7187205244e43a80eb6319b21ca2d7d61deaa8ec833c5b0",
+      "bytes": 198048,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:17:22.147289+00:00",
+      "caption": "p2 appearance dim",
+      "observations": [
+        "OBS-002"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/07-p2-inherited-goals",
+      "local_path": "work/runtime-validation/2026-10-15/07-p2-inherited-goals.jpg",
+      "sha256": "89ed86a434b22357d5c819506260168f83108572d968bcfbeca80db84a7b5398",
+      "bytes": 179987,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:17:50.451009+00:00",
+      "caption": "p2 inherited goals",
+      "observations": [
+        "OBS-002"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/08-p1-initial-town",
+      "local_path": "work/runtime-validation/2026-10-15/08-p1-initial-town.jpg",
+      "sha256": "9d601de2e25fdf3c7b23ff0b683a3828aee5ca0a903b7e064a8ffffc8a7e40c5",
+      "bytes": 163710,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:18:07.219434+00:00",
+      "caption": "p1 initial town",
+      "observations": [
+        "OBS-003"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/09-p1-market-before",
+      "local_path": "work/runtime-validation/2026-10-15/09-p1-market-before.jpg",
+      "sha256": "f223fbf06f253fb452aecff77add077fe677ce7e0e83fd1660c9ba69be871204",
+      "bytes": 188467,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:19:13.185088+00:00",
+      "caption": "p1 market before",
+      "observations": [
+        "OBS-005"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/10-p1-statistics-cash200",
+      "local_path": "work/runtime-validation/2026-10-15/10-p1-statistics-cash200.jpg",
+      "sha256": "fddd944b6492a7552389faa4a4d079d12861a46569ba268c0079f396a1f56c50",
+      "bytes": 186117,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:19:50.507014+00:00",
+      "caption": "p1 statistics cash200",
+      "observations": [
+        "OBS-004"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/11-p1-market-purchase",
+      "local_path": "work/runtime-validation/2026-10-15/11-p1-market-purchase.jpg",
+      "sha256": "fc6dba015ba0229039f1fdea06c08ee7a1f6d4eaa2551519321eab6b22caf014",
+      "bytes": 192436,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:20:30.082645+00:00",
+      "caption": "p1 market purchase",
+      "observations": [
+        "OBS-005"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/12-p1-after-groceries-cash148",
+      "local_path": "work/runtime-validation/2026-10-15/12-p1-after-groceries-cash148.jpg",
+      "sha256": "ccbef44766dce83ee6372ebf9f5e76d407ca2ef5834c18346c56f168df3ebd96",
+      "bytes": 186390,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:20:48.397379+00:00",
+      "caption": "p1 after groceries cash148",
+      "observations": [
+        "OBS-005"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/13-p1-bank-before-deposit",
+      "local_path": "work/runtime-validation/2026-10-15/13-p1-bank-before-deposit.jpg",
+      "sha256": "8851982396c10be8d7b3c1b60368c051ce1210d1da9b63f66bb9ef8dfc743a9d",
+      "bytes": 180139,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:22:20.580105+00:00",
+      "caption": "p1 bank before deposit",
+      "observations": [
+        "OBS-006"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/14-p1-bank-cash48",
+      "local_path": "work/runtime-validation/2026-10-15/14-p1-bank-cash48.jpg",
+      "sha256": "a7e363d27216371aed5c9398bceb17fa9cf168fea95fa3e75979ad117d26551c",
+      "bytes": 180205,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:22:27.651390+00:00",
+      "caption": "p1 bank cash48",
+      "observations": [
+        "OBS-006"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/15-p1-bank-cash0",
+      "local_path": "work/runtime-validation/2026-10-15/15-p1-bank-cash0.jpg",
+      "sha256": "7ce79e5633b168ce748e05f52449d9cda28879d47aafd7710b6e14d80948c360",
+      "bytes": 180073,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:22:33.050849+00:00",
+      "caption": "p1 bank cash0",
+      "observations": [
+        "OBS-006"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/16-p1-savings148-cash0",
+      "local_path": "work/runtime-validation/2026-10-15/16-p1-savings148-cash0.jpg",
+      "sha256": "5546db42d8d088ace4a715e50cd552be48f9ec4c61bd18536eb29c7cb27e5da8",
+      "bytes": 186289,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:23:05.525717+00:00",
+      "caption": "p1 savings148 cash0",
+      "observations": [
+        "OBS-006"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/17-p1-home-before-rest",
+      "local_path": "work/runtime-validation/2026-10-15/17-p1-home-before-rest.jpg",
+      "sha256": "293936456e0185dd00f21b117ec805cadea5c28909577f8bc2434d114139e47f",
+      "bytes": 193542,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:25:19.665649+00:00",
+      "caption": "p1 home before rest",
+      "observations": [
+        "OBS-007"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/18-p1-time-exhausted-home",
+      "local_path": "work/runtime-validation/2026-10-15/18-p1-time-exhausted-home.jpg",
+      "sha256": "a5f024b911d56326ebcdedabab297f4cceb5a088f074ce8c33bd41c3aeef94c0",
+      "bytes": 193220,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:25:29.806922+00:00",
+      "caption": "p1 time exhausted home",
+      "observations": [
+        "OBS-007"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/19-p2-handover-week1",
+      "local_path": "work/runtime-validation/2026-10-15/19-p2-handover-week1.jpg",
+      "sha256": "f06b96801f2b7f099d137494e832a5e88be657641ceac35be056a6561b58e563",
+      "bytes": 166023,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:25:47.269701+00:00",
+      "caption": "p2 handover week1",
+      "observations": [
+        "OBS-007"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/20-p2-statistics-cash200",
+      "local_path": "work/runtime-validation/2026-10-15/20-p2-statistics-cash200.jpg",
+      "sha256": "405d208e64239272867bf9c432422d2fe7a22818e26b5344df517c26f2ea681f",
+      "bytes": 186327,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:26:09.147228+00:00",
+      "caption": "p2 statistics cash200",
+      "observations": [
+        "OBS-007"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/21-p2-time-exhausted",
+      "local_path": "work/runtime-validation/2026-10-15/21-p2-time-exhausted.jpg",
+      "sha256": "b4bec182ae200f72437188cad80ce073d2f41d3cbd13089950b86d376be7eebd",
+      "bytes": 193267,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:26:39.303295+00:00",
+      "caption": "p2 time exhausted",
+      "observations": [
+        "OBS-008 (partial)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer/22-p1-week2-weekend-cash0",
+      "local_path": "work/runtime-validation/2026-10-15/22-p1-week2-weekend-cash0.jpg",
+      "sha256": "1847a7c8bdf7051a2816c4091ea53fc0c07baafd5dc04e787547bed99f38afbb",
+      "bytes": 180841,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "file_modified_utc": "2026-10-15T10:26:59.656051+00:00",
+      "caption": "p1 week2 weekend cash0",
+      "observations": [
+        "OBS-008 (partial)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/23-p1-week2-clear-clock",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/23-p1-week2-clear-clock.jpg",
+      "sha256": "b4c011c2e29222de9c9bb78b0e7f80aa2045e8e6b9bda5242b283d44624d8280",
+      "bytes": 68455,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:41:27.330802+00:00",
+      "caption": "p1 week2 clear clock",
+      "observations": [
+        "OBS-008 (partial)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/24-p1-week2-cash0-savings148",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/24-p1-week2-cash0-savings148.jpg",
+      "sha256": "77639e6d0a077d868148e1e8799a1456c2fed1919b2176338fad45d4f4a6a467",
+      "bytes": 79186,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:41:51.072541+00:00",
+      "caption": "p1 week2 cash0 savings148",
+      "observations": [
+        "OBS-008 (partial)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/25-p1-week2-no-food-listed",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/25-p1-week2-no-food-listed.jpg",
+      "sha256": "22cf208646819a557b1bea08406b6bac1aaa19502dec23789b965782db31c0d2",
+      "bytes": 80993,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:42:32.537397+00:00",
+      "caption": "p1 week2 no food listed",
+      "observations": [
+        "OBS-008 (partial)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/26-live-game-visible",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/26-live-game-visible.jpg",
+      "sha256": "e463ad4ec0f02bcdaeaa5b02b4443f8facc39b8f428a303d38fdfb218228b623",
+      "bytes": 68323,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:44:11.355340+00:00",
+      "caption": "live game visible",
+      "observations": [],
+      "status": "context_only"
+    },
+    {
+      "id": "multiplayer-continuation/27-p1-employment-menu",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/27-p1-employment-menu.jpg",
+      "sha256": "20cbf8c098dc6fe754843fe52474d9bcc97d9e9a861634e4a1d2cf34ed9c83ed",
+      "bytes": 81860,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:45:31.233104+00:00",
+      "caption": "p1 employment menu",
+      "observations": [
+        "OBS-009"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/28-p1-monolith-job-list",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/28-p1-monolith-job-list.jpg",
+      "sha256": "4a9e0b7958074bbecda30f37cd81c073b8e6c1458324b8d2287572781a92f9e5",
+      "bytes": 74463,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:46:23.472755+00:00",
+      "caption": "p1 monolith job list",
+      "observations": [
+        "OBS-009"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/29-p1-cook-job-accepted",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/29-p1-cook-job-accepted.jpg",
+      "sha256": "6b97f37162379537e2f5e8ed4e986244c35911cfd617a7432fc107790c704c4c",
+      "bytes": 81697,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:46:50.079110+00:00",
+      "caption": "p1 cook job accepted",
+      "observations": [
+        "OBS-009"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/30-p1-workplace-before",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/30-p1-workplace-before.jpg",
+      "sha256": "71b18485609369a00911aaecce1657afe6db05cc27e3f82d959e354a88fa6edf",
+      "bytes": 84548,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:48:17.277783+00:00",
+      "caption": "p1 workplace before",
+      "observations": [
+        "OBS-010"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/31-p1-first-shift-cash24",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/31-p1-first-shift-cash24.jpg",
+      "sha256": "3f25a224a5f5e68d4b001d124a6152dd36b393bcd55b7f440dff9453a7832766",
+      "bytes": 82692,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:48:32.688134+00:00",
+      "caption": "p1 first shift cash24",
+      "observations": [
+        "OBS-010"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/32-p1-cook-wage3-cash24",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/32-p1-cook-wage3-cash24.jpg",
+      "sha256": "cbcfa231a95bb76ab7420015ab9ea87b7ee98a754193aeeb7a99de66fc42ce5f",
+      "bytes": 79159,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:49:27.186904+00:00",
+      "caption": "p1 cook wage3 cash24",
+      "observations": [
+        "OBS-010"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/33-p1-work-cash120",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/33-p1-work-cash120.jpg",
+      "sha256": "875df3d85a2390d49eab8ec8c64c999a01e7064616ae9495f2387e39d47e0291",
+      "bytes": 84480,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:50:58.321862+00:00",
+      "caption": "p1 work cash120",
+      "observations": [
+        "OBS-011"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/34-p1-work-cash144",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/34-p1-work-cash144.jpg",
+      "sha256": "486044edaa8e620be1e94f166351f47d0446bc25de767f8d3025a3249b391bba",
+      "bytes": 84108,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:51:16.502448+00:00",
+      "caption": "p1 work cash144",
+      "observations": [
+        "OBS-011"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/35-p1-work-cash168",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/35-p1-work-cash168.jpg",
+      "sha256": "b281be51bc6a1ef8653be7d86d3e157f24a9842575798fb917a3395bea3d881a",
+      "bytes": 82594,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:51:24.662160+00:00",
+      "caption": "p1 work cash168",
+      "observations": [
+        "OBS-011"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/36-p1-partial-shift-cash172",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/36-p1-partial-shift-cash172.jpg",
+      "sha256": "e15d1f10f684c75bcb4957696614c3feb0acd32367f4888776d5a97ba18d34b7",
+      "bytes": 83647,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:51:33.953970+00:00",
+      "caption": "p1 partial shift cash172",
+      "observations": [
+        "OBS-011"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "multiplayer-continuation/37-p1-no-time-work-refusal",
+      "local_path": "work/runtime-validation/2026-10-16-continuation/37-p1-no-time-work-refusal.jpg",
+      "sha256": "c0a515ca98a24df8379aca7d4e77436ac232f6d8631fc96588fcc57c7639b5f3",
+      "bytes": 82719,
+      "dimensions": [
+        621,
+        725
+      ],
+      "file_modified_utc": "2026-10-16T08:51:50.752435+00:00",
+      "caption": "p1 no time work refusal",
+      "observations": [
+        "OBS-011"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/01-startup-attempt",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/01-startup-attempt.jpg",
+      "sha256": "e298ece484b741c84ba325effbe71da88f90b094ce0890b02670a40cd9e03352",
+      "bytes": 192024,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-15T10:26:51.739529+00:00",
+      "caption": "startup attempt",
+      "observations": [],
+      "status": "context_only"
+    },
+    {
+      "id": "solo-control/02-solo-default-goals",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/02-solo-default-goals.jpg",
+      "sha256": "6b0023659e91cd42ec228c72ede703c93e1926fed5b3d6291ad7d83397c3fe4d",
+      "bytes": 207278,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-15T10:27:20.844805+00:00",
+      "caption": "solo default goals",
+      "observations": [],
+      "status": "context_only"
+    },
+    {
+      "id": "solo-control/03-resumed-week1",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/03-resumed-week1.jpg",
+      "sha256": "436381e8f18bbea33b19285d080605b2d9e1737dd49dfd86ee08db1bac40f6e6",
+      "bytes": 189772,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:42:01.447008+00:00",
+      "caption": "resumed week1",
+      "observations": [],
+      "status": "context_only"
+    },
+    {
+      "id": "solo-control/04-bank-before-200",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/04-bank-before-200.jpg",
+      "sha256": "c5eff36eaf9f4e6024bd73d498f20b854154c5649e7de2ea2feeb43ac0d8fffa",
+      "bytes": 208958,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:43:18.741062+00:00",
+      "caption": "bank before 200",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/05-bank-cash-100",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/05-bank-cash-100.jpg",
+      "sha256": "a4dcd348d1ee0dac081a1ec993c7edb553e5c05556a99f72b8a77999d5fcd48e",
+      "bytes": 209208,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:43:27.157288+00:00",
+      "caption": "bank cash 100",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/06-bank-cash-zero",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/06-bank-cash-zero.jpg",
+      "sha256": "91eed2e3a0922d63aa36c5af16d2f5b3882740c974e124e6d020c96e495a7888",
+      "bytes": 208950,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:43:36.241602+00:00",
+      "caption": "bank cash zero",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/07-statistics-cash0-savings200",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/07-statistics-cash0-savings200.jpg",
+      "sha256": "e5cdff924565586858667836eba0287043823222a6c8cf9fa62b17fc44417bb3",
+      "bytes": 213701,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:43:52.555319+00:00",
+      "caption": "statistics cash0 savings200",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/08-week1-home-clock-full",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/08-week1-home-clock-full.jpg",
+      "sha256": "a3a113bf50959f6b947248100e1a00fb18b1a410067d87540d1bb5b8e8e69e32",
+      "bytes": 224269,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:45:14.306685+00:00",
+      "caption": "week1 home clock full",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/09-week2-weekend-cash0-clock-clear",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/09-week2-weekend-cash0-clock-clear.jpg",
+      "sha256": "9e854f8166797ffd0b6dd443fb4efe1b4bd8b746f653838da724726d0dbf0922",
+      "bytes": 209817,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:45:28.993904+00:00",
+      "caption": "week2 weekend cash0 clock clear",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/10-after-weekend",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/10-after-weekend.jpg",
+      "sha256": "a5f9156d14ebd001a3b86ccb7be404b4509421f91cb8298dad5867cfe1058848",
+      "bytes": 189721,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:45:36.367563+00:00",
+      "caption": "after weekend",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    },
+    {
+      "id": "solo-control/11-week2-statistics-money",
+      "local_path": "work/runtime-validation/2026-10-15-solo-control/11-week2-statistics-money.jpg",
+      "sha256": "3b3da61316531089f5e79f6513b843d935603197a86d81f5895d1d44d9576632",
+      "bytes": 213786,
+      "dimensions": [
+        1600,
+        786
+      ],
+      "file_modified_utc": "2026-10-16T08:45:51.266893+00:00",
+      "caption": "week2 statistics money",
+      "observations": [
+        "SOLO-CONTROL (partial RT03)"
+      ],
+      "status": "supports_bounded_observation"
+    }
+  ]
+}

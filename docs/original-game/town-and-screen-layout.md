@@ -4,7 +4,7 @@ Research date: 2026-10-15. Reference: DOS floppy **1.000.060**. Evidence: **SCRI
 
 ## One town as the persistent frame
 
-Thirteen selectable destinations sit around a compact town route. The travelling player is a marble, with a character/walker and player-number markers providing identity. Visiting a building opens a central window; it does not take the player into a freely explorable map. The town remains the surrounding frame. The broker, employer job lists, newspaper, and diploma are nested presentations rather than additional buildings.
+Thirteen selectable destinations sit around a compact town route. The travelling player is a marble, with a character/walker and player-number markers providing identity. The [first runtime session](../rules-audit/runtime-observations.md) confirms that the ordinary board shows the current player’s full body in the central area, with four numbered corner markers, between visits. Visiting a building opens a central window; it does not take the player into a freely explorable map. The town remains the surrounding frame. The broker, employer job lists, newspaper, and diploma are nested presentations rather than additional buildings.
 
 Source: [room1.sc, Place and destination instances][town]; [marblePath.sc][path]. See the [location catalogue](locations-and-actions.md) for what each visit contains.
 

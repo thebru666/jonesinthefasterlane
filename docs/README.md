@@ -31,13 +31,16 @@
 - [Computer opponent](rules-audit/computer-opponent.md)
 - [Food and housing](rules-audit/food-and-housing.md)
 - [Goods and finance](rules-audit/goods-and-finance.md)
+- [Weekends, tickets and personal events](rules-audit/random-events.md)
+- [Runtime observations](rules-audit/runtime-observations.md) and [independent solo control](rules-audit/runtime-solo-control.md): actual visible outcomes, capture provenance and limits.
+- [Controlled runtime test plan](rules-audit/runtime-test-plan.md)
 - [Validation backlog](rules-audit/validation-backlog.md)
 
 ## Planned deliverables
 
 These are not complete yet:
 
-1. Evidence-backed original-game rules catalogue (first partial pass now recorded).
+1. Evidence-backed original-game rules catalogue (three partial script passes now recorded).
 2. Adaptation specification classifying mechanics as keep, reskin, or change.
 3. Content and art bible: town, businesses, career ladders, qualifications, items, characters, humour, screen studies, and asset list.
 4. Architecture and validation plan: state, actions, saves, turn handover, computer player, milestones, and family play-testing.

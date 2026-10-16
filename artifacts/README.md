@@ -19,6 +19,11 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Pass 2 source inputs](rules-audit/2026-10-15-pass2-source-inputs.json): 25 pinned source hashes for AI, needs, goods and finance research.
 - [AI target-allocation check](rules-audit/ai-goal-allocation-check.json): independent arithmetic coverage and regeneration command linked from AI-001; no runtime claim.
 
+- [Event source inputs](rules-audit/2026-10-15-events-source-inputs.json): 11 pinned source hashes supporting EVENT-001–008; metadata does not establish package-bytecode equivalence.
+- [Lottery probability check](rules-audit/lottery-probability-check.json): 1,503 exhaustive integer draw cases, distributions and exact expected-value fractions; [regeneration/check tool](../tools/research/check_lottery_probabilities.py). Analytical arithmetic only, not gameplay or measured odds.
+
+- [Runtime capture manifest](rules-audit/runtime-capture-manifest.json): 48 local viewport captures, hashes and dimensions; observation logs bound the claims and images remain ignored.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

@@ -19,7 +19,7 @@ Source: <https://jonesinthefastlane.com/>.
 
 See the [bundle inventory](../../artifacts/discovery/2026-10-15-bundle-inventory.json) for filenames, sizes, SHA-256, and retrieval metadata. The inventory describes the package without including game contents.
 
-The game was opened in a browser and reached its opening notice. No complete match or controlled gameplay experiment was performed during this initial discovery.
+The game was opened in a browser and reached its opening notice. No complete match or controlled gameplay experiment was performed during this initial discovery. Subsequent [runtime sessions](../rules-audit/runtime-observations.md) now establish specific visible setup/transaction/handover/work outcomes; they do not replace the script audits or prove all behaviours.
 
 ## Script inspection feasibility
 
@@ -45,6 +45,7 @@ Links were accessed during initial research on 2026-10-15. Sources and remote pa
 3. Traced time, weekly processing, and economy into their supporting callers and recorded the first rule groups.
 4. Pass 2 now documents [AI](../rules-audit/computer-opponent.md), [food/housing](../rules-audit/food-and-housing.md) and [goods/finance](../rules-audit/goods-and-finance.md); source correspondence and runtime validation remain open.
 5. [Local analytical screen studies](../original-game/screen-reconstruction.md) combine decoded components with script coordinates; they are not runtime screenshots.
-6. Next evidence work is the [validation backlog](../rules-audit/validation-backlog.md), remaining event/content branches and controlled runtime capture.
+6. The [event audit](../rules-audit/random-events.md) now covers weekend/ticket/lottery/mugging/joke/recovery paths. [Actual captures](../rules-audit/runtime-observations.md) and an [independent solo control](../rules-audit/runtime-solo-control.md) provide bounded observations.
+7. Next priority is actual package bytecode correspondence to the published decompilation, with targeted runtime experiments for unresolved questions. The owner redirected effort toward reverse engineering on 2026-10-16; broad exploratory play is deferred.
 
 Do not infer complete mechanics from archive filenames or unverified recollection.

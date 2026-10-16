@@ -76,6 +76,19 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - The [screen recipes](../../artifacts/original-game/screen-study-recipes.json) record 21 source hashes, selected resource/cel coordinates and explicit state assumptions; [screen studies](../original-game/screen-reconstruction.md) combine those with S08 decoded pixels. Rendered composites remain ignored local files.
 - Evidence: SCRIPT for behaviour/placement, DECODED for original components, analytical arithmetic/composition checks for the new artifacts. Full runtime text, ports/borders, palette transitions, timing and the security stereo discrepancy remain open.
 
+## S10: pass 3 personal-event scripts and arithmetic
+
+- [EVENT-001–008](../rules-audit/random-events.md) inspect the same S02 pinned floppy decompilation for weekend selection/spending, lottery, street mugging, joke products, computer income and emergency recovery. [Eleven source hashes](../../artifacts/rules-audit/2026-10-15-events-source-inputs.json) identify the inspected inputs; no original source payloads are committed.
+- [Lottery enumeration metadata](../../artifacts/rules-audit/lottery-probability-check.json) records 1,503 integer draw cases for ticket quantities 10, 20 and 100, with exact probability/expectation fractions. Regenerate or verify it with the [independent arithmetic checker](../../tools/research/check_lottery_probabilities.py); its `--check` mode validates tracked metadata without changing it.
+- Evidence: SCRIPT for interpreted behaviour and analytical arithmetic for the enumeration. Neither establishes original RNG frequencies, package-bytecode correspondence or runtime reproduction; edition, overflow and redraw reachability limits remain explicit in the event audit.
+
+## S11: actual website gameplay captures (2026-10-15–16)
+
+- [Multiplayer observations](../rules-audit/runtime-observations.md) and [independent solo control](../rules-audit/runtime-solo-control.md) record ordinary mouse/keyboard sequences, visible values and missed intermediate states. No debugger, edited saves or hidden-state inspection was used.
+- A fresh independent bundle download matched the existing S01 SHA-256; neither browser response was intercepted to establish a separate byte-for-byte match. Emulator build/RNG state and save persistence remain unverified.
+- [Capture manifest](../../artifacts/rules-audit/runtime-capture-manifest.json) records 48 ignored local JPEG paths, hashes and dimensions. [Gallery tool](../../tools/research/index_runtime_captures.py) verifies available files without substituting missing evidence.
+- Evidence: OBSERVED only for listed visible setup, balance, handover, graphical-clock and work outcomes. Exact timed food notices/happiness and internal time counters remain unmeasured. Source/script hypotheses retain their original evidence class.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

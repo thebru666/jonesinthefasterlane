@@ -11,6 +11,8 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 | `sci_resources.py` | `engines/sci/resource/decompressor.cpp`, `resource.cpp`, `resource.h`; `engines/sci/graphics/view.cpp`, `cursor.cpp`, `scifont.cpp`, `palette16.cpp` |
 | `sci_pictures.py` | `engines/sci/graphics/picture.cpp`, `screen.cpp`; shared VGA cel/palette helpers above |
 | `sci_sound.py` | `engines/sci/resource/resource_audio.cpp`; `engines/sci/sound/midiparser_sci.cpp` |
+| `index_runtime_captures.py` | Original local capture hashing/index reporting; GPL-3.0-or-later, no game payloads embedded |
+| `check_lottery_probabilities.py` | Original independent enumeration of the documented lottery arithmetic; no original SCI execution or script payload, GPL-3.0-or-later |
 | `check_ai_goal_allocation.py` | Original independent arithmetic check of documented target bounds/capacity, not original SCI execution; GPL-3.0-or-later |
 | `reconstruct_screen_studies.py` | Original project image composition and HTML reporting using analytical recipe metadata; GPL-3.0-or-later, no copied game script implementation |
 | `catalogue_original_assets.py` | Project orchestration, checksum lock, source-role joins, manifests and local HTML index; GPL-3.0-or-later for consistent tooling distribution |
