@@ -43,6 +43,11 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Score refresh verification](rules-audit/score-refresh-verification.json): bounded whole-package caller/writer inventory and selected paths.
 - [Finance lifecycle verification](rules-audit/bytecode-finance-lifecycle-verification.json): package paths and bounded setter inventory for rent, pawns and loans.
 
+- [Native travel ordering](rules-audit/dos-travel-ordering-verification.json): original Animate spans, signal vocabulary and script join points.
+- [Bank continuation](rules-audit/bank-refresh-continuation.json): selected modal, notice, menu and bank method range hashes.
+- [Native save regions](rules-audit/dos-save-state-verification.json): fixed/heap serialization, matching restore destinations and PRNG seed exclusion.
+- [Native stereo fallback](rules-audit/dos-stereo-fallback-verification.json): relocated kernel pointers, control type4 path and shared cell lookup range hashes.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

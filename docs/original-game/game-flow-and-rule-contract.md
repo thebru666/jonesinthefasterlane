@@ -89,7 +89,7 @@ Week1 skips much of steps6, **after** economy, goal checks and the initial lotte
 
 ## Time, failure and confirmation contract
 
-All thirteen destination entries charge2 time. Travel has its own residual-clock mechanism. The [conditional reference-engine timing trace](../rules-audit/travel-timing.md) derives route hours from distance, speed and initial residue, with arrival excluded from clock calls; original DOS Animate order remains unverified. Work and lessons cost6; applications/raises4; loans2. Do not infer that every button has a cost, every refusal is free, or every timed action requires its whole nominal cost to remain.
+All thirteen destination entries charge2 time. Travel has its own residual-clock mechanism. The [native-supported timing trace](../rules-audit/dos-travel-ordering.md) derives ordinary route hours from distance, speed and initial residue, with arrival excluded from clock calls. Interrupted/restored paths and observed timing remain separate. Work and lessons cost6; applications/raises4; loans2. Do not infer that every button has a cost, every refusal is free, or every timed action requires its whole nominal cost to remain.
 
 With one hour left, a normal work shift prorates pay, a lesson still awards one increment, and an application still resolves. At already-spent60, those timed handlers refuse. A permitted free purchase, deposit or enrollment can still finish inside the location before Exit rotates the player. Rent garnishment is a confirmed exception to proportional final-shift pay. [Clock/entry trace](../rules-audit/bytecode-flow-and-persistence.md#flow-003-all-thirteen-destination-entries-cost-two), [action boundaries](../rules-audit/time-and-actions.md).
 
@@ -112,13 +112,13 @@ These are analytical groups of original state, not an agreed TypeScript schema:
 | Flow | Board motion and residual clock, active location/child screen, pending action/notice continuation, ready flags and controller plan |
 | Randomness | Rule draws, failed-attempt draws and presentation draws; source/version/state needed for reproducible interpretation |
 
-Do not merge net worth into Wealth progress or treat every score as immediately fresh. The actual cash helper computes Wealth from cached liquid assets; the panel separately refreshes assets; goal gates read stored scores. [The full bounded score inventory](../rules-audit/score-refresh.md) traces ordinary action orders and bank mutations after asset refresh; this is not a universal one-action lag.
+Do not merge net worth into Wealth progress or treat every score as immediately fresh. The actual cash helper computes Wealth from cached liquid assets; the panel separately refreshes assets; goal gates read stored scores. [The full bounded score inventory](../rules-audit/score-refresh.md) traces ordinary action orders and bank mutations after asset refresh; the [bank continuation trace](../rules-audit/bank-refresh-continuation.md) identifies an ordinary stale-cache path and the difference between Statistics and Goals. This is not a universal one-action lag.
 
 The [finance lifecycle trace](../rules-audit/finance-lifecycle.md) establishes that pawn aging includes the transaction's end turn, and loan lateness checks payment in the due week even with prepaid schedule credit. Preserve the separate flags and ordered mutations.
 
 The [native economy frame trace](../rules-audit/economy-frame-semantics.md) establishes the main omitted argument as the preceding initialization target draw. The [original DOS random generator](../rules-audit/dos-randomness.md) and scaling are identified statically; exact random frequencies, complete call order and saved state remain separate. Neither a zero parent default nor a uniform modern RNG is an established original rule.
 
-The original writes fixed DOS slot1 with a version argument, while the browser's persistence remains unverified. A future versioned local save should capture the new simulation/continuation contract; adopting it does not require reproducing DOS serialization. [Persistence boundary](../rules-audit/bytecode-flow-and-persistence.md#save-001-fixed-slot-kernel-boundary).
+The original writes fixed DOS slot1 with a version argument, and [native serialization excludes the PRNG seed](../rules-audit/dos-save-state.md); the browser's persistence remains unverified. A future versioned local save should capture the new simulation/continuation contract; adopting it does not require reproducing DOS serialization. [Persistence boundary](../rules-audit/bytecode-flow-and-persistence.md#save-001-fixed-slot-kernel-boundary).
 
 ## Build-planning boundary
 

@@ -76,3 +76,6 @@ python3 tools/research/check_economy_frame.py --check
 ```
 
 This checks source hashes, package stack heights, original DOS relocations and reviewed handler addresses. [The frame finding](../rules-audit/economy-frame-semantics.md) describes the manually traced semantics and peer review. It proves a selected static call relationship, not original execution, every VM instruction or an entire economic simulation.
+
+
+Further selected native findings use the same image/address convention: [travel update ordering](../rules-audit/dos-travel-ordering.md), [save regions and random state](../rules-audit/dos-save-state.md), and [stereo cell fallback](../rules-audit/dos-stereo-fallback.md). Their metadata records the specific ranges/hashes; no whole-engine equivalence is implied.

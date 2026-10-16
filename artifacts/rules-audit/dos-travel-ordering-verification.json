@@ -1,0 +1,164 @@
+{
+  "research_date": "2026-10-16",
+  "evidence": "DOS-STATIC + BYTECODE + ANALYTICAL_CHECK; no DOS execution",
+  "game": "Jones in the Fast Lane DOS1.000.060",
+  "source_bundle": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+    "version": "1.000.060"
+  },
+  "native_image": {
+    "unpack_metadata": "artifacts/original-game/dos-interpreter-unpack.json",
+    "sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+    "bytes": 106580,
+    "address_convention": "unrelocated MZ load-image offset = segment*16+offset; DS1856 base0x18560"
+  },
+  "resource_ordinal_table": {
+    "resource": "vocabulary.994",
+    "sha256": "47259503b968834df7e6fd0095f4676b2af4fc56165617c20cdb354ad79c91ea",
+    "signal_word_index": 2,
+    "signal_property_ordinal": 14,
+    "loader": "0x4c81-0x4cca copies55words to DS235a onward"
+  },
+  "kernel_dispatch": {
+    "table_image_offset": "0x18d30",
+    "index": 11,
+    "entry_image_offset": "0x18d5c",
+    "target": "0627:020b",
+    "target_image_offset": "0x0647b",
+    "callee": "0a73:0008",
+    "callee_image_offset": "0x0a738"
+  },
+  "native_spans": [
+    {
+      "start": "0x0647b",
+      "end_exclusive": "0x0649c",
+      "purpose": "kernel11 wrapper",
+      "sha256": "105a1cba38fcc953e336daaaa0d1f0b9cb96a6d1fee615a576ea3376154acaa6"
+    },
+    {
+      "start": "0x0a738",
+      "end_exclusive": "0x0a7b5",
+      "purpose": "Animate entry and eligible cast doit traversal",
+      "sha256": "d587c0157c727f98b4c3d8a06c16a6820c5a89eff9c1d423f7b95fc766bd09a5"
+    },
+    {
+      "start": "0x0ac5b",
+      "end_exclusive": "0x0ac93",
+      "purpose": "later delete dispatch and Animate return",
+      "sha256": "5ccf1546058cd4119f359646b046e374bf26641fe2de07406c16d76c2dcbc99c"
+    },
+    {
+      "start": "0x0b6e9",
+      "end_exclusive": "0x0b73a",
+      "purpose": "synchronous zero-argument selector invocation helper",
+      "sha256": "fb7a11ef3e6fdb93b1e9cc6580579c827a7e48706e84700c6195172b023cb3c0"
+    },
+    {
+      "start": "0x0b532",
+      "end_exclusive": "0x0b6c7",
+      "purpose": "selector parser and method invocation",
+      "sha256": "feb9299842d416d5d090631bdd91bfaaa04d900c0884721584263c4ba3139776"
+    },
+    {
+      "start": "0x04c81",
+      "end_exclusive": "0x04ccb",
+      "purpose": "vocabulary994 ordinal-table loader",
+      "sha256": "cf2d1895451fda77d6048d3334172c0df7642c0c90edc42fd3b9bafd5802f022"
+    },
+    {
+      "start": "0x00c5b",
+      "end_exclusive": "0x00c5c",
+      "purpose": "SCI ret opcode handler",
+      "sha256": "383e5d7d58caa41ce723cf16af471b38f6ee9065c032d07fa6bef1678cb72f1d"
+    }
+  ],
+  "landmarks": [
+    {
+      "offset": "0x06481-0x06492",
+      "finding": "wrapper passes provided list and cycle when argc2; otherwise zeroes both"
+    },
+    {
+      "offset": "0x0a778-0x0a77c",
+      "finding": "cycle0 bypasses actor doit traversal"
+    },
+    {
+      "offset": "0x0a784-0x0a795",
+      "finding": "node value+6 gives object; dynamic signal ordinal is doubled; signal&0x0100 skips invocation"
+    },
+    {
+      "offset": "0x0a797-0x0a7a4",
+      "finding": "push argc0, selector60/doit, object; synchronous farcall helper"
+    },
+    {
+      "offset": "0x0a7a7-0x0a7b3",
+      "finding": "read current node successor at+0 only after invoke returns; repeat untilnull"
+    },
+    {
+      "offset": "0x0b6e9-0x0b739",
+      "finding": "construct selector/argc frame, call parser0xb532, restorecontext andreturn"
+    },
+    {
+      "offset": "0x0b67b",
+      "finding": "parser directly calls VM entry0048:010b/0x0058b for selected SCI method"
+    },
+    {
+      "offset": "0x00c5b",
+      "finding": "SCI ret opcode handler performs nativefarreturn to caller"
+    },
+    {
+      "offset": "0x0ac62-0x0ac6f",
+      "finding": "later object-deletion dispatch uses selector84/delete, notdoit"
+    },
+    {
+      "offset": "0x0ac8d-0x0ac92",
+      "finding": "Animate restores nativeframe andreturns"
+    }
+  ],
+  "script_join": {
+    "source": "artifacts/rules-audit/travel-timing-verification.json",
+    "anchors": [
+      "994:0x0481 Animate cast,1",
+      "994:0x0495 motionCue completionpass",
+      "994:0x04a9 room doit",
+      "101:0x00a2 moveDone",
+      "992:0x04dd clear mover",
+      "1:0x0169 queuearrival",
+      "1:0x227d destinationcue",
+      "1:0x2290 boardclock"
+    ],
+    "cast_signals": {
+      "timeKeep": 257,
+      "marble": 0
+    },
+    "signal_ordinal": 14
+  },
+  "result": {
+    "normal_native_order": "eligiblecastdoit synchronously completes, Animate returns, Game processesmotionCue, boardhandlesarrival beforeclocktest",
+    "clock_double_dispatch": false,
+    "arrival_clock_call": false,
+    "formula": "N=(d-1)*s; hours=floor((r+N)/(14*s+1)); residual=(r+N) mod(14*s+1)",
+    "assumptions": [
+      "distinct endpoints",
+      "constant speed1..6",
+      "initial residue0..14s",
+      "ordinary active cast without abnormal objectdeletion",
+      "no reroute/speedchange/turnexhaustion orrestore"
+    ]
+  },
+  "checks": {
+    "image_hash_matches_unpack_manifest": true,
+    "kernel11_pointer_matches": true,
+    "vocab994_signal_ordinal_matches": true,
+    "selected_instruction_landmarks_checked": true,
+    "ret_opcode_table_matches": true,
+    "analytical_checker_reference": "tools/research/check_travel_timing.py (25500 bounded cases; no native execution)"
+  },
+  "limits": [
+    "static selected instruction trace, not full DOS decompilation",
+    "no DOS launch or runtime observation",
+    "abnormal cast mutation/restore/errorpaths unproved",
+    "rendering and wallclock timing not audited",
+    "no new adaptation decision"
+  ]
+}

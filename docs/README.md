@@ -30,6 +30,7 @@
 
 - [Audit plan and coverage](rules-audit/README.md)
 - [Direct bytecode verification](rules-audit/bytecode-verification.md): actual-package logic findings and remaining gaps.
+- [Native travel ordering](rules-audit/dos-travel-ordering.md), [bank continuation](rules-audit/bank-refresh-continuation.md), [native saves/random state](rules-audit/dos-save-state.md) and [stereo fallback](rules-audit/dos-stereo-fallback.md): selected original-interpreter and callback gaps resolved statically.
 - [Rule record template](rules-audit/rule-template.md)
 - [Employment](rules-audit/employment.md): package-verified hiring, raises, work, growth and dismissal.
 - [Education](rules-audit/education.md): package-verified enrollment, course progression, equipment and rewards.

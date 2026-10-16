@@ -121,6 +121,13 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - [Score refresh](../rules-audit/score-refresh.md) and [finance lifecycle](../rules-audit/finance-lifecycle.md) inventory all69 decoded resource hashes and selected original instruction spans. Their bounded literal-selector/direct-property searches strengthen normal-path ordering claims without proving absence of reflective/restored/interpreter mutations.
 - No new runtime observation or application implementation accompanies this step. Original executables, upstream source, disassembly and extracted assets remain ignored.
 
+## S17: native ordering, save regions and modal continuation (2026-10-16)
+
+- Same S15 unpacked executable. [Native Animate](../rules-audit/dos-travel-ordering.md) links kernel11, cast traversal, vocabulary994 signal ordinal, frozen-clock exclusion and synchronous method invocation to the actual SCI travel loop. [Native save analysis](../rules-audit/dos-save-state.md) traces two serialized intervals and matching decoder destinations, excluding the native PRNG seed. [Stereo fallback](../rules-audit/dos-stereo-fallback.md) follows control type4 and dimension/draw wrappers into the shared cell lookup.
+- Their separate artifacts record native range hashes and address conventions. Root cross-checks covered the native instruction paths, kernel pointers, region bounds, vocabulary and resource identities. These are selected DOS-STATIC findings, not executable launch, observed timing, save roundtrip or whole-renderer equivalence.
+- [Bank continuation](../rules-audit/bank-refresh-continuation.md) checks3,018 selected instruction spans across five package scripts, extending the prior score inventory through modal housekeeping, Print/BubbleWindow callbacks and Statistics/Goals return. Its normal stale-cache path is BYTECODE analysis; visible score lag remains unobserved.
+- Subagents supplied static traces; the parent checked the files and key paths after agent usage-limit errors interrupted final reporting. No original code/assets were committed and no new-game implementation was started.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

@@ -49,3 +49,6 @@ The finishing week is recorded and the participant retires from normal turns. Wi
 ## Remaining verification
 
 Verify marker appearance, scrolling, initial displayed scores, the bank post-mutation refresh sequence described above, final-action-to-next-turn victory, Jones winning, and later placements in the reference runtime. Relevant ordinary action call order is now statically mapped; its visible timing has not been measured in this pass. The parent browser inspection reached an opening notice and then a blank display, supplying no gameplay observations; see [visual evidence limits](town-and-screen-layout.md#evidence-still-needed-for-visual-fidelity). Other editions were not compared in this pass. No online leaderboard or persistent cross-game high-score system appears in the inspected finish path; absence across every resource has not been established.
+
+
+The [bank continuation follow-up](../rules-audit/bank-refresh-continuation.md) traces an ordinary path where incomplete cached assets survive to the next transaction. Statistics recalculates assets; normal Goals return alone does not, because the bank gates its extra cash-panel redraw behind the restoration flag. These are static sequence findings, not newly observed score values.

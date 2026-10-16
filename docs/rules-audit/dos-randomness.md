@@ -26,7 +26,7 @@ Existing rule tables explicitly calculate probabilities under **inclusive unifor
 
 For example, [lottery thresholds](bytecode-needs-events.md#ev-b02-lottery-thresholds-and-ticket-consumption) still require quantity>draw and use the documented prize tiers. Their501-outcome enumeration checks the conditional formula. It must not be relabelled an exact original-RNG expectation merely because the native bounds are now known.
 
-A faithful deterministic replay would require this generator, initialization, saved state and **all call ordering**, including failed actions and visual effects. The [winner scene](bytecode-flow-and-persistence.md#finish-001-placement-is-assigned-during-presentation) consumes Random calls; other animation/clerk draws also need a complete call-order audit. Native generator identification alone is not a working replay implementation.
+A faithful deterministic replay would require this generator, initialization, saved state and **all call ordering**, including failed actions and visual effects. The [winner scene](bytecode-flow-and-persistence.md#finish-001-placement-is-assigned-during-presentation) consumes Random calls; other animation/clerk draws also need a complete call-order audit. The [native save trace](dos-save-state.md) additionally shows that SaveGame's two captured regions exclude this interpreter seed; a native save is not a complete PRNG snapshot. Native generator identification alone is not a working replay implementation.
 
 For2.0, a new seeded generator and separate visual randomness remain reasonable proposals already listed in planning. They are explicit technical departures, not discovered original behaviour. No application code or translated original RNG implementation is committed here.
 

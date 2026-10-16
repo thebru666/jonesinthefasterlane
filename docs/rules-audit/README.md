@@ -65,11 +65,15 @@ Selected-path findings are package-verified. Remaining numerical/random paths, e
 - [Original DOS unpack/inspection recipe](../discovery/inspect-dos-interpreter.md): reproducible executable hashes and native address conventions; original code remains ignored.
 - [Economy frame semantics](economy-frame-semantics.md): original DOS and reference paths agree that the main omitted argument reads the initialization target draw, rather than its guarded zero.
 - [Original DOS randomness](dos-randomness.md): native seed recurrence, selected output bits and scaling into ordinary bounds; independent uniform frequencies are not established.
-- [Travel timing](travel-timing.md): conditional reference-engine ordering/formula, frozen clock, speed/residual boundaries and 25,500 analytical cases. Native DOS Animate ordering remains unverified.
+- [Travel timing](travel-timing.md): conditional reference-engine ordering/formula, frozen clock, speed/residual boundaries and 25,500 analytical cases. The subsequent [native follow-up](dos-travel-ordering.md) now supports ordinary Animate ordering; interrupted/restored and observed timing remain separate.
 - [Score refresh](score-refresh.md): bounded whole-package writer/caller inventory, ordinary transaction ordering and bank tail mutations; focused visible-state experiment remains.
 - [Finance lifecycle](finance-lifecycle.md): package-verified rent/extension/move/arrears, three-end-turn pawn aging and due-week loan flags; default/seizure search has explicit bounds.
 
 These findings advance static verification without marking runtime scenarios passed or approving changes to the original.
+
+## Native ordering, saves and bank continuation (2026-10-16)
+
+The [original DOS Animate trace](dos-travel-ordering.md) now supplies the ordinary cast-update/frozen-clock dependency behind the travel formula. [Native save regions](dos-save-state.md) exclude the random seed, so a native save is not a complete replay snapshot. [Bank continuation](bank-refresh-continuation.md) traces consecutive transactions without automatic cache repair, with Statistics and Goals returning differently. [Stereo fallback](dos-stereo-fallback.md) resolves the positive-index request through original control sizing/drawing to loop0/cel4. These are selected static findings; no new original DOS execution or observed score/rendering result is claimed.
 
 ## Evidence labels
 
@@ -94,7 +98,7 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 | Area | Questions | Status |
 | --- | --- | --- |
 | Setup and goals | Starting resources, player count, goal settings, win timing | Source baseline: [setup](../original-game/setup-multiplayer.md), [scores/finish](../original-game/progression-and-finish.md); runtime and edge paths pending |
-| Time and travel | Weekly allowance, movement, entry costs, rounding, partial actions | Partial: [TIME-001–007](time-and-actions.md), [all13 entry charges and clock mechanism verified](bytecode-flow-and-persistence.md); [conditional route-hour formula checked](travel-timing.md); native DOS/interruption timing pending |
+| Time and travel | Weekly allowance, movement, entry costs, rounding, partial actions | Partial: [TIME-001–007](time-and-actions.md), [all13 entry charges and clock mechanism verified](bytecode-flow-and-persistence.md); [ordinary formula has native static support](dos-travel-ordering.md); interrupted/restored and visible timing remain |
 | Weekly processing | Order of rent, food, events, economy, income, and victory checks | Detailed selected BYTECODE: [WEEK-001–006](weekly-processing.md) and [ordered stage dispatch/rotation](bytecode-weekly-opponent.md); rare arithmetic/resume/runtime pending |
 | Economy | State transitions, duration, randomness, price/wage/job effects | Partial: [ECON-001–007](economy.md); selected conditions confirmed in [actual bytecode](bytecode-economy-presentation.md); [main omitted argument resolved in native DOS](economy-frame-semantics.md); remaining formulas/editions and long-run validation pending |
 | Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Detailed BYTECODE: [employment rules](employment.md) and all37 job records; selected rejection/raise/work paths verified; every caller and runtime presentation pending |
@@ -106,7 +110,7 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 | Random events | Triggers, eligibility, probabilities, ordering, recovery | Detailed SCRIPT: [EVENT-001–008](random-events.md), plus shocks/illness/theft/repairs in their domain records; runtime, exhaustive flavour/animation and [selected native DOS RNG identified](dos-randomness.md); frequency/call-order/edition validation pending |
 | Asset presentation | Resource inventory, decompression, graphics/text/audio coverage | [266 unique resources catalogued](../original-game/asset-catalogue-notes.md); 108 graphics resources rendered, sound events/MIDI exported; [18 screen composites](../original-game/screen-reconstruction.md); full text/animation/role transcription and runtime comparison pending |
 | Computer opponent | Policy, information, difficulty, special treatment | SCRIPT plus selected BYTECODE: [AI-001–009](computer-opponent.md), [work/exit bridge and policy anomalies](bytecode-weekly-opponent.md); [all-destination dispatch inventoried](bytecode-ai-actions.md); exhaustive policy/arithmetic/runtime/demo-CD remain pending |
-| Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); runtime/emulator persistence pending |
+| Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); [native save regions/RNG exclusion traced](dos-save-state.md); actual roundtrip and browser/emulator persistence pending |
 
 ## Method
 

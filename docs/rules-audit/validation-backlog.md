@@ -14,7 +14,7 @@ All 69 website scripts have been independently decoded; [coverage and limits](by
 
 [All-destination AI dispatch](bytecode-ai-actions.md) and [selected needs/event predicates](bytecode-needs-events.md) have since been package-checked. The weekend redraw debit is confirmed in bytes, while ordinary redraw reachability remains open.
 
-Follow-up checks now cover [conditional travel timing](travel-timing.md), [bounded score writer/caller inventory](score-refresh.md), [finance lifecycles](finance-lifecycle.md) and the [native DOS random generator/scaling](dos-randomness.md). Further work: native DOS travel ordering, interrupted travel, focused bank/message/Statistics score-refresh sequences, complete RNG initialization/call order/save interaction, remaining event/high-word arithmetic, remaining AI policy/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
+Follow-up checks now cover [conditional travel timing](travel-timing.md), [bounded score writer/caller inventory](score-refresh.md), [finance lifecycles](finance-lifecycle.md) and the [native DOS random generator/scaling](dos-randomness.md). The [native update ordering](dos-travel-ordering.md), [ordinary bank continuation](bank-refresh-continuation.md), [native save regions/RNG exclusion](dos-save-state.md) and [stereo fallback](dos-stereo-fallback.md) now have selected static traces. Further work: interrupted travel, visible bank/message/Statistics corroboration, complete RNG initialization/call order/post-restore interaction, remaining event/high-word arithmetic, remaining AI policy/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
 
 ## Runtime progress
 

@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-16",
+  "evidence": "BYTECODE + DOS-STATIC, manual native trace; no original DOS execution",
+  "source_metadata": "artifacts/original-game/dos-interpreter-unpack.json",
+  "unpacked_executable_sha256": "e4e5493756739f33af2a570a67bd35340369c823293065200806fd078e92b797",
+  "address_convention": "MZ load-image offsets excluding header; ranges end-exclusive",
+  "native_ranges": [
+    {
+      "role": "DrawControl_kernel",
+      "start": "0x6e33",
+      "end_exclusive": "0x6e46",
+      "sha256": "6115a4cac1e259a01c287e2c9ed023f713c52ae9ea1c757e3794fbb38110c606"
+    },
+    {
+      "role": "DrawControl_dispatch",
+      "start": "0x5321",
+      "end_exclusive": "0x53e7",
+      "sha256": "369d99dca413307254583f32f59bfd6dc4dc8c643033f3081043d99966608c7a"
+    },
+    {
+      "role": "icon_type4_draw",
+      "start": "0x5520",
+      "end_exclusive": "0x558e",
+      "sha256": "20e09227c74a9a0fbe6860402618c1000bfecee6e7f6b5af116bbfaf1b977fa4"
+    },
+    {
+      "role": "get_cel_header",
+      "start": "0x16f4c",
+      "end_exclusive": "0x16fb7",
+      "sha256": "66805bef2ae1f99b6565ece855ffd41b9df84100eb028c134c184fdf8f7a039d"
+    },
+    {
+      "role": "draw_cel_wrapper",
+      "start": "0x1711c",
+      "end_exclusive": "0x17170",
+      "sha256": "e32fc39cef7059101b5dca3caa6c644002ccde1199a9b755a2b7b8a54b1cd076"
+    },
+    {
+      "role": "cel_width",
+      "start": "0x17170",
+      "end_exclusive": "0x17198",
+      "sha256": "c3632f69a420cd5a01fceed6d0024b8d957827eb28607fbf231cae038d8e5733"
+    },
+    {
+      "role": "cel_height",
+      "start": "0x17198",
+      "end_exclusive": "0x171c1",
+      "sha256": "0cf3536856706a3530884c8d6de6c63b79c3796755f9490878884733a869d2d9"
+    },
+    {
+      "role": "CelWide_kernel",
+      "start": "0x6b03",
+      "end_exclusive": "0x6b2c",
+      "sha256": "499f20d55eab4c8e3f2a6a3514187e54a5d65006277b36b5fd31d0791ac9f88f"
+    },
+    {
+      "role": "CelHigh_kernel",
+      "start": "0x6b2c",
+      "end_exclusive": "0x6b55",
+      "sha256": "fd83fd8533f5ac448e4f3b0d34a2f3668fa3a672245e3e2117621e5579266eb9"
+    }
+  ],
+  "kernel_pointers": [
+    {
+      "id": 15,
+      "load_image_offset": "0x6b03",
+      "table_segment_relocation": "0x18d6e"
+    },
+    {
+      "id": 16,
+      "load_image_offset": "0x6b2c",
+      "table_segment_relocation": "0x18d72"
+    },
+    {
+      "id": 23,
+      "load_image_offset": "0x6e33",
+      "table_segment_relocation": "0x18d8e"
+    }
+  ],
+  "script_resources": [
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca"
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1"
+    }
+  ],
+  "view702": {
+    "sha256": "977152c2ac0adb13582a8d4dc21f33af54798ed874e75ea992da1257366aaafd",
+    "loops": 1,
+    "cels_in_loop0": 5
+  },
+  "package_anchors": {
+    "202": [
+      "stereo quantity26 test0x0106-0x0117; add0x0121",
+      "eachElementDo setSize/open packet0x015d-0x017c",
+      "theStereo view/loop/cel fields0x0472/0x0474/0x0476"
+    ],
+    "255": [
+      "DIcon.setSize0x05c0-0x05e2: CelWide call0x05cc; CelHigh0x05dc",
+      "inherited control draw0x035d-0x03cd; DrawControl call0x03c4"
+    ]
+  },
+  "native_findings": [
+    "DrawControl type4 dispatch target0x5520",
+    "type4 retrieves view/loop/cel selectors5/6/7 and calls shared draw wrapper0x1711c",
+    "width, height and draw wrapper all call shared cel lookup0x16f4c",
+    "loop ordinal unsigned comparison with low-byte loop count clamps out-of-range to count-1",
+    "cel ordinal unsigned comparison with selected loop cel count clamps out-of-range to count-1",
+    "view702 request loop1/cel4 resolves loop0/cel4 in selected native paths; object property remains1"
+  ],
+  "limits": [
+    "valid nonempty view with ordinary positive indices",
+    "no whole-renderer equivalence or observed apartment capture",
+    "negative-index fallback differs from signed reference clamp; not generalized",
+    "palette, position, ownership/runtime reachability and every draw/restore state not established by native helper alone"
+  ]
+}

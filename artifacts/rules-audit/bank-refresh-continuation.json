@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-16",
+  "evidence": "BYTECODE: selected normal modal continuation and callback analysis; no runtime experiment",
+  "package": "website DOS1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "source": "artifacts/rules-audit/score-refresh-verification.json",
+  "resources": [
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "methods": [
+        {
+          "name": "bank.init",
+          "start": "0x136",
+          "end_exclusive": "0x3d8",
+          "instruction_count": 334,
+          "slice_sha256": "9a2335a3fc9fc67dcf8eb7a61c628dd868a3a8279dbd1ec188ada3a35dbf6fb8"
+        },
+        {
+          "name": "bank.draw",
+          "start": "0x3d8",
+          "end_exclusive": "0x402",
+          "instruction_count": 22,
+          "slice_sha256": "250e173cc4f65f5e785762583329a3d8bf195f6da059f4084eaac3d841344baa"
+        },
+        {
+          "name": "deposit.doit",
+          "start": "0x49c",
+          "end_exclusive": "0x5a1",
+          "instruction_count": 122,
+          "slice_sha256": "d976694d3d7e0225fac301a1c58296ac723940ab17e5c448a258a9645ad9f450"
+        },
+        {
+          "name": "deposit.hilite",
+          "start": "0x5a1",
+          "end_exclusive": "0x5dc",
+          "instruction_count": 28,
+          "slice_sha256": "2324d11943a632e6ef0fefbd3da76fa71b46bffbca9c7458a0db03a657150787"
+        },
+        {
+          "name": "withdraw.doit",
+          "start": "0x64c",
+          "end_exclusive": "0x763",
+          "instruction_count": 129,
+          "slice_sha256": "0a88575f02dc83f1d707926e042cc83d892dfe87ffc5b1861f3a75961ba9783a"
+        },
+        {
+          "name": "withdraw.hilite",
+          "start": "0x763",
+          "end_exclusive": "0x79e",
+          "instruction_count": 28,
+          "slice_sha256": "5d45e8ddd7d4ff1f2cb30fdca0f6b8c215492b360dc0d7f39230848d1b3fec32"
+        },
+        {
+          "name": "loanPayment.doit",
+          "start": "0x833",
+          "end_exclusive": "0x949",
+          "instruction_count": 131,
+          "slice_sha256": "086a9627a94a990483de6cb6127f04747bdd44241bb8ae52004635cee043f9ca"
+        }
+      ]
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1",
+      "methods": [
+        {
+          "name": "export_0",
+          "start": "0x160e",
+          "end_exclusive": "0x1b71",
+          "instruction_count": 725,
+          "slice_sha256": "bdf2547b3fa04f04c560c183fb7863331fb0d2740b047c3ac4beab072022a8cc"
+        },
+        {
+          "name": "Dialog.doit",
+          "start": "0xd68",
+          "end_exclusive": "0xe86",
+          "instruction_count": 144,
+          "slice_sha256": "5e4027305ddce42c8abf6fe1673d2c2e5f2518aa92263caaeb9f49f879dc2155"
+        },
+        {
+          "name": "Dialog.check",
+          "start": "0xe86",
+          "end_exclusive": "0xeab",
+          "instruction_count": 19,
+          "slice_sha256": "c951627af5734829f7b33c806ea55908b06464967f274235fa3675f9f97ed00b"
+        },
+        {
+          "name": "Dialog.handleEvent",
+          "start": "0xf98",
+          "end_exclusive": "0x134b",
+          "instruction_count": 494,
+          "slice_sha256": "262c2791fc42acc907377ddf1a1b1b904908c0410a03dd35b9d486db7b88e77f"
+        },
+        {
+          "name": "Dialog.draw",
+          "start": "0xd60",
+          "end_exclusive": "0xd68",
+          "instruction_count": 5,
+          "slice_sha256": "fd2f24131bfe8a3bd6e3e5b333ffc68f30e7dd526cdf8d1928c6c9ad0d36adef"
+        }
+      ]
+    },
+    {
+      "script": 113,
+      "sha256": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0",
+      "methods": [
+        {
+          "name": "BubbleWindow.dispose",
+          "start": "0x56f",
+          "end_exclusive": "0x5d1",
+          "instruction_count": 52,
+          "slice_sha256": "29a846f469a74a7f37b648f73c1066ab22507ad07a2f877a444756366c84bab6"
+        }
+      ]
+    },
+    {
+      "script": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52",
+      "methods": [
+        {
+          "name": "export_1",
+          "start": "0x7b2",
+          "end_exclusive": "0x89c",
+          "instruction_count": 105,
+          "slice_sha256": "55b072912f8f7961924127a79ade4e3e6cd8732953e59919a93a4da37a8a3a18"
+        },
+        {
+          "name": "export_2",
+          "start": "0x89c",
+          "end_exclusive": "0x984",
+          "instruction_count": 104,
+          "slice_sha256": "164ddc807eaf2e4c36efe3333cd4a70a88d349deebdd39ed6904992693dcfb9b"
+        }
+      ]
+    },
+    {
+      "script": 231,
+      "sha256": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2",
+      "methods": [
+        {
+          "name": "procedure_000c",
+          "start": "0xc",
+          "end_exclusive": "0x4aa",
+          "instruction_count": 576,
+          "slice_sha256": "ec48551af9a95b831d12405a7883dfe2631dd632cde784d4d700a0140e4900a4"
+        }
+      ]
+    }
+  ],
+  "offset_convention": "decompressed SCI payload including headers; end-exclusive",
+  "anchors": {
+    "modal_handler_return": "255:0x0e46 handleEvent then eventdispose/check/Wait/loop; no outer Game.doit",
+    "notice_menu_gate": "Dialog property menuBarOK selector309 default0, client0; handleEvent0x0f9a-0x0fa6 gates MenuBar",
+    "Print_clone": "255:0x1648-0x1651 creates Dialog clone; no literal menuBarOK setter in export0",
+    "bank_draw": "204:0x03de-0x03ff gates gCalc draw behind global518; init clears flag before modal",
+    "statistics": "997:0x0827 loads231; 231:0x0015 explicitly calcNetWorth",
+    "goals": "997:0x090f loads238; both menus return global502.draw but bank gates gCalc",
+    "notice_disposal": "113:0x056f-0x05d0 draws animateObj, restores pixel boxes, disposes window; no bank/gCalc send"
+  },
+  "ordinary_conclusion": "absent a separate asset-refresh action, consecutive human bank transactions can sample incomplete asset cache; opening Statistics explicitly repairs cache; normal Goals return alone does not",
+  "assumptions": [
+    "human bank dialog remains open",
+    "ordinary successful transaction with valid low-word balances",
+    "global518 remains0 after normal initialization",
+    "no save/restore/restart/quit, broker visit or other explicitly refreshing action",
+    "selected clerk/Print callbacks and ordinary item selection only"
+  ],
+  "limits": [
+    "not observed runtime lag or full dynamic callback absence proof",
+    "no universal one-action lag",
+    "no high-word/negative-balance compatibility claim",
+    "direct action ordering from earlier score audit remains separate from display timing"
+  ]
+}

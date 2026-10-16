@@ -1,0 +1,224 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "DOS-STATIC: selected native save/restore/allocator/stream control-flow trace; no execution or save roundtrip",
+  "provenance": "artifacts/original-game/dos-interpreter-unpack.json",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "source_bundle_retrieved": "2026-10-15",
+  "bundle_version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "unpacked_executable_sha256": "e4e5493756739f33af2a570a67bd35340369c823293065200806fd078e92b797",
+  "mz_header_bytes": 8704,
+  "image_size": 106580,
+  "image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+  "offset_convention": "zero-based load-image offsets after removing MZ header; original relative segment pointers are pre-relocation, not file offsets",
+  "kernel_table": {
+    "data_segment_relative": "0x1856",
+    "table_offset": "0x07d0",
+    "entries": [
+      {
+        "kernel": 41,
+        "role": "SaveGame",
+        "table_image_offset": "0x18dd4",
+        "relative_far_pointer": "0e6b:0008",
+        "handler_image_offset": "0xe6b8"
+      },
+      {
+        "kernel": 42,
+        "role": "RestoreGame",
+        "table_image_offset": "0x18dd8",
+        "relative_far_pointer": "0e6b:010b",
+        "handler_image_offset": "0xe7bb"
+      },
+      {
+        "kernel": 93,
+        "role": "GetSaveFiles",
+        "table_image_offset": "0x18ea4",
+        "relative_far_pointer": "0e6b:0755",
+        "handler_image_offset": "0xee05"
+      },
+      {
+        "kernel": 101,
+        "role": "CheckSaveGame",
+        "table_image_offset": "0x18ec4",
+        "relative_far_pointer": "0e6b:029f",
+        "handler_image_offset": "0xe94f"
+      }
+    ]
+  },
+  "ranges": [
+    {
+      "role": "startup_data_segment_and_heap_call",
+      "image_start": "0x6f",
+      "image_end_exclusive": "0x105",
+      "bytes": 150,
+      "sha256": "cc27d03e903be4c8394d9469b156e0d38944a234fb79366f38e96c50c4c33499"
+    },
+    {
+      "role": "heap_initializer",
+      "image_start": "0x17ad0",
+      "image_end_exclusive": "0x17b0e",
+      "bytes": 62,
+      "sha256": "9daabdcb55e3b1db4079c336e81756000ae7a0e7accb4a71cf812706f6102d00"
+    },
+    {
+      "role": "heap_initializer_arguments",
+      "image_start": "0x17b39",
+      "image_end_exclusive": "0x17b65",
+      "bytes": 44,
+      "sha256": "dc8ed3058dff292e1e18a1d12a1c27a126947c313de7f68534a55265fa457a7c"
+    },
+    {
+      "role": "save_handler",
+      "image_start": "0xe6b8",
+      "image_end_exclusive": "0xe7bb",
+      "bytes": 259,
+      "sha256": "0e5b4f4fd5a254e88aa56fa72df05257e8b4a343296bdb9f37cabd902d35fff2"
+    },
+    {
+      "role": "restore_handler",
+      "image_start": "0xe7bb",
+      "image_end_exclusive": "0xe948",
+      "bytes": 397,
+      "sha256": "d1c9da53164b1151a869896a080cdaff52e76d98ebf5e74284f8d1393ae39d4b"
+    },
+    {
+      "role": "save_validation",
+      "image_start": "0xe9b2",
+      "image_end_exclusive": "0xea1f",
+      "bytes": 109,
+      "sha256": "be26bf4e63853d3804e2e6aa53fe095383ab23c5b14bf26b36c6e1a129c425a1"
+    },
+    {
+      "role": "compressed_region_encoder",
+      "image_start": "0xea5f",
+      "image_end_exclusive": "0xeba8",
+      "bytes": 329,
+      "sha256": "8189bb8bee69e5f331d73309875fde498ff10ea639fd090d88f157316d548397"
+    },
+    {
+      "role": "compressed_region_decoder",
+      "image_start": "0xeba8",
+      "image_end_exclusive": "0xec72",
+      "bytes": 202,
+      "sha256": "44d0ccdb4f93088557c7d70e2bef046cbe09421694f1e87a241a712f5fc3fc2f"
+    },
+    {
+      "role": "stream_read_helpers",
+      "image_start": "0xec72",
+      "image_end_exclusive": "0xece0",
+      "bytes": 110,
+      "sha256": "90725125faecc0eef38c9fbeb01877a3862e4bc1e9d5e364fddc9faa72705a48"
+    },
+    {
+      "role": "stream_write_helpers",
+      "image_start": "0xece0",
+      "image_end_exclusive": "0xeda3",
+      "bytes": 195,
+      "sha256": "bd3e8609b26caedd1612783b142fbb3249be1312dbd6de45e56058c82d017542"
+    },
+    {
+      "role": "version_writer",
+      "image_start": "0xeda3",
+      "image_end_exclusive": "0xee05",
+      "bytes": 98,
+      "sha256": "be71b6c275e68ee921bd7e2de554d9db3a3ac50e25aa42515300232d469822a0"
+    },
+    {
+      "role": "DOS_file_write",
+      "image_start": "0x3e2c",
+      "image_end_exclusive": "0x3e4b",
+      "bytes": 31,
+      "sha256": "b67946b1810b3d1f6f31a6ef1ffef0eab61712855677728a6aae0634fbfdc2ae"
+    },
+    {
+      "role": "DOS_file_read",
+      "image_start": "0x3d8c",
+      "image_end_exclusive": "0x3dab",
+      "bytes": 31,
+      "sha256": "3c203f66fb9811a3aaa1097e4659c2e9d9438e52583da842f7df66a0e2c697a7"
+    },
+    {
+      "role": "version_line_reader",
+      "image_start": "0x3dd3",
+      "image_end_exclusive": "0x3e2c",
+      "bytes": 89,
+      "sha256": "64fc946383296c74e287d616a7624a08c86dbb32c9913220682d8666484ff690"
+    },
+    {
+      "role": "RNG_seed_update",
+      "image_start": "0xbda4",
+      "image_end_exclusive": "0xbdc7",
+      "bytes": 35,
+      "sha256": "1c509929f7c20c7873054f8f0a23bc9d200bc253c3cc512fd4700bb2c2d1552b"
+    }
+  ],
+  "captured_regions": [
+    {
+      "kind": "fixed_interpreter_state",
+      "DS_start": "0x1926",
+      "DS_end_exclusive": "0x1996",
+      "length": 112,
+      "save_call_image": "0xe77a",
+      "restore_call_image": "0xe83b"
+    },
+    {
+      "kind": "near_heap",
+      "DS_start": "word[DS:0x1ae0]",
+      "DS_end_exclusive": "word[DS:0x1ae2]",
+      "initialized_start": "0x243e",
+      "save_call_image": "0xe789",
+      "restore_call_image": "0xe846",
+      "initializer_image": "0x17ad0",
+      "initializer_argument_image": "0x17b4c"
+    }
+  ],
+  "header": {
+    "length_words": "fixed-state length then near-heap length, each 16-bit",
+    "version": "version string followed by newline; restore reads line and compares version and both expected lengths",
+    "validation_image": "0xe9b2-0xea1f"
+  },
+  "seed": {
+    "DS_offset": "0x0cca",
+    "bytes": 2,
+    "initial_image_word": 0,
+    "in_fixed_state_region": false,
+    "below_initialized_near_heap_start": true,
+    "serialized_by_identified_region_calls": false,
+    "raw_little_endian_offset_occurrences": [
+      "0xbda9",
+      "0xbdbd"
+    ],
+    "decoded_references": [
+      {
+        "image": "0xbda7",
+        "kind": "read seed into BX"
+      },
+      {
+        "image": "0xbdbc",
+        "kind": "write next seed from AX"
+      }
+    ],
+    "inventory_limit": "Raw two-byte occurrence search is a bounded corroboration of explicit offset references, not a proof against computed pointers, aliasing or memory corruption."
+  },
+  "findings": [
+    {
+      "id": "DOS-SAVE-001",
+      "claim": "Native SaveGame captures selected fixed interpreter state and near heap, not the whole DS or machine image."
+    },
+    {
+      "id": "DOS-SAVE-002",
+      "claim": "The identified serialized ranges and normal restore destinations exclude the native random seed at DS:0x0cca."
+    },
+    {
+      "id": "DOS-SAVE-003",
+      "claim": "A native save cannot be assumed to rewind the original RNG or guarantee identical outcomes on reload; any stronger end-to-end behavior requires native/emulator roundtrip evidence."
+    }
+  ],
+  "limits": [
+    "No actual saved file generated, restored or compared.",
+    "Valid ordinary saves only; malformed compressed streams could overrun destination bounds and are outside scope.",
+    "No claim about emulator snapshots, browser filesystem durability or another edition.",
+    "Not a complete field-by-field interpreter save format or native call graph proof.",
+    "Kernel ID names agree with the package caller audit; pointer table values are independently read from native image."
+  ]
+}
