@@ -71,3 +71,8 @@ On 2026-10-16 the owner questioned further manual gameplay and asked how much co
 ## Core-loop research progress (2026-10-16)
 
 The owner explicitly assigned the objective of extracting/documenting game flow and rules ready for2.0 planning. [Connected flow](../original-game/game-flow-and-rule-contract.md) now joins package-verified employment, education, weekly dispatch, selected AI execution, entry/clock, score-refresh and save/finish boundaries. [Rules readiness](rules-readiness.md) records unresolved research and compatibility choices. This advances discovery, not approval to build or silently repair quirks.
+
+
+## Interpreter and lifecycle follow-up (2026-10-16)
+
+Original DOS static inspection now resolves the main economy's omitted argument and identifies its random generator/bound scaling. Conditional travel timing, the bounded score-refresh inventory, and rent/pawn/loan lifecycles are documented in [rules readiness](rules-readiness.md). These findings strengthen the original reference; preserving/fixing quirks and choosing a modern timing/randomness contract remain owner decisions. No implementation is approved by this audit.

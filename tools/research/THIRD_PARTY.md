@@ -14,6 +14,8 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 | `sci_scripts.py` | `engines/sci/engine/kernel_tables.h`, `vm.cpp`, `scriptdebug.cpp`, `script.cpp`, `object.cpp`; narrow script-block/object/method parsing, instruction decoding, control-flow recovery and conservative symbolic reporting; no published decompiled game source used as input |
 | `index_runtime_captures.py` | Original local capture hashing/index reporting; GPL-3.0-or-later, no game payloads embedded |
 | `check_lottery_probabilities.py` | Original independent enumeration of the documented lottery arithmetic; no original SCI execution or script payload, GPL-3.0-or-later |
+| `check_economy_frame.py` | Original package stack-height/address checks and native pointer/hash inspection, informed by pinned ScummVM frame semantics; GPL-3.0-or-later, no original script/native implementation embedded |
+| `check_travel_timing.py` | Original analytical recurrence/checks, informed by pinned ScummVM Animate ordering; GPL-3.0-or-later, no original SCI execution or script payload |
 | `check_ai_goal_allocation.py` | Original independent arithmetic check of documented target bounds/capacity, not original SCI execution; GPL-3.0-or-later |
 | `reconstruct_screen_studies.py` | Original project image composition and HTML reporting using analytical recipe metadata; GPL-3.0-or-later, no copied game script implementation |
 | `catalogue_original_assets.py` | Project orchestration, checksum lock, source-role joins, manifests and local HTML index; GPL-3.0-or-later for consistent tooling distribution |
@@ -23,3 +25,5 @@ For every path above, source is available at `https://github.com/scummvm/scummvm
 The graphics exporters use the only Python package dependency, Pillow, pinned in [requirements.txt](requirements.txt). Pillow has its own licence; see [Pillow's licence](https://github.com/python-pillow/Pillow/blob/main/LICENSE). No Pillow code or package is copied into this repository. Script analysis with `sci_scripts.py` uses only the Python standard library; the pinned ScummVM files are format/VM references, not runtime dependencies.
 
 No original game images, sounds, text collections, compiled scripts, decompressed payloads, or reference contact sheets are included in these tooling files.
+
+The separate UNLZEXE source used for local executable unpacking is acquired only into ignored `work/`, pinned and hashed in the [inspection recipe](../../docs/discovery/inspect-dos-interpreter.md). It is not vendored or covered by this tooling licence notice.

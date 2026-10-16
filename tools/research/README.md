@@ -34,3 +34,13 @@ python3 tools/research/sci_scripts.py --output work/bytecode/decoded
 ```
 
 The asset rebuild above is a prerequisite. Open the local `script-NNN.asm`, `.json` and `.pseudo.txt` files in an editor. [The script-analysis guide](../../docs/discovery/decompile-original-scripts.md) explains hash checks, reproduced coverage, hexadecimal offsets and the conservative pseudocode's unresolved stack/dispatch cases. `--coverage artifacts/original-game/bytecode-coverage.json` refreshes analytical metadata for review. Generated disassembly, original object/string data and pseudocode stay ignored; full instruction decoding does not mean complete structured-source decompilation.
+
+
+The focused ordering checks use the rebuilt local resources/listings:
+
+```sh
+python3 tools/research/check_travel_timing.py
+python3 tools/research/check_economy_frame.py --check
+```
+
+The travel checker regenerates analytical metadata after checking 25,500 distance/speed/residual cases against an independently stepped recurrence. It requires the pinned Animate references listed in its metadata; its result is conditional on that reference engine. The economy checker also requires the exact [locally unpacked DOS interpreter](../../docs/discovery/inspect-dos-interpreter.md). It checks stack heights, the selected parameter/temp alias and native handler addresses, while native semantic interpretation remains manual and peer-reviewed. Neither executes the game. Omit economy `--check` only to regenerate its metadata after review.

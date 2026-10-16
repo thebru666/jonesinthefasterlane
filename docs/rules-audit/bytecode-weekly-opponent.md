@@ -13,11 +13,13 @@ The package has separate operations for choosing the next player, starting a rou
 | Script 1, `players.init` 0x138e; 0x1416–1426 | Initialise remaining players, store list size in global 374 and select its first entry as active player (global 302). This stored size is not recomputed by the inspected normal rotation method. |
 | Script 1, `players.doit` 0x1427–144b | Normally call active player's `endTurn`. If global 448 indicates a just-finished player, clear that flag and mark `playing=3` instead; do not apply ordinary end-turn penalties to that completed turn. |
 | Script 1, 0x1490–151b | Advance cyclically through the list; skip entries with `playing=3`. A separate removal marker (global 521) can delete the previous player. If deletion occurred before the old last list position, set suppression flag 523 to avoid an extra round increment. |
-| Script 1, `marble.cue` 0x18f0–1903 | Reset elapsed hours (323), residual movement ticks (324) and movement state (460). |
+| Script 1, `marble.cue` 0x18f0–190c | Reset elapsed hours (323), residual movement ticks (324) and movement state (460), then immediately send the no-argument clock call at0x190c. This ordinarily advances the freshly reset residue to1. |
 | Script 1, 0x1990–19f6 | Scan from the list head, ignoring inactive entries. Increment week 372 when the selected player is the first eligible entry and suppression flag 523 is clear; otherwise clear suppression. This is more precise than incrementing on an unconditional array-index wrap. |
 | Script 1, `Player.startTurn` 0x0d6b–0d9a | Initialise the time display, refresh the panel, copy housing into 457, disable normal-turn readiness (473=0), invoke script 107's economy `doit`, then initialise script 111 on this player. |
 
 If rotation finds no eligible player, its later path presents Restart/Quit (script 1, following 0x151d). Retirement and completion are distinct: normal completion marks an entry inactive; physical removal uses a separate marker. The normal menu deletion entry point is traced in WEEK-B05 below.
+
+The reset does not establish residue0 as an invariant for the next journey. The immediate clock call, later explicit calls and prior movement determine the value actually inherited by travel. The [travel timing audit](travel-timing.md) separates the package's clock recurrence from the conditional pinned-reference-engine movement formula; native DOS animation ordering has not been tested. The clock's frozen cast signal excludes automatic animation-pass `doit` calls under that reference engine.
 
 ## WEEK-B02: outgoing-turn bookkeeping
 

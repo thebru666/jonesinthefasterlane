@@ -16,9 +16,9 @@ Original listings remain in ignored `work/bytecode/decoded/`. [Rebuild instructi
 | --- | --- | --- |
 | Partial-shift garnishment | Rent-debt branches overwrite prorated pay with calculations based on full-shift gross pay | Visible feedback, timekeeper and unusual re-entry interactions |
 | Loan rejection | Initial application rejection calls happiness −1 twice; extension rejection once | Helper clamps each call at zero; not an unrestricted −2 |
-| Loan repayment | A full $50 payment removes $45 principal; final payments below $50 remove their full amount | Remaining scheduling/default paths and large-value arithmetic |
+| Loan repayment | A full $50 payment removes $45 principal; final payments below $50 remove their full amount | [Scheduling/lifecycle now checked](finance-lifecycle.md); unusual state and large-value arithmetic |
 | Economic adjustment | Both alternatives compare the same lower bound; first successful branch skips the second, making its positive-risk alternative unreachable | Long-run effects and whether to preserve the quirk |
-| Economy parent argument | A guarded default is stored, but the calculation reads the parameter directly | Original DOS interpreter handling of an omitted parameter |
+| Economy parent argument | [Original DOS frame trace](economy-frame-semantics.md) establishes that the main omitted parameter aliases the preceding initialization target draw | Selected static path; other callers/editions and long-run distributions remain separate |
 | Refrigerator purchase | Receipt adds quantity before the item checks for zero, so an ordinary successful purchase skips its nominal +1 happiness | Verified for this item; other overrides and unusual states remain separate |
 | Apartment stereo | Stored loop 1 is outside the actual view's single loop | ScummVM clamps it; original DOS rendering fallback remains unproved |
 
@@ -28,6 +28,6 @@ See [finance evidence](bytecode-finance-findings.md), [economy/presentation evid
 
 Fourteen decoder fixture groups cover operand widths, signed branches, relative calls, method layout, read-value snapshots and indexed reads. A second full export reproduced the generated files and coverage metadata exactly. Independent finance decoding agreed on 1,147 instruction boundaries and operands across six inspected ranges. These establish decoding consistency, not execution of every path.
 
-The next pass now traces [employment](employment.md), [education](education.md), [weekly/opponent control](bytecode-weekly-opponent.md) and [location/time/save flow](bytecode-flow-and-persistence.md). Remaining work includes detailed event arithmetic, exhaustive AI action consumers, precise travel timing and interpreter edge cases. Resolve omitted-argument and invalid-loop cases through interpreter/frame analysis or narrowly instrumented execution. Ordinary gameplay is useful when presentation is the question; it is no longer needed merely to establish that the confirmed branches exist.
+The next pass now traces [employment](employment.md), [education](education.md), [weekly/opponent control](bytecode-weekly-opponent.md) and [location/time/save flow](bytecode-flow-and-persistence.md). Follow-up [travel timing](travel-timing.md), [score refresh](score-refresh.md), [finance lifecycle](finance-lifecycle.md), [original DOS call frames](economy-frame-semantics.md) and [native randomness](dos-randomness.md) narrow those questions further. Remaining work includes detailed event arithmetic, exhaustive AI consumers, original DOS Animate ordering, interrupted/restored states, full RNG call order and the stereo invalid-loop fallback. Ordinary gameplay is useful when presentation is the question; it is no longer needed merely to establish that the confirmed branches exist.
 
 No discovered quirk is an approved change to the successor. Preservation versus correction remains a planning decision.

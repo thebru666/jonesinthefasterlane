@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE + original DOS interpreter static trace + reference-interpreter frame inference; no runtime execution",
+  "script": {
+    "number": 107,
+    "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525"
+  },
+  "scummvm_revision": "2b5f9b5d95f267c87889746906148db6088130f8",
+  "input_instruction_records": 196,
+  "all_static_init_return_stack_deltas": [
+    1
+  ],
+  "init_local0_writes": [
+    "0x00f1",
+    "0x00f7"
+  ],
+  "last_write_dominates_all_static_returns": true,
+  "caller_send": "0x041a",
+  "caller_frame_words": 6,
+  "synthetic_word_addresses": {
+    "init_frame_and_temp0": 6,
+    "next_argc_word": 5,
+    "next_missing_param1": 6,
+    "next_frame_and_guarded_temp0": 7
+  },
+  "conclusion": "The actual DOS message/frame paths and pinned reference VM both alias omitted parameter1 to initialization temporary0, not the update guard temporary.",
+  "limits": [
+    "The six-word caller packet and method identities are manually traced from package instructions.",
+    "SP carry and out-of-argument-frame stack reads follow the pinned ScummVM implementation.",
+    "No interpreter, full VM, RNG or economic distribution is executed; selected DOS machine-code paths are manually traced.",
+    "Other call shapes, dynamic rest arguments and interpreter workarounds are outside scope."
+  ],
+  "original_dos_static_trace": {
+    "unpacked_executable_sha256": "e4e5493756739f33af2a570a67bd35340369c823293065200806fd078e92b797",
+    "unpacked_bytes": 115284,
+    "mz_header_bytes": 8704,
+    "load_image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318",
+    "startup_entry_image_offset": "0x0006f",
+    "data_segment_relative": "0x1856",
+    "vm_code_segment_relative": "0x0048",
+    "reviewed_opcode_handlers": {
+      "0x3f": {
+        "segment_offset": "0048:065f",
+        "load_image_offset": "0x00adf"
+      },
+      "0x43": {
+        "segment_offset": "0048:06c0",
+        "load_image_offset": "0x00b40"
+      },
+      "0x48": {
+        "segment_offset": "0048:07db",
+        "load_image_offset": "0x00c5b"
+      },
+      "0x4a": {
+        "segment_offset": "0048:07dc",
+        "load_image_offset": "0x00c5c"
+      },
+      "0x8f": {
+        "segment_offset": "0048:0a6d",
+        "load_image_offset": "0x00eed"
+      }
+    },
+    "reviewed_kernel_handlers": {
+      "60": {
+        "segment_offset": "0627:0d02",
+        "load_image_offset": "0x06f72"
+      },
+      "61": {
+        "segment_offset": "0627:0f4e",
+        "load_image_offset": "0x071be"
+      }
+    },
+    "manual_trace_ranges_load_image": {
+      "link_temp_base_and_allocation": "0x00adf\u20130x00af7",
+      "parameter_stack_load": "0x00eed\u20130x00f0c",
+      "return": "0x00c5b",
+      "message_loop_and_parameter_base": "0x0b57b\u20130x0b6c4",
+      "kernel_frame_cleanup": "0x00b40\u20130x00b98",
+      "random_preserves_host_saved_vm_bp": "0x06f72\u20130x06ff6",
+      "abs_preserves_host_saved_vm_bp": "0x071be\u20130x071d3"
+    },
+    "pointer_convention": "DOS BP is last occupied VM word; reference VM SP is next free word. Both produce missing parameter1 at initialization temporary0.",
+    "semantic_review": "Manually traced and independently peer-reviewed; this checker validates exact input, relocations and handler addresses, not x86 execution."
+  },
+  "tool_sha256": "bee7ea84cf893f19d59a59d33ba479301d0abd7e66bbdd6522f993d9a63a2dc9"
+}

@@ -36,6 +36,13 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [AI action verification](rules-audit/bytecode-ai-actions-verification.json): all14 destination/broker controller entries, shared dispatch and selected confirmation branches.
 - [Needs/event verification](rules-audit/bytecode-needs-events-verification.json): selected condition/amount/order checks and raw landmarks.
 
+- [DOS interpreter unpack record](original-game/dos-interpreter-unpack.json): source pins, packed/unpacked hashes, MZ facts and repeat-unpack check; no executable payload.
+- [Economy frame verification](rules-audit/economy-frame-verification.json): script CFG/stack ledger and original DOS handler/relocation checks.
+- [DOS randomness verification](rules-audit/dos-randomness-verification.json): selected native-range hashes, seed/output/scaling findings and limits.
+- [Travel timing verification](rules-audit/travel-timing-verification.json): conditional engine inputs, route-step matrix and 25,500 analytical cases.
+- [Score refresh verification](rules-audit/score-refresh-verification.json): bounded whole-package caller/writer inventory and selected paths.
+- [Finance lifecycle verification](rules-audit/bytecode-finance-lifecycle-verification.json): package paths and bounded setter inventory for rent, pawns and loans.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

@@ -1,6 +1,6 @@
 # Time, movement, and action boundaries
 
-Pass 1, 2026-10-15. Evidence: SCRIPT via [S02](../discovery/source-register.md), with TIME-006 now independently verified in website package bytecode. Runtime coverage remains limited to the separately recorded observations. Status: partial. Adaptation mapping for every rule below: **undecided**, with preservation recommendations identified separately.
+Pass 1, 2026-10-15; travel/reset refinement2026-10-16. Evidence: SCRIPT via [S02](../discovery/source-register.md), with TIME-006 independently verified in website package bytecode and TIME-004 now traced against actual package instructions plus pinned reference-engine animation semantics. Runtime coverage remains limited to the separately recorded observations. Status: partial. Adaptation mapping for every rule below: **undecided**, with preservation recommendations identified separately.
 
 Source links below use the published floppy-version decompilation at pinned revision `870a8015b689474484bf3d8b41416956d4315432`.
 
@@ -8,7 +8,7 @@ Source links below use the published floppy-version decompilation at pinned revi
 
 The clock counts **time spent**, from 0 to 60. Explicit action costs add to that counter and are capped at 60. Travel also accumulates a fractional counter, periodically advancing the displayed clock.
 
-The counters reset during turn handover. Start-of-turn penalties then consume some of the allowance. These are abstract game hours, not a literal model of all 168 hours in a week.
+The counters reset during turn handover, but the same `marble.cue` path immediately invokes the no-argument clock, ordinarily incrementing the freshly reset residue to1. Start-of-turn penalties then consume some of the allowance. Do not assume every first journey starts at zero residue. These are abstract game hours, not a literal model of all 168 hours in a week.
 
 Evidence: [room1.sc, marble.cue](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1072); [timeKeep.doit](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1460).
 
@@ -39,9 +39,13 @@ This makes the order of the last actions in a week strategically significant. Re
 
 ## TIME-004: travel and entry are separate costs
 
-The marble follows a 170-point ring and selects the shorter route around it. The clock advances during motion using a fractional counter and a threshold related to marble speed. Explicit costs do not clear the fractional travel counter.
+The marble follows a170-point ring and selects the shorter route around it. The clock advances during motion using residual ticks324 and threshold475=`14×moveSpeed`. A no-argument clock call increments residue; only residue **strictly greater** than the threshold adds one hour and resets residue to0. Explicit costs do not clear the fractional travel counter.
 
-All thirteen destination entry handlers now have actual `timeKeep.doit(2)` call frames verified; see [FLOW-003](bytecode-flow-and-persistence.md#flow-003-all-thirteen-destination-entries-cost-two). This is additional to travel. Re-entering a location calls its entry handler again. The exact travel cost matrix remains pending; do not hardcode a community estimate of board-crossing time.
+All thirteen destination entry handlers have actual `timeKeep.doit(2)` call frames verified; see [FLOW-003](bytecode-flow-and-persistence.md#flow-003-all-thirteen-destination-entries-cost-two). This is additional to travel. Re-entering a location calls its entry handler again.
+
+The [travel timing audit](travel-timing.md) supplies a conditional formula and analytical route-step matrix. Under pinned ScummVM animation semantics, the first mover update advances immediately; on arrival the completion pass clears the mover and dispatches the destination before the board clock test. The clock's frozen cast signal prevents an additional automatic clock call. For distinct endpoints at shortest ring distance`d`, constant movement speed`s` in1…6, initial residue`r` in0…14s, and uninterrupted travel without exhaustion, `N=(d−1)s` travel clock calls charge `floor((r+N)/(14s+1))` hours and leave `(r+N) mod (14s+1)` residue. The two-hour entry cost follows separately. The25,500-case analytical check is not original game execution.
+
+This establishes the ordinary calculation for the actual package with that reference engine; Sierra's native DOS `Animate` ordering remains unproven. Animation speed can change the calculated game-hour charge near boundaries. Rerouting, changing speed, turn exhaustion and explicit same-place movers require stateful handling described in the audit. Do not substitute a fixed hours-per-building estimate or assume speed invariance. Normalizing these effects would be an adaptation decision.
 
 Evidence: [marblePath.sc, MarblePath](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/marblePath.sc#L16); [room1.sc, clock and speed threshold](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/room1.sc#L1315); location `init` methods in [bank.sc](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/bank.sc#L77), [fastFood.sc](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/fastFood.sc#L137), [university.sc](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/university.sc#L370), [rentOffice.sc](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/rentOffice.sc#L84).
 

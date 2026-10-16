@@ -109,6 +109,18 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - [Needs/event trace](../rules-audit/bytecode-needs-events.md) and [metadata](../../artifacts/rules-audit/bytecode-needs-events-verification.json) identify1,654 selected instruction spans and ten independently read raw constants/comparison senses. The existing1,503-case lottery checker corresponds to the confirmed ordinary-range thresholds.
 - Evidence is BYTECODE for explicitly traced predicates/ordering and analytical probability for inclusive uniform draws, not observed behaviour or reproduction of the DOS RNG. Weekend redraw reachability, object lifetime, every event/default branch and exhaustive human/AI parity remain unproved. Original payloads/listings stay ignored.
 
+## S15: original DOS interpreter and native frame/random paths (2026-10-16)
+
+- The same S01 bundle's `sciv256.exe` is identified by packed and unpacked SHA-256 in the [unpack record](../../artifacts/original-game/dos-interpreter-unpack.json). The [portable inspection recipe](inspect-dos-interpreter.md) pins `mywave82/unlzexe` revision `066aac7be3b27813c221d3b03621ad6dfaecd285`, source/README hashes, separate output and native address conventions. Repeat unpacking produced identical output. No original DOS executable was launched.
+- [Economy frames](../rules-audit/economy-frame-semantics.md) combine actual script107 paths with original native opcode/message/kernel handlers and pinned ScummVM frame semantics. A separate agent independently checked pointer conventions, carry, relocations and kernel preservation. The analytical checker validates identities/addresses and script stack invariants; native semantic interpretation is manual.
+- [DOS randomness](../rules-audit/dos-randomness.md) traces the selected native generator, bound mapping and arithmetic-library helpers, independently peer-reviewed. [Range hashes](../../artifacts/rules-audit/dos-randomness-verification.json) identify inspected bytes without committing them. This is DOS-STATIC evidence, not measured randomness, original execution or full interpreter equivalence.
+
+## S16: timing, score and finance ordering follow-up (2026-10-16)
+
+- [Travel](../rules-audit/travel-timing.md) combines S12 actual bytecode with pinned ScummVM Animate source/header; hashes and permanent source URLs are in [its metadata](../../artifacts/rules-audit/travel-timing-verification.json). The 25,500-case recurrence check is conditional analytical evidence, not original DOS timing.
+- [Score refresh](../rules-audit/score-refresh.md) and [finance lifecycle](../rules-audit/finance-lifecycle.md) inventory all69 decoded resource hashes and selected original instruction spans. Their bounded literal-selector/direct-property searches strengthen normal-path ordering claims without proving absence of reflective/restored/interpreter mutations.
+- No new runtime observation or application implementation accompanies this step. Original executables, upstream source, disassembly and extracted assets remain ignored.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

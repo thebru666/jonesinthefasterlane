@@ -1,0 +1,75 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "DOS-STATIC: manual native-code trace, independently peer-reviewed; no PRNG execution or measured frequencies",
+  "source_metadata": "artifacts/original-game/dos-interpreter-unpack.json",
+  "unpacked_executable_sha256": "e4e5493756739f33af2a570a67bd35340369c823293065200806fd078e92b797",
+  "kernel_table": {
+    "data_segment_relative": "0x1856",
+    "table_offset": "0x07d0",
+    "kernel_id": 60,
+    "target": "0627:0d02",
+    "load_image_offset": "0x06f72"
+  },
+  "native_ranges": [
+    {
+      "role": "kernel60_bound_mapping",
+      "load_image_start": "0x06f72",
+      "load_image_end_exclusive": "0x06ff7",
+      "bytes": 133,
+      "sha256": "a021865de9c90f6dcf6841ce79354bcbc8663f4affef40275d84eaa2b3e5cedd"
+    },
+    {
+      "role": "seed_update_and_raw_word",
+      "load_image_start": "0x0bda4",
+      "load_image_end_exclusive": "0x0bdc7",
+      "bytes": 35,
+      "sha256": "1c509929f7c20c7873054f8f0a23bc9d200bc253c3cc512fd4700bb2c2d1552b"
+    },
+    {
+      "role": "unsigned_product_wrapper",
+      "load_image_start": "0x18426",
+      "load_image_end_exclusive": "0x18448",
+      "bytes": 34,
+      "sha256": "8c346206880c8bfced7faf6eed67c39f6d59c432353599f9c644e0b3cd83fe2f"
+    },
+    {
+      "role": "unsigned_product_helper",
+      "load_image_start": "0x1832c",
+      "load_image_end_exclusive": "0x18360",
+      "bytes": 52,
+      "sha256": "56cbf2a7e75a5d414ad8462c9bc8af6357aa371744833aa5ad910ffe2190cd48"
+    },
+    {
+      "role": "shift_wrapper",
+      "load_image_start": "0x1846e",
+      "load_image_end_exclusive": "0x1848f",
+      "bytes": 33,
+      "sha256": "497e89fed6cfdf3e4636cf212a5cd1db04335ecec8fb67539455a671746fa56b"
+    },
+    {
+      "role": "logical_shift_helper",
+      "load_image_start": "0x1855e",
+      "load_image_end_exclusive": "0x18569",
+      "bytes": 11,
+      "sha256": "632c324dfc508785f14589cb43fac0185cd7c895859e655d8046322da332eb45"
+    }
+  ],
+  "seed_storage": "relative DS:0x0cca, 16-bit word",
+  "zero_seed_source": "DOS interrupt21h function2ch, DX, retry while zero",
+  "multiplier_hex": "0x7c4d",
+  "next_seed": "low16(multiplier \u00d7 prior seed)",
+  "raw_output": "bits8..23 of unsigned multiplier \u00d7 prior seed",
+  "ordinary_bounds_mapping": "min(upper, lower + floor(raw16 \u00d7 (upper \u2212 lower + 1) / 65536))",
+  "scope": [
+    "two supplied parameters",
+    "ordinary nonnegative bounds with representable positive 16-bit span",
+    "selected native arithmetic/helper paths"
+  ],
+  "not_claimed": [
+    "uniform or independent draws",
+    "actual seed distribution or replay call order",
+    "save/restore seed capture",
+    "negative/reversed/overflowing bounds",
+    "full original-interpreter execution or equivalence"
+  ]
+}

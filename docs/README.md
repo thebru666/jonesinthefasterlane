@@ -23,6 +23,7 @@
 - [Source register](discovery/source-register.md): pinned script references, manual inspection, and arithmetic semantics.
 - [Rebuild original assets locally](discovery/rebuild-original-assets.md): checksum-locked source, exporters, catalogue coverage and limitations.
 - [Decompile the original scripts locally](discovery/decompile-original-scripts.md): direct bytecode decoder, reproducible outputs and semantic limits.
+- [Inspect the original DOS interpreter](discovery/inspect-dos-interpreter.md): reproducible local unpacking, native addresses and evidence boundaries.
 - [Artifact index](../artifacts/README.md): committed research evidence and local-only material policy.
 
 ## Rules audit
@@ -36,6 +37,8 @@
 - [All-destination computer action trace](rules-audit/bytecode-ai-actions.md): event routing and confirmation shortcuts.
 - [Needs/event bytecode trace](rules-audit/bytecode-needs-events.md): food, illness, selected theft/repairs, weekends, lottery, mugging and computer income.
 - [Location, clock, score and persistence trace](rules-audit/bytecode-flow-and-persistence.md).
+- [Travel timing](rules-audit/travel-timing.md), [score refresh](rules-audit/score-refresh.md) and [finance lifecycles](rules-audit/finance-lifecycle.md): focused ordering and boundary traces.
+- [Economy call frames](rules-audit/economy-frame-semantics.md) and [original DOS randomness](rules-audit/dos-randomness.md): actual native interpreter findings.
 - [Time and actions](rules-audit/time-and-actions.md)
 - [Turn and weekly processing](rules-audit/weekly-processing.md)
 - [Economy and edition differences](rules-audit/economy.md)

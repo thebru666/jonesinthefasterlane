@@ -81,3 +81,6 @@ Expressions describe SCI VM operations. Preserve original integer width, signed/
 Format and VM references are pinned to ScummVM revision `2b5f9b5d95f267c87889746906148db6088130f8`; see [tool provenance and GPL notices](../../tools/research/THIRD_PARTY.md). The generator is committed research tooling, while generated original code remains ignored. Its GPL licence does not select the future game's licence or grant rights to the original game.
 
 Findings from this pass should be labelled **bytecode-verified** when their cited conditions, arithmetic and ordering have actually been traced. A successful decode alone does not verify every existing prose rule. Published-source claims, binary findings, independent arithmetic checks and runtime observations remain separate evidence categories.
+
+
+For interpreter-dependent questions, the [original DOS inspection recipe](inspect-dos-interpreter.md) complements these SCI listings with local executable unpacking and native address/hash checks. The [economy frame trace](../rules-audit/economy-frame-semantics.md) demonstrates the boundary: bytecode identifies the missing parameter; original native frame handling establishes what that selected call reads. Native disassembly also stays ignored.

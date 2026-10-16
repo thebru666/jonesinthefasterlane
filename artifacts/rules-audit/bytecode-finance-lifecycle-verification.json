@@ -1,0 +1,887 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE selected control-flow analysis, not runtime",
+  "package": {
+    "version": "1.000.060",
+    "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+    "provenance": "artifacts/discovery/2026-10-15-bundle-inventory.json"
+  },
+  "offset_convention": "zero-based decompressed SCI resource payload, block headers included; ranges end-exclusive",
+  "resources": [
+    {
+      "number": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "size": 5680,
+      "ranges": [
+        {
+          "start": "0x0275",
+          "end_exclusive": "0x02bd",
+          "purpose": "availability_and_contract",
+          "slice_sha256": "ad2c9e131d33179e4b4a9f0d2e0d0b0a49847148fd778fddfb41808b64ee004b",
+          "instruction_count": 35
+        },
+        {
+          "start": "0x0602",
+          "end_exclusive": "0x06bc",
+          "purpose": "ordinary_rent",
+          "slice_sha256": "77a6f06428b3c847cc30018f286d597b7e37e40c1c35dd59b3e0132abe8c9469",
+          "instruction_count": 86
+        },
+        {
+          "start": "0x0728",
+          "end_exclusive": "0x0ae4",
+          "purpose": "extension_initial_and_repeat",
+          "slice_sha256": "11cacf024d313f7b6563aff24cf033bd2ef7f4f91e4e3ca7bb41b8e76894b2ae",
+          "instruction_count": 448
+        },
+        {
+          "start": "0x0b3c",
+          "end_exclusive": "0x0d1a",
+          "purpose": "move_low_cost",
+          "slice_sha256": "a72e2a8b28106dea549c4c9bd359b1a949c8f8abc857b6f4adc84b89906875d3",
+          "instruction_count": 217
+        },
+        {
+          "start": "0x0d86",
+          "end_exclusive": "0x0f64",
+          "purpose": "move_security",
+          "slice_sha256": "59727f26e54071c027f3f6cb82a44a2d74c5584876f83e14fb1768d84113b831",
+          "instruction_count": 217
+        },
+        {
+          "start": "0x0fd0",
+          "end_exclusive": "0x1053",
+          "purpose": "arrears_payment",
+          "slice_sha256": "56a4818cd45744bc1c5ba71a41fc2d59a927c0fde9c081ddf328a73107d483c3",
+          "instruction_count": 61
+        }
+      ]
+    },
+    {
+      "number": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "size": 10672,
+      "ranges": [
+        {
+          "start": "0x0df7",
+          "end_exclusive": "0x0e9a",
+          "purpose": "pawn_aging",
+          "slice_sha256": "1deb2847967ee28009eb9211de41cf3eaf3fee2cdf1b4ca3c2fcb297cf8b0674",
+          "instruction_count": 90
+        },
+        {
+          "start": "0x0e9a",
+          "end_exclusive": "0x0f5c",
+          "purpose": "rent_and_loan_end_turn",
+          "slice_sha256": "fbbf0300f1ff2923d40ec77dfe10d92883687e6fbd09fb883e2c00d58fd57a15",
+          "instruction_count": 97
+        }
+      ]
+    },
+    {
+      "number": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "size": 8430,
+      "ranges": [
+        {
+          "start": "0x06b6",
+          "end_exclusive": "0x07e1",
+          "purpose": "redeemable_selection",
+          "slice_sha256": "9f8374203184a7e302dd8432718125b15c1820c70d862ec671f8cb17b07b1aff",
+          "instruction_count": 156
+        },
+        {
+          "start": "0x0901",
+          "end_exclusive": "0x0a95",
+          "purpose": "forfeited_selection",
+          "slice_sha256": "cd4afe1f1953e5311bb14ef191b3bc28a4305a305c9cd8ba1c786d4dab554e35",
+          "instruction_count": 224
+        },
+        {
+          "start": "0x1283",
+          "end_exclusive": "0x139a",
+          "purpose": "pawn_offer_and_accept",
+          "slice_sha256": "4505c6f03a4cee1edfc5b5305b8eda69dc1888409deae9a1cf43540233a9e2dc",
+          "instruction_count": 141
+        },
+        {
+          "start": "0x1687",
+          "end_exclusive": "0x17ae",
+          "purpose": "redemption_charge_flags_quantity",
+          "slice_sha256": "c05c9ee64725f891084bed725b6b422512dd47c9f8eb45aa5a69ba2373f46721",
+          "instruction_count": 146
+        }
+      ]
+    },
+    {
+      "number": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "size": 6840,
+      "ranges": [
+        {
+          "start": "0x0983",
+          "end_exclusive": "0x0a0e",
+          "purpose": "rent_due_notice_and_flag_reset",
+          "slice_sha256": "a17dba7bbef82908e6d08ed0f6ac1485c8d63749f8c0b7c602cb86f4ea7b3ca0",
+          "instruction_count": 69
+        },
+        {
+          "start": "0x0af3",
+          "end_exclusive": "0x0b54",
+          "purpose": "monthly_loan_notice",
+          "slice_sha256": "2a16cd2e063b9d1bd92b656820c7d40cd8de74035292310e4b7d80927e78ab0f",
+          "instruction_count": 48
+        }
+      ]
+    },
+    {
+      "number": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "size": 2100,
+      "ranges": [
+        {
+          "start": "0x0344",
+          "end_exclusive": "0x0375",
+          "purpose": "economy_price_initialization",
+          "slice_sha256": "c15d9fcdf7e3a9f2b0527d0f309545ed10c5cec4ea9cdc47ef667c346688d0e5",
+          "instruction_count": 23
+        },
+        {
+          "start": "0x03cf",
+          "end_exclusive": "0x0404",
+          "purpose": "consumable_purchase",
+          "slice_sha256": "835ebfcf098797d89de664761357e29af6a7d67fdfeeb6174058e91267fff8e6",
+          "instruction_count": 25
+        },
+        {
+          "start": "0x049e",
+          "end_exclusive": "0x04a9",
+          "purpose": "purchase_cash_charge",
+          "slice_sha256": "78e00a94a34135f465e6830879940c54df216fadb13209ce08e5baa4f934214d",
+          "instruction_count": 7
+        }
+      ]
+    },
+    {
+      "number": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "size": 990,
+      "ranges": [
+        {
+          "start": "0x00dd",
+          "end_exclusive": "0x0172",
+          "purpose": "additive_goods_receipt",
+          "slice_sha256": "a88a42ee756c326005e3e8e42a1bdfb757a38658d5a6620c13ecb2bae6939392",
+          "instruction_count": 81
+        }
+      ]
+    }
+  ],
+  "selector_inventory": {
+    "scope": "All decoded instruction listings of 69 selected-package script resources. Search immediate pushi with vocabulary selector ID, record next instruction as arity candidate; also decoded direct named property write/increment/decrement operations. Candidate identification is not a general dynamic send proof.",
+    "scripts_scanned": 69,
+    "raw_consistency_check": "All 69 resource hashes and every listed instruction byte span matched local decompressed payloads; this checks listing-to-payload consistency, not independent instruction semantics",
+    "script_hashes": {
+      "0": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "1": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "2": "36eb7316df75a3b55fbcc0e9498d5fb7a11a8bfd767821098f5c21cb4742f3d5",
+      "100": "33be4491ff427c4f4fabf7ef6173ba7ab8ccea7a33b54ac0d8efd0af7753e2b2",
+      "101": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf",
+      "102": "a9e1866fb639dc6dfe3c90ea5123594dd9ef2887313c9173fc0898684ffc97f5",
+      "103": "333acbc356512a0d2580e001fd817e6b3db5705e2bd240468d54a6cc69de9786",
+      "104": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "105": "1448a1e8811dea2ffc1930e777a4185f02cd0572734c019a7c93de191c2700a8",
+      "106": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "107": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525",
+      "108": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "109": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd",
+      "110": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc",
+      "111": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "113": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0",
+      "114": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47",
+      "115": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf",
+      "116": "5dc81822cc8f794c75786047fba9702f0b89c3c515234c8446e4bcf5fb06a77a",
+      "200": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea",
+      "201": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "202": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca",
+      "203": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "204": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "205": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969",
+      "206": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "207": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "208": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "209": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "210": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "211": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "212": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "213": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "215": "bb0c4587b0b0ab68bfe64a819e84ea204f56750dec093968b0f7e7ead38a5aef",
+      "216": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84",
+      "217": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e",
+      "218": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49",
+      "219": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4",
+      "220": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b",
+      "221": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97",
+      "222": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516",
+      "223": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064",
+      "224": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58",
+      "229": "5a446ec452eb2f17825b5b0f80d8ca6775ca5165ebf01687fb6d47cc4d2c4b9c",
+      "230": "eb748d05f0a105447d2fb1fa4320d3233bc07d6c8a6f017dfe28f3171e3f0193",
+      "231": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2",
+      "232": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee",
+      "233": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0",
+      "234": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded",
+      "235": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e",
+      "236": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13",
+      "237": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062",
+      "238": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974",
+      "239": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2",
+      "255": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1",
+      "300": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d",
+      "764": "ca0e8df361e29803eb38819e7ed07b47fabdc8e901cd7a8dd12d7114d4a79258",
+      "891": "08f3b02bce2bda058f39316c35db15e6427704baa21ecf6577a5c4bb1b1d5f07",
+      "967": "c37ec5defc72c49e5c1a4944fccfc54c6a664903ed5f5fa606987aa13a55a3e9",
+      "987": "d5c8ad8de5d3f8d5af4c23ca42a25542daffeee830a9e8ac91a586453dac6bf0",
+      "989": "bcdf6ace414a7622f7439a37c819389f28491d1a973c8a261b127900ff62148f",
+      "990": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772",
+      "992": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3",
+      "993": "a40fd40d1e805de5ce910094a0b9d156da1587f17dd33ec32171447de4fdd5d1",
+      "994": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8",
+      "996": "3d95ec9eea2041a866e0dfb48bde86199810fdcf221bc58c7023b52d19da6918",
+      "997": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52",
+      "998": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793",
+      "999": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e"
+    },
+    "selectors": {
+      "livesAt": 387,
+      "rentOwed": 429,
+      "loanBal": 433,
+      "latePayments": 434,
+      "paySched": 435,
+      "madePayment": 436
+    },
+    "occurrences": [
+      {
+        "script": 1,
+        "offset": "0x00c4",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x0372",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x038a",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x0d1f",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x0eba",
+        "selector": "paySched",
+        "kind": "direct_property_write",
+        "op": "dpToa"
+      },
+      {
+        "script": 1,
+        "offset": "0x0ec2",
+        "selector": "latePayments",
+        "kind": "direct_property_write",
+        "op": "ipToa"
+      },
+      {
+        "script": 1,
+        "offset": "0x0efc",
+        "selector": "rentOwed",
+        "kind": "direct_property_write",
+        "op": "aTop"
+      },
+      {
+        "script": 1,
+        "offset": "0x0f07",
+        "selector": "madePayment",
+        "kind": "direct_property_write",
+        "op": "aTop"
+      },
+      {
+        "script": 1,
+        "offset": "0x0f4c",
+        "selector": "rentOwed",
+        "kind": "direct_property_write",
+        "op": "aTop"
+      },
+      {
+        "script": 1,
+        "offset": "0x0f57",
+        "selector": "madePayment",
+        "kind": "direct_property_write",
+        "op": "aTop"
+      },
+      {
+        "script": 1,
+        "offset": "0x1926",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x1975",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 1,
+        "offset": "0x22b4",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x023e",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x0250",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x025f",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x026b",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x0283",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 108,
+        "offset": "0x0287",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x05ea",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x099d",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x0afd",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x0b09",
+        "selector": "paySched",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 111,
+        "offset": "0x0b28",
+        "selector": "paySched",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 200,
+        "offset": "0x00a4",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 200,
+        "offset": "0x00d0",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x01b3",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0293",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x02fc",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0315",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x072a",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0b3e",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0cd3",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0d88",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0f1d",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x0fe0",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 201,
+        "offset": "0x1346",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 202,
+        "offset": "0x00a4",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 202,
+        "offset": "0x00d0",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x01f0",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0204",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x083d",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x084f",
+        "selector": "paySched",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0853",
+        "selector": "paySched",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0861",
+        "selector": "madePayment",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0874",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0878",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0898",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x08b0",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x08bf",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x08cc",
+        "selector": "paySched",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0a16",
+        "selector": "latePayments",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0a21",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0a2f",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0a55",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0b1e",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push1",
+        "next_args": [],
+        "arity_class": "setter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0b22",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 204,
+        "offset": "0x0ba2",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 231,
+        "offset": "0x0189",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 231,
+        "offset": "0x01a6",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x002f",
+        "selector": "rentOwed",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x0039",
+        "selector": "loanBal",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x11c5",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x120c",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x1388",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x13a2",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      },
+      {
+        "script": 300,
+        "offset": "0x174b",
+        "selector": "livesAt",
+        "kind": "immediate_selector_candidate",
+        "next_op": "push0",
+        "next_args": [],
+        "arity_class": "getter_candidate"
+      }
+    ],
+    "limits": [
+      "Immediate-selector inventory does not prove absence of computed selector sends, interpreter side effects or save/restore state changes.",
+      "No loan principal writer outside bank script204 was found in these immediate/direct decoded forms.",
+      "No current-housing setter outside rentOffice script201 was found in these forms.",
+      "Original script payloads, instruction listings and decompiled source remain ignored local materials."
+    ]
+  },
+  "analytical_examples": {
+    "pawn_mask_end_turns": [
+      24,
+      16,
+      8,
+      0
+    ],
+    "rent_units_by_week_mod_4": {
+      "0": 4,
+      "1": 3,
+      "2": 2,
+      "3": 1
+    },
+    "loan_prepaid_but_due_week_unpaid": {
+      "paySched_before_due_week_end": 2,
+      "madePayment": 0,
+      "paySched_after": 1,
+      "latePayments_increment": 1
+    }
+  },
+  "limitations": [
+    "No gameplay executed; UI repeat-payment constraints and exact visible notices remain untested.",
+    "16-bit overflow, callback side effects, corrupt/restored inventory and alternative editions remain outside this selected pass."
+  ]
+}

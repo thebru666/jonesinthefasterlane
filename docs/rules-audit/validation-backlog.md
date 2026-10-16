@@ -6,7 +6,7 @@ Subsequent original-experience research documents the [setup/layout/content/prog
 
 ## Direct bytecode progress
 
-All 69 website scripts have been independently decoded; [coverage and limits](bytecode-verification.md). Actual bytes confirm the garnishment overwrite, double initial-loan happiness penalty, $50/$45 repayment duplicate economic comparison, and the ordinary refrigerator purchase bonus being skipped. These branch-existence questions no longer require ordinary gameplay. Visible presentation and remaining semantics still have their own evidence requirements. The economic omitted-argument case is narrowed to interpreter/frame handling; it is not resolved by the guarded default alone.
+All 69 website scripts have been independently decoded; [coverage and limits](bytecode-verification.md). Actual bytes confirm the garnishment overwrite, double initial-loan happiness penalty, $50/$45 repayment duplicate economic comparison, and the ordinary refrigerator purchase bonus being skipped. These branch-existence questions no longer require ordinary gameplay. Visible presentation and remaining semantics still have their own evidence requirements. The [original DOS frame trace](economy-frame-semantics.md) subsequently resolves the main omitted argument to the preceding initialization's target draw; the guarded zero is a different stack word.
 
 ## Core loop package traces
 
@@ -14,7 +14,7 @@ All 69 website scripts have been independently decoded; [coverage and limits](by
 
 [All-destination AI dispatch](bytecode-ai-actions.md) and [selected needs/event predicates](bytecode-needs-events.md) have since been package-checked. The weekend redraw debit is confirmed in bytes, while ordinary redraw reachability remains open.
 
-Further work: exact route-clock equivalence, complete score-refresh callers, omitted economy parameter/interpreter, remaining event predicates/high-word arithmetic, remaining AI policy arithmetic/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
+Follow-up checks now cover [conditional travel timing](travel-timing.md), [bounded score writer/caller inventory](score-refresh.md), [finance lifecycles](finance-lifecycle.md) and the [native DOS random generator/scaling](dos-randomness.md). Further work: native DOS travel ordering, interrupted travel, focused bank/message/Statistics score-refresh sequences, complete RNG initialization/call order/save interaction, remaining event/high-word arithmetic, remaining AI policy/dynamic consumers and saved intermediate states. This does not mark their runtime cases passed.
 
 ## Runtime progress
 
@@ -85,7 +85,7 @@ Economy experiments should compare outcomes from controlled states; naturally di
 | E03 | Controlled main readings around 80/120 and weeks 3/4/7/8 in each edition | Validate event eligibility and crash-before-boom short-circuit |
 | E04 | Force/locate each crash code in multiplayer | Verify reading changes, cross-player dismissal/pay cuts, and happiness recipients |
 | E05 | Severe crash with bank balances below and above 32,767 | Check high-word behaviour before describing loss as all savings |
-| E06 | Inspect bytecode for duplicated adjustment condition and omitted parent argument | Duplicate condition and unused guarded default confirmed in bytes; resolve missing-argument interpreter/frame semantics before compatibility decision |
+| E06 | Inspect bytecode for duplicated adjustment condition and omitted parent argument | Duplicate condition confirmed; selected original DOS frame trace resolves omitted argument to preceding target draw. Preserve/change decision still open |
 | E07 | Validate formulas, then simulate many seeds for both editions and player counts | Measure recovery, slump duration, price distribution, and event exposure |
 
 ## Subsequent audit domains

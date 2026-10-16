@@ -1,0 +1,1029 @@
+{
+  "schema": 1,
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE static inventory and manually reviewed call order; no runtime execution",
+  "edition": "DOS 1.000.060",
+  "bundle": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "retrieved": "2026-10-15",
+    "sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180"
+  },
+  "comparison_source": {
+    "url": "https://github.com/sluicebox/sci-scripts/tree/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src",
+    "role": "naming and navigation; raw package instructions authoritative"
+  },
+  "scope": {
+    "decoded_scripts": 69,
+    "raw_resource_hashes_checked": 69,
+    "all_decoded_instruction_spans_checked_against_raw": true,
+    "selector_vocabulary": {
+      "resource": "vocabulary.997.bin",
+      "sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850",
+      "selectors": {
+        "375": "monStat",
+        "461": "calcNetWorth",
+        "462": "calcLiquidAssets"
+      }
+    },
+    "literal_cash_helper_calls": 17,
+    "scripts_with_cash_helper_calls": 8
+  },
+  "resource_hashes": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0"
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "script": 2,
+      "sha256": "36eb7316df75a3b55fbcc0e9498d5fb7a11a8bfd767821098f5c21cb4742f3d5"
+    },
+    {
+      "script": 100,
+      "sha256": "33be4491ff427c4f4fabf7ef6173ba7ab8ccea7a33b54ac0d8efd0af7753e2b2"
+    },
+    {
+      "script": 101,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf"
+    },
+    {
+      "script": 102,
+      "sha256": "a9e1866fb639dc6dfe3c90ea5123594dd9ef2887313c9173fc0898684ffc97f5"
+    },
+    {
+      "script": 103,
+      "sha256": "333acbc356512a0d2580e001fd817e6b3db5705e2bd240468d54a6cc69de9786"
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    },
+    {
+      "script": 105,
+      "sha256": "1448a1e8811dea2ffc1930e777a4185f02cd0572734c019a7c93de191c2700a8"
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d"
+    },
+    {
+      "script": 107,
+      "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525"
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9"
+    },
+    {
+      "script": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd"
+    },
+    {
+      "script": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc"
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b"
+    },
+    {
+      "script": 113,
+      "sha256": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0"
+    },
+    {
+      "script": 114,
+      "sha256": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47"
+    },
+    {
+      "script": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf"
+    },
+    {
+      "script": 116,
+      "sha256": "5dc81822cc8f794c75786047fba9702f0b89c3c515234c8446e4bcf5fb06a77a"
+    },
+    {
+      "script": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea"
+    },
+    {
+      "script": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166"
+    },
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca"
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa"
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408"
+    },
+    {
+      "script": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969"
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4"
+    },
+    {
+      "script": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999"
+    },
+    {
+      "script": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9"
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc"
+    },
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b"
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d"
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a"
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f"
+    },
+    {
+      "script": 215,
+      "sha256": "bb0c4587b0b0ab68bfe64a819e84ea204f56750dec093968b0f7e7ead38a5aef"
+    },
+    {
+      "script": 216,
+      "sha256": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84"
+    },
+    {
+      "script": 217,
+      "sha256": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e"
+    },
+    {
+      "script": 218,
+      "sha256": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49"
+    },
+    {
+      "script": 219,
+      "sha256": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4"
+    },
+    {
+      "script": 220,
+      "sha256": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b"
+    },
+    {
+      "script": 221,
+      "sha256": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97"
+    },
+    {
+      "script": 222,
+      "sha256": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516"
+    },
+    {
+      "script": 223,
+      "sha256": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064"
+    },
+    {
+      "script": 224,
+      "sha256": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58"
+    },
+    {
+      "script": 229,
+      "sha256": "5a446ec452eb2f17825b5b0f80d8ca6775ca5165ebf01687fb6d47cc4d2c4b9c"
+    },
+    {
+      "script": 230,
+      "sha256": "eb748d05f0a105447d2fb1fa4320d3233bc07d6c8a6f017dfe28f3171e3f0193"
+    },
+    {
+      "script": 231,
+      "sha256": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2"
+    },
+    {
+      "script": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee"
+    },
+    {
+      "script": 233,
+      "sha256": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0"
+    },
+    {
+      "script": 234,
+      "sha256": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded"
+    },
+    {
+      "script": 235,
+      "sha256": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e"
+    },
+    {
+      "script": 236,
+      "sha256": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13"
+    },
+    {
+      "script": 237,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062"
+    },
+    {
+      "script": 238,
+      "sha256": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974"
+    },
+    {
+      "script": 239,
+      "sha256": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2"
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1"
+    },
+    {
+      "script": 300,
+      "sha256": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d"
+    },
+    {
+      "script": 764,
+      "sha256": "ca0e8df361e29803eb38819e7ed07b47fabdc8e901cd7a8dd12d7114d4a79258"
+    },
+    {
+      "script": 891,
+      "sha256": "08f3b02bce2bda058f39316c35db15e6427704baa21ecf6577a5c4bb1b1d5f07"
+    },
+    {
+      "script": 967,
+      "sha256": "c37ec5defc72c49e5c1a4944fccfc54c6a664903ed5f5fa606987aa13a55a3e9"
+    },
+    {
+      "script": 987,
+      "sha256": "d5c8ad8de5d3f8d5af4c23ca42a25542daffeee830a9e8ac91a586453dac6bf0"
+    },
+    {
+      "script": 989,
+      "sha256": "bcdf6ace414a7622f7439a37c819389f28491d1a973c8a261b127900ff62148f"
+    },
+    {
+      "script": 990,
+      "sha256": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772"
+    },
+    {
+      "script": 992,
+      "sha256": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3"
+    },
+    {
+      "script": 993,
+      "sha256": "a40fd40d1e805de5ce910094a0b9d156da1587f17dd33ec32171447de4fdd5d1"
+    },
+    {
+      "script": 994,
+      "sha256": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8"
+    },
+    {
+      "script": 996,
+      "sha256": "3d95ec9eea2041a866e0dfb48bde86199810fdcf221bc58c7023b52d19da6918"
+    },
+    {
+      "script": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52"
+    },
+    {
+      "script": 998,
+      "sha256": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793"
+    },
+    {
+      "script": 999,
+      "sha256": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e"
+    }
+  ],
+  "literal_selector_loads": [
+    {
+      "script": 0,
+      "pc": "0x04e7",
+      "selector": 375,
+      "owner": "export_10"
+    },
+    {
+      "script": 0,
+      "pc": "0x050f",
+      "selector": 375,
+      "owner": "export_10"
+    },
+    {
+      "script": 0,
+      "pc": "0x051f",
+      "selector": 375,
+      "owner": "export_10"
+    },
+    {
+      "script": 0,
+      "pc": "0x052a",
+      "selector": 375,
+      "owner": "export_10"
+    },
+    {
+      "script": 0,
+      "pc": "0x053a",
+      "selector": 375,
+      "owner": "export_10"
+    },
+    {
+      "script": 1,
+      "pc": "0x0fb5",
+      "selector": 462,
+      "owner": "Player.calcNetWorth"
+    },
+    {
+      "script": 1,
+      "pc": "0x245b",
+      "selector": 461,
+      "owner": "calc.doit"
+    },
+    {
+      "script": 111,
+      "pc": "0x00c5",
+      "selector": 375,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x016d",
+      "selector": 375,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x03db",
+      "selector": 461,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 231,
+      "pc": "0x000e",
+      "selector": 461,
+      "owner": "procedure_000c"
+    },
+    {
+      "script": 236,
+      "pc": "0x09f8",
+      "selector": 375,
+      "owner": "currentWealth.draw"
+    },
+    {
+      "script": 238,
+      "pc": "0x000e",
+      "selector": 375,
+      "owner": "procedure_000c"
+    },
+    {
+      "script": 300,
+      "pc": "0x0063",
+      "selector": 375,
+      "owner": "WhereShouldIGo.doit"
+    }
+  ],
+  "main_export1_and_10_calls": [
+    {
+      "script": 1,
+      "pc": "0x007e",
+      "export": 1,
+      "owner": "export_8"
+    },
+    {
+      "script": 1,
+      "pc": "0x01d6",
+      "export": 1,
+      "owner": "Place.openDoor"
+    },
+    {
+      "script": 1,
+      "pc": "0x01ea",
+      "export": 1,
+      "owner": "Place.openDoor"
+    },
+    {
+      "script": 1,
+      "pc": "0x01fe",
+      "export": 1,
+      "owner": "Place.openDoor"
+    },
+    {
+      "script": 1,
+      "pc": "0x0213",
+      "export": 1,
+      "owner": "Place.openDoor"
+    },
+    {
+      "script": 1,
+      "pc": "0x0407",
+      "export": 1,
+      "owner": "Place.cue"
+    },
+    {
+      "script": 1,
+      "pc": "0x0430",
+      "export": 1,
+      "owner": "Place.cue"
+    },
+    {
+      "script": 1,
+      "pc": "0x04b6",
+      "export": 1,
+      "owner": "Place.cue"
+    },
+    {
+      "script": 1,
+      "pc": "0x0609",
+      "export": 1,
+      "owner": "Place.endCue"
+    },
+    {
+      "script": 1,
+      "pc": "0x0d74",
+      "export": 1,
+      "owner": "Player.startTurn"
+    },
+    {
+      "script": 1,
+      "pc": "0x1b43",
+      "export": 1,
+      "owner": "marble.cue"
+    },
+    {
+      "script": 1,
+      "pc": "0x1d09",
+      "export": 1,
+      "owner": "room1.init"
+    },
+    {
+      "script": 1,
+      "pc": "0x2035",
+      "export": 1,
+      "owner": "room1.init"
+    },
+    {
+      "script": 1,
+      "pc": "0x204f",
+      "export": 1,
+      "owner": "room1.init"
+    },
+    {
+      "script": 1,
+      "pc": "0x215f",
+      "export": 1,
+      "owner": "room1.init"
+    },
+    {
+      "script": 2,
+      "pc": "0x008a",
+      "export": 1,
+      "owner": "introRoom.handleEvent"
+    },
+    {
+      "script": 2,
+      "pc": "0x0581",
+      "export": 1,
+      "owner": "introDuction.changeState"
+    },
+    {
+      "script": 104,
+      "pc": "0x04a5",
+      "export": 10,
+      "owner": "CostDItem.doit"
+    },
+    {
+      "script": 108,
+      "pc": "0x032c",
+      "export": 10,
+      "owner": "procedure_014c"
+    },
+    {
+      "script": 111,
+      "pc": "0x028f",
+      "export": 1,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x041f",
+      "export": 1,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x043f",
+      "export": 1,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x04d5",
+      "export": 10,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x056a",
+      "export": 10,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x0951",
+      "export": 10,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x0cf0",
+      "export": 10,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x1333",
+      "export": 10,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x13a6",
+      "export": 1,
+      "owner": "startTrn.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x16c9",
+      "export": 1,
+      "owner": "moveNotice.changeState"
+    },
+    {
+      "script": 111,
+      "pc": "0x1899",
+      "export": 1,
+      "owner": "moveAmbulance.changeState"
+    },
+    {
+      "script": 114,
+      "pc": "0x0108",
+      "export": 1,
+      "owner": "muggedByMarket.changeState"
+    },
+    {
+      "script": 114,
+      "pc": "0x0130",
+      "export": 1,
+      "owner": "muggedByMarket.changeState"
+    },
+    {
+      "script": 114,
+      "pc": "0x02b6",
+      "export": 1,
+      "owner": "muggedByBank.changeState"
+    },
+    {
+      "script": 114,
+      "pc": "0x02de",
+      "export": 1,
+      "owner": "muggedByBank.changeState"
+    },
+    {
+      "script": 116,
+      "pc": "0x0555",
+      "export": 1,
+      "owner": "lottoScript.changeState"
+    },
+    {
+      "script": 201,
+      "pc": "0x063c",
+      "export": 10,
+      "owner": "payRent.doit"
+    },
+    {
+      "script": 204,
+      "pc": "0x050a",
+      "export": 10,
+      "owner": "deposit.doit"
+    },
+    {
+      "script": 204,
+      "pc": "0x06ce",
+      "export": 10,
+      "owner": "withdraw.doit"
+    },
+    {
+      "script": 204,
+      "pc": "0x0b1b",
+      "export": 10,
+      "owner": "applyForLoan.doit"
+    },
+    {
+      "script": 212,
+      "pc": "0x138c",
+      "export": 10,
+      "owner": "pawn.doit"
+    },
+    {
+      "script": 212,
+      "pc": "0x16ac",
+      "export": 10,
+      "owner": "aRedeemableItem.doit"
+    },
+    {
+      "script": 213,
+      "pc": "0x0c9b",
+      "export": 10,
+      "owner": "buyButton.doit"
+    },
+    {
+      "script": 213,
+      "pc": "0x0dae",
+      "export": 10,
+      "owner": "sellButton.doit"
+    },
+    {
+      "script": 213,
+      "pc": "0x0dea",
+      "export": 10,
+      "owner": "sellButton.doit"
+    },
+    {
+      "script": 215,
+      "pc": "0x050b",
+      "export": 1,
+      "owner": "newspaper.init"
+    },
+    {
+      "script": 232,
+      "pc": "0x0464",
+      "export": 10,
+      "owner": "procedure_03d1"
+    },
+    {
+      "script": 234,
+      "pc": "0x006a",
+      "export": 1,
+      "owner": "winnerScript.changeState"
+    },
+    {
+      "script": 234,
+      "pc": "0x00e0",
+      "export": 1,
+      "owner": "winnerScript.changeState"
+    },
+    {
+      "script": 234,
+      "pc": "0x01ac",
+      "export": 1,
+      "owner": "winnerScript.changeState"
+    },
+    {
+      "script": 994,
+      "pc": "0x016e",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 994,
+      "pc": "0x0181",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 994,
+      "pc": "0x0217",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 994,
+      "pc": "0x02ae",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 994,
+      "pc": "0x0398",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 994,
+      "pc": "0x0413",
+      "export": 1,
+      "owner": "Game.replay"
+    },
+    {
+      "script": 997,
+      "pc": "0x0810",
+      "export": 1,
+      "owner": "export_1"
+    },
+    {
+      "script": 997,
+      "pc": "0x08fa",
+      "export": 1,
+      "owner": "export_2"
+    }
+  ],
+  "cash_panel_global305_target_sends": [
+    {
+      "script": 1,
+      "pc": "0x0025",
+      "owner": "export_8",
+      "messages": "erase()"
+    },
+    {
+      "script": 104,
+      "pc": "0x04b6",
+      "owner": "CostDItem.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 108,
+      "pc": "0x0339",
+      "owner": "procedure_014c",
+      "messages": "doit()"
+    },
+    {
+      "script": 111,
+      "pc": "0x045c",
+      "owner": "startTrn.changeState",
+      "messages": "erase()"
+    },
+    {
+      "script": 201,
+      "pc": "0x0428",
+      "owner": "rentOffice.init",
+      "messages": "setSize(); value((result_041b - 1)); draw()"
+    },
+    {
+      "script": 201,
+      "pc": "0x0565",
+      "owner": "rentOffice.draw",
+      "messages": "setSize(); value((result_0558 - 1)); draw()"
+    },
+    {
+      "script": 201,
+      "pc": "0x064f",
+      "owner": "payRent.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 203,
+      "pc": "0x050b",
+      "owner": "market.init",
+      "messages": "setSize(); value((result_04fe - 1)); draw()"
+    },
+    {
+      "script": 203,
+      "pc": "0x065d",
+      "owner": "market.draw",
+      "messages": "setSize(); value((result_0650 - 1)); draw()"
+    },
+    {
+      "script": 204,
+      "pc": "0x02b0",
+      "owner": "bank.init",
+      "messages": "setSize(); value((result_02a3 - 1)); draw()"
+    },
+    {
+      "script": 204,
+      "pc": "0x03ff",
+      "owner": "bank.draw",
+      "messages": "setSize(); value((result_03f2 - 1)); draw()"
+    },
+    {
+      "script": 204,
+      "pc": "0x0522",
+      "owner": "deposit.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 204,
+      "pc": "0x06e7",
+      "owner": "withdraw.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 204,
+      "pc": "0x0b3b",
+      "owner": "applyForLoan.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 205,
+      "pc": "0x01da",
+      "owner": "factory.init",
+      "messages": "setSize(); value((result_01cd - 1)); draw()"
+    },
+    {
+      "script": 205,
+      "pc": "0x02f4",
+      "owner": "factory.draw",
+      "messages": "setSize(); value((result_02e7 - 1)); draw()"
+    },
+    {
+      "script": 206,
+      "pc": "0x0882",
+      "owner": "employment.init",
+      "messages": "setSize(); value((result_0875 - 1)); draw()"
+    },
+    {
+      "script": 206,
+      "pc": "0x0995",
+      "owner": "employment.draw",
+      "messages": "setSize(); value((result_0988 - 1)); draw()"
+    },
+    {
+      "script": 207,
+      "pc": "0x0a2d",
+      "owner": "university.init",
+      "messages": "setSize(); value((result_0a20 - 1)); draw()"
+    },
+    {
+      "script": 207,
+      "pc": "0x0b8f",
+      "owner": "university.draw",
+      "messages": "setSize(); value((result_0b82 - 1)); draw()"
+    },
+    {
+      "script": 208,
+      "pc": "0x0508",
+      "owner": "appliance.init",
+      "messages": "setSize(); value((result_04fb - 1)); draw()"
+    },
+    {
+      "script": 208,
+      "pc": "0x062a",
+      "owner": "appliance.draw",
+      "messages": "setSize(); value((result_061d - 1)); draw()"
+    },
+    {
+      "script": 209,
+      "pc": "0x03d2",
+      "owner": "clothing.init",
+      "messages": "setSize(); value((result_03c5 - 1)); draw()"
+    },
+    {
+      "script": 209,
+      "pc": "0x04f4",
+      "owner": "clothing.draw",
+      "messages": "setSize(); value((result_04e7 - 1)); draw()"
+    },
+    {
+      "script": 210,
+      "pc": "0x0538",
+      "owner": "fastFood.init",
+      "messages": "setSize(); value((result_052b - 1)); draw()"
+    },
+    {
+      "script": 210,
+      "pc": "0x065a",
+      "owner": "fastFood.draw",
+      "messages": "setSize(); value((result_064d - 1)); draw()"
+    },
+    {
+      "script": 211,
+      "pc": "0x0678",
+      "owner": "discount.init",
+      "messages": "setSize(); value((result_066b - 1)); draw()"
+    },
+    {
+      "script": 211,
+      "pc": "0x0796",
+      "owner": "discount.draw",
+      "messages": "setSize(); value((result_0789 - 1)); draw()"
+    },
+    {
+      "script": 212,
+      "pc": "0x0c9b",
+      "owner": "pawnShop.init",
+      "messages": "setSize(); value((result_0c8e - 1)); draw()"
+    },
+    {
+      "script": 212,
+      "pc": "0x0da9",
+      "owner": "pawnShop.draw",
+      "messages": "setSize(); value((result_0d9c - 1)); draw()"
+    },
+    {
+      "script": 212,
+      "pc": "0x1395",
+      "owner": "pawn.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 212,
+      "pc": "0x16b5",
+      "owner": "aRedeemableItem.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 213,
+      "pc": "0x0429",
+      "owner": "broker.draw",
+      "messages": "setSize(); value((result_041c - 1)); draw()"
+    },
+    {
+      "script": 213,
+      "pc": "0x0cdd",
+      "owner": "buyButton.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 213,
+      "pc": "0x0e15",
+      "owner": "sellButton.doit",
+      "messages": "doit()"
+    },
+    {
+      "script": 232,
+      "pc": "0x056b",
+      "owner": "weekend.init",
+      "messages": "setSize(); value((result_055e - 1)); draw()"
+    },
+    {
+      "script": 232,
+      "pc": "0x063d",
+      "owner": "weekend.draw",
+      "messages": "setSize(); value((result_0630 - 1)); draw()"
+    }
+  ],
+  "direct_Player_monStat_slot22_accesses": [],
+  "reviewed_wealth_setters": [
+    {
+      "script": 0,
+      "send_pc": "0x050d",
+      "meaning": "assign from cached lqAssHi/lqAss after cash setter 0x04e5"
+    },
+    {
+      "script": 0,
+      "send_pc": "0x0528",
+      "meaning": "upper clamp 100"
+    },
+    {
+      "script": 0,
+      "send_pc": "0x0542",
+      "meaning": "lower clamp 0"
+    }
+  ],
+  "direct_calcNetWorth_sends": [
+    "1:0x2462",
+    "111:0x03e2",
+    "231:0x0015"
+  ],
+  "direct_calcLiquidAssets_send": "1:0x0fb9",
+  "bank_order_witnesses": {
+    "deposit": [
+      "cash/score 204:0x050a",
+      "panel/assets 204:0x0522",
+      "savings helper 204:0x059a",
+      "savings setter 204:0x0113"
+    ],
+    "withdraw": [
+      "cash/score 204:0x06ce",
+      "panel/assets 204:0x06e7",
+      "savings helper 204:0x072c",
+      "savings setter 204:0x0113"
+    ],
+    "loan_payment": [
+      "superclass action 204:0x0838",
+      "inherited cash/score 104:0x04a5",
+      "inherited panel/assets 104:0x04b6",
+      "principal setter 204:0x0896"
+    ],
+    "loan": [
+      "cash/score 204:0x0b1b",
+      "principal setter 204:0x0b33",
+      "panel/assets 204:0x0b3b"
+    ]
+  },
+  "callback_witnesses": {
+    "main_export1": "0:0x0276-0x0283 Animate flag0",
+    "empty_inherited_item_cycle": "255:0x042a ret",
+    "controls_draw": "255:0x1558-0x1565",
+    "controls_event_dispatch": "255:0x1566-0x159b",
+    "dialog_loop": "255:0x0d68-0x0e85",
+    "piggy_animation_install": "204:0x0f5b-0x0f74",
+    "DCIcon_cycle": "967:0x000c-0x0037",
+    "game_loop": "994:0x046d-0x04c7",
+    "room_base_doit": "994:0x06c1-0x06cd"
+  },
+  "limits": [
+    "Literal-selector inventory does not establish absence of arbitrary reflection or restored-VM-state effects.",
+    "Cash panel message summaries are conservative pseudocode navigation, individually anchored to raw lag305/send instructions.",
+    "Manual branch/call review establishes direct order; no modal event sequence or DOS execution was measured.",
+    "Outstanding edge: next cache refresh after bank savings/principal setter versus next cash-helper invocation, including notice settings and optional Statistics."
+  ]
+}

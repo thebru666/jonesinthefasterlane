@@ -1,0 +1,521 @@
+{
+  "research_date": "2026-10-16",
+  "evidence": "BYTECODE + PINNED_REFERENCE_ENGINE + ANALYTICAL_CHECK; no original DOS execution",
+  "version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0"
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "script": 101,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf"
+    },
+    {
+      "script": 992,
+      "sha256": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3"
+    },
+    {
+      "script": 994,
+      "sha256": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8"
+    },
+    {
+      "script": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52"
+    },
+    {
+      "script": 998,
+      "sha256": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793"
+    }
+  ],
+  "reference_engine": {
+    "commit": "2b5f9b5d95f267c87889746906148db6088130f8",
+    "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/graphics/animate.cpp",
+    "retrieved": "2026-10-16",
+    "sha256": "d8ad68f791a3be4b4a43ee5eff07b6ca3c3c73f7fd7de817c675d85d3e636ec8",
+    "anchors": [
+      "GfxAnimate::invoke lines135-176",
+      "GfxAnimate::kernelAnimate lines649-675"
+    ],
+    "signal_header_url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/graphics/animate.h#L30",
+    "signal_header_sha256": "adecc9a4e4aceebc3d2dbfe6192539d7e9f5fb54a02f3c77e0da8aa8e45924f7",
+    "cast_signal_values": {
+      "marble": 0,
+      "timeKeep": 257
+    },
+    "clock_exclusion": "timeKeep signal0x0101 contains frozen0x0100, preserved by View.init; automatic cast doit skips it"
+  },
+  "bytecode_anchors": {
+    "101": [
+      "init 0x000c-0x0066",
+      "doit 0x0067-0x00a4",
+      "next 0x00a5-0x0111",
+      "at 0x0112-0x013b",
+      "setDirection 0x013c-0x01c1"
+    ],
+    "1": [
+      "marbleMoved.cue 0x0158",
+      "Place.handleEvent 0x022e",
+      "room1.doit 0x2253",
+      "arrival dispatch 0x2267-0x227d",
+      "clock call 0x2290",
+      "timeKeep.doit 0x24f8"
+    ],
+    "992": [
+      "Motion.moveDone 0x04c0",
+      "Motion.motionCue 0x04d7"
+    ],
+    "994": [
+      "Game.doit 0x046d: Animate 0x0481; motionCue 0x0495; room doit 0x04a9; User doit 0x04b0"
+    ],
+    "998": [
+      "Act.doit 0x0489: mover doit 0x04cc",
+      "Act.motionCue 0x068c"
+    ],
+    "997": [
+      "speed menu 0x0576-0x063a: reset movement phase 0x0606; threshold setter 0x063a"
+    ]
+  },
+  "assumptions": [
+    "distinct endpoints on ordinary ring",
+    "speed constant 1..6",
+    "initial residual 0..14*speed",
+    "no turn exhaustion, frozen actor, reroute, modal suspension or external state mutation",
+    "one normal cast update followed by board update per observed cycle"
+  ],
+  "formula": {
+    "distance": "min(abs(a-b),170-abs(a-b))",
+    "arrival_cycle": "1+(distance-1)*speed",
+    "no_argument_clock_calls": "(distance-1)*speed",
+    "travel_hours": "floor((initial_residual+clock_calls)/(14*speed+1))",
+    "final_residual": "(initial_residual+clock_calls) mod (14*speed+1)",
+    "entry_cost": "2 separately, capped together with spent hours at60"
+  },
+  "checked_distance_speed_residual_cases": 25500,
+  "boundary_fixtures": [
+    "distance1 speed6 residual84: zero travel calls, no charge",
+    "speed reduced6to1 with residual84: next nonarrival call charges1 and resets0, not5hours"
+  ],
+  "failures": 0,
+  "matrix_place_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "matrix_semantics": "shortest ring steps; diagonal0 means same endpoint, not a MarblePath zero-step completion contract",
+  "route_step_matrix": [
+    [
+      0,
+      7,
+      20,
+      37,
+      51,
+      64,
+      72,
+      74,
+      65,
+      46,
+      34,
+      23,
+      13
+    ],
+    [
+      7,
+      0,
+      13,
+      30,
+      44,
+      57,
+      65,
+      81,
+      72,
+      53,
+      41,
+      30,
+      20
+    ],
+    [
+      20,
+      13,
+      0,
+      17,
+      31,
+      44,
+      52,
+      76,
+      85,
+      66,
+      54,
+      43,
+      33
+    ],
+    [
+      37,
+      30,
+      17,
+      0,
+      14,
+      27,
+      35,
+      59,
+      68,
+      83,
+      71,
+      60,
+      50
+    ],
+    [
+      51,
+      44,
+      31,
+      14,
+      0,
+      13,
+      21,
+      45,
+      54,
+      73,
+      85,
+      74,
+      64
+    ],
+    [
+      64,
+      57,
+      44,
+      27,
+      13,
+      0,
+      8,
+      32,
+      41,
+      60,
+      72,
+      83,
+      77
+    ],
+    [
+      72,
+      65,
+      52,
+      35,
+      21,
+      8,
+      0,
+      24,
+      33,
+      52,
+      64,
+      75,
+      85
+    ],
+    [
+      74,
+      81,
+      76,
+      59,
+      45,
+      32,
+      24,
+      0,
+      9,
+      28,
+      40,
+      51,
+      61
+    ],
+    [
+      65,
+      72,
+      85,
+      68,
+      54,
+      41,
+      33,
+      9,
+      0,
+      19,
+      31,
+      42,
+      52
+    ],
+    [
+      46,
+      53,
+      66,
+      83,
+      73,
+      60,
+      52,
+      28,
+      19,
+      0,
+      12,
+      23,
+      33
+    ],
+    [
+      34,
+      41,
+      54,
+      71,
+      85,
+      72,
+      64,
+      40,
+      31,
+      12,
+      0,
+      11,
+      21
+    ],
+    [
+      23,
+      30,
+      43,
+      60,
+      74,
+      83,
+      75,
+      51,
+      42,
+      23,
+      11,
+      0,
+      10
+    ],
+    [
+      13,
+      20,
+      33,
+      50,
+      64,
+      77,
+      85,
+      61,
+      52,
+      33,
+      21,
+      10,
+      0
+    ]
+  ],
+  "speed_sensitive_pairs_at_zero_residual": [
+    {
+      "from": 0,
+      "to": 6,
+      "distance": 72,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 0,
+      "to": 7,
+      "distance": 74,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "distance": 30,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "from": 1,
+      "to": 4,
+      "distance": 44,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "from": 1,
+      "to": 8,
+      "distance": 72,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 1,
+      "to": 11,
+      "distance": 30,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "from": 2,
+      "to": 5,
+      "distance": 44,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "from": 3,
+      "to": 7,
+      "distance": 59,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "from": 3,
+      "to": 11,
+      "distance": 60,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "from": 4,
+      "to": 7,
+      "distance": 45,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        2,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "from": 4,
+      "to": 9,
+      "distance": 73,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 4,
+      "to": 11,
+      "distance": 74,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 5,
+      "to": 9,
+      "distance": 60,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "distance": 72,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "from": 6,
+      "to": 11,
+      "distance": 75,
+      "travel_hours_by_speed_1_to_6_at_residual_0": [
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "limits": [
+    "formula is conditional analytical consequence, not observed DOS timing",
+    "speed-change overflow residue is reset after one hour, not divided",
+    "same-place mover and interruption paths require stateful recurrence, not diagonal formula",
+    "elapsed wall-clock seconds are not game hours"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "retrieved_date": "2026-10-16",
+  "source_bundle": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+    "version": "1.000.060"
+  },
+  "archive_member": "sciv256.exe",
+  "packed": {
+    "bytes": 60373,
+    "sha256": "16e0295610d38a3c747e81e2fbb0ba3421fec3286f22501300ccaaa4d734833f"
+  },
+  "packing_marker": "LZ91 at packed file offset0x001c; unpacker independently recognized0.91",
+  "unpacker": {
+    "repository": "https://github.com/mywave82/unlzexe",
+    "commit": "066aac7be3b27813c221d3b03621ad6dfaecd285",
+    "source_url": "https://github.com/mywave82/unlzexe/blob/066aac7be3b27813c221d3b03621ad6dfaecd285/unlzexe.c",
+    "source": {
+      "bytes": 17422,
+      "sha256": "b6d9814a1e0463371c9e92f0f9d80f80f30493ce4b3fe5f1484401b9afa6783d"
+    },
+    "readme": {
+      "bytes": 552,
+      "sha256": "89aae04df87c5450c8233a89cd1031a300cde6b2fb6423aab81b8c52b66774c5"
+    },
+    "built_with": "gcc -O2 -o unlzexe unlzexe.c",
+    "local_only": true
+  },
+  "unpacked": {
+    "bytes": 115284,
+    "sha256": "e4e5493756739f33af2a570a67bd35340369c823293065200806fd078e92b797"
+  },
+  "identical_second_unpack": true,
+  "scope": "Static metadata, relocation/dispatch-table and selected native instruction analysis; no original executable launch, DOS emulation or full engine decompilation.",
+  "mz": {
+    "header_bytes": 8704,
+    "relocation_count": 2050,
+    "entry_segment": 0,
+    "entry_offset": 111,
+    "load_image_bytes": 106580,
+    "load_image_sha256": "84acd43ecdaa44d8f633d2592850ee534f95730d4f4b469ca77cc0bedb41d318"
+  }
+}

@@ -25,7 +25,7 @@ The following is an analytical description of the published script, not imported
 3. Draw an integer between `−3 − downwardAllowance` and `3 + recoveryAllowance`. Move `I` one step toward that draw, with the corresponding bound. Consequently the index is not universally restricted to −3…+3.
 4. Draw adjustment `A` between `−3 + 2 × min(I, 0)` and `3 + 2 × max(I, 0)`.
 5. If `A` equals its lower endpoint, subtract another random value between 0 and `risk × abs(I)`. The following alternative repeats the **same lower-endpoint condition**, making its apparent intended positive counterpart unreachable. This is now confirmed in the actual website script107 at `0x0179` and `0x0198`; see [ECON-B01](bytecode-economy-presentation.md#econ-b01-the-duplicated-condition-exists-in-the-actual-game).
-6. Add `A + trunc(P/3)` to the reading. The main update omits the parent argument. Actual bytecode guards that argument into an unused temporary, then reads parameter slot 1 directly for this calculation. Its value when omitted remains unproved; **do not assume zero**. See [ECON-B02](bytecode-economy-presentation.md#econ-b02-the-omitted-parent-argument-needs-an-interpreter-investigation).
+6. Add `A + trunc(P/3)` to the reading. The main update omits the parent argument. Actual bytecode guards that argument into an unused temporary, then reads parameter slot 1 directly for this calculation. The [native DOS frame trace](economy-frame-semantics.md) now establishes its value for this call: the initialization's trend-target draw from step3 aliases the missing parameter. Thus the main reading receives `trunc(D/3)`, where D is that draw, before the event multiplier/clamp. The guarded zero occupies a different stack word. This is selected-path BYTECODE + DOS-STATIC evidence, not a measured distribution.
 7. Apply an event multiplier, if present, then clamp the reading: floppy 10…190; CD 70…190.
 
 Risk is 4 by default, 2 for gold and silver, 1 for blue-chip, and 10 for penny stock.
@@ -82,9 +82,9 @@ Let `N` be the stored number of players and `Rmain` the main reading **before** 
 | Floppy | Week ≥4 and `Rmain ≥80`; zero on Random(0, 20N) | If crash branch did not succeed and `Rmain ≤120`; zero on Random(0, 30N) |
 | CD | Week ≥8 and `Rmain ≥80`; zero on Random(0, 30N) | If crash branch did not succeed, week ≥8 and `Rmain ≤120`; zero on Random(0, 30N) |
 
-Inclusive bounds mean eligible floppy crash chance is `1/(20N+1)` per turn, and the boom roll is `1/(30N+1)` when reached. In the overlapping region, the unconditional boom chance is reduced by the chance that the crash branch has already succeeded. These are per-turn opportunities, not per-round guarantees.
+Under inclusive uniform reference draws, eligible floppy crash chance is `1/(20N+1)` per turn, and the boom roll is `1/(30N+1)` when reached. In the overlapping region, the unconditional boom chance is reduced by the chance that the crash branch has already succeeded. These are per-turn opportunities, not per-round guarantees.
 
-A successful crash selects severity code 1, 2, or 3 uniformly. Code 1 is the strongest effect. A boom and crash cannot both be selected in the same invocation.
+A successful crash draws severity code 1, 2, or 3; equal probabilities here assume uniform reference draws. The [original DOS generator and scaling](dos-randomness.md) are now identified statically, without establishing independent uniform outcomes. Code 1 is the strongest effect. A boom and crash cannot both be selected in the same invocation.
 
 Evidence: [floppy economicIndex.doit](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/economicIndex.sc#L201); [CD comparison](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-cd-dos-1.0/src/economicIndex.sc#L203); [S04 random semantics](../discovery/source-register.md#s04-sci-arithmetic-and-random-semantics).
 
@@ -121,4 +121,4 @@ The CD changes strengthen recovery pressure earlier and prevent the reading fall
 
 ## Remaining work
 
-Reproduce price/contract behaviour; extend targeted bundle/script correspondence checks beyond ECON-B01–002; resolve the omitted parent parameter through the caller/interpreter frame; trace fixed-price/pawn exceptions; audit all investment transactions and cash high words; measure long-run economy distributions and multiplayer effects after the arithmetic is validated. See [validation backlog](validation-backlog.md).
+Reproduce price/contract behaviour; extend targeted bundle/script correspondence checks beyond ECON-B01–002; extend the resolved main-index frame analysis to other callers/editions; trace fixed-price/pawn exceptions; audit all investment transactions and cash high words; measure long-run economy distributions and multiplayer effects after the arithmetic is validated. See [validation backlog](validation-backlog.md).

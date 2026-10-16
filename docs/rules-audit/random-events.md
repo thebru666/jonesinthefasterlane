@@ -4,7 +4,7 @@ Pass 3, 2026-10-15. Evidence: **SCRIPT**, external published floppy 1.000.060 de
 
 A subsequent [direct package trace](bytecode-needs-events.md) confirms selected weekend priority/debit/redraw, lottery resolution, mugging entry/exit and computer-windfall paths. The redraw branch is real, but its ordinary repeated invocation remains unproved; this is not an observed exploit. Other event paths retain their earlier evidence labels.
 
-Probabilities assume inclusive, uniform `Random(a,b)` draws and ordinary non-overflow quantities. Arithmetic divisions below truncate. Cosmetic animation draws also consume randomness; a faithful deterministic replay would need their actual call order, not just outcome percentages. [Weekly processing](weekly-processing.md) records the overall order; economic shocks, illness, apartment theft and repairs retain their existing [economy](economy.md), [food/housing](food-and-housing.md) and [goods](goods-and-finance.md) records.
+Probabilities assume inclusive, uniform `Random(a,b)` draws and ordinary non-overflow quantities. The [original DOS generator/scaling](dos-randomness.md) is now identified statically; these analytical probabilities do not establish its actual frequencies or independence. Arithmetic divisions below truncate. Cosmetic animation draws also consume randomness; a faithful deterministic replay would need their actual call order, not just outcome percentages. [Weekly processing](weekly-processing.md) records the overall order; economic shocks, illness, apartment theft and repairs retain their existing [economy](economy.md), [food/housing](food-and-housing.md) and [goods](goods-and-finance.md) records.
 
 ## EVENT-001: weekend selection and spending tiers
 

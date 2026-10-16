@@ -14,7 +14,7 @@ This confirms the suspicious condition in [ECON-002](economy.md#econ-002-trend-a
 
 The same actual method tests its argument count at `0x01b7`, selects the first argument or zero and stores that result into temporary slot 0 at `0x01c3`. However, the subsequent reading calculation loads **parameter slot 1 directly** at `0x01c9`, rather than loading that guarded temporary. This distinction also exists in the actual bytes; a faithful transcription cannot replace it with a safe default silently.
 
-The meaning of reading parameter slot 1 with an argument count of zero depends on the interpreter's parameter-frame handling and the caller's frame. This pass does not prove that it supplies zero, a stale value, or a stable value specific to this caller. Keep the main-index default-parent interpretation explicitly provisional. There is no need for a long gameplay session: inspect the precise send frame and interpreter implementation, or run one targeted instrumented invocation.
+The initial package pass left this dependent on interpreter and caller-frame handling. The subsequent [original DOS and reference frame trace](economy-frame-semantics.md) resolves the selected main-index call: its batched initialization/update preserves the initialization temporary, which aliases the missing parameter. It supplies the preceding trend-target draw after subtracting100, while the guarded zero is in a different slot. This is a native static finding, corroborated by the reference engine; no DOS execution or arbitrary-caller equivalence is claimed. The historical heading is retained for existing links.
 
 ## PRESENT-B01: the stereo's invalid loop is genuine
 
@@ -37,6 +37,6 @@ The pinned ScummVM reference clamps a requested loop and cel to the available ra
 
 ## Evidence boundaries and next work
 
-These checks validate particular conditions, parameter accesses and object properties, not every method in these scripts. No whole-script equivalence claim is made. The economic duplicate and stereo literal are now resolved at the package level; original interpreter handling of the omitted parameter and out-of-range loop remains open.
+These checks validate particular conditions, parameter accesses and object properties, not every method in these scripts. No whole-script equivalence claim is made. The economic duplicate and stereo literal are now resolved at the package level; the omitted parameter is now resolved for the selected caller by the linked native frame trace. Original interpreter handling of the out-of-range stereo loop remains open.
 
 The interpreter reference is [ScummVM `view.cpp`, pinned revision](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/graphics/view.cpp#L397). Object and method decoding follows [ScummVM `object.cpp`](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/object.cpp#L49), opcode definitions in [kernel_tables.h](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/kernel_tables.h#L1538) and execution semantics in [vm.cpp](https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/vm.cpp). These references interpret bytes; the bundle itself supplies the values and branch targets.
