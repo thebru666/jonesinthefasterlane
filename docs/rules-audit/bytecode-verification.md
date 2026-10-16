@@ -26,8 +26,8 @@ See [finance evidence](bytecode-finance-findings.md), [economy/presentation evid
 
 ## Validation and next research
 
-Ten decoder fixture groups cover operand widths, signed branches, relative calls and method layout. A second full export reproduced the generated files and coverage metadata exactly. Independent finance decoding agreed on 1,147 instruction boundaries and operands across six inspected ranges. These establish decoding consistency, not execution of every path.
+Fourteen decoder fixture groups cover operand widths, signed branches, relative calls, method layout, read-value snapshots and indexed reads. A second full export reproduced the generated files and coverage metadata exactly. Independent finance decoding agreed on 1,147 instruction boundaries and operands across six inspected ranges. These establish decoding consistency, not execution of every path.
 
-Next inspect the remaining rules directly in these listings: job eligibility and dismissal, course progression, weekly processing order, event selection and computer action policy. Resolve omitted-argument and invalid-loop cases through interpreter/frame analysis or narrowly instrumented execution. Ordinary gameplay is useful when presentation is the question; it is no longer needed merely to establish that the confirmed branches exist.
+The next pass now traces [employment](employment.md), [education](education.md), [weekly/opponent control](bytecode-weekly-opponent.md) and [location/time/save flow](bytecode-flow-and-persistence.md). Remaining work includes detailed event arithmetic, exhaustive AI action consumers, precise travel timing and interpreter edge cases. Resolve omitted-argument and invalid-loop cases through interpreter/frame analysis or narrowly instrumented execution. Ordinary gameplay is useful when presentation is the question; it is no longer needed merely to establish that the confirmed branches exist.
 
 No discovered quirk is an approved change to the successor. Preservation versus correction remains a planning decision.

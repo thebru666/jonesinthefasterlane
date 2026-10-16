@@ -1,0 +1,681 @@
+{
+  "audit_date": "2026-10-16",
+  "version": "DOS 1.000.060",
+  "source_url": "https://jonesinthefastlane.com/bundle.jsdos",
+  "evidence": "selected actual package instruction and property paths; not whole-script semantic equivalence",
+  "inputs": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "bytes": 4008
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "bytes": 10672
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "bytes": 2100
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "bytes": 850
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "bytes": 6840
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "bytes": 5636
+    },
+    {
+      "script": 216,
+      "sha256": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84",
+      "bytes": 1298
+    },
+    {
+      "script": 217,
+      "sha256": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e",
+      "bytes": 1448
+    },
+    {
+      "script": 218,
+      "sha256": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49",
+      "bytes": 1300
+    },
+    {
+      "script": 219,
+      "sha256": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4",
+      "bytes": 1310
+    },
+    {
+      "script": 220,
+      "sha256": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b",
+      "bytes": 1292
+    },
+    {
+      "script": 221,
+      "sha256": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97",
+      "bytes": 2242
+    },
+    {
+      "script": 222,
+      "sha256": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516",
+      "bytes": 1584
+    },
+    {
+      "script": 223,
+      "sha256": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064",
+      "bytes": 1596
+    },
+    {
+      "script": 224,
+      "sha256": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58",
+      "bytes": 1156
+    }
+  ],
+  "verification": {
+    "instruction_records_checked_against_resource_bytes": 1075,
+    "independent_operand_checks": "Property/constant/global/selector operands read directly at their encoded byte widths; independent comparisons at206:0307 and0473; all object property words reread from resource bytes. This checks selected operands/framing, not a second complete VM interpreter."
+  },
+  "traces": [
+    {
+      "script": 206,
+      "start": "0x024c",
+      "end_exclusive": "0x034e",
+      "purpose": "eligibility and opening score"
+    },
+    {
+      "script": 206,
+      "start": "0x034e",
+      "end_exclusive": "0x03b1",
+      "purpose": "per-turn rejected-job memory"
+    },
+    {
+      "script": 206,
+      "start": "0x03dd",
+      "end_exclusive": "0x05bb",
+      "purpose": "raise or job transition"
+    },
+    {
+      "script": 206,
+      "start": "0x00c2",
+      "end_exclusive": "0x01f7",
+      "purpose": "feedback and failure penalty"
+    },
+    {
+      "script": 108,
+      "start": "0x000c",
+      "end_exclusive": "0x014c",
+      "purpose": "work admission and dismissal"
+    },
+    {
+      "script": 108,
+      "start": "0x014c",
+      "end_exclusive": "0x0346",
+      "purpose": "work progression and payroll"
+    },
+    {
+      "script": 1,
+      "start": "0x0bf4",
+      "end_exclusive": "0x0c6f",
+      "purpose": "clothing grade"
+    },
+    {
+      "script": 1,
+      "start": "0x0d9b",
+      "end_exclusive": "0x0db0",
+      "purpose": "end-turn dependability"
+    },
+    {
+      "script": 1,
+      "start": "0x0f5c",
+      "end_exclusive": "0x0fb3",
+      "purpose": "economic dismissal"
+    },
+    {
+      "script": 104,
+      "start": "0x0344",
+      "end_exclusive": "0x0375",
+      "purpose": "offered wage initializer"
+    },
+    {
+      "script": 111,
+      "start": "0x03e4",
+      "end_exclusive": "0x03f7",
+      "purpose": "rejection-memory reset"
+    }
+  ],
+  "jobs": [
+    {
+      "script": 216,
+      "object_offset": "0x028e",
+      "menu_instance": "clerk",
+      "indexNum": 42,
+      "jobNum": 1,
+      "basePrice": 4,
+      "visitTime": 4,
+      "experience": 10,
+      "dependibility": 10,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 216,
+      "object_offset": "0x02fe",
+      "menu_instance": "assistManager",
+      "indexNum": 45,
+      "jobNum": 2,
+      "basePrice": 6,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 20,
+      "education": 0,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 216,
+      "object_offset": "0x036e",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 3,
+      "basePrice": 7,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 14,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 217,
+      "object_offset": "0x0294",
+      "menu_instance": "cook",
+      "indexNum": 44,
+      "jobNum": 4,
+      "basePrice": 4,
+      "visitTime": 4,
+      "experience": 0,
+      "dependibility": 10,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 217,
+      "object_offset": "0x0304",
+      "menu_instance": "clerk",
+      "indexNum": 42,
+      "jobNum": 5,
+      "basePrice": 5,
+      "visitTime": 4,
+      "experience": 10,
+      "dependibility": 20,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 217,
+      "object_offset": "0x0374",
+      "menu_instance": "assistManager",
+      "indexNum": 45,
+      "jobNum": 6,
+      "basePrice": 6,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 30,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 217,
+      "object_offset": "0x03e4",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 7,
+      "basePrice": 7,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 218,
+      "object_offset": "0x028e",
+      "menu_instance": "salesPerson",
+      "indexNum": 47,
+      "jobNum": 8,
+      "basePrice": 7,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 0,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 218,
+      "object_offset": "0x02fe",
+      "menu_instance": "assistManager",
+      "indexNum": 45,
+      "jobNum": 9,
+      "basePrice": 9,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 218,
+      "object_offset": "0x036e",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 10,
+      "basePrice": 12,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 50,
+      "education": 15,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 219,
+      "object_offset": "0x028e",
+      "menu_instance": "salesperson",
+      "indexNum": 47,
+      "jobNum": 11,
+      "basePrice": 5,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 30,
+      "education": 0,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 219,
+      "object_offset": "0x02fe",
+      "menu_instance": "electronicsRepair",
+      "indexNum": 64,
+      "jobNum": 12,
+      "basePrice": 11,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 11,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 219,
+      "object_offset": "0x036e",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 13,
+      "basePrice": 14,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 11,
+      "uniform": 34
+    },
+    {
+      "script": 220,
+      "object_offset": "0x028e",
+      "menu_instance": "janitor",
+      "indexNum": 43,
+      "jobNum": 14,
+      "basePrice": 4,
+      "visitTime": 4,
+      "experience": 10,
+      "dependibility": 10,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 220,
+      "object_offset": "0x02fe",
+      "menu_instance": "teacher",
+      "indexNum": 48,
+      "jobNum": 15,
+      "basePrice": 11,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 50,
+      "education": 16,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 220,
+      "object_offset": "0x036e",
+      "menu_instance": "professor",
+      "indexNum": 49,
+      "jobNum": 16,
+      "basePrice": 20,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 60,
+      "education": 19,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 221,
+      "object_offset": "0x02a8",
+      "menu_instance": "janitor",
+      "indexNum": 43,
+      "jobNum": 18,
+      "basePrice": 7,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 221,
+      "object_offset": "0x0318",
+      "menu_instance": "assemblyWorker",
+      "indexNum": 50,
+      "jobNum": 17,
+      "basePrice": 8,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 10,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 221,
+      "object_offset": "0x0388",
+      "menu_instance": "secretary",
+      "indexNum": 51,
+      "jobNum": 19,
+      "basePrice": 9,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 221,
+      "object_offset": "0x03f8",
+      "menu_instance": "machinistsHelper",
+      "indexNum": 52,
+      "jobNum": 20,
+      "basePrice": 10,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 12,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 221,
+      "object_offset": "0x0468",
+      "menu_instance": "executiveSecretary",
+      "indexNum": 53,
+      "jobNum": 21,
+      "basePrice": 18,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 50,
+      "education": 15,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 221,
+      "object_offset": "0x04d8",
+      "menu_instance": "machinist",
+      "indexNum": 54,
+      "jobNum": 22,
+      "basePrice": 19,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 50,
+      "education": 13,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 221,
+      "object_offset": "0x0548",
+      "menu_instance": "departmentManager",
+      "indexNum": 56,
+      "jobNum": 23,
+      "basePrice": 22,
+      "visitTime": 4,
+      "experience": 60,
+      "dependibility": 60,
+      "education": 14,
+      "education2": 13,
+      "uniform": 34
+    },
+    {
+      "script": 221,
+      "object_offset": "0x05b8",
+      "menu_instance": "engineer",
+      "indexNum": 55,
+      "jobNum": 24,
+      "basePrice": 23,
+      "visitTime": 4,
+      "experience": 60,
+      "dependibility": 60,
+      "education": 13,
+      "education2": 14,
+      "uniform": 34
+    },
+    {
+      "script": 221,
+      "object_offset": "0x0628",
+      "menu_instance": "generalManager",
+      "indexNum": 57,
+      "jobNum": 25,
+      "basePrice": 25,
+      "visitTime": 4,
+      "experience": 70,
+      "dependibility": 70,
+      "education": 15,
+      "education2": 13,
+      "uniform": 34
+    },
+    {
+      "script": 222,
+      "object_offset": "0x0296",
+      "menu_instance": "janitor",
+      "indexNum": 43,
+      "jobNum": 26,
+      "basePrice": 6,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 20,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 222,
+      "object_offset": "0x0306",
+      "menu_instance": "teller",
+      "indexNum": 58,
+      "jobNum": 27,
+      "basePrice": 10,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 222,
+      "object_offset": "0x0376",
+      "menu_instance": "assistManager",
+      "indexNum": 45,
+      "jobNum": 28,
+      "basePrice": 14,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 50,
+      "education": 15,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 222,
+      "object_offset": "0x03e6",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 29,
+      "basePrice": 19,
+      "visitTime": 4,
+      "experience": 60,
+      "dependibility": 60,
+      "education": 15,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 222,
+      "object_offset": "0x0456",
+      "menu_instance": "broker",
+      "indexNum": 59,
+      "jobNum": 30,
+      "basePrice": 22,
+      "visitTime": 4,
+      "experience": 70,
+      "dependibility": 70,
+      "education": 15,
+      "education2": 16,
+      "uniform": 34
+    },
+    {
+      "script": 223,
+      "object_offset": "0x0296",
+      "menu_instance": "janitor",
+      "indexNum": 43,
+      "jobNum": 31,
+      "basePrice": 5,
+      "visitTime": 4,
+      "experience": 10,
+      "dependibility": 10,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 223,
+      "object_offset": "0x0306",
+      "menu_instance": "checker",
+      "indexNum": 60,
+      "jobNum": 32,
+      "basePrice": 8,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 20,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 223,
+      "object_offset": "0x0376",
+      "menu_instance": "butcher",
+      "indexNum": 61,
+      "jobNum": 33,
+      "basePrice": 12,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 10,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 223,
+      "object_offset": "0x03e6",
+      "menu_instance": "assistManager",
+      "indexNum": 45,
+      "jobNum": 34,
+      "basePrice": 15,
+      "visitTime": 4,
+      "experience": 40,
+      "dependibility": 40,
+      "education": 14,
+      "education2": 0,
+      "uniform": 35
+    },
+    {
+      "script": 223,
+      "object_offset": "0x0456",
+      "menu_instance": "manager",
+      "indexNum": 46,
+      "jobNum": 35,
+      "basePrice": 18,
+      "visitTime": 4,
+      "experience": 50,
+      "dependibility": 50,
+      "education": 15,
+      "education2": 0,
+      "uniform": 34
+    },
+    {
+      "script": 224,
+      "object_offset": "0x028a",
+      "menu_instance": "groundsKeeper",
+      "indexNum": 62,
+      "jobNum": 36,
+      "basePrice": 6,
+      "visitTime": 4,
+      "experience": 20,
+      "dependibility": 20,
+      "education": 0,
+      "education2": 0,
+      "uniform": 36
+    },
+    {
+      "script": 224,
+      "object_offset": "0x02fa",
+      "menu_instance": "apartmentManager",
+      "indexNum": 63,
+      "jobNum": 37,
+      "basePrice": 8,
+      "visitTime": 4,
+      "experience": 30,
+      "dependibility": 30,
+      "education": 14,
+      "education2": 0,
+      "uniform": 36
+    }
+  ],
+  "unresolved": [
+    "DOS runtime random distribution/presentation",
+    "all employer work-button visibility and caller effects",
+    "signed overflow at extreme progression values",
+    "all setup/save paths that may replace Player defaults"
+  ]
+}

@@ -2,12 +2,15 @@
 
 ## Original game: starting point for iteration
 
+- [Connected game flow and rule contract](original-game/game-flow-and-rule-contract.md): lifecycle, screen families, action loops and state distinctions.
+
 - [Original-game baseline](original-game/README.md): existing summaries and documented original setup, town, screens, actions, content, progress, saves, and finish.
 - [Screen reconstruction studies](original-game/screen-reconstruction.md): local composites and annotated source layers, with state/geometry limits.
 - [Follow-up iteration brief](planning/follow-up-original-first-iteration.md): restrained suggestions to review against that baseline; no changes approved.
 
 ## Planning
 
+- [Rules readiness for 2.0](planning/rules-readiness.md): established foundation, remaining research and compatibility choices.
 - [Project brief](planning/project-brief.md): agreed audience, tone, scope, and process.
 - [Decisions](planning/decisions.md): confirmed direction, recommendations, and unresolved choices.
 - [Audit implications](planning/audit-implications.md): economic fidelity, edition baseline, and compatibility choices from pass 1.
@@ -27,6 +30,10 @@
 - [Audit plan and coverage](rules-audit/README.md)
 - [Direct bytecode verification](rules-audit/bytecode-verification.md): actual-package logic findings and remaining gaps.
 - [Rule record template](rules-audit/rule-template.md)
+- [Employment](rules-audit/employment.md): package-verified hiring, raises, work, growth and dismissal.
+- [Education](rules-audit/education.md): package-verified enrollment, course progression, equipment and rewards.
+- [Turn and opponent bytecode trace](rules-audit/bytecode-weekly-opponent.md): rotation, preparation, finish gates and computer execution.
+- [Location, clock, score and persistence trace](rules-audit/bytecode-flow-and-persistence.md).
 - [Time and actions](rules-audit/time-and-actions.md)
 - [Turn and weekly processing](rules-audit/weekly-processing.md)
 - [Economy and edition differences](rules-audit/economy.md)

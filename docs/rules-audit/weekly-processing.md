@@ -1,6 +1,6 @@
 # Turn handover and weekly processing
 
-Pass 1, 2026-10-15. Status: partial. Evidence: SCRIPT from the published floppy decompilation, [S02](../discovery/source-register.md). Mapping: **undecided**. No controlled runtime validation in this pass.
+Pass 1, 2026-10-15; package trace added 2026-10-16. Status: partial. Original evidence: SCRIPT from the published floppy decompilation, [S02](../discovery/source-register.md). The [actual-package lifecycle trace](bytecode-weekly-opponent.md) now confirms bounded rotation, round counting, outgoing bookkeeping, state ordering and both completion gates as BYTECODE. Detailed odds/effects below retain their original evidence unless explicitly upgraded there. Mapping: **undecided**. No controlled runtime validation in this pass.
 
 ## WEEK-001: a week and a player turn are distinct
 
@@ -42,7 +42,7 @@ This ordering has consequences: the economic calculation precedes the weekend, b
 
 The inspected start-turn state tests money, happiness, education, and career against their configured goals, provided the player has not already finished. A recurring ownership happiness increment can occur immediately before this check. The finish flow supports deciding what happens to remaining players.
 
-This establishes a start-turn check, not that it is the only check in the complete game. Full win/finish paths and goal formulas remain a separate audit area.
+The actual package repeats this gate in state 2 after winner presentation, then records completion and bypasses ordinary recurring processing. See [WEEK-B03](bytecode-weekly-opponent.md#week-b03-completion-is-checked-twice-before-recurring-consequences). This establishes those start-turn checks, not that they are the only checks in the complete game. Full winner presentation and goal formulas remain separate audit areas.
 
 Evidence: [startTrn.sc, states 0–1](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/startTrn.sc#L79).
 

@@ -96,6 +96,13 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - Evidence: BYTECODE for explicitly verified instructions/properties/control flow in [the findings](../rules-audit/bytecode-verification.md). Decode coverage is not a full semantic audit or runtime proof. Previous S02-based records retain their original provenance unless explicitly strengthened by a linked bytecode finding.
 - All original scripts, disassembly, recovered expressions and upstream reference payloads remain ignored locally. Only analytical metadata and original research tooling/notes are committed.
 
+## S13: connected core-loop package trace (2026-10-16)
+
+- Uses the same S01/S08 resource hashes and S12 decoder; no new edition or archive substituted. [Employment](../rules-audit/employment.md), [education](../rules-audit/education.md), [weekly/opponent](../rules-audit/bytecode-weekly-opponent.md) and [flow/persistence](../rules-audit/bytecode-flow-and-persistence.md) identify the selected package paths. Their analytical manifests record all inputs, offsets and verification limits.
+- The [connected flow reference](../original-game/game-flow-and-rule-contract.md) synthesizes those results with earlier domain records, preserving their evidence tiers. Published-source candidate paths were compared after inspecting actual method/property tables and instructions; no whole-source equivalence claim.
+- A pseudocode snapshot error found during the trace was corrected: variable/property loads now capture instruction-time values rather than referring to variables that can later mutate. Fourteen fixtures include read/mutation/index checks; disassembly and resource hashes are unaffected.
+- No new runtime execution, original save roundtrip or original RNG reproduction was performed. Original code, source payloads and scratch verification helpers remain ignored.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

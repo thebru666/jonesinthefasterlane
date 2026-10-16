@@ -2,6 +2,8 @@
 
 Research date: 2026-10-15. Reference: DOS floppy **1.000.060**. Mechanical findings are **SCRIPT: published decompilation inspected**, without runtime verification by the author of this pass. See the [source register](../discovery/source-register.md). This is the original baseline, not a redesign.
 
+Later direct-package traces confirm [stored-score refresh and placement allocation](../rules-audit/bytecode-flow-and-persistence.md) plus [two ordered start-turn goal gates](../rules-audit/bytecode-weekly-opponent.md). The formulas below describe ordinary values; full refresh-caller/high-word behaviour and restored intermediate states remain unresolved.
+
 ## Goal meanings
 
 The player must reach **all four personal targets**. One filled category cannot compensate for another. The game's help describes accumulating money/investments, enjoying purchases and leisure, graduating, and improving working life, delivered with brief jokes. [Original definitions](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/goalsDefine.sc#L18). See [setup](setup-multiplayer.md) for configurable individual thresholds.

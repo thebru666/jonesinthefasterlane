@@ -2,6 +2,8 @@
 
 Research date: 2026-10-15. Reference: DOS floppy **1.000.060**. Evidence is **SCRIPT: published decompilation inspected**, not runtime observation or a decompilation performed by this project. See the [source register](../discovery/source-register.md). This describes the original, without approving adaptation changes.
 
+The later [package flow trace](../rules-audit/bytecode-flow-and-persistence.md) confirms setup dispatch, the one-human Jones branch, actual fixed-slot save/restore calls and menu flags. Slider/cancellation/persistence observations retain their separate evidence limits.
+
 ## Startup and setup journey
 
 A small central startup dialog offers **Play Game**, **Restore Game**, and **Demonstration**. Play proceeds to **How Many Players?**, with **1–4** human players. Demonstration uses a computer-controlled player and is a separate startup route. [Startup](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1.sc), [count](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/select1b.sc).

@@ -2,6 +2,8 @@
 
 Research date: 2026-10-15. Document **what Jones in the Fast Lane was**, then refine that reference. This section takes priority over the earlier speculative flow/layout outline when describing the original.
 
+Read the [connected flow and rule contract](game-flow-and-rule-contract.md) for the consolidated lifecycle and links into the package-verified employment, education, turn and persistence traces.
+
 ## Read in this order
 
 1. [Existing summaries](existing-summaries.md): original reference material and the best located player guides, with source/edition caveats.

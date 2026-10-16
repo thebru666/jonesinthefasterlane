@@ -174,26 +174,31 @@ def pseudocode(s,sels):
     if op==57:acc=x
     else:stack.append(x)
    elif 64<=op<=127:
-    group=(op-64)//16;slot=(op-64)%16;space=['global','local','temp','param'][slot%4];idx=f'{v}+acc' if slot>=8 else str(v);var=f'{space}[{idx}]'
+    group=(op-64)//16;slot=(op-64)%16;space=['global','local','temp','param'][slot%4];idx=f'{v}+({acc})' if slot>=8 else str(v);var=f'{space}[{idx}]'
     if group==0:
-     if slot%8<4:acc=var
-     else:stack.append(var)
+     value=f'value_{off:04x}';stmt=f'{value} = {var};'
+     if slot%8<4:acc=value
+     else:stack.append(value)
     elif group==1:
      x=acc if slot%8<4 else pop();stmt=f'{var} = {x};'
     else:
      stmt=f'{var}{"++" if group==2 else "--"};'
-     if slot%8<4:acc=var
-     else:stack.append(var)
+     value=f'value_{off:04x}';stmt+=f' {value} = {var};'
+     if slot%8<4:acc=value
+     else:stack.append(value)
    elif 49<=op<=56:
     var='self.'+i['property_hint'] if i.get('property_hint') else f'property[{v}]'
-    if op==49:acc=var
+    if op==49:
+     acc=f'value_{off:04x}';stmt=f'{acc} = {var};'
     elif op==50:stmt=f'{var} = {acc};'
-    elif op==51:stack.append(var)
+    elif op==51:
+     value=f'value_{off:04x}';stmt=f'{value} = {var};';stack.append(value)
     elif op==52:stmt=f'{var} = {pop()};'
     else:
      stmt=f'{var}{"++" if op in (53,55) else "--"};'
-     if op in (53,54):acc=var
-     else:stack.append(var)
+     value=f'value_{off:04x}';stmt+=f' {value} = {var};'
+     if op in (53,54):acc=value
+     else:stack.append(value)
    elif op in (23,24):stmt=f'if ({"!" if op==24 else ""}({acc})) goto L{i["targets"][0]:04x};'
    elif op==25:stmt=f'goto L{i["targets"][0]:04x};'
    elif op==36:stmt=f'return {acc};'
@@ -245,7 +250,27 @@ def self_test():
  assert got['objects'][0]['properties'][3]['selector']==23
  assert got['objects'][0]['methods']==[{'selector':60,'name':'doit','offset':40}]
  assert got['instructions'][0]['offset']==40
- return {'fixtures':10,'status':'passed'}
+ # Reads must snapshot values: a stored accumulator can be used again after
+ # the source slot has changed. Substituting a live variable would recalculate it.
+ def symbolic_fixture(hexcode):
+  data=bytes.fromhex(hexcode);instructions=[];pos=0
+  while pos<len(data):
+   inst=instruction(data,pos);instructions.append(inst);pos=inst['end']
+  sample={'instructions':instructions,'functions':[], 'basic_blocks':[{'offset':0,'instructions':[i['offset'] for i in instructions]}]}
+  return pseudocode(sample,{})
+ text=symbolic_fixture('850036350504a500a50148')
+ assert 'value_0000 = temp[0];' in text
+ assert 'temp[0] = (value_0000 - 5);' in text
+ assert 'temp[1] = (value_0000 - 5);' in text
+ text=symbolic_fixture('67083501650848') # property stack read followed by write
+ assert 'value_0000 = property[8];' in text
+ assert 'outgoing stack: value_0000' in text
+ text=symbolic_fixture('c100a50148') # increment global slot then store stable result
+ assert 'global[0]++; value_0000 = global[0];' in text
+ assert 'temp[1] = value_0000;' in text
+ text=symbolic_fixture('3502910548') # indexed global read snapshots its index
+ assert 'value_0002 = global[5+(2)];' in text
+ return {'fixtures':14,'status':'passed'}
 
 def main():
  ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--resources',type=Path,default=Path('work/original-assets/decoded/resources'));ap.add_argument('--output',type=Path,default=Path('work/bytecode/decoded'));ap.add_argument('--coverage',type=Path);ap.add_argument('--self-test',action='store_true');args=ap.parse_args()

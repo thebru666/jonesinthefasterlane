@@ -8,6 +8,12 @@ Subsequent original-experience research documents the [setup/layout/content/prog
 
 All 69 website scripts have been independently decoded; [coverage and limits](bytecode-verification.md). Actual bytes confirm the garnishment overwrite, double initial-loan happiness penalty, $50/$45 repayment duplicate economic comparison, and the ordinary refrigerator purchase bonus being skipped. These branch-existence questions no longer require ordinary gameplay. Visible presentation and remaining semantics still have their own evidence requirements. The economic omitted-argument case is narrowed to interpreter/frame handling; it is not resolved by the guarded default alone.
 
+## Core loop package traces
+
+[Employment](employment.md), [education](education.md), [weekly/opponent](bytecode-weekly-opponent.md) and [location/clock/save](bytecode-flow-and-persistence.md) now directly trace the normal core loop. All37 job records, all11 course records and all13 entry charges are package-checked. Ordinary hiring/raise/study flow no longer depends solely on published-source interpretation. [Connected flow](../original-game/game-flow-and-rule-contract.md) and [readiness](../planning/rules-readiness.md) record what can guide the build and what remains open.
+
+Further work: exact route-clock equivalence, complete score-refresh callers, omitted economy parameter/interpreter, remaining event predicates/high-word arithmetic, all AI action consumers and saved intermediate states. This does not mark their runtime cases passed.
+
 ## Runtime progress
 
 | Area | Actual progress | Still pending |

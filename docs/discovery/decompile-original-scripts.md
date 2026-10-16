@@ -62,7 +62,7 @@ The [committed coverage](../../artifacts/original-game/bytecode-coverage.json) r
 | Alignment padding bytes | 183 |
 | Reported decode or target-validation failures | 0 |
 
-Instruction bytes plus the identified alignment bytes reconstruct each code-block payload exactly. Branches, local calls, method entries and 1,468 resource-address loads were checked against parsed targets. Ten fixture groups check operand widths, signed displacements, the call offset base after the frame operand, invalid-opcode rejection and a synthetic class/method table. A fresh second export produced identical hashes for all 209 output files.
+Instruction bytes plus the identified alignment bytes reconstruct each code-block payload exactly. Branches, local calls, method entries and 1,468 resource-address loads were checked against parsed targets. Fourteen fixture groups check operand widths, signed displacements, the call offset base after the frame operand, invalid-opcode rejection a synthetic class/method table, stable snapshots across variable mutation and indexed reads. A fresh second export produced identical hashes for all 209 output files.
 
 These checks establish consistent binary decoding. They do not establish that every branch is executed in normal play, that every recovered expression has been manually reviewed, or that the program has been rebuilt and run from generated source.
 
@@ -70,7 +70,7 @@ These checks establish consistent binary decoding. They do not establish that ev
 
 Use object/method names in the JSON or assembly to locate a rule, then follow its instruction offsets and basic-block successors. Pseudocode makes arithmetic and selector messages easier to inspect, while assembly remains the precise reference for operation order and branch conditions. Record any finding with the script number, method/export, instruction range and script SHA-256.
 
-The symbolic pass restarts at each basic block. `incoming_acc`, `incoming_previous_acc` and `incoming_stack_N` explicitly identify state that must be traced from predecessor blocks. A `result_NNNN` label denotes one call/send result; it does not repeat the call when used later in an expression. Branches remain explicit `goto` statements rather than being presented as recovered original `if`/`while` syntax.
+The symbolic pass restarts at each basic block. `incoming_acc`, `incoming_previous_acc` and `incoming_stack_N` explicitly identify state that must be traced from predecessor blocks. A `value_NNNN` label captures a variable/property read at that instruction so later mutation cannot retrospectively change its value. A `result_NNNN` label denotes one call/send result; it does not repeat the call when used later in an expression. Branches remain explicit `goto` statements rather than being presented as recovered original `if`/`while` syntax.
 
 The current pseudocode contains **1,217 references to unresolved incoming stack values** and **56 dynamic rest-argument operations**. These are counts of marked references/operations, not counts of distinct uncertain game rules. There are **2,678 instructions not reached from the recovered entry points**. This identifies incomplete static reachability; it does not prove that those instructions are dead code. Dynamic calls, inherited dispatch, cross-script calls and saved/runtime state still require interpretation.
 

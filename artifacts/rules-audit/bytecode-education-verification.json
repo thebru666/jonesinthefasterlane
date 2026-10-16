@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "audit_date": "2026-10-16",
+  "game_version": "DOS 1.000.060",
+  "evidence": "BYTECODE; analytical trace, no runtime execution",
+  "source": {
+    "url": "https://jonesinthefastlane.com/bundle.jsdos",
+    "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+    "published_comparison_revision": "870a8015b689474484bf3d8b41416956d4315432"
+  },
+  "scripts": [
+    {
+      "number": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "size": 10672
+    },
+    {
+      "number": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "size": 2100
+    },
+    {
+      "number": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "size": 990
+    },
+    {
+      "number": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd",
+      "size": 136
+    },
+    {
+      "number": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "size": 6840
+    },
+    {
+      "number": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "size": 6272
+    },
+    {
+      "number": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "size": 5432
+    },
+    {
+      "number": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "size": 7126
+    },
+    {
+      "number": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1",
+      "size": 7264
+    }
+  ],
+  "courses": [
+    {
+      "id": 10,
+      "instance": "tradeSchool",
+      "prerequisite": 0,
+      "object_offset": "0xda4",
+      "lesson_time": 6
+    },
+    {
+      "id": 11,
+      "instance": "electronics",
+      "prerequisite": 10,
+      "object_offset": "0xdfa",
+      "lesson_time": 6
+    },
+    {
+      "id": 12,
+      "instance": "preEngineering",
+      "prerequisite": 10,
+      "object_offset": "0xe4c",
+      "lesson_time": 6
+    },
+    {
+      "id": 13,
+      "instance": "engineering",
+      "prerequisite": 12,
+      "object_offset": "0xe9e",
+      "lesson_time": 6
+    },
+    {
+      "id": 14,
+      "instance": "juniorCollege",
+      "prerequisite": 0,
+      "object_offset": "0xef0",
+      "lesson_time": 6
+    },
+    {
+      "id": 15,
+      "instance": "ba",
+      "prerequisite": 14,
+      "object_offset": "0xf42",
+      "lesson_time": 6
+    },
+    {
+      "id": 16,
+      "instance": "academic",
+      "prerequisite": 14,
+      "object_offset": "0xf94",
+      "lesson_time": 6
+    },
+    {
+      "id": 17,
+      "instance": "graduate",
+      "prerequisite": 16,
+      "object_offset": "0xfe6",
+      "lesson_time": 6
+    },
+    {
+      "id": 18,
+      "instance": "postDoctoral",
+      "prerequisite": 17,
+      "object_offset": "0x1038",
+      "lesson_time": 6
+    },
+    {
+      "id": 19,
+      "instance": "research",
+      "prerequisite": 18,
+      "object_offset": "0x108a",
+      "lesson_time": 6
+    },
+    {
+      "id": 20,
+      "instance": "publishing",
+      "prerequisite": 19,
+      "object_offset": "0x10dc",
+      "lesson_time": 6
+    }
+  ],
+  "maximum_simultaneously_offered_courses": 4,
+  "verification": {
+    "raw_property_words_checked": 3976,
+    "raw_instruction_landmarks_checked": 8,
+    "raw_signed_branch_targets_checked": 2,
+    "all_course_graph_edges_checked": 11,
+    "bytecode_decoder_issues_in_inputs": 0,
+    "untracked_helper": "work/education-trace/verify.py",
+    "method": "Read method tables and selector/property bindings, follow instruction and call ordering, compare pinned published source; independently read raw property words and selected opcodes/branch operands."
+  },
+  "rules": [
+    {
+      "id": "EDU-001",
+      "script": 207,
+      "method": "UniversityDIcon.addCourse",
+      "entry": "0x030d",
+      "entry_time_range": "0x08fa-0x0901",
+      "facts": [
+        "unfinished and prerequisite complete",
+        "two-unit entry charge",
+        "eleven qualifications"
+      ]
+    },
+    {
+      "id": "EDU-002",
+      "script": 207,
+      "method": "enrollmentFee.doit",
+      "entry": "0x0c87",
+      "admission_range": "0x036f-0x03b6",
+      "facts": [
+        "base fee 50, shared economy pricing",
+        "enrollment increments only if affordable",
+        "lesson allowed with spare enrollment or equality plus selected active course",
+        "fee visitTime zero"
+      ]
+    },
+    {
+      "id": "EDU-003",
+      "script": 207,
+      "method": "UniversityDIcon.doit",
+      "entry": "0x0357",
+      "clock_gate": "0x03b9-0x03bf",
+      "receipt": "0x03c2-0x03d4",
+      "time_charge": "0x041c-0x0424",
+      "facts": [
+        "blocks at spent==60",
+        "one attendance then six-unit time charge",
+        "no lesson cash debit"
+      ]
+    },
+    {
+      "id": "EDU-004",
+      "script": 111,
+      "snapshot_range": "0x0333-0x03c9",
+      "completion_script": 207,
+      "completion_range": "0x03dc-0x040f",
+      "facts": [
+        "books31+32+33 grant one credit",
+        "computer29 grants one credit",
+        "snapshot at turn start",
+        "quantity >= 10-credits snaps quantity to10"
+      ]
+    },
+    {
+      "id": "EDU-005",
+      "script": 207,
+      "reward_range": "0x043d-0x0490",
+      "goal_range": "0x0612-0x0628",
+      "facts": [
+        "plus5 happiness via helper",
+        "plus5 eduCredit dependibility expCredit",
+        "eduStat=1+9*numDegrees on graduation"
+      ]
+    }
+  ],
+  "analytical_scenarios": [
+    {
+      "case": "normal course, no credits",
+      "attendances": 10,
+      "nominal_study_time": 60
+    },
+    {
+      "case": "one equipment credit",
+      "attendances": 9,
+      "nominal_study_time": 54
+    },
+    {
+      "case": "two equipment credits",
+      "attendances": 8,
+      "nominal_study_time": 48
+    },
+    {
+      "case": "spent59, admitted",
+      "result": "full +1 attendance; time clamps60"
+    },
+    {
+      "case": "spent60, admitted",
+      "result": "no attendance or study time"
+    },
+    {
+      "case": "E1 A1 D0, different course",
+      "result": "enrollment required"
+    },
+    {
+      "case": "E2 A1 D0, different course",
+      "result": "can start second course"
+    },
+    {
+      "case": "D11 after graduation",
+      "education_progress": 100
+    }
+  ],
+  "limitations": [
+    "No new runtime execution",
+    "Course/job qualification joins and work-credit ceilings require employment trace",
+    "Dynamic UI dispatch, diploma animation, pricing edge cases, computer strategy not fully verified here",
+    "Analytical scenarios are derived expected outcomes, not executed game tests"
+  ]
+}

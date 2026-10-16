@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-10-16",
+  "game": "Jones in the Fast Lane DOS 1.000.060",
+  "evidence_tier": "BYTECODE",
+  "scope": "Bounded lifecycle, completion, AI event bridge, difficulty entry, privileged inputs and two policy anomalies. Not whole-source equivalence or original runtime tests.",
+  "resources": [
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b"
+    },
+    {
+      "script": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc"
+    },
+    {
+      "script": 300,
+      "sha256": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d"
+    },
+    {
+      "script": 237,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062"
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f"
+    }
+  ],
+  "method_anchors": [
+    {
+      "script": 1,
+      "object": "Player",
+      "method": "startTurn",
+      "entry": "0x0d6b"
+    },
+    {
+      "script": 1,
+      "object": "Player",
+      "method": "endTurn",
+      "entry": "0x0d9b"
+    },
+    {
+      "script": 1,
+      "object": "players",
+      "method": "doit",
+      "entry": "0x1427"
+    },
+    {
+      "script": 1,
+      "object": "marble",
+      "method": "cue",
+      "entry": "0x18f0"
+    },
+    {
+      "script": 111,
+      "object": "startTrn",
+      "method": "changeState",
+      "entry": "0x0024"
+    },
+    {
+      "script": 110,
+      "object": "DialogScript",
+      "method": "handleEvent",
+      "entry": "0x0004"
+    },
+    {
+      "script": 300,
+      "object": "WhereShouldIGo",
+      "method": "doit",
+      "entry": "0x0047"
+    },
+    {
+      "script": 213,
+      "object": "computerScript",
+      "method": "handleEvent",
+      "entry": "0x0f70"
+    }
+  ],
+  "checks": [
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 1,
+      "instructions_checked": 3456,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 111,
+      "instructions_checked": 3138,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 110,
+      "instructions_checked": 139,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 300,
+      "instructions_checked": 3085,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 237,
+      "instructions_checked": 861,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "resource_hash_and_instruction_span_consistency",
+      "script": 213,
+      "instructions_checked": 1602,
+      "result": "pass",
+      "limit": "Checks exported boundaries against raw resource; does not independently re-decode every opcode."
+    },
+    {
+      "check": "two_complete_four_goal_gate_failure_targets",
+      "script": 111,
+      "comparison_branches": [
+        "0x00d9",
+        "0x00f0",
+        "0x0107",
+        "0x011e",
+        "0x0181",
+        "0x0198",
+        "0x01af",
+        "0x01c6"
+      ],
+      "result": "pass"
+    },
+    {
+      "check": "relaxation_call_two_arguments_to_single_parameter_helper",
+      "script": 300,
+      "call": "0x1391",
+      "target": "0x17f5",
+      "argument_payload_bytes": 4,
+      "helper_parameter_reads": [
+        1
+      ],
+      "result": "pass",
+      "limit": "Destination effect inferred from actual operands; no runtime travel observation."
+    },
+    {
+      "check": "shadowed_clothes_branch_222_control_entry",
+      "script": 300,
+      "earlier_test": "0x0a6c",
+      "earlier_true_return": "0x0a7b",
+      "later_test": "0x0b18",
+      "diagnostic_assignment": "0x0b1e",
+      "result": "pass",
+      "limit": "Manual state-effect audit additionally required: unchanged cash/budget, ordinary execution without debugger intervention."
+    }
+  ],
+  "checks_total": 9,
+  "all_passed": true,
+  "findings": [
+    "WEEK-B01",
+    "WEEK-B02",
+    "WEEK-B03",
+    "WEEK-B04",
+    "AI-B01",
+    "AI-B02",
+    "AI-B03"
+  ],
+  "local_checker": "work/bytecode/verification/check_week_ai.py",
+  "reproduction_note": "Checker is local audit scratch. Committed manifest retains hashes/offsets/assertion descriptions; regenerate game/listings with documented research tools and re-inspect anchors."
+}

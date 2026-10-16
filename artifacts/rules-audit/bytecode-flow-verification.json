@@ -1,0 +1,332 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE: bounded flow, entry-cost, clock, score-refresh and persistence traces; not runtime execution",
+  "version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "resources": [
+    {
+      "resource": "script.000",
+      "bytes": 4008,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0"
+    },
+    {
+      "resource": "script.001",
+      "bytes": 10672,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697"
+    },
+    {
+      "resource": "script.101",
+      "bytes": 1378,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf"
+    },
+    {
+      "resource": "script.238",
+      "bytes": 3898,
+      "sha256": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974"
+    },
+    {
+      "resource": "script.234",
+      "bytes": 3146,
+      "sha256": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded"
+    },
+    {
+      "resource": "script.990",
+      "bytes": 896,
+      "sha256": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772"
+    },
+    {
+      "resource": "script.997",
+      "bytes": 3116,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52"
+    },
+    {
+      "resource": "script.200",
+      "bytes": 1430,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea"
+    },
+    {
+      "resource": "script.201",
+      "bytes": 5680,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166"
+    },
+    {
+      "resource": "script.202",
+      "bytes": 1602,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca"
+    },
+    {
+      "resource": "script.203",
+      "bytes": 4376,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa"
+    },
+    {
+      "resource": "script.204",
+      "bytes": 4922,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408"
+    },
+    {
+      "resource": "script.205",
+      "bytes": 1562,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969"
+    },
+    {
+      "resource": "script.206",
+      "bytes": 5636,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4"
+    },
+    {
+      "resource": "script.207",
+      "bytes": 6272,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999"
+    },
+    {
+      "resource": "script.208",
+      "bytes": 5432,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9"
+    },
+    {
+      "resource": "script.209",
+      "bytes": 3138,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc"
+    },
+    {
+      "resource": "script.210",
+      "bytes": 3974,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b"
+    },
+    {
+      "resource": "script.211",
+      "bytes": 7126,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d"
+    },
+    {
+      "resource": "script.212",
+      "bytes": 8430,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a"
+    }
+  ],
+  "entry_costs": [
+    {
+      "place_id": 0,
+      "script": 200,
+      "time_charge": 2,
+      "call_offset": "0x0072"
+    },
+    {
+      "place_id": 1,
+      "script": 201,
+      "time_charge": 2,
+      "call_offset": "0x022e"
+    },
+    {
+      "place_id": 2,
+      "script": 202,
+      "time_charge": 2,
+      "call_offset": "0x0072"
+    },
+    {
+      "place_id": 3,
+      "script": 203,
+      "time_charge": 2,
+      "call_offset": "0x0400"
+    },
+    {
+      "place_id": 4,
+      "script": 204,
+      "time_charge": 2,
+      "call_offset": "0x0195"
+    },
+    {
+      "place_id": 5,
+      "script": 205,
+      "time_charge": 2,
+      "call_offset": "0x00f5"
+    },
+    {
+      "place_id": 6,
+      "script": 206,
+      "time_charge": 2,
+      "call_offset": "0x07b6"
+    },
+    {
+      "place_id": 7,
+      "script": 207,
+      "time_charge": 2,
+      "call_offset": "0x0901"
+    },
+    {
+      "place_id": 8,
+      "script": 208,
+      "time_charge": 2,
+      "call_offset": "0x0405"
+    },
+    {
+      "place_id": 9,
+      "script": 209,
+      "time_charge": 2,
+      "call_offset": "0x02de"
+    },
+    {
+      "place_id": 10,
+      "script": 210,
+      "time_charge": 2,
+      "call_offset": "0x045f"
+    },
+    {
+      "place_id": 11,
+      "script": 211,
+      "time_charge": 2,
+      "call_offset": "0x0470"
+    },
+    {
+      "place_id": 12,
+      "script": 212,
+      "time_charge": 2,
+      "call_offset": "0x0c03"
+    }
+  ],
+  "places": [
+    {
+      "place_id": 0,
+      "object": "apartmentsP",
+      "ring_index": 1,
+      "location_script": 200
+    },
+    {
+      "place_id": 1,
+      "object": "rentOfficeP",
+      "ring_index": 164,
+      "location_script": 201
+    },
+    {
+      "place_id": 2,
+      "object": "securityP",
+      "ring_index": 151,
+      "location_script": 202
+    },
+    {
+      "place_id": 3,
+      "object": "marketP",
+      "ring_index": 134,
+      "location_script": 203
+    },
+    {
+      "place_id": 4,
+      "object": "bankP",
+      "ring_index": 120,
+      "location_script": 204
+    },
+    {
+      "place_id": 5,
+      "object": "factoryP",
+      "ring_index": 107,
+      "location_script": 205
+    },
+    {
+      "place_id": 6,
+      "object": "employmentP",
+      "ring_index": 99,
+      "location_script": 206
+    },
+    {
+      "place_id": 7,
+      "object": "universityP",
+      "ring_index": 75,
+      "location_script": 207
+    },
+    {
+      "place_id": 8,
+      "object": "applianceP",
+      "ring_index": 66,
+      "location_script": 208
+    },
+    {
+      "place_id": 9,
+      "object": "clothingP",
+      "ring_index": 47,
+      "location_script": 209
+    },
+    {
+      "place_id": 10,
+      "object": "fastFoodP",
+      "ring_index": 35,
+      "location_script": 210
+    },
+    {
+      "place_id": 11,
+      "object": "discountP",
+      "ring_index": 24,
+      "location_script": 211
+    },
+    {
+      "place_id": 12,
+      "object": "pawnShopP",
+      "ring_index": 14,
+      "location_script": 212
+    }
+  ],
+  "landmark_checks": 10,
+  "all_13_entry_call_frames_checked": true,
+  "traces": [
+    {
+      "id": "FLOW-001",
+      "script": 1,
+      "range": "0x1d6e\u20130x1e0f",
+      "finding": "Startup dialog -> optional count -> characters/goals -> Jones setup only for one human"
+    },
+    {
+      "id": "FLOW-002",
+      "script": 1,
+      "range": "0x022e\u20130x0662",
+      "finding": "Input/motion gate -> location init -> return/event continuation -> exhausted-turn handover -> pack inventories"
+    },
+    {
+      "id": "FLOW-003",
+      "script": 1,
+      "range": "0x24f8\u20130x25dc",
+      "finding": "Explicit costs preserve movement residue; motion updates residue; cap at60; moving exhaustion invokes handover"
+    },
+    {
+      "id": "FLOW-004",
+      "script": 101,
+      "range": "0x000c\u20130x01c1",
+      "finding": "170-point ring, speed-gated route stepping and direction comparison"
+    },
+    {
+      "id": "SCORE-001",
+      "script": 0,
+      "range": "0x04dc\u20130x0544",
+      "finding": "Cash mutation refreshes monStat from cached liquid assets, not directly from new cash"
+    },
+    {
+      "id": "SCORE-002",
+      "script": 1,
+      "range": "0x0fb3\u20130x10ea",
+      "finding": "Separate liquid/investment/net worth totals and debt subtraction; high-word details remain bounded"
+    },
+    {
+      "id": "SCORE-003",
+      "script": 238,
+      "range": "0x000c\u20130x00e7",
+      "finding": "Progress display caps each category at target then computes truncated total percentage"
+    },
+    {
+      "id": "SAVE-001",
+      "script": 990,
+      "range": "0x0012\u20130x0205",
+      "finding": "Fixed slot1 save/restore with version argument and error branches"
+    },
+    {
+      "id": "FINISH-001",
+      "script": 234,
+      "range": "0x09be\u20130x0a6a",
+      "finding": "Allocate first empty placement slot461..464 during winner presentation"
+    }
+  ],
+  "limits": [
+    "No live DOS execution, save roundtrip or browser persistence test.",
+    "Route distances do not establish exact game-hour costs without interpreter cycle order and residual state.",
+    "No full signed/high-word arithmetic equivalence claim.",
+    "No exhaustive animation, menu or rare re-entry equivalence claim."
+  ]
+}

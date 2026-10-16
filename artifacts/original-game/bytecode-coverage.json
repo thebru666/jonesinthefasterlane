@@ -8,9 +8,9 @@
     "map_sha256": "f070a57f0e2c86bbf79339b1d41777a15e835d228cb52ff9cd3728a098fa053e"
   },
   "selector_vocabulary_sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850",
-  "tool_sha256": "32c78b3f8c67f1002091de72ff78573c51e34d90350e84ededaadd597fe017df",
+  "tool_sha256": "34e308a07ac1cfe6cccda3c223f79972ead2ab94837f0a211551db7403489362",
   "fixture_validation": {
-    "fixtures": 10,
+    "fixtures": 14,
     "status": "passed"
   },
   "code_payload_bytes": 107970,

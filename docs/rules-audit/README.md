@@ -46,6 +46,16 @@ These findings do not automatically pass every component of the prescribed runti
 
 [Verification summary](bytecode-verification.md), [finance findings](bytecode-finance-findings.md), [economy/presentation findings](bytecode-economy-presentation.md), and [refrigerator purchase findings](bytecode-purchase-findings.md) establish selected branches in the actual website bytes. [Rebuild guide](../discovery/decompile-original-scripts.md) and [coverage metadata](../../artifacts/original-game/bytecode-coverage.json) distinguish complete instruction decoding from partial semantic recovery. Earlier pass descriptions above describe their evidence at the time; they are not claims that the new tool uses published source as input.
 
+## Core loop traces (2026-10-16)
+
+- [Employment](employment.md): all37 package job records; hiring/opening/memory/raises, clothing, work growth and dismissal.
+- [Education](education.md): all11 course records; enrollment permissions, active-course admission, progress, credit snapshots and graduation rewards.
+- [Weekly lifecycle and opponent](bytecode-weekly-opponent.md): ordered dispatch, dual stored-score gates, rotation, shared work/exit bridge and selected AI anomalies.
+- [Location flow, clock, scores and persistence](bytecode-flow-and-persistence.md): all13 two-unit entry charges, return/exhaustion, clock modes, cached scoring, placement and fixed-slot save boundary.
+- [Connected original-game contract](../original-game/game-flow-and-rule-contract.md) and [readiness/gaps](../planning/rules-readiness.md) connect these findings for 2.0 planning.
+
+Selected-path findings are package-verified. Remaining numerical/random paths, every AI consumer, exact travel timing, extreme balances and restored intermediate states are not silently upgraded. No new runtime tests were performed in this pass.
+
 ## Evidence labels
 
 - **PACKAGE:** directly inspected package or configuration fact.
@@ -66,18 +76,18 @@ For SCRIPT evidence, state whether it is our own bytecode analysis or an externa
 | Area | Questions | Status |
 | --- | --- | --- |
 | Setup and goals | Starting resources, player count, goal settings, win timing | Source baseline: [setup](../original-game/setup-multiplayer.md), [scores/finish](../original-game/progression-and-finish.md); runtime and edge paths pending |
-| Time and travel | Weekly allowance, movement, entry costs, rounding, partial actions | Partial: [TIME-001–007](time-and-actions.md); travel matrix/runtime pending |
-| Weekly processing | Order of rent, food, events, economy, income, and victory checks | Partial: [WEEK-001–006](weekly-processing.md); rare branches/runtime pending |
+| Time and travel | Weekly allowance, movement, entry costs, rounding, partial actions | Partial: [TIME-001–007](time-and-actions.md), [all13 entry charges and clock mechanism verified](bytecode-flow-and-persistence.md); exact route-hour timing/runtime pending |
+| Weekly processing | Order of rent, food, events, economy, income, and victory checks | Detailed selected BYTECODE: [WEEK-001–006](weekly-processing.md) and [ordered stage dispatch/rotation](bytecode-weekly-opponent.md); rare arithmetic/resume/runtime pending |
 | Economy | State transitions, duration, randomness, price/wage/job effects | Partial: [ECON-001–007](economy.md); selected conditions confirmed in [actual bytecode](bytecode-economy-presentation.md); remaining formulas, interpreter behaviour and long-run validation pending |
-| Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Partial: [all 37 original job rows and thresholds](../original-game/content-progression.md); rejection/raise edge cases/runtime pending |
-| Education | Prerequisites, fees, lessons, completion, goal contribution | Source baseline: [11-course graph and credits](../original-game/content-progression.md); [book labels decoded](../original-game/asset-catalogue-notes.md#precise-course-label-transcription-targets); runtime pending |
+| Employment | Vacancies, qualifications, experience, hiring, raises, dismissal, pay | Detailed BYTECODE: [employment rules](employment.md) and all37 job records; selected rejection/raise/work paths verified; every caller and runtime presentation pending |
+| Education | Prerequisites, fees, lessons, completion, goal contribution | Detailed BYTECODE: [11-course graph, enrollment and graduation](education.md); [book labels decoded](../original-game/asset-catalogue-notes.md#precise-course-label-transcription-targets); runtime pending |
 | Food and basic needs | Consumption, storage, shortages, penalties | Detailed SCRIPT: [NEED-001–004](food-and-housing.md); food IDs, storage, spoilage sentinel, hunger and illness; runtime/object cleanup pending |
 | Housing | Rent schedule, upgrades, access, possessions, consequences of nonpayment | Detailed SCRIPT: [HOME-001–005](food-and-housing.md); payment/extension/debt/moving/rest/theft; runtime/edge paths pending |
 | Goods and happiness | Purchase effects, recurring effects, duplicates, relaxation | Detailed SCRIPT: [GOODS-001–006](goods-and-finance.md); grouped inventory, [refrigerator purchase bonus confirmed in bytes](bytecode-purchase-findings.md), recurring effects/repairs/pawn; [joke products and weekend effects](random-events.md) traced; runtime/object cleanup pending |
 | Banking and investments | Interest, loans, repayment, shares, valuation, rounding | Detailed SCRIPT: [FIN-001–005](goods-and-finance.md); transfer/loan/trade/valuation paths; [loan rejection/payment bytes verified](bytecode-finance-findings.md); high-value anomalies and runtime pending |
 | Random events | Triggers, eligibility, probabilities, ordering, recovery | Detailed SCRIPT: [EVENT-001–008](random-events.md), plus shocks/illness/theft/repairs in their domain records; runtime, exhaustive flavour/animation and RNG/edition validation pending |
 | Asset presentation | Resource inventory, decompression, graphics/text/audio coverage | [266 unique resources catalogued](../original-game/asset-catalogue-notes.md); 108 graphics resources rendered, sound events/MIDI exported; [18 screen composites](../original-game/screen-reconstruction.md); full text/animation/role transcription and runtime comparison pending |
-| Computer opponent | Policy, information, difficulty, special treatment | Detailed SCRIPT: [AI-001–009](computer-opponent.md); runtime, demo/CD comparison and exhaustive privilege scan pending |
+| Computer opponent | Policy, information, difficulty, special treatment | SCRIPT plus selected BYTECODE: [AI-001–009](computer-opponent.md), [work/exit bridge and policy anomalies](bytecode-weekly-opponent.md); all action consumers/runtime/demo-CD remain pending |
 | Multiplayer and saves | Turn order, public/private information, persistence | Source baseline: [supported combinations, visibility, handover, fixed-slot saves](../original-game/setup-multiplayer.md); runtime/emulator persistence pending |
 
 ## Method

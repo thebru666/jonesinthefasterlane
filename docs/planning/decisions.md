@@ -67,3 +67,7 @@ The original's supported setup is now documented: one to four humans, with optio
 ## Research priority after the first runtime pass
 
 On 2026-10-16 the owner questioned further manual gameplay and asked how much could be reverse engineered. Prioritise verification of the extracted package bytecode against published decompiled scripts, starting with suspicious conditions and source/resource discrepancies. Use runtime only for narrow unresolved experiments. This does not approve application implementation or choose new mechanics.
+
+## Core-loop research progress (2026-10-16)
+
+The owner explicitly assigned the objective of extracting/documenting game flow and rules ready for2.0 planning. [Connected flow](../original-game/game-flow-and-rule-contract.md) now joins package-verified employment, education, weekly dispatch, selected AI execution, entry/clock, score-refresh and save/finish boundaries. [Rules readiness](rules-readiness.md) records unresolved research and compatibility choices. This advances discovery, not approval to build or silently repair quirks.

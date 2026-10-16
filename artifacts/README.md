@@ -28,6 +28,11 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Bytecode interpreter references](original-game/bytecode-source-inputs.json): pinned engine-source hashes used to interpret the format.
 - [Finance verification](rules-audit/bytecode-finance-verification.json) [economy/presentation verification](rules-audit/bytecode-economy-presentation.json), and [purchase verification](rules-audit/bytecode-purchase-verification.json): original analytical conclusions, offsets and resource hashes; no original code.
 
+- [Employment verification](rules-audit/bytecode-employment-verification.json): selected paths and all37 actual job records.
+- [Education verification](rules-audit/bytecode-education-verification.json): all11 courses, prerequisites and progression checks.
+- [Weekly/opponent verification](rules-audit/bytecode-weekly-opponent-verification.json): methods, resources and bounded branch/call checks.
+- [Flow/persistence verification](rules-audit/bytecode-flow-verification.json): all13 entry calls, clock and lifecycle landmarks, scoring/save boundaries.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.
