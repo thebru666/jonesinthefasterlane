@@ -1,6 +1,6 @@
 # Economy, prices, wages, and shocks
 
-Pass 1, 2026-10-15. Status: partial. Evidence: SCRIPT from [S02 and S04](../discovery/source-register.md), plus original analytical calculations. No runtime price trace or bytecode comparison has been performed. All adaptation mappings remain **undecided**.
+Pass 1, 2026-10-15; targeted package verification added 2026-10-16. Status: partial. Evidence: SCRIPT from [S02 and S04](../discovery/source-register.md), original analytical calculations, and **BYTECODE** for the adjustment condition and direct parent-argument access in [ECON-B01–002](bytecode-economy-presentation.md). These checks do not establish whole-script equivalence or runtime price behaviour. All adaptation mappings remain **undecided**.
 
 ## ECON-001: layered economy with memory
 
@@ -24,15 +24,15 @@ The following is an analytical description of the published script, not imported
 2. Compute an upward recovery allowance from low readings and a downward allowance from high readings. In the floppy edition: recovery allowance 2 below 40, 1 below 70, otherwise 0; downward allowance 2 above 160, 1 above 130, otherwise 0.
 3. Draw an integer between `−3 − downwardAllowance` and `3 + recoveryAllowance`. Move `I` one step toward that draw, with the corresponding bound. Consequently the index is not universally restricted to −3…+3.
 4. Draw adjustment `A` between `−3 + 2 × min(I, 0)` and `3 + 2 × max(I, 0)`.
-5. If `A` equals its lower endpoint, subtract another random value between 0 and `risk × abs(I)`. The published code's following alternative repeats the **same lower-endpoint condition**, making its apparent intended positive counterpart unreachable.
-6. Add `A + trunc(P/3)` to the reading. The main update omits the parent argument; zero is the working interpretation, but confirm the omitted-argument behaviour against bytecode/runtime.
+5. If `A` equals its lower endpoint, subtract another random value between 0 and `risk × abs(I)`. The following alternative repeats the **same lower-endpoint condition**, making its apparent intended positive counterpart unreachable. This is now confirmed in the actual website script107 at `0x0179` and `0x0198`; see [ECON-B01](bytecode-economy-presentation.md#econ-b01-the-duplicated-condition-exists-in-the-actual-game).
+6. Add `A + trunc(P/3)` to the reading. The main update omits the parent argument. Actual bytecode guards that argument into an unused temporary, then reads parameter slot 1 directly for this calculation. Its value when omitted remains unproved; **do not assume zero**. See [ECON-B02](bytecode-economy-presentation.md#econ-b02-the-omitted-parent-argument-needs-an-interpreter-investigation).
 7. Apply an event multiplier, if present, then clamp the reading: floppy 10…190; CD 70…190.
 
 Risk is 4 by default, 2 for gold and silver, 1 for blue-chip, and 10 for penny stock.
 
 Evidence: [economicIndex.sc, EconomicIndex.init / doit and instance defaults](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/economicIndex.sc#L29).
 
-The duplicated condition is an **apparent implementation defect**, not a verified design intention. Do not patch it silently while claiming exact fidelity. This pass has not simulated long runs, so it makes no claim that a permanent slump has been statistically demonstrated.
+The duplicated condition is a **package-confirmed apparent implementation defect**, not a verified design intention or a decompiler-only suspicion. Do not patch it silently while claiming exact fidelity. This pass has not simulated long runs, so it makes no claim that a permanent slump has been statistically demonstrated.
 
 ## ECON-003: exact ordinary price calculation
 
@@ -121,4 +121,4 @@ The CD changes strengthen recovery pressure earlier and prevent the reading fall
 
 ## Remaining work
 
-Reproduce price/contract behaviour; verify exact bundle/script correspondence; inspect suspicious branches at bytecode level; trace fixed-price/pawn exceptions; audit all investment transactions and cash high words; measure long-run economy distributions and multiplayer effects after the arithmetic is validated. See [validation backlog](validation-backlog.md).
+Reproduce price/contract behaviour; extend targeted bundle/script correspondence checks beyond ECON-B01–002; resolve the omitted parent parameter through the caller/interpreter frame; trace fixed-price/pawn exceptions; audit all investment transactions and cash high words; measure long-run economy distributions and multiplayer effects after the arithmetic is validated. See [validation backlog](validation-backlog.md).

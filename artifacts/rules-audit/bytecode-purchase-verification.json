@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "verified_date": "2026-10-16",
+  "evidence": "website-package-bytecode",
+  "finding": "BC-GOODS-001",
+  "offset_basis": "zero-based decompressed resource payload including SCI block headers",
+  "resources": [
+    {
+      "resource": "script.208",
+      "payload_bytes": 5432,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9"
+    },
+    {
+      "resource": "script.104",
+      "payload_bytes": 2100,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    },
+    {
+      "resource": "script.106",
+      "payload_bytes": 990,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d"
+    },
+    {
+      "resource": "vocabulary.997",
+      "payload_bytes": 5565,
+      "sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850"
+    }
+  ],
+  "item": {
+    "script": 208,
+    "object": "refrigerator",
+    "object_offset": "0x072e",
+    "method_offset": "0x06f5",
+    "index": 21,
+    "units": 1,
+    "goods_type": 0,
+    "superclass": 55
+  },
+  "proof_ranges": [
+    {
+      "script": 208,
+      "range": "0x06f5\u20130x0721",
+      "purpose": "superclass receipt before success-and-zero-quantity bonus test"
+    },
+    {
+      "script": 104,
+      "range": "0x0404\u20130x0421",
+      "purpose": "durable receipt call"
+    },
+    {
+      "script": 106,
+      "range": "0x00dd\u20130x0120",
+      "purpose": "new receipt sets quantity and adds object"
+    },
+    {
+      "script": 106,
+      "range": "0x0121\u20130x0171",
+      "purpose": "existing receipt increments quantity"
+    },
+    {
+      "script": 106,
+      "range": "0x0240\u20130x0288",
+      "purpose": "index lookup then current quantity read"
+    }
+  ],
+  "result": "ordinary successful purchase creates or increments positive quantity before zero-quantity test, skipping this nominal +1 bonus",
+  "independent_boundary_comparison": {
+    "instructions": 142,
+    "mismatches": 0
+  },
+  "limits": [
+    "refrigerator selected path only; other item overrides not independently verified here",
+    "no runtime execution",
+    "negative/corrupt quantities, overflow and unusual callback re-entry excluded"
+  ]
+}

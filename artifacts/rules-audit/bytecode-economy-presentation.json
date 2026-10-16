@@ -1,0 +1,140 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE",
+  "game_version": "1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "offset_convention": "hexadecimal byte offsets in decompressed payloads, no added header",
+  "resources": [
+    {
+      "file": "script.107.bin",
+      "bytes": 1814,
+      "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525"
+    },
+    {
+      "file": "script.202.bin",
+      "bytes": 1602,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca"
+    },
+    {
+      "file": "script.255.bin",
+      "bytes": 7264,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1"
+    },
+    {
+      "file": "vocabulary.996.bin",
+      "bytes": 332,
+      "sha256": "d43943a49c1c5f7b48017e53097e9cf4a0213f1ff00403951b7dc9c7e1d7eb66"
+    },
+    {
+      "file": "vocabulary.997.bin",
+      "bytes": 5565,
+      "sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850"
+    },
+    {
+      "file": "view.702.bin",
+      "bytes": 17791,
+      "sha256": "977152c2ac0adb13582a8d4dc21f33af54798ed874e75ea992da1257366aaafd"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ECON-B01",
+      "resource": "script.107",
+      "class_block": "0x0216",
+      "methods": {
+        "init": {
+          "selector": 102,
+          "entry": "0x0042"
+        },
+        "doit": {
+          "selector": 60,
+          "entry": "0x01b5"
+        }
+      },
+      "comparison_starts": [
+        "0x0179",
+        "0x0198"
+      ],
+      "compared_properties": [
+        {
+          "slot": 10,
+          "selector": 478,
+          "name": "adjustment"
+        },
+        {
+          "slot": 8,
+          "selector": 476,
+          "name": "lowerRange"
+        }
+      ],
+      "first_true_branch_exit": {
+        "instruction_offset": "0x0195",
+        "destination": "0x01b4"
+      },
+      "conclusion": "Both comparisons test adjustment against lowerRange; the positive risk alternative is unreachable."
+    },
+    {
+      "id": "ECON-B02",
+      "resource": "script.107",
+      "method": "doit",
+      "argument_count_test": "0x01b7",
+      "guarded_result_store": "0x01c3",
+      "actual_parent_read": "0x01c9",
+      "conclusion": "Guarded argument result is stored in temporary 0, but later arithmetic reads parameter 1 directly. Missing-argument value remains interpreter-dependent and unproved."
+    },
+    {
+      "id": "PRESENT-B01",
+      "resource": "script.202",
+      "object": "theStereo",
+      "block": "0x0436",
+      "name_pointer": "0x05f9",
+      "species": 12,
+      "class_resource": "script.255",
+      "class_block": "0x05e4",
+      "properties": [
+        {
+          "name": "nsTop",
+          "selector": 9,
+          "value": 43,
+          "offset": "0x044e"
+        },
+        {
+          "name": "nsLeft",
+          "selector": 10,
+          "value": 121,
+          "offset": "0x0450"
+        },
+        {
+          "name": "view",
+          "selector": 5,
+          "value": 702,
+          "offset": "0x0472"
+        },
+        {
+          "name": "loop",
+          "selector": 6,
+          "value": 1,
+          "offset": "0x0474"
+        },
+        {
+          "name": "cel",
+          "selector": 7,
+          "value": 4,
+          "offset": "0x0476"
+        }
+      ],
+      "view": {
+        "resource": "view.702",
+        "loop_count": 1,
+        "loop0_cel_count": 5
+      },
+      "conclusion": "Object requests unavailable loop1. ScummVM getCelInfo clamps it to loop0, but original DOS rendering fallback is unproved."
+    }
+  ],
+  "limitations": [
+    "Not whole-script equivalence",
+    "Not original interpreter fallback verification",
+    "Not runtime observation",
+    "No adaptation compatibility choice approved"
+  ]
+}

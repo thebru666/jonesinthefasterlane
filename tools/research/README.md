@@ -25,3 +25,12 @@ work/asset-venv/bin/python tools/research/reconstruct_screen_studies.py
 Open `work/original-screen-studies/index.html`. These are partial static composites; [state and geometry limits](../../docs/original-game/screen-reconstruction.md) apply. Recipes are committed metadata; generated original artwork stays ignored.
 
 The actual gameplay evidence is separate from analytical composites. `python3 tools/research/index_runtime_captures.py --check` checks retained screenshot hashes and builds `work/runtime-validation/index.html`; it reports missing evidence rather than downloading replacements. New captures on another computer require replaying the [recorded actions](../../docs/rules-audit/runtime-observations.md).
+
+Decode the original script logic independently of the published source with the standard-library-only script tool:
+
+```sh
+python3 tools/research/sci_scripts.py --self-test
+python3 tools/research/sci_scripts.py --output work/bytecode/decoded
+```
+
+The asset rebuild above is a prerequisite. Open the local `script-NNN.asm`, `.json` and `.pseudo.txt` files in an editor. [The script-analysis guide](../../docs/discovery/decompile-original-scripts.md) explains hash checks, reproduced coverage, hexadecimal offsets and the conservative pseudocode's unresolved stack/dispatch cases. `--coverage artifacts/original-game/bytecode-coverage.json` refreshes analytical metadata for review. Generated disassembly, original object/string data and pseudocode stay ignored; full instruction decoding does not mean complete structured-source decompilation.

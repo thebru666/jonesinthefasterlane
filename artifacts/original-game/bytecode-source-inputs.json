@@ -1,0 +1,43 @@
+{
+  "revision": "2b5f9b5d95f267c87889746906148db6088130f8",
+  "files": [
+    {
+      "name": "vm.h",
+      "bytes": 14402,
+      "sha256": "dddca7331ffb3fe87ec2e5f8742100bff745f138deca94e8067b11fca134435b",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/vm.h"
+    },
+    {
+      "name": "vm.cpp",
+      "bytes": 46654,
+      "sha256": "4946004a16c7a90b37ac5bfe2827b18c13e322a8376e2c4fcdc4c96b2e01222d",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/vm.cpp"
+    },
+    {
+      "name": "script.cpp",
+      "bytes": 43671,
+      "sha256": "952b18a95a84c4754b4d453cfb9f017ef51ffb830b131f2ee35d4ac94efa683d",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/script.cpp"
+    },
+    {
+      "name": "script.h",
+      "bytes": 12360,
+      "sha256": "494833916ff48d573dcc946c42e1ced91ffaaadebce9330e7efe960fb1f1e378",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/script.h"
+    },
+    {
+      "name": "kernel_tables.h",
+      "bytes": 97124,
+      "sha256": "2d94d4675729ebe985f78efedbf088ff96edc55743172c94ca632eadc5de95c1",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/kernel_tables.h"
+    },
+    {
+      "name": "kernel.cpp",
+      "bytes": 31648,
+      "sha256": "41acf5eb2e00be61af9bb242176bcb71991128fb31a99bed4b5a717d82590bc3",
+      "url": "https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/engines/sci/engine/kernel.cpp"
+    }
+  ],
+  "retrieved_date": "2026-10-16",
+  "purpose": "SCI bytecode format and execution interpretation; original source payloads remain local"
+}

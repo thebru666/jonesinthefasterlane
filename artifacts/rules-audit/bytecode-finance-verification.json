@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "verified_date": "2026-10-16",
+  "evidence": "website-package-bytecode",
+  "offset_basis": "zero-based decompressed resource payload including SCI block headers",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "resources": [
+    {
+      "resource": "script.000",
+      "payload_bytes": 4008,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0"
+    },
+    {
+      "resource": "script.104",
+      "payload_bytes": 2100,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61"
+    },
+    {
+      "resource": "script.108",
+      "payload_bytes": 850,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9"
+    },
+    {
+      "resource": "script.204",
+      "payload_bytes": 4922,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408"
+    },
+    {
+      "resource": "vocabulary.997",
+      "payload_bytes": 5565,
+      "sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850"
+    }
+  ],
+  "findings": [
+    {
+      "id": "BC-FIN-001",
+      "script": 108,
+      "routine_start": "0x014c",
+      "ranges": [
+        "0x020f\u20130x021e",
+        "0x0220\u20130x023c",
+        "0x023e\u20130x029b",
+        "0x031e\u20130x032c"
+      ],
+      "result": "arrears overwrites prorated pay using untouched full-shift gross temporary; equality takes half-gross-minus-two branch"
+    },
+    {
+      "id": "BC-FIN-002",
+      "script": 204,
+      "routine_start": "0x09ba",
+      "first_penalty_call": "0x0b9f",
+      "zero_debt_branch": "0x0bab",
+      "second_penalty_call": "0x0bd7",
+      "helper_script": 0,
+      "helper_export": 13,
+      "helper_start": "0x05ea",
+      "result": "rejected initial application executes two minus-one happiness adjustments, each clamped; existing-debt rejection executes one"
+    },
+    {
+      "id": "BC-FIN-003",
+      "script": 204,
+      "routine_start": "0x0833",
+      "price_threshold": "0x0884",
+      "full_payment_principal_reduction": "0x088f",
+      "shared_cash_debit": {
+        "script": 104,
+        "offset": "0x04a5"
+      },
+      "result": "price 50 reduces principal45; price below50 reduces principal by price"
+    }
+  ],
+  "limits": [
+    "selected-path semantic verification, not whole-game decompilation equivalence",
+    "no runtime execution claimed",
+    "monthly scheduling and unusual callback/high-value cases not covered"
+  ],
+  "decoder_cross_check": {
+    "inspected_instruction_count": 1147,
+    "matching_boundary_and_operand_bytes": 1147,
+    "excluded_padding_byte": {
+      "script": 204,
+      "offset": "0x0949"
+    },
+    "local_outputs": "work/bytecode/decoded/script-NNN.asm",
+    "scope": "independent instruction framing versus research decoder; not runtime execution"
+  }
+}

@@ -89,6 +89,13 @@ The S01 archive's map was parsed and all 299 volume addresses/resource header ID
 - [Capture manifest](../../artifacts/rules-audit/runtime-capture-manifest.json) records 48 ignored local JPEG paths, hashes and dimensions. [Gallery tool](../../tools/research/index_runtime_captures.py) verifies available files without substituting missing evidence.
 - Evidence: OBSERVED only for listed visible setup, balance, handover, graphical-clock and work outcomes. Exact timed food notices/happiness and internal time counters remain unmeasured. Source/script hypotheses retain their original evidence class.
 
+## S12: direct website-package bytecode analysis (2026-10-16)
+
+- The [local decoder](../../tools/research/sci_scripts.py) consumes S08 decompressed script payloads and vocabulary, without using S02 published decompiled source as input. [Input hashes and coverage](../../artifacts/original-game/bytecode-coverage.json), [portable rebuild](decompile-original-scripts.md).
+- [Pinned interpreter input hashes](../../artifacts/original-game/bytecode-source-inputs.json) supplement the S04 format references. Algorithms and GPL notices are recorded in [tool provenance](../../tools/research/THIRD_PARTY.md).
+- Evidence: BYTECODE for explicitly verified instructions/properties/control flow in [the findings](../rules-audit/bytecode-verification.md). Decode coverage is not a full semantic audit or runtime proof. Previous S02-based records retain their original provenance unless explicitly strengthened by a linked bytecode finding.
+- All original scripts, disassembly, recovered expressions and upstream reference payloads remain ignored locally. Only analytical metadata and original research tooling/notes are committed.
+
 ## Sources not used as proof
 
 Community pages help locate topics, names, and presentation references, but their formulas and edition summaries are not the basis of the script-derived records. In particular, an approximate price formula can conceal integer rounding, the goods subindex, and lower bounds. Where the scripts are surprising, the audit preserves the uncertainty rather than replacing it with a community explanation.

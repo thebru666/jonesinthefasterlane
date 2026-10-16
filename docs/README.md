@@ -19,11 +19,13 @@
 - [Findings](discovery/findings.md): inspected package, tool feasibility, sources, and limitations.
 - [Source register](discovery/source-register.md): pinned script references, manual inspection, and arithmetic semantics.
 - [Rebuild original assets locally](discovery/rebuild-original-assets.md): checksum-locked source, exporters, catalogue coverage and limitations.
+- [Decompile the original scripts locally](discovery/decompile-original-scripts.md): direct bytecode decoder, reproducible outputs and semantic limits.
 - [Artifact index](../artifacts/README.md): committed research evidence and local-only material policy.
 
 ## Rules audit
 
 - [Audit plan and coverage](rules-audit/README.md)
+- [Direct bytecode verification](rules-audit/bytecode-verification.md): actual-package logic findings and remaining gaps.
 - [Rule record template](rules-audit/rule-template.md)
 - [Time and actions](rules-audit/time-and-actions.md)
 - [Turn and weekly processing](rules-audit/weekly-processing.md)

@@ -24,6 +24,10 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 - [Runtime capture manifest](rules-audit/runtime-capture-manifest.json): 48 local viewport captures, hashes and dimensions; observation logs bound the claims and images remain ignored.
 
+- [Bytecode coverage](original-game/bytecode-coverage.json): 69 actual package scripts, input hashes, decoder checks and explicit semantic limits.
+- [Bytecode interpreter references](original-game/bytecode-source-inputs.json): pinned engine-source hashes used to interpret the format.
+- [Finance verification](rules-audit/bytecode-finance-verification.json) [economy/presentation verification](rules-audit/bytecode-economy-presentation.json), and [purchase verification](rules-audit/bytecode-purchase-verification.json): original analytical conclusions, offsets and resource hashes; no original code.
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.

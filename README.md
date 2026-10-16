@@ -4,7 +4,7 @@ A modern, nearly faithful successor to *Jones in the Fast Lane*: a small-town li
 
 **Status:** discovery and planning. No application has been built yet. The repository name is a working title.
 
-The first audit pass now documents [time/actions](docs/rules-audit/time-and-actions.md), [weekly processing](docs/rules-audit/weekly-processing.md), and [economy/edition differences](docs/rules-audit/economy.md). A second pass adds [computer policy](docs/rules-audit/computer-opponent.md), [food/housing](docs/rules-audit/food-and-housing.md) and [goods/finance](docs/rules-audit/goods-and-finance.md). Findings come from inspected published scripts; runtime validation and the remaining systems are tracked explicitly.
+The first audit pass now documents [time/actions](docs/rules-audit/time-and-actions.md), [weekly processing](docs/rules-audit/weekly-processing.md), and [economy/edition differences](docs/rules-audit/economy.md). A second pass adds [computer policy](docs/rules-audit/computer-opponent.md), [food/housing](docs/rules-audit/food-and-housing.md) and [goods/finance](docs/rules-audit/goods-and-finance.md). Earlier findings came from inspected published scripts. We now independently decode all 69 actual package scripts and [verify selected logic directly](docs/rules-audit/bytecode-verification.md); semantic coverage remains partial.
 
 Start with the [original-game baseline](docs/original-game/README.md) for how the original was organised: setup, thirteen destinations, screen flow/layout, jobs, courses, progress, saves, and finishing. [Iteration suggestions](docs/planning/follow-up-original-first-iteration.md) are a separate follow-up brief.
 

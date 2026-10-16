@@ -1,6 +1,6 @@
 # Time, movement, and action boundaries
 
-Pass 1, 2026-10-15. Evidence: SCRIPT via [S02](../discovery/source-register.md); no controlled runtime verification yet. Status: partial. Adaptation mapping for every rule below: **undecided**, with preservation recommendations identified separately.
+Pass 1, 2026-10-15. Evidence: SCRIPT via [S02](../discovery/source-register.md), with TIME-006 now independently verified in website package bytecode. Runtime coverage remains limited to the separately recorded observations. Status: partial. Adaptation mapping for every rule below: **undecided**, with preservation recommendations identified separately.
 
 Source links below use the published floppy-version decompilation at pinned revision `870a8015b689474484bf3d8b41416956d4315432`.
 
@@ -53,7 +53,9 @@ Work also increases experience and dependability up to limits. Clothing and work
 
 Evidence: [n108.sc, proc108_0 and localproc_0](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n108.sc#L17).
 
-## TIME-006: rent garnishment appears to overwrite partial-shift pay
+<a id="time-006-rent-garnishment-appears-to-overwrite-partial-shift-pay"></a>
+
+## TIME-006: rent garnishment overwrites partial-shift pay
 
 The work helper first computes partial pay, but its arrears branch then replaces that amount using **full-shift pay**:
 
@@ -61,11 +63,11 @@ The work helper first computes partial pay, but its arrears branch then replaces
 - If `trunc(F/2) > D`, cash awarded becomes `F − D` and the debt clears.
 - Otherwise, cash awarded becomes `trunc(F/2) − 2`, and debt reduces by `trunc(F/2)`.
 
-Thus the published script suggests a $10/hour worker with one hour remaining and $10 rent debt receives $70 and clears the debt, instead of receiving a garnished share of the $13 partial shift. Equality takes the second branch, including its $2 reduction.
+The website package bytecode confirms that a $10/hour worker with one hour remaining and $10 rent debt receives $70 and clears the debt, instead of receiving a garnished share of the $13 partial shift. Equality takes the second branch, including its $2 reduction.
 
 Evidence: [n108.sc, localproc_0, lines 127–172](https://github.com/sluicebox/sci-scripts/blob/870a8015b689474484bf3d8b41416956d4315432/jones-dos-1.000.060/src/n108.sc#L127).
 
-**Apparent implementation quirk; not runtime confirmed.** Do not silently copy or fix it. Add it to the adaptation decision list after reproduction.
+**Confirmed package implementation quirk; visible runtime feedback remains untested for the precision cases.** [BC-FIN-001](bytecode-finance-findings.md#bc-fin-001-garnishment-really-overwrites-partial-shift-pay) records the payload hash, untouched full-pay temporary, branch offsets and final cash-helper call. This is no longer merely a possible published-decompilation error. Do not silently copy or fix it; preservation versus correction remains an adaptation decision.
 
 ## TIME-007: repeated broker visits have a special rule
 

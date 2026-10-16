@@ -4,6 +4,10 @@ Updated 2026-10-16. Most prescribed runtime cases remain pending. The [multiplay
 
 Subsequent original-experience research documents the [setup/layout/content/progress baseline](../original-game/README.md). That resolves many catalogue and normal-path questions below, while their formula/edge-case/runtime work remains open.
 
+## Direct bytecode progress
+
+All 69 website scripts have been independently decoded; [coverage and limits](bytecode-verification.md). Actual bytes confirm the garnishment overwrite, double initial-loan happiness penalty, $50/$45 repayment duplicate economic comparison, and the ordinary refrigerator purchase bonus being skipped. These branch-existence questions no longer require ordinary gameplay. Visible presentation and remaining semantics still have their own evidence requirements. The economic omitted-argument case is narrowed to interpreter/frame handling; it is not resolved by the guarded default alone.
+
 ## Runtime progress
 
 | Area | Actual progress | Still pending |
@@ -73,7 +77,7 @@ Economy experiments should compare outcomes from controlled states; naturally di
 | E03 | Controlled main readings around 80/120 and weeks 3/4/7/8 in each edition | Validate event eligibility and crash-before-boom short-circuit |
 | E04 | Force/locate each crash code in multiplayer | Verify reading changes, cross-player dismissal/pay cuts, and happiness recipients |
 | E05 | Severe crash with bank balances below and above 32,767 | Check high-word behaviour before describing loss as all savings |
-| E06 | Inspect bytecode for duplicated adjustment condition and omitted parent argument | Confirm decompilation interpretation before any bug-compatibility decision |
+| E06 | Inspect bytecode for duplicated adjustment condition and omitted parent argument | Duplicate condition and unused guarded default confirmed in bytes; resolve missing-argument interpreter/frame semantics before compatibility decision |
 | E07 | Validate formulas, then simulate many seeds for both editions and player counts | Measure recovery, slump duration, price distribution, and event exposure |
 
 ## Subsequent audit domains

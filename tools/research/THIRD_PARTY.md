@@ -11,6 +11,7 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 | `sci_resources.py` | `engines/sci/resource/decompressor.cpp`, `resource.cpp`, `resource.h`; `engines/sci/graphics/view.cpp`, `cursor.cpp`, `scifont.cpp`, `palette16.cpp` |
 | `sci_pictures.py` | `engines/sci/graphics/picture.cpp`, `screen.cpp`; shared VGA cel/palette helpers above |
 | `sci_sound.py` | `engines/sci/resource/resource_audio.cpp`; `engines/sci/sound/midiparser_sci.cpp` |
+| `sci_scripts.py` | `engines/sci/engine/kernel_tables.h`, `vm.cpp`, `scriptdebug.cpp`, `script.cpp`, `object.cpp`; narrow script-block/object/method parsing, instruction decoding, control-flow recovery and conservative symbolic reporting; no published decompiled game source used as input |
 | `index_runtime_captures.py` | Original local capture hashing/index reporting; GPL-3.0-or-later, no game payloads embedded |
 | `check_lottery_probabilities.py` | Original independent enumeration of the documented lottery arithmetic; no original SCI execution or script payload, GPL-3.0-or-later |
 | `check_ai_goal_allocation.py` | Original independent arithmetic check of documented target bounds/capacity, not original SCI execution; GPL-3.0-or-later |
@@ -19,6 +20,6 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 
 For every path above, source is available at `https://github.com/scummvm/scummvm/blob/2b5f9b5d95f267c87889746906148db6088130f8/<path>`. The decoded catalogue records hashes of the local Python implementations. The committed source lock records the upstream revision; reproducing the export does not download or build ScummVM.
 
-The only Python package dependency is Pillow, pinned in [requirements.txt](requirements.txt). Pillow has its own licence; see [Pillow's licence](https://github.com/python-pillow/Pillow/blob/main/LICENSE). No Pillow code or package is copied into this repository.
+The graphics exporters use the only Python package dependency, Pillow, pinned in [requirements.txt](requirements.txt). Pillow has its own licence; see [Pillow's licence](https://github.com/python-pillow/Pillow/blob/main/LICENSE). No Pillow code or package is copied into this repository. Script analysis with `sci_scripts.py` uses only the Python standard library; the pinned ScummVM files are format/VM references, not runtime dependencies.
 
 No original game images, sounds, text collections, compiled scripts, decompressed payloads, or reference contact sheets are included in these tooling files.
