@@ -14,6 +14,8 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+Latest: [fifteen-stop map and work-first routes](planning/town-layout-and-work-first-routes.md), with both town schematics, actual transport costs and food-service/banking paths alongside the education-led examples.
+
 [Career budgets v1](planning/career-budget-comparison-v1.md): provisional butcher/trades/doctor costs and payoffs, with chart, auditable ledger, eligibility constraints and cash-buffer/setback comparisons. Analytical planning, not a playable model or approved balance.
 
 Current career expansion: [career/town graph v2](planning/career-and-town-graph-v2.md), preserving the early butcher route and proposing skilled trades, doctor and other professional paths, with a compact-town roster for review.

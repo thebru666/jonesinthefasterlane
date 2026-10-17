@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-17",
+  "method": "built-in image_gen",
+  "status": "PROPOSAL: original generated concept, visually inspected; not a playable screenshot",
+  "stage1": {
+    "input_roles": {
+      "../concepts/town-transport-v1.png": "edit target and illustrated style reference",
+      "town-map-a.png": "exact functional order guide"
+    },
+    "prompt": "Use case: ui-mockup. Edit target: Image1 is our existing original generated illustrated13-stop life-strategy town concept. Image2 is our exact new15-stop schematic; use ONLY its destination order as the new layout guide, not its plain diagram style. Make a new sibling iteration of Image1 preserving its warm illustrated retro small-town charm, cream/ink legible UI, hand-painted storefronts, friendly kitsch and adult/kid appeal, but reorganise into EXACTLY FIFTEEN distinct travel destinations. Reduce tiny decorative clutter to accommodate them. Original new art only, no external brands. Landscape wide around1800x1280 or similar. Not runnable, no claim finalart. Keep Maya portrait consistent with Image1. Each named stop has one building/compound and one clearly readable sign, with visually distinct function. Shared employers at a compound are ONE travel stop. No extra named storefronts outside these15.\nExact clockwise order beginning at TOP CENTRE, then toward upperright/down/right/bottom/left/backtop: \n01 Starter Court (budget flats);\n02 Civic House (rent + jobs desk, NOT separate Keys&Fees/agency);\n03 Corner Basket (groceries and butcher, show butcher apron/window);\n04 Daily Grind / Copper Spoon (cafe and restaurant in ONE connected hospitality compound);\n05 Next Chapter (college);\n06 TownWorks / Trades Yard (ONE compound showing manufacturing, electrician lightning icon and plumbing pipe icon);\n07 Community Clinic (doctor/clinic);\n08 Reboot (devices/repairs/transport, bike visible);\n09 Parcel Depot (logistics);\n10 Second Chance (pawn/used);\n11 Bargain Barn (discount);\n12 Good Threads (clothes);\n13 Nest Egg / Upstairs Studio (bank with creative studio upstairs ONE stop);\n14 Picture House / Rec Hall (cinema/events ONE compound);\n15 Parkside (secure flats), next back to StarterCourt.\nPreserve this order and all15. No duplication. Small unobtrusive stop numbers01\u201315 help verify each compound. Bus signs along route, small townbus, cyclist, modest car. All transport is paid in game-time, not a realtime driving scene. Open green centre with SIMPLE compact cream note \"FIFTEEN-STOP TOWN\" then \"Work \u00b7 Learn \u00b7 Get around\" and a bicycle/bus/car icon row; NO invented prices, goals, extra meters or transport table. Main UI top: \"MAYA \u00b7 WEEK 3\" \"TIME LEFT 42 / 60\" \"CASH $186\". Bottom buttons \"Goals\", \"Statistics\", \"Menu\". Small badge \"CONCEPT V2 \u00b7 PROPOSAL \u00b7 NOT PLAYABLE\". Clearly a compact illustrated town-board game, not spreadsheet or flat appdashboard. Fifteen stores must be larger/readable than arbitrary backgroundscape, focus on silhouettes/functions and inviting character rather than excessive scenery. Retain humorouswarmth. Road geometry is illustrative; don't add shortcuts across the centralgreen."
+  },
+  "stage2": {
+    "input": "stage1 generated output",
+    "prompt": "Edit this concept image with ONE precise text correction only. The circular numbered badge immediately above the SECOND CHANCE pawn shop at the bottom-left currently says 11. Change ONLY that badge to 10, preserving the circular badge shape, typography, perspective, colour and surrounding pixels. The BARGAIN BARN badge above it must remain 11. Preserve all fifteen buildings, every other number/sign, Maya portrait, HUD, road, vehicles, centre park, composition, colour, lighting and exact image size. Do not add or remove anything, do not redraw other text. This is a documentation concept, not a playable screenshot."
+  },
+  "final_output": "../concepts/town-fifteen-v2.png",
+  "inspection": "All15 named destinations and clockwise order present; corrected repeated SecondChance badge to10; concept geometry is not a numeric travel-distance scale",
+  "output_metadata": {
+    "sha256": "64e7c690cf3a8a678dfd2020424537db2b95157e6310f2c9aa68fe74011b8ce9",
+    "bytes": 3264102,
+    "width": 1536,
+    "height": 1024
+  }
+}

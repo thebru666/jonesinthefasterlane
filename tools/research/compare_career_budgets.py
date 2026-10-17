@@ -51,8 +51,10 @@ def fees_for(progress, count):
     return sum(50 for lesson in range(progress, progress + count) if lesson % 10 == 0)
 
 
-def compare(route, variant, horizon=24):
-    goal = 10 * len(PATHS[route])
+def compare(route, variant, horizon=24, visit_budget=None, career_ladder=None, job_definitions=None, course_path=None):
+    job_specs = JOBS if job_definitions is None else job_definitions
+    course_names = PATHS[route] if course_path is None else course_path
+    goal = 10 * len(course_names)
     cash, experience, dependability = 200, 22, 25
     casual, dress = 6, 0
     progress, job, max_experience = 0, "service", 30
@@ -66,7 +68,15 @@ def compare(route, variant, horizon=24):
         desired = route
         if route == "doctor" and degrees < 4:
             desired = "clinic_support" if degrees >= 2 else "service"
-        spec = JOBS[desired]
+        if career_ladder:
+            desired = job
+            current_rank = career_ladder.index(job) if job in career_ladder else -1
+            for rank, candidate in enumerate(career_ladder):
+                c = job_specs[candidate]
+                if (rank > current_rank and degrees >= c["courses"]
+                        and experience >= c["experience"] and dependability >= c["dependability"]):
+                    desired = candidate
+        spec = job_specs[desired]
         eligible = (degrees >= spec["courses"] and experience >= spec["experience"]
                     and dependability >= spec["dependability"])
         attempt = desired != job and eligible
@@ -74,10 +84,10 @@ def compare(route, variant, horizon=24):
         if reject:
             rejected = True
         next_job = desired if attempt and not reject else job
-        next_spec = JOBS[next_job]
+        next_spec = job_specs[next_job]
         purchase_clothes = not (dress > 0 or (next_spec["clothing"] == "casual" and casual > 0))
         clothing_cost = (125 if next_spec["clothing"] == "dress" else 73) if purchase_clothes else 0
-        buy_bike = variant == "buy_bike" and not bike_owned
+        buy_bike = variant in ("buy_bike", "bike_buffer") and not bike_owned
         purchase_cost = 120 if buy_bike else 0
         rent = 325 if turn % 4 == 0 else 0
         event_time = 12 if variant == "lost_time" and turn == 4 else 0
@@ -88,7 +98,12 @@ def compare(route, variant, horizon=24):
         # affordable (up to four lessons), then whole shifts fitting that budget.
         for lessons in range(min(4, goal - progress), -1, -1):
             visits = 2 + bool(lessons) + bool(rent) + purchase_clothes + buy_bike
-            if bike_owned:
+            if visit_budget is not None:
+                travel_time, fares, visits = visit_budget(
+                    job=next_job, study=bool(lessons), rent=bool(rent),
+                    clothes=bool(purchase_clothes), buy_bike=bool(buy_bike),
+                    bike_owned=bike_owned)
+            elif bike_owned:
                 travel_time, fares = 5 * visits, 0
             elif buy_bike:
                 # First visit reaches the bike seller by bus; later trips use it.
@@ -103,7 +118,7 @@ def compare(route, variant, horizon=24):
             closing = cash + gross - (fares + clothing_cost + purchase_cost + rent + 79 + tuition)
             # Bus to any needed shop, clothes and bike are paid before working.
             # Tuition, food and rent are paid after the reserved work block.
-            if room >= 0 and closing >= (100 if variant == "keep_buffer" else 0) and cash >= fares + clothing_cost + purchase_cost:
+            if room >= 0 and closing >= (100 if variant in ("keep_buffer", "bike_buffer") else 0) and cash >= fares + clothing_cost + purchase_cost:
                 chosen = lessons, visits, travel_time, fares, shifts, gross, tuition, closing
                 break
         if chosen is None:
@@ -128,7 +143,7 @@ def compare(route, variant, horizon=24):
         for _ in range(shifts):
             if experience < max_experience + 5 * degrees:
                 experience += 1
-            if dependability < JOBS[job]["dependability"] + 20 + 5 * degrees:
+            if dependability < job_specs[job]["dependability"] + 20 + 5 * degrees:
                 dependability += 1
         previous_degrees = degrees
         progress += lessons
@@ -150,8 +165,8 @@ def compare(route, variant, horizon=24):
                          education_reference_score=0 if degrees == 0 else min(100, 1 + 9 * degrees)))
     assert progress == goal, (route, variant, "course path unfinished")
     assert hired_turn is not None, (route, variant, "target not hired")
-    summary = dict(route=route, variant=variant, courses=len(PATHS[route]),
-                   qualification_turn=next(r["turn"] for r in rows if r["lessons_total"] == goal),
+    summary = dict(route=route, variant=variant, courses=len(course_names),
+                   qualification_turn=next(r["turn"] for r in rows if r["lessons_total"] == goal) if goal else None,
                    target_hired_turn=hired_turn, tuition=tuition_total,
                    minimum_closing_cash=min(r["closing_cash"] for r in rows),
                    **{f"cash_turn_{t}": rows[t-1]["closing_cash"] for t in (4, 8, 12, 16, 20, 24)},

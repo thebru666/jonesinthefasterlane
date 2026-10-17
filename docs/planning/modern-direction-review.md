@@ -1,5 +1,7 @@
 # Modern direction: review pack 2
 
+**Current owner review:** fifteen stops are the working direction, and work-first careers must remain viable. [Town/work-first routes](town-layout-and-work-first-routes.md) now supplies two fifteen-stop arrangements, mapped transport costs and expanded career comparisons. Earlier education-led examples are subsets; a proposed Learning goal would need an explicit scoring decision.
+
 **Numeric follow-up:** [career budgets v1](career-budget-comparison-v1.md) compares butcher, trades and doctor from a shared early-employed checkpoint, with tuition/upkeep/travel, work-history constraints and setbacks. Figures remain proposals; results are not full-game balance or original opening timings. Town-layout comparison is the next dependency.
 
 **Latest career review:** the owner accepts preserving Trade School → Butcher, skilled trades and a longer professional/doctor path in a compact town. [Career/town graph v2](career-and-town-graph-v2.md) supplies a new proposed graph and stop roster. The13-stop/37-job/11-course mapping below is now the earlier reference, not the complete successor content plan.

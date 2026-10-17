@@ -1,5 +1,7 @@
 # Transport: time, money and a town worth crossing
 
+**Mapped follow-up:** [town/work-first routes](town-layout-and-work-first-routes.md) applies these provisional formulas to the accepted working15-stop size. The13-stop examples below remain illustrative; the new paper comparisons use explicit ordered paths rather than average visit distances.
+
 **Owner review update2026-10-17:** recommended walk/early-bike/bus/later-car progression and dependable town-wide bus accepted as design direction. Exact formulas, purchase/operating costs, complete-trip/entry boundaries and detailed state rules below remain proposals.
 
 2026-10-17. **PROPOSAL — tuning and detailed behaviour are unapproved.** The owner has explicitly requested slower walking and a larger role for transport, including buying a bike, catching a bus and driving at a cost. Those directions are confirmed; the particular rules and figures below are recommendations for review, not findings about the original.

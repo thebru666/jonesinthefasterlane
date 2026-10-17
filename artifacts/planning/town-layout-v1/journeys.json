@@ -1,0 +1,7058 @@
+[
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 13,
+    "cash": 0,
+    "time_left": 47,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 9,
+    "cash": 0,
+    "time_left": 51,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 11,
+    "cash": 6,
+    "time_left": 49,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 8,
+    "cash": 28,
+    "time_left": 52,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 21,
+    "cash": 0,
+    "time_left": 39,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 0,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 17,
+    "cash": 9,
+    "time_left": 43,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 12,
+    "cash": 32,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 35,
+    "cash": 0,
+    "time_left": 25,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 22,
+    "cash": 0,
+    "time_left": 38,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 25,
+    "cash": 12,
+    "time_left": 35,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 17,
+    "cash": 36,
+    "time_left": 43,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 25,
+    "cash": 0,
+    "time_left": 35,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 15,
+    "cash": 0,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 15,
+    "cash": 6,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 10,
+    "cash": 28,
+    "time_left": 50,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 27,
+    "cash": 0,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 18,
+    "cash": 0,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 19,
+    "cash": 9,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 32,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 41,
+    "cash": 0,
+    "time_left": 19,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 26,
+    "cash": 0,
+    "time_left": 34,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 27,
+    "cash": 12,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 19,
+    "cash": 36,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 2,
+    "travel_and_entry_time": 31,
+    "cash": 0,
+    "time_left": 29,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 2,
+    "travel_and_entry_time": 18,
+    "cash": 0,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 9,
+    "visits": 2,
+    "travel_and_entry_time": 17,
+    "cash": 6,
+    "time_left": 43,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 9,
+    "visits": 2,
+    "travel_and_entry_time": 11,
+    "cash": 28,
+    "time_left": 49,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 3,
+    "travel_and_entry_time": 33,
+    "cash": 0,
+    "time_left": 27,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 3,
+    "travel_and_entry_time": 20,
+    "cash": 0,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 9,
+    "visits": 3,
+    "travel_and_entry_time": 21,
+    "cash": 9,
+    "time_left": 39,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 9,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 32,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 13,
+    "visits": 4,
+    "travel_and_entry_time": 47,
+    "cash": 0,
+    "time_left": 13,
+    "full_action_slots": 2
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 13,
+    "visits": 4,
+    "travel_and_entry_time": 28,
+    "cash": 0,
+    "time_left": 32,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 13,
+    "visits": 4,
+    "travel_and_entry_time": 29,
+    "cash": 12,
+    "time_left": 31,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 13,
+    "visits": 4,
+    "travel_and_entry_time": 19,
+    "cash": 36,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 11,
+    "cash": 0,
+    "time_left": 49,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 12,
+    "cash": 6,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 9,
+    "cash": 28,
+    "time_left": 51,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 24,
+    "cash": 0,
+    "time_left": 36,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 18,
+    "cash": 9,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 13,
+    "cash": 32,
+    "time_left": 47,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 38,
+    "cash": 0,
+    "time_left": 22,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 24,
+    "cash": 0,
+    "time_left": 36,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 26,
+    "cash": 12,
+    "time_left": 34,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 18,
+    "cash": 36,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 28,
+    "cash": 0,
+    "time_left": 32,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 6,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 10,
+    "cash": 28,
+    "time_left": 50,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 30,
+    "cash": 0,
+    "time_left": 30,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 19,
+    "cash": 0,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 20,
+    "cash": 9,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 32,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 44,
+    "cash": 0,
+    "time_left": 16,
+    "full_action_slots": 2
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 27,
+    "cash": 0,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 28,
+    "cash": 12,
+    "time_left": 32,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 19,
+    "cash": 36,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 2,
+    "travel_and_entry_time": 34,
+    "cash": 0,
+    "time_left": 26,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 2,
+    "travel_and_entry_time": 20,
+    "cash": 0,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 10,
+    "visits": 2,
+    "travel_and_entry_time": 18,
+    "cash": 6,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 10,
+    "visits": 2,
+    "travel_and_entry_time": 12,
+    "cash": 28,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 3,
+    "travel_and_entry_time": 36,
+    "cash": 0,
+    "time_left": 24,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 3,
+    "travel_and_entry_time": 22,
+    "cash": 0,
+    "time_left": 38,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 10,
+    "visits": 3,
+    "travel_and_entry_time": 22,
+    "cash": 9,
+    "time_left": 38,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 10,
+    "visits": 3,
+    "travel_and_entry_time": 15,
+    "cash": 32,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 14,
+    "visits": 4,
+    "travel_and_entry_time": 50,
+    "cash": 0,
+    "time_left": 10,
+    "full_action_slots": 1
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 14,
+    "visits": 4,
+    "travel_and_entry_time": 30,
+    "cash": 0,
+    "time_left": 30,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 14,
+    "visits": 4,
+    "travel_and_entry_time": 30,
+    "cash": 12,
+    "time_left": 30,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "A",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 14,
+    "visits": 4,
+    "travel_and_entry_time": 20,
+    "cash": 36,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 13,
+    "cash": 0,
+    "time_left": 47,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 9,
+    "cash": 0,
+    "time_left": 51,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 11,
+    "cash": 6,
+    "time_left": 49,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 3,
+    "visits": 2,
+    "travel_and_entry_time": 8,
+    "cash": 28,
+    "time_left": 52,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 21,
+    "cash": 0,
+    "time_left": 39,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 0,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 17,
+    "cash": 9,
+    "time_left": 43,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 5,
+    "visits": 3,
+    "travel_and_entry_time": 12,
+    "cash": 32,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 35,
+    "cash": 0,
+    "time_left": 25,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 22,
+    "cash": 0,
+    "time_left": 38,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 25,
+    "cash": 12,
+    "time_left": 35,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "corner-basket",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 9,
+    "visits": 4,
+    "travel_and_entry_time": 17,
+    "cash": 36,
+    "time_left": 43,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 25,
+    "cash": 0,
+    "time_left": 35,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 15,
+    "cash": 0,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 15,
+    "cash": 6,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 7,
+    "visits": 2,
+    "travel_and_entry_time": 10,
+    "cash": 28,
+    "time_left": 50,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 27,
+    "cash": 0,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 18,
+    "cash": 0,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 19,
+    "cash": 9,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 7,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 32,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 41,
+    "cash": 0,
+    "time_left": 19,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 26,
+    "cash": 0,
+    "time_left": 34,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 27,
+    "cash": 12,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "townworks",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 11,
+    "visits": 4,
+    "travel_and_entry_time": 19,
+    "cash": 36,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 2,
+    "travel_and_entry_time": 40,
+    "cash": 0,
+    "time_left": 20,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 2,
+    "travel_and_entry_time": 23,
+    "cash": 0,
+    "time_left": 37,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 12,
+    "visits": 2,
+    "travel_and_entry_time": 20,
+    "cash": 6,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 12,
+    "visits": 2,
+    "travel_and_entry_time": 13,
+    "cash": 28,
+    "time_left": 47,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "walk",
+        "travel_time": 12,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 3,
+    "travel_and_entry_time": 42,
+    "cash": 0,
+    "time_left": 18,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bike",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 3,
+    "travel_and_entry_time": 25,
+    "cash": 0,
+    "time_left": 35,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bus",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 12,
+    "visits": 3,
+    "travel_and_entry_time": 24,
+    "cash": 9,
+    "time_left": 36,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 12,
+    "visits": 3,
+    "travel_and_entry_time": 16,
+    "cash": 32,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "walk",
+        "travel_time": 21,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "walk",
+        "travel_time": 12,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 16,
+    "visits": 4,
+    "travel_and_entry_time": 56,
+    "cash": 0,
+    "time_left": 4,
+    "full_action_slots": 0
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bike",
+        "travel_time": 11,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bike",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 16,
+    "visits": 4,
+    "travel_and_entry_time": 33,
+    "cash": 0,
+    "time_left": 27,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "bus",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bus",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 16,
+    "visits": 4,
+    "travel_and_entry_time": 32,
+    "cash": 12,
+    "time_left": 28,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "B",
+    "home": "starter-court",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "starter-court",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "starter-court",
+        "end": "clinic",
+        "distance": 7,
+        "mode": "car",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 16,
+    "visits": 4,
+    "travel_and_entry_time": 21,
+    "cash": 36,
+    "time_left": 39,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 11,
+    "cash": 0,
+    "time_left": 49,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 12,
+    "cash": 6,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 4,
+    "visits": 2,
+    "travel_and_entry_time": 9,
+    "cash": 28,
+    "time_left": 51,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 24,
+    "cash": 0,
+    "time_left": 36,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 18,
+    "cash": 9,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 6,
+    "visits": 3,
+    "travel_and_entry_time": 13,
+    "cash": 32,
+    "time_left": 47,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 38,
+    "cash": 0,
+    "time_left": 22,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 24,
+    "cash": 0,
+    "time_left": 36,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 26,
+    "cash": 12,
+    "time_left": 34,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "butcher",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "corner-basket",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "corner-basket",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "corner-basket",
+        "end": "next-chapter",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 10,
+    "visits": 4,
+    "travel_and_entry_time": 18,
+    "cash": 36,
+    "time_left": 42,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 28,
+    "cash": 0,
+    "time_left": 32,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 0,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 16,
+    "cash": 6,
+    "time_left": 44,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 8,
+    "visits": 2,
+    "travel_and_entry_time": 10,
+    "cash": 28,
+    "time_left": 50,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 30,
+    "cash": 0,
+    "time_left": 30,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 19,
+    "cash": 0,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 20,
+    "cash": 9,
+    "time_left": 40,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 8,
+    "visits": 3,
+    "travel_and_entry_time": 14,
+    "cash": 32,
+    "time_left": 46,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 44,
+    "cash": 0,
+    "time_left": 16,
+    "full_action_slots": 2
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 27,
+    "cash": 0,
+    "time_left": 33,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 28,
+    "cash": 12,
+    "time_left": 32,
+    "full_action_slots": 5
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "electrician",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "townworks",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "townworks",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "townworks",
+        "end": "next-chapter",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 12,
+    "visits": 4,
+    "travel_and_entry_time": 19,
+    "cash": 36,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "walk",
+        "travel_time": 15,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 2,
+    "travel_and_entry_time": 37,
+    "cash": 0,
+    "time_left": 23,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "bike",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 2,
+    "travel_and_entry_time": 21,
+    "cash": 0,
+    "time_left": 39,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "bus",
+        "travel_time": 7,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 11,
+    "visits": 2,
+    "travel_and_entry_time": 19,
+    "cash": 6,
+    "time_left": 41,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": false,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "hospitality",
+        "distance": 5,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 11,
+    "visits": 2,
+    "travel_and_entry_time": 12,
+    "cash": 28,
+    "time_left": 48,
+    "full_action_slots": 8
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "walk",
+        "travel_time": 12,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "walk",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 3,
+    "travel_and_entry_time": 39,
+    "cash": 0,
+    "time_left": 21,
+    "full_action_slots": 3
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bike",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bike",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 11,
+    "visits": 3,
+    "travel_and_entry_time": 23,
+    "cash": 0,
+    "time_left": 37,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bus",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "bus",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 11,
+    "visits": 3,
+    "travel_and_entry_time": 23,
+    "cash": 9,
+    "time_left": 37,
+    "full_action_slots": 6
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": false,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "hospitality",
+        "distance": 1,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 11,
+    "visits": 3,
+    "travel_and_entry_time": 15,
+    "cash": 32,
+    "time_left": 45,
+    "full_action_slots": 7
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "walk",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "walk",
+        "travel_time": 18,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "walk",
+        "travel_time": 12,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "walk",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "walk",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 15,
+    "visits": 4,
+    "travel_and_entry_time": 53,
+    "cash": 0,
+    "time_left": 7,
+    "full_action_slots": 1
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bike",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bike",
+        "travel_time": 9,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bike",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bike",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 0
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bike",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 0
+      }
+    ],
+    "distance": 15,
+    "visits": 4,
+    "travel_and_entry_time": 31,
+    "cash": 0,
+    "time_left": 29,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "bus",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "bus",
+        "travel_time": 8,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "bus",
+        "travel_time": 6,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "bus",
+        "travel_time": 5,
+        "entry_time": 2,
+        "cash": 3
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "bus",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 3
+      }
+    ],
+    "distance": 15,
+    "visits": 4,
+    "travel_and_entry_time": 31,
+    "cash": 12,
+    "time_left": 29,
+    "full_action_slots": 4
+  },
+  {
+    "layout": "B",
+    "home": "parkside",
+    "job": "doctor",
+    "study": true,
+    "rent": true,
+    "stops": [
+      "parkside",
+      "clinic",
+      "next-chapter",
+      "civic-house",
+      "hospitality"
+    ],
+    "mode": "car",
+    "legs": [
+      {
+        "start": "parkside",
+        "end": "clinic",
+        "distance": 6,
+        "mode": "car",
+        "travel_time": 4,
+        "entry_time": 2,
+        "cash": 24
+      },
+      {
+        "start": "clinic",
+        "end": "next-chapter",
+        "distance": 4,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "next-chapter",
+        "end": "civic-house",
+        "distance": 3,
+        "mode": "car",
+        "travel_time": 3,
+        "entry_time": 2,
+        "cash": 4
+      },
+      {
+        "start": "civic-house",
+        "end": "hospitality",
+        "distance": 2,
+        "mode": "car",
+        "travel_time": 2,
+        "entry_time": 2,
+        "cash": 4
+      }
+    ],
+    "distance": 15,
+    "visits": 4,
+    "travel_and_entry_time": 20,
+    "cash": 36,
+    "time_left": 40,
+    "full_action_slots": 6
+  }
+]

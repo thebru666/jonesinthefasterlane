@@ -1,5 +1,7 @@
 # Career budgets v1: earn early or invest longer?
 
+**Scope update:** this first comparison deliberately focused on qualification-led routes. The [mapped-town/work-first follow-up](town-layout-and-work-first-routes.md) adds no-course food-service/banking management and replaces average visit allowances with actual15-stop paths. Keep this v1 worksheet as the earlier controlled benchmark, not the full career design or current map-cost result.
+
 2026-10-17. **PROPOSAL / analytical worksheet — not approved balance, measured gameplay or application implementation.** This puts provisional numbers against the [career graph](career-and-town-graph-v2.md): Butcher, Electrician/Plumber and Doctor. It exposes tradeoffs and funding problems before selecting the first playable scope.
 
 ## What the first comparison says

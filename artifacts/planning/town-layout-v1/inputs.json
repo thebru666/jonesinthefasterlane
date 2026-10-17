@@ -1,0 +1,182 @@
+{
+  "status": "PROPOSAL: fifteen stops accepted as a working direction; exact order and distances unapproved",
+  "edge_distance": 1,
+  "entry_time": 2,
+  "turn_time": 60,
+  "stops": [
+    {
+      "id": "starter-court",
+      "name": "Starter Court",
+      "subtitle": "Budget home",
+      "group": "home"
+    },
+    {
+      "id": "civic-house",
+      "name": "Civic House",
+      "subtitle": "Rent and town jobs desk",
+      "group": "services"
+    },
+    {
+      "id": "corner-basket",
+      "name": "Corner Basket",
+      "subtitle": "Groceries and butcher",
+      "group": "work"
+    },
+    {
+      "id": "hospitality",
+      "name": "Daily Grind / Copper Spoon",
+      "subtitle": "Cafe and restaurant",
+      "group": "work"
+    },
+    {
+      "id": "next-chapter",
+      "name": "Next Chapter",
+      "subtitle": "Learning centre",
+      "group": "study"
+    },
+    {
+      "id": "townworks",
+      "name": "TownWorks / Trades Yard",
+      "subtitle": "Manufacturing, electrical, plumbing",
+      "group": "work"
+    },
+    {
+      "id": "clinic",
+      "name": "Community Clinic",
+      "subtitle": "Support, doctor, management",
+      "group": "work"
+    },
+    {
+      "id": "reboot",
+      "name": "Reboot",
+      "subtitle": "Devices, repair and transport",
+      "group": "services"
+    },
+    {
+      "id": "parcel-depot",
+      "name": "Parcel Depot",
+      "subtitle": "Logistics and dispatch",
+      "group": "work"
+    },
+    {
+      "id": "second-chance",
+      "name": "Second Chance",
+      "subtitle": "Pawn and used goods",
+      "group": "services"
+    },
+    {
+      "id": "bargain-barn",
+      "name": "Bargain Barn",
+      "subtitle": "Discount variety shop",
+      "group": "services"
+    },
+    {
+      "id": "good-threads",
+      "name": "Good Threads",
+      "subtitle": "Clothes and retail work",
+      "group": "services"
+    },
+    {
+      "id": "nest-egg",
+      "name": "Nest Egg / Upstairs Studio",
+      "subtitle": "Bank, broker and digital work",
+      "group": "work"
+    },
+    {
+      "id": "picture-house",
+      "name": "Picture House / Rec Hall",
+      "subtitle": "Cinema, events and outings",
+      "group": "work"
+    },
+    {
+      "id": "parkside",
+      "name": "Parkside",
+      "subtitle": "Secure home",
+      "group": "home"
+    }
+  ],
+  "alternative_swap": [
+    "clinic",
+    "parcel-depot"
+  ],
+  "job_locations": {
+    "service": "corner-basket",
+    "butcher": "corner-basket",
+    "electrician": "townworks",
+    "plumber": "townworks",
+    "clinic_support": "clinic",
+    "doctor": "clinic",
+    "food_supervisor": "hospitality",
+    "food_manager": "hospitality",
+    "food_management": "hospitality",
+    "bank_teller": "nest-egg",
+    "bank_supervisor": "nest-egg",
+    "bank_management": "nest-egg"
+  },
+  "food_stop": "hospitality",
+  "assumptions": [
+    "One distance unit per adjacent ring pair; not physical miles or scaled art lengths",
+    "Every bus journey is direct, with no stop-access or transfer subsystem",
+    "Entry is included once per distinct arrival; nested employers/services add no entry",
+    "Turn starts at owned home; no end-of-turn return-home travel charged",
+    "Food uses the v1 $79 fast-food allowance at Hospitality; grocery/storage optimisation excluded",
+    "Public transport and animation are independent of wall-clock time",
+    "Work-first food/bank ladders are new proposals with no course gates; teller differs from original college-gated teller"
+  ],
+  "work_first_ladders": {
+    "food_management": [
+      "food_supervisor",
+      "food_manager",
+      "food_management"
+    ],
+    "bank_management": [
+      "bank_teller",
+      "bank_supervisor",
+      "bank_management"
+    ]
+  },
+  "work_first_jobs": {
+    "food_supervisor": {
+      "wage": 10,
+      "experience": 25,
+      "dependability": 25,
+      "courses": 0,
+      "clothing": "casual"
+    },
+    "food_manager": {
+      "wage": 14,
+      "experience": 35,
+      "dependability": 35,
+      "courses": 0,
+      "clothing": "casual"
+    },
+    "food_management": {
+      "wage": 18,
+      "experience": 45,
+      "dependability": 45,
+      "courses": 0,
+      "clothing": "casual"
+    },
+    "bank_teller": {
+      "wage": 10,
+      "experience": 25,
+      "dependability": 25,
+      "courses": 0,
+      "clothing": "dress"
+    },
+    "bank_supervisor": {
+      "wage": 14,
+      "experience": 35,
+      "dependability": 35,
+      "courses": 0,
+      "clothing": "dress"
+    },
+    "bank_management": {
+      "wage": 19,
+      "experience": 45,
+      "dependability": 45,
+      "courses": 0,
+      "clothing": "dress"
+    }
+  }
+}

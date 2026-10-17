@@ -26,8 +26,12 @@ Last updated: 2026-10-17.
 | D018 | Continue the positively received illustrated retro direction and new visual detail while keeping play simple | Owner feedback on mockups; individual final assets/layouts not approved |
 | D019 | Preserve the useful early Trade School → Butcher route; include skilled trades and a doctor/professional education path, with longer education offering alternatives rather than automatic strategic superiority | Owner's butcher/trades/profession discussion and acceptance of the revised direction |
 | D020 | Redraw the successor job/course graph deliberately and explore the wider employer mix in a compact town | Owner accepts revised direction; graph edges, exact employer roster, stop count and tuning remain proposals |
+| D021 | Expand beyond the original thirteen stops; use fifteen as the working board size | Owner accepts more stops after the fifteen-stop recommendation; exact arrangement remains a proposal |
+| D022 | Keep work-first careers such as food service and bank teller viable alongside education-led careers | Explicit owner clarification; no approval of specific new job thresholds or Learning score formula |
 
 ## Proposed technical and design choices
+
+Current map and broader career comparison: [fifteen-stop town/work-first routes](town-layout-and-work-first-routes.md). The proposed Learning goal, no-course teller entry and new management ladders are deliberate changes for review; D022 does not adopt their detailed rules. Earlier education-led cash comparisons are subsets, not the whole career design.
 
 The [career-budget worksheet](career-budget-comparison-v1.md) now supplies provisional costs, wages, progression and sensitivities. The owner authorised doing this comparison; no resulting wage/tuition/threshold, checkpoint or cash-buffer policy is adopted as a game rule by that authorisation. The original Cook ceiling and the new clinic-support bridge are explicit.
 
