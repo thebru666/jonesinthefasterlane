@@ -2,6 +2,8 @@
 
 Recorded: 2026-10-15. **PROPOSAL — no design changes approved.**
 
+Draft outputs supplied2026-10-17: [game specification and layout sketches](2.0-draft-specification.md), [compatibility choices](compatibility-proposals.md), [content sample](content-iteration-sample.md) and [architecture/validation proposal](architecture-and-validation-proposal.md). These fulfil the first review-pack step; owner decisions, an illustrated art comparison and an agreed specification remain outstanding.
+
 ## Task brief
 
 Review the [original-game documentation](../original-game/README.md) with the owner, then produce a side-by-side adaptation specification. Start with the documented original as the default. For each proposed departure, record its purpose, player-visible effect, rule impact, visual/content impact, and validation question. Preserve the economic swings, humour, simplicity, and close mechanical resemblance requested in the [project brief](project-brief.md).

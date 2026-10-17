@@ -12,6 +12,13 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+- [2.0 draft specification](planning/2.0-draft-specification.md): proposed keep/reskin/change scope, screen flow, layout sketches, slice and family review.
+- [Compatibility proposals](planning/compatibility-proposals.md): seventeen explicit recommendations for preserving or changing audited rules and quirks.
+- [Modern content sample](planning/content-iteration-sample.md): thirteen destination signs, one verified career/course mapping, possessions and fresh humour.
+- [Architecture and validation proposal](planning/architecture-and-validation-proposal.md): simulation/UI boundaries, stable saves, reproducibility and staged validation.
+
+These four documents are an **unapproved review pack**, not permission to implement the application.
+
 - [Rules readiness for 2.0](planning/rules-readiness.md): established foundation, remaining research and compatibility choices.
 - [Project brief](planning/project-brief.md): agreed audience, tone, scope, and process.
 - [Decisions](planning/decisions.md): confirmed direction, recommendations, and unresolved choices.
@@ -58,11 +65,9 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planned deliverables
 
-These are not complete yet:
-
-1. Evidence-backed original-game rules catalogue (three partial script passes now recorded).
-2. Adaptation specification classifying mechanics as keep, reskin, or change.
-3. Content and art bible: town, businesses, career ladders, qualifications, items, characters, humour, screen studies, and asset list.
-4. Architecture and validation plan: state, actions, saves, turn handover, computer player, milestones, and family play-testing.
+1. Original-game research reference: supplied at the bounded coverage in the [handoff](planning/original-research-handoff.md); full engine equivalence is not claimed.
+2. Adaptation specification: draft review pack supplied above; owner choices and an agreed specification remain.
+3. Content and art bible: a small content sample is supplied; full mapping, original art samples and approved style remain.
+4. Architecture and validation: proposal supplied; detailed adopted rules, schema, implementation and actual playtests remain.
 
 Use relative Markdown links so documentation works both on GitHub and locally.

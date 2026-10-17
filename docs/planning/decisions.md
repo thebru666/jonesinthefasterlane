@@ -1,6 +1,6 @@
 # Decisions and open questions
 
-Last updated: 2026-10-15.
+Last updated: 2026-10-17.
 
 ## Confirmed direction
 
@@ -19,6 +19,8 @@ Last updated: 2026-10-15.
 
 ## Proposed technical and design choices
 
+The [2.0 draft specification](2.0-draft-specification.md), [compatibility proposals](compatibility-proposals.md), [content sample](content-iteration-sample.md) and [architecture proposal](architecture-and-validation-proposal.md) now make these choices concrete for review. They add no confirmed decision. In particular, floppy-only reference, original mode combinations, desktop/tablet priority and C01–C17 are recommendations, not owner approvals.
+
 | Proposal | Status / reason |
 | --- | --- |
 | React + TypeScript + Vite, with simulation outside UI components | Supported direction; detailed architecture pending |
@@ -30,7 +32,7 @@ Last updated: 2026-10-15.
 | Clear explanations with an optional gentler starting setup | Proposed; difficulty design pending |
 | Modern content before new meters or subsystems | Recommended to preserve simplicity |
 
-## Questions to resolve during discovery
+## Discovery questions and current status
 
 Pass 1 has produced [specific implications and recommendations](audit-implications.md). No new adaptation decision has been approved by that research alone.
 
@@ -41,6 +43,8 @@ Pass 1 has produced [specific implications and recommendations](audit-implicatio
 - How much information should other players see during shared-device play?
 - Should the new game use floppy or CD economy recovery/timing, given the documented script differences?
 - After reproduction, should the duplicated economic adjustment condition and partial-shift garnishment behaviour be fixed or preserved?
+
+The [completed research handoff](original-research-handoff.md) now supplies the connected flow, economic relationships and evidence limits requested above. The remaining edition, compatibility and opponent questions are adaptation choices; the [compatibility table](compatibility-proposals.md) recommends specific answers without adopting them. Earlier pass-readiness sections below remain a historical progress record rather than the current summary of research coverage.
 
 ## Questions to resolve before implementation
 
