@@ -24,8 +24,12 @@ Last updated: 2026-10-17.
 | D016 | Preserve economic character/turn rhythm while fixing inconsistent accounting, animation-dependent costs and hidden AI advantages | Owner accepts point5's broad recommendation; this does not adopt every detailed C01–C17 row |
 | D017 | Give possessions more tangible benefits; explore phone functionality and occasional laptop work from home | Owner point4; exact effects, eligibility, limits and Happiness changes pending |
 | D018 | Continue the positively received illustrated retro direction and new visual detail while keeping play simple | Owner feedback on mockups; individual final assets/layouts not approved |
+| D019 | Preserve the useful early Trade School → Butcher route; include skilled trades and a doctor/professional education path, with longer education offering alternatives rather than automatic strategic superiority | Owner's butcher/trades/profession discussion and acceptance of the revised direction |
+| D020 | Redraw the successor job/course graph deliberately and explore the wider employer mix in a compact town | Owner accepts revised direction; graph edges, exact employer roster, stop count and tuning remain proposals |
 
 ## Proposed technical and design choices
+
+Latest accepted career direction and its concrete proposal: [career/town graph v2](career-and-town-graph-v2.md). It proposes sixteen courses and a fifteen-stop arrangement for review; those counts and the individual prerequisites are not confirmed by D019–D020.
 
 Current entry point: [modern-direction review pack](modern-direction-review.md), with [transport](transport-proposal.md), [town/content](modern-town-and-content.md) and [visual concepts](visual-direction-v1.md). It explicitly revises the earlier fixed-speed travel and agency-only planning baseline. New directions D011–D013 do not approve its specific recommendations.
 

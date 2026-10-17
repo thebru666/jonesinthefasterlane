@@ -1,5 +1,7 @@
 # Employer options, job offers and useful possessions
 
+**Later owner review:** broader career mix, quick butcher training, skilled trades and a professional/doctor path accepted as direction. [Career/town graph v2](career-and-town-graph-v2.md) replaces this document's earlier narrow employer shortlist and clinic-support-only suggestion with a concrete graph proposal. Exact employers, prerequisites, stop count and balance remain open.
+
 2026-10-17. Owner feedback accepts the transport progression/town-wide bus recommendation, in-store applications and the broad consistency/fairness approach. The owner wants reasons to explore employers, recruited job offers and purchases with tangible benefits, including occasional laptop work from home. The illustrated retro direction is positively received. **The alternatives and detailed rules below are PROPOSALS**, not selected employers, tuned rewards or permission to build.
 
 This updates the [modern-direction pack](modern-direction-review.md). It deliberately goes beyond the earlier role-only [content mapping](modern-town-and-content.md): genuinely new employers need new job/course records; useful-device effects are mechanical changes. Original findings remain in the [research handoff](original-research-handoff.md).

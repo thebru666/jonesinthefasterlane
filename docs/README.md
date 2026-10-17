@@ -12,6 +12,8 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+Current career expansion: [career/town graph v2](planning/career-and-town-graph-v2.md), preserving the early butcher route and proposing skilled trades, doctor and other professional paths, with a compact-town roster for review.
+
 Latest owner review: [employer options, recruited offers and useful possessions](planning/employers-offers-and-useful-possessions.md), with accepted principles recorded in D014–D018 and detailed alternatives still open.
 
 Start with the [modern-direction review pack](planning/modern-direction-review.md) for the latest owner pointers and proposed amendments: [transport](planning/transport-proposal.md), [modern town/jobs/courses/devices](planning/modern-town-and-content.md) and [visual concepts](planning/visual-direction-v1.md). Exact choices remain open for iteration; no application is implemented.
