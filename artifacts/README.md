@@ -4,6 +4,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Career budget comparison v1](planning/career-comparison-v1/inputs.json): provisional inputs, [summary](planning/career-comparison-v1/summary.json), [480-row turn ledger](planning/career-comparison-v1/turn-ledger.csv) and [chart](planning/career-comparison-v1/cash-comparison.svg); [assumptions/rebuild guide](../docs/planning/career-budget-comparison-v1.md). This is a bounded paper worksheet, not the original or successor game engine.
+
 - [Rendered Mermaid gallery](../docs/diagrams/README.md): all documentation diagrams as PNG/SVG, with source links and status labels; [renderer manifest](diagrams/manifest.json) and [rebuild instructions](../tools/docs/README.md). These are analytical diagrams, not extracted game art.
 
 - [Modern content mapping](planning/modern-content-mapping.csv): proposed names for all37 job records, with unchanged original requirement/pay identifiers for review.

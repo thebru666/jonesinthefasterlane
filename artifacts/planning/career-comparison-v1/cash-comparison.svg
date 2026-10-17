@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="600" viewBox="0 0 1180 600">
+<rect width="1180" height="600" fill="#fffaf0"/>
+<g font-family="Arial,sans-serif" fill="#193743">
+<text x="45" y="40" font-size="26" font-weight="bold">Career investment: provisional paper comparison</text>
+<text x="45" y="68" font-size="16">Same early-employed checkpoint · fixed prices · bus · no full-game win claim</text>
+<line x1="95" y1="480.0" x2="1015" y2="480.0" stroke="#d7dedb"/>
+<text x="82" y="485.0" text-anchor="end" font-size="14">$0</text>
+<line x1="95" y1="448.1818181818182" x2="1015" y2="448.1818181818182" stroke="#d7dedb"/>
+<text x="82" y="453.1818181818182" text-anchor="end" font-size="14">$2,000</text>
+<line x1="95" y1="416.3636363636364" x2="1015" y2="416.3636363636364" stroke="#d7dedb"/>
+<text x="82" y="421.3636363636364" text-anchor="end" font-size="14">$4,000</text>
+<line x1="95" y1="384.54545454545456" x2="1015" y2="384.54545454545456" stroke="#d7dedb"/>
+<text x="82" y="389.54545454545456" text-anchor="end" font-size="14">$6,000</text>
+<line x1="95" y1="352.72727272727275" x2="1015" y2="352.72727272727275" stroke="#d7dedb"/>
+<text x="82" y="357.72727272727275" text-anchor="end" font-size="14">$8,000</text>
+<line x1="95" y1="320.9090909090909" x2="1015" y2="320.9090909090909" stroke="#d7dedb"/>
+<text x="82" y="325.9090909090909" text-anchor="end" font-size="14">$10,000</text>
+<line x1="95" y1="289.0909090909091" x2="1015" y2="289.0909090909091" stroke="#d7dedb"/>
+<text x="82" y="294.0909090909091" text-anchor="end" font-size="14">$12,000</text>
+<line x1="95" y1="257.27272727272725" x2="1015" y2="257.27272727272725" stroke="#d7dedb"/>
+<text x="82" y="262.27272727272725" text-anchor="end" font-size="14">$14,000</text>
+<line x1="95" y1="225.45454545454544" x2="1015" y2="225.45454545454544" stroke="#d7dedb"/>
+<text x="82" y="230.45454545454544" text-anchor="end" font-size="14">$16,000</text>
+<line x1="95" y1="193.63636363636363" x2="1015" y2="193.63636363636363" stroke="#d7dedb"/>
+<text x="82" y="198.63636363636363" text-anchor="end" font-size="14">$18,000</text>
+<line x1="95" y1="161.8181818181818" x2="1015" y2="161.8181818181818" stroke="#d7dedb"/>
+<text x="82" y="166.8181818181818" text-anchor="end" font-size="14">$20,000</text>
+<line x1="95" y1="130.0" x2="1015" y2="130.0" stroke="#d7dedb"/>
+<text x="82" y="135.0" text-anchor="end" font-size="14">$22,000</text>
+<text x="95" y="510" text-anchor="middle" font-size="15">1</text>
+<text x="215" y="510" text-anchor="middle" font-size="15">4</text>
+<text x="375" y="510" text-anchor="middle" font-size="15">8</text>
+<text x="535" y="510" text-anchor="middle" font-size="15">12</text>
+<text x="695" y="510" text-anchor="middle" font-size="15">16</text>
+<text x="855" y="510" text-anchor="middle" font-size="15">20</text>
+<text x="1015" y="510" text-anchor="middle" font-size="15">24</text>
+<polyline points="95,476.0 135,474.3 175,470.6 215,468.0 255,457.2 295,446.3 335,438.2 375,434.0 415,423.2 455,412.3 495,401.4 535,397.3 575,386.5 615,375.6 655,364.7 695,360.6 735,349.7 775,341.6 815,330.7 855,326.6 895,315.8 935,304.9 975,294.0 1015,289.9" fill="none" stroke="#b86420" stroke-width="4"/>
+<polyline points="95,476.0 135,474.3 175,473.4 215,478.0 255,476.4 295,469.6 335,458.4 375,448.9 415,432.0 455,415.0 495,398.0 535,388.5 575,371.6 615,354.6 655,337.6 695,328.1 735,311.2 775,297.7 815,280.7 855,271.3 895,254.3 935,237.3 975,220.3 1015,210.9" fill="none" stroke="#227f82" stroke-width="4"/>
+<polyline points="95,476.0 135,474.3 175,473.4 215,478.0 255,476.4 295,476.0 335,476.1 375,479.7 415,477.3 455,474.8 495,468.6 535,458.1 575,428.9 615,399.7 655,370.5 695,350.4 735,321.2 775,292.0 815,262.8 855,242.7 895,213.5 935,184.3 975,155.1 1015,134.9" fill="none" stroke="#7654a1" stroke-width="4"/>
+<text x="95" y="555" fill="#b86420" font-size="18" font-weight="bold">Butcher</text>
+<text x="395" y="555" fill="#227f82" font-size="18" font-weight="bold">Electrician / plumber</text>
+<text x="695" y="555" fill="#7654a1" font-size="18" font-weight="bold">Doctor</text>
+<text x="950" y="535" font-size="15">Comparison turn</text>
+<text x="45" y="584" font-size="13">Cash after study, food, rent, clothes and fares; possessions/goal scores are not cash. PROPOSAL.</text>
+</g></svg>

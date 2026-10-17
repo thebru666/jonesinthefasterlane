@@ -123,3 +123,5 @@ The [transport examples](transport-proposal.md) use an explicitly illustrative13
 - **Shared-device fairness:** all humans and the rival use the same graph, costs and qualification checks; exclusive offers are explicit records, not hidden exceptions.
 
 No wages, tuition, exact lesson counts, expanded job total or release scope are approved by this document. Next deliverable is a simple town arrangement comparison and a small numeric progression sheet for butcher, electrician/plumber and doctor, followed by revised visual concepts. Application work still waits for an agreed first playable scope and the owner's direction to build.
+
+The [first numeric career comparison](career-budget-comparison-v1.md) now supplies provisional figures, funding/eligibility limits and sensitivity cases. It proposes a clinic support assistant using General Studies + Science Foundations while studying, an explicit extra job use for that branch. The same-clothing/travel checkpoint, deterministic eligible hiring and fixed visit allowances are worksheet assumptions, not approved full-game rules. The town arrangement comparison remains next.

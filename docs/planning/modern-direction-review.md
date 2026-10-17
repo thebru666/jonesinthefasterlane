@@ -1,5 +1,7 @@
 # Modern direction: review pack 2
 
+**Numeric follow-up:** [career budgets v1](career-budget-comparison-v1.md) compares butcher, trades and doctor from a shared early-employed checkpoint, with tuition/upkeep/travel, work-history constraints and setbacks. Figures remain proposals; results are not full-game balance or original opening timings. Town-layout comparison is the next dependency.
+
 **Latest career review:** the owner accepts preserving Trade School → Butcher, skilled trades and a longer professional/doctor path in a compact town. [Career/town graph v2](career-and-town-graph-v2.md) supplies a new proposed graph and stop roster. The13-stop/37-job/11-course mapping below is now the earlier reference, not the complete successor content plan.
 
 **Owner review update2026-10-17:** transport progression/town-wide bus and in-store applications are accepted as directions, along with broad consistency/fairness fixes. New employer options, reasons to explore, recruited offers and functional devices are developed in [the latest options](employers-offers-and-useful-possessions.md). Its proposals extend the earlier read-only-phone/no-home-work baseline below; the specific new effects and revised career graph are not yet selected.

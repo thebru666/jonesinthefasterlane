@@ -1,0 +1,112 @@
+{
+  "status": "PROPOSAL / bounded paper worksheet; not measured gameplay or full win balance",
+  "horizon": 24,
+  "allowance": 60,
+  "action_time": 6,
+  "application_time": 4,
+  "gross_shift_factor": 8,
+  "cash": 200,
+  "initial_job": "service",
+  "actual_experience": 22,
+  "dependability": 25,
+  "initial_casual_units": 6,
+  "initial_dress_units": 0,
+  "prepaid_rent_turns": 3,
+  "lessons_per_course": 10,
+  "fee_per_course": 50,
+  "max_lessons_per_turn": 4,
+  "food_per_turn": 79,
+  "rent_every_four_turns": 325,
+  "casual_price": 73,
+  "casual_units": 11,
+  "dress_price": 125,
+  "dress_units": 13,
+  "visit_allowance": "Each required visit reserves a two-edge trip plus two entry time; no return home is charged",
+  "bus_time_per_visit": 6,
+  "bus_fare_per_visit": 3,
+  "bike_time_per_visit": 5,
+  "bike_price": 120,
+  "exclusions": [
+    "original fresh-game opening",
+    "actual town tour geometry",
+    "random openings except one specified rejection",
+    "economy price/wage generation",
+    "partial shifts/lessons",
+    "equipment credits",
+    "Happiness/relaxation/events",
+    "full four-goal finish",
+    "savings/loans",
+    "home-working/offers",
+    "optimal play"
+  ],
+  "jobs": {
+    "service": {
+      "wage": 8,
+      "experience": 20,
+      "dependability": 20,
+      "courses": 0,
+      "clothing": "casual"
+    },
+    "butcher": {
+      "wage": 12,
+      "experience": 30,
+      "dependability": 30,
+      "courses": 1,
+      "clothing": "casual"
+    },
+    "electrician": {
+      "wage": 18,
+      "experience": 35,
+      "dependability": 35,
+      "courses": 2,
+      "clothing": "casual"
+    },
+    "plumber": {
+      "wage": 18,
+      "experience": 35,
+      "dependability": 35,
+      "courses": 2,
+      "clothing": "casual"
+    },
+    "clinic_support": {
+      "wage": 10,
+      "experience": 30,
+      "dependability": 30,
+      "courses": 2,
+      "clothing": "casual"
+    },
+    "doctor": {
+      "wage": 30,
+      "experience": 40,
+      "dependability": 40,
+      "courses": 4,
+      "clothing": "dress"
+    }
+  },
+  "paths": {
+    "butcher": [
+      "Trade School"
+    ],
+    "electrician": [
+      "Trade School",
+      "Electrical Skills"
+    ],
+    "plumber": [
+      "Trade School",
+      "Plumbing Skills"
+    ],
+    "doctor": [
+      "General Studies",
+      "Science Foundations",
+      "Medical Studies",
+      "Clinical Qualification"
+    ]
+  },
+  "variants": {
+    "bus": "ordinary fixed-price worksheet",
+    "buy_bike": "buy a bike on turn1 including visit; subsequent bike travel",
+    "one_rejection": "first eligible application to the target role fails once, costing4 time",
+    "lost_time": "12 extra time consumed on turn4, no cash grant",
+    "keep_buffer": "choose lessons only if closing cash stays at least100"
+  }
+}

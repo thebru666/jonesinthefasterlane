@@ -29,6 +29,8 @@ Last updated: 2026-10-17.
 
 ## Proposed technical and design choices
 
+The [career-budget worksheet](career-budget-comparison-v1.md) now supplies provisional costs, wages, progression and sensitivities. The owner authorised doing this comparison; no resulting wage/tuition/threshold, checkpoint or cash-buffer policy is adopted as a game rule by that authorisation. The original Cook ceiling and the new clinic-support bridge are explicit.
+
 Latest accepted career direction and its concrete proposal: [career/town graph v2](career-and-town-graph-v2.md). It proposes sixteen courses and a fifteen-stop arrangement for review; those counts and the individual prerequisites are not confirmed by D019–D020.
 
 Current entry point: [modern-direction review pack](modern-direction-review.md), with [transport](transport-proposal.md), [town/content](modern-town-and-content.md) and [visual concepts](visual-direction-v1.md). It explicitly revises the earlier fixed-speed travel and agency-only planning baseline. New directions D011–D013 do not approve its specific recommendations.
