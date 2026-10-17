@@ -1,0 +1,23 @@
+flowchart TD
+  Startup[Startup: Play / Restore / Demo] --> Setup[Humans, characters, personal goals]
+  Setup --> Jones{Exactly one human?}
+  Jones -->|Yes| Rival[Optional Jones and difficulty]
+  Jones -->|No| Initialise[Initialise player list and town]
+  Rival --> Initialise
+  Startup -->|Restore| Saved[Restore fixed DOS save slot]
+  Initialise --> Incoming[Prepare active player's turn]
+  Saved --> Restored[Resume saved interpreter state]
+  Incoming --> Economy[Update economy for this player's turn]
+  Economy --> GoalGate{Stored scores meet all four targets?}
+  GoalGate -->|Yes| Finish[Winner presentation, record finish, continue/restart/quit]
+  GoalGate -->|No| Preparation[Ordered weekend, lottery, needs, obligations and events]
+  Preparation --> Board[Town board ready]
+  Board --> Travel[Travel along town route]
+  Travel -->|Arrive with time| Location[Open destination and charge entry]
+  Travel -->|Time exhausted| Rotate[Outgoing bookkeeping and next eligible player]
+  Location --> Action[Choose action or child screen]
+  Action --> Location
+  Location -->|Exit with time| Board
+  Location -->|Exit exhausted| Rotate
+  Finish -->|Continue| Rotate
+  Rotate --> Incoming

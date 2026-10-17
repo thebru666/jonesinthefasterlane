@@ -1,5 +1,7 @@
 # Documentation
 
+[View all seven rendered diagrams](diagrams/README.md): PNG previews and zoomable SVGs for the career graph, game flow, original progression, town and screen relationships. Earlier drafts are labelled separately from current proposals and original references.
+
 ## Original game: starting point for iteration
 
 Start with the [research handoff](planning/original-research-handoff.md) for requirement coverage, the evidence reading path, known limits and the next planning task.

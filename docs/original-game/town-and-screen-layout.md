@@ -59,6 +59,8 @@ The original uses small, context-specific interactions rather than persistent pa
 
 ## Original flow between screens
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/original-game--town-and-screen-layout.png) · [Zoomable SVG](../../artifacts/diagrams/original-game--town-and-screen-layout.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart TD
     START[Opening and central startup choice] --> PLAY[Play: choose 1–4 human players]

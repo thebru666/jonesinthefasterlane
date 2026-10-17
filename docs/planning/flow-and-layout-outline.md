@@ -17,6 +17,8 @@ Use **week** for a round of player turns, **turn** for one player's allowance an
 
 The setup, handover, menu, and results screens below are proposed. Turn boundaries and the visit loop are informed by TIME/WEEK rules. Original first-week and finish/removal exceptions still need a complete audit.
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/planning--flow-and-layout-outline.png) · [Zoomable SVG](../../artifacts/diagrams/planning--flow-and-layout-outline.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart TD
     A[Start menu] --> B[Configure players and goals]

@@ -4,6 +4,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Rendered Mermaid gallery](../docs/diagrams/README.md): all documentation diagrams as PNG/SVG, with source links and status labels; [renderer manifest](diagrams/manifest.json) and [rebuild instructions](../tools/docs/README.md). These are analytical diagrams, not extracted game art.
+
 - [Modern content mapping](planning/modern-content-mapping.csv): proposed names for all37 job records, with unchanged original requirement/pay identifiers for review.
 - [Visual prompts](planning/visual-prompts-v1.json): exact prompts for original generated modern-town concepts; images and inspection notes are linked from the [visual review](../docs/planning/visual-direction-v1.md). These are new concept artifacts, not extracted original assets.
 

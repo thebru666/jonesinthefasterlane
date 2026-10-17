@@ -1,0 +1,21 @@
+flowchart TD
+    A[Start menu] --> B[Configure players and goals]
+    A --> R[Resume saved game]
+    B --> C[Initialise game]
+    C --> H[Present active player / handover]
+    H --> P[Reset clock; update economy; apply pre-check effects]
+    P --> V{Player finishes at an audited check?}
+    V -->|Yes| F[Results / remaining-player decision]
+    V -->|No| N[Process remaining pre-turn phases and notices in order]
+    N --> T[Town board]
+    T --> M[Travel to selected location]
+    M -->|Time remains for arrival| L[Location visit and entry cost]
+    M -->|Time expires during travel| E[Close turn]
+    L --> X[Choose permitted action]
+    X --> L
+    L -->|Leave with time remaining| T
+    L -->|Leave with no time remaining| E
+    E --> H
+    F -->|Continue with eligible remaining players| H
+    F -->|Finish game| A
+    R --> S[Restore saved phase without replaying effects]

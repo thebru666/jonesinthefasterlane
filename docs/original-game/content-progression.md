@@ -20,6 +20,8 @@ The university defines 11 qualifications. Trade School and Junior College are av
 | 19 | Research | Post-Doctoral (18) | Publishing; Professor |
 | 20 | Publishing | Research (19) | End of academic branch |
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/original-game--content-progression.png) · [Zoomable SVG](../../artifacts/diagrams/original-game--content-progression.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart LR
   T[Trade School] --> E[Electronics]

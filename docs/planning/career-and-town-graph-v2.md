@@ -18,6 +18,8 @@ This develops the [modern-direction pack](modern-direction-review.md) and [emplo
 
 These are simplified fictional game qualifications, not real credentials or licensing advice. All are studied through the existing learn/attend/graduate interaction. There is no separate exam, placement, clinical-practice or apprenticeship minigame. Course names below are new planning identifiers; they do not overwrite original course IDs10–20.
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/planning--career-and-town-graph-v2.png) · [Zoomable SVG](../../artifacts/diagrams/planning--career-and-town-graph-v2.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart LR
   Trade[Trade School] --> Electrical[Electrical Skills]

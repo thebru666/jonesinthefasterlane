@@ -6,6 +6,8 @@ Read this first for the lifecycle, then follow the domain references for exact t
 
 ## Whole-game journey
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/original-game--game-flow-and-rule-contract.png) · [Zoomable SVG](../../artifacts/diagrams/original-game--game-flow-and-rule-contract.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart TD
   Startup[Startup: Play / Restore / Demo] --> Setup[Humans, characters, personal goals]

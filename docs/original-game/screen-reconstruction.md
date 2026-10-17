@@ -47,6 +47,8 @@ These are representative screen families. They are not a complete reconstruction
 
 The original uses the town as the frame for a succession of focused windows. A normal destination's Exit closes that visit; a nested job list returns to its parent agency and the broker returns to the bank. Notices, diplomas and clerk feedback interrupt the current flow; they are not additional town destinations. The [location catalogue](locations-and-actions.md) describes each service and its conditions.
 
+[View rendered diagram (PNG)](../../artifacts/diagrams/original-game--screen-reconstruction.png) · [Zoomable SVG](../../artifacts/diagrams/original-game--screen-reconstruction.svg) · [All diagrams](../diagrams/README.md)
+
 ```mermaid
 flowchart TD
     S[Startup: Play / Restore / Demo] -->|Play| N[Human count 1–4]

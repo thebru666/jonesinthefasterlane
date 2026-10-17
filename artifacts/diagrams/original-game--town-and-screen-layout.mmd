@@ -1,0 +1,23 @@
+flowchart TD
+    START[Opening and central startup choice] --> PLAY[Play: choose 1–4 human players]
+    START --> RESTORE[Restore saved game]
+    START --> DEMO[Demonstration]
+    PLAY --> SELECT[Each human: choose appearance then personal goals]
+    SELECT --> SOLO{Exactly one human?}
+    SOLO -->|Yes| JONES[Offer Jones; if accepted choose difficulty and view his goals]
+    SOLO -->|No| INIT[Initialise participants]
+    JONES --> INIT
+    INIT --> TURN[Incoming player at housing; clock reset and economy update]
+    TURN --> WIN{All goals met at start-turn check?}
+    WIN -->|Yes| CELEBRATE[Podium and finish/continue handling]
+    WIN -->|No| EVENTS[Remaining pre-turn processing and notices in order]
+    EVENTS --> BOARD[Town]
+    BOARD --> MOVE[Marble travels toward chosen destination]
+    MOVE -->|Arrives before exhaustion| VISIT[Central location visit; entry cost]
+    MOVE -->|Time expires travelling| END[End turn and advance player]
+    VISIT --> ACTION[Purchase / work / study / service or nested view]
+    ACTION --> VISIT
+    VISIT -->|Exit with time left| BOARD
+    VISIT -->|Exit after exhaustion| END
+    END --> TURN
+    CELEBRATE -->|Continue with remaining participants| TURN

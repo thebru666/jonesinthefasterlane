@@ -1,0 +1,21 @@
+flowchart TD
+  Start[Start: New game / Resume / Settings] --> Setup[Human count / character / personal goals]
+  Setup --> Rival{One human?}
+  Rival -->|Yes| Optional[Optional rival / target difficulty]
+  Rival -->|No| Prepare[Ordered turn preparation]
+  Optional --> Prepare
+  Start -->|Resume| Restore[Load stable saved state]
+  Restore --> Ready[Town or saved location]
+  Prepare --> Win{Start-turn goal gates}
+  Win -->|Complete| Finish[Place / Continue / New game / Exit]
+  Win -->|Incomplete| Notices[Remaining preparation notices]
+  Notices --> Ready
+  Ready --> Travel[Select destination / travel]
+  Travel --> Visit[Location / contextual actions]
+  Visit --> Child[Job list / course / broker / pawn / newspaper]
+  Child --> Visit
+  Visit -->|Exit with time| Ready
+  Visit -->|Exit exhausted| Next[Next eligible participant]
+  Travel -->|Time exhausted| Next
+  Next --> Prepare
+  Finish -->|Continue others| Next

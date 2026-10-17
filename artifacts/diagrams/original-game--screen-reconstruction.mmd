@@ -1,0 +1,28 @@
+flowchart TD
+    S[Startup: Play / Restore / Demo] -->|Play| N[Human count 1–4]
+    N --> A[Appearance for current human]
+    A --> G[Personal targets]
+    G -->|More humans| A
+    G -->|One human| J[Offer Jones and optional difficulty]
+    G -->|All configured; multiple humans| T[Initialise and start incoming turn]
+    J --> T
+    T --> W{All four goals met?}
+    W -->|Yes| V[Victory; finish or continue remaining participants]
+    W -->|No| P[Ordered pre-turn consequences and notices]
+    P --> B[Town board]
+    B --> R[Travel to chosen destination]
+    R -->|Time survives arrival| L[Location window; entry cost]
+    R -->|Time exhausted travelling| E[Advance participant]
+    L --> X[Action or feedback]
+    X --> L
+    L -->|Employment employer choice| JL[Employer job list]
+    JL -->|Close| L
+    L -->|Bank broker choice| BR[Broker]
+    BR -->|Close| L
+    L -->|Course completion| D[Diploma]
+    D --> L
+    L -->|Exit with time| B
+    L -->|Exit after exhaustion| E
+    E --> T
+    B -->|Statistics / Goals menu| Q[Progress window; participant detail from Goals]
+    Q --> B
