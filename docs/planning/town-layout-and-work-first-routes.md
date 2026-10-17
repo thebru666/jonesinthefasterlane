@@ -44,9 +44,9 @@ Personal offers can acknowledge sustained ordinary work: a dependable counter wo
 
 The original Education goal counts course completions, so removing course gates from jobs alone does not create a course-free way to win a game that still requires that goal. The worksheet leaves its reference Education score unchanged and consequently reports0 for the work-first paths; this is a limitation to resolve, not a proposed punishment for those players.
 
-**Recommendation for review:** call the goal **Learning**, recognising both completed courses and substantial workplace-training/mastery milestones. Reuse the existing qualification/achievement presentation rather than add a second visible training meter. Workplace credit should require sustained useful work and be awarded once per distinct skill, not every application, promotion or job swap. Classroom study remains the route to specialist qualifications; general Learning progress does not magically qualify someone as a doctor.
+**Updated recommendation:** develop **Learning**, recognising completed courses and cumulative successful work time. The [current contract](learning-goal-proposal.md) supersedes this page’s earlier once-per-distinct-skill idea: it needs no job-family collection or extra training meter. Hiring, promotions and job swaps give no Learning credit; named courses still gate specialist qualifications.
 
-Weights, milestone definitions and configurable targets still need design. This document does not adopt a score formula or claim work-first paths already satisfy all four goals. That decision is necessary before a complete first-playable win test.
+The current contract supplies proposed weights and targets for review under D023. This document does not adopt a score formula or claim work-first paths already satisfy all four goals. That decision is necessary before a complete first-playable win test.
 
 ## Mapped travel, rather than average visit allowances
 

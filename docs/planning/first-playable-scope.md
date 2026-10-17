@@ -22,6 +22,8 @@ The intended deliverable after build authorisation is a local browser prototype 
 
 Preset Wealth10 means1000 in adopted liquid-asset units, not a thousand-dollar possession collection. Learning10 can come from20 full work shifts, one first qualification, or a mixture under the proposed formula. Career30 requires actual employed dependability24 under the retained stepped formula; it is not simply a job title. Happiness needs its own deliberate actions/outcomes.
 
+Use the full [audited fresh allocation](../rules-audit/initial-player-state.md): experience10/ceiling10, dependability20/minimum0, relaxation25, stored rent325 and zero allocated goal scores, plus its remaining applicable flags and stocks. The first incoming economy update is still performed; neutral prices below are fixture inputs, not guaranteed opening quotes. New work-time starts at0 and qualifications are empty.
+
 The preset does not guarantee a rent-week encounter before winning. Acceptance uses both a normal fresh-game journey and a controlled rent-due scenario; do not introduce a hidden minimum-week rule merely to make a test pass.
 
 ## Active places and the useful choices
@@ -37,6 +39,8 @@ The preset does not guarantee a rent-week encounter before winning. Acceptance u
 | Good Threads | Casual, smart/dress and business clothing, suitability, stock and replacement feedback |
 
 The other eight places are clearly marked preview destinations. Inspecting their future role is free and cannot move the player or spend time; they do not masquerade as usable shops. Their ring positions still count when travelling between active destinations. This is a development limit, not a proposed final town with permanently empty buildings.
+
+Civic House jobs are available every turn. Its rent counter separately follows the audited fourth-week/approved-extension access flags; a closed rent service never closes the job board. Moving homes is deferred, even if historical rent-office screens offer it.
 
 Nested employers/services share their physical arrival. Reopening the current destination or switching services within that site adds no trip fare or arrival charge. Work occurs at the employer, not at the civic index. An in-store application uses the same record, requirements, cost and rejection state as the index; switching boards does not give another opening roll. A clerk response should distinguish qualifications, experience, work history and openings, without hiding the true reason in early turns.
 
@@ -61,6 +65,8 @@ Transport tuning starts from the current proposal: bike120, car1200; bus3 per le
 
 Food/clothes/refrigerator anchors come from the [needs](../rules-audit/food-and-housing.md), [clothing](../rules-audit/clothing-lifecycle.md) and [goods](../rules-audit/goods-and-finance.md) audits. In the initial neutral-price fixture: groceries55/100/190; hamburger79; cheeseburger89; casual73, dress125, suit295; fridge876. These are nominal original scaling inputs, not promised quotes under every economy reading. The fridge gives storage, not a new purchase-Learning reward. The short preset may finish before a fridge or car is affordable: exercise both purchases in controlled funded fixtures as well as normal play, without promising them in every winning journey. Fast-food coverage, spoilage, first-category Happiness and clothing decay follow the specifically adopted audited rules.
 
+Generated local recruitment notices, personal offers, reserved openings, offer expiry and an Offers screen are deferred: included local boards show ordinary public job records only.
+
 Phone information, laptop/home work, extra training branches and the new clinic/banking careers remain full-game direction, **not requirements to implement this slice**. The prototype should not sell a laptop with an implied home-working benefit when its included jobs are physical roles.
 
 ## Economy, upkeep and recovery
@@ -71,11 +77,19 @@ Implement the slice-relevant effects: food/storage/spoilage, hunger/doctor inter
 
 Full weekend/lottery/ticket pools, appliance breakdown/theft breadth, pawn/broker/loans and all thirteen original destination controllers are deferred. Omitting those is an explicit prototype rules version, not original equivalence. Do not run an event that asks for an absent service without defining its current resolution. A data/rules coverage list should distinguish implemented, deliberately inactive and pending branches.
 
-**Recovery is a required check:** Cook remains the original reliable fallback when its actual requirements/clothes permit. Preserve the relevant audited emergency-clothing support if no usable clothes and too little money would otherwise prevent recovery; reproduce its predicates rather than invent an unconditional grant. Add a controlled rent/food/clothes setback case to ensure the available actions offer a documented way forward. Recovery does not mean every bad choice is free or every failed application succeeds.
+**Recovery is a required check, with one explicit proposed departure (C20).** Cook remains the reliable fallback when its requirements/clothes permit. The [original emergency cash](../rules-audit/random-events.md#event-008-emergency-cash-is-gated-recovery-not-a-random-weekly-grant) requires cash at most0 and recorded durable value below200. With pawn/loans omitted, cash1 or an owned fridge can block that help permanently. Do not copy those predicates while promising recovery.
+
+For this prototype, replace that emergency-cash branch with a small clothing grant: at its late incoming-turn recovery stage after ordinary clothing decay, qualify when **all usable clothing stocks are zero and carried cash is below the live casual-clothing purchase quote**. After two consecutive qualifying checks, grant **one stock unit of casual clothing**, reset the counter and show one notice. Reset the counter on a nonqualifying check or successful clothing purchase; week1 skips this check. Ownership of a fridge/bike/car does not disqualify it. It grants no cash, food, Learning or Happiness and uses no random draw; do not also run the original cash grant. Persist the counter and grant exactly once. The late grant must atomically refresh wearing, total usable clothing stock and dressed-for-work eligibility before controls return, rather than retain the unclothed flags computed earlier in preparation. This temporary stock supports legal work that turn; it is not a full eleven-unit clothing purchase. All included jobs accept casual clothes.
+
+Require controlled fixtures for cash0 plus a fridge recorded876, and cash1 with no possessions, both with no clothes, alongside ordinary rejection/job-shock and rent/food setbacks. Verify a legal way back to work and then a regular clothing purchase. This is a proposed bounded-prototype recovery policy, not an audited original rule or a guarantee against every losing strategy. Revisit it when selling/borrowing and the full clothing/job roster are introduced.
 
 ## Minimum screen flow
 
 Start/New/Resume → short setup/goal explanation → incoming notices → town → trip quote → visit → action/result → visit/town → End Turn or exhausted exit → next preparation. Goals, Statistics and Menu return to their caller without spending time or drawing rule randomness. Course completion has one diploma, unique award and a visible return to the location. Finish shows attained goals/turn and New Game/Exit; no multiplayer placements UI yet.
+
+Each new personal turn resets the participant to their current home, preserving the reference turn model: no return-home fare or entry is charged for that reset, and home context is ready. A same-turn visit to another destination still pays its normal trip/entry. Resume restores the saved location/time instead of starting a new turn or moving home. End Turn is available from stable town, visit and nested views; cancel an uncommitted quote first, and disable it during unresolved effects/notices. A timed action never ends a turn before any legal zero-time transactions and explicit Exit/End Turn.
+
+New Game replaces the sole current checkpoint only after a clear confirmation when one exists; cancelling keeps it. A failed import likewise leaves the checkpoint intact.
 
 Show prices, time, unmet requirements, current player and remaining time. A failed timed action follows its specific cost rule; do not invent a universal free-refusal rule. Allow legal zero-time purchases inside a location at exhaustion; timed work/study cannot begin at zero. Acknowledge-once feedback must not rerun a salary, diploma, rent payment or turn.
 
@@ -92,13 +106,19 @@ The four-goal panel uses **Learning**, with an optional explanation of work cont
 | Transport | Quote/execute short and long trips; bike acquisition/first-car charge/cash failure/exact exhaustion; no animation-dependent costs |
 | Useful purchase | Fridge changes food storage; bike/car changes travel; ownership is visible at home; no duplicate reward on reopening a panel |
 | Rent/upkeep | Pay a due week, handle an unaffordable/extended/arrears path as adopted, replace expiring clothes and understand food consequences |
-| Setback/recovery | A specified rejected opening or job shock retains correct state and offers a documented legal recovery route |
+| Setback/recovery | Rejection/job shock and both C20 clothing-deadlock fixtures retain correct state and provide legal recovery; no duplicate grant on resume |
 | Save/replay | Restore town and nested visit boundaries with the same time, stock, qualification set, Learning work total and next rule outcome |
 | Guarded interactions | Double click, repeated acknowledgement and view/animation changes cannot duplicate cash, score or preparation |
 | Future modes | A controlled two-actor headless fixture checks actor separation/rotation/economy update; not a claim of a playable multiplayer or AI mode |
 | Family review | Each child and an adult can identify job versus workplace, interpret rejection, compare transport, explain Learning and recognise the finish rule; record help and actual session duration |
 
 These are future acceptance criteria, not completed tests. If the new Learning growth rule changes the earlier paper paths, update the expectation rather than forcing the engine to reproduce the old cash worksheets.
+
+## Layout contract for the current preview
+
+The [current review wireframes](../../artifacts/planning/scope-review-v1.png) show town, trip quote, shared civic services, employer visit, feedback and turn completion. Keep player/week/time/cash and Goals/Menu visible; use a central town/visit region with a concise contextual action panel. Show all fifteen stops, clearly marking eight as preview-only; do not present them as disabled mystery jobs. Shared-site services use labelled tabs under one place heading, with service-specific access explanations. The visit identifies both employer and current job, so Apply and Work cannot be mistaken for each other.
+
+Use text with mode icons and goal colours, visible keyboard focus, touch targets at least44 CSS pixels and a readable baseline of16 CSS pixels for action text. These are proposed UI acceptance defaults, not final pixel art or approved production dimensions. At desktop and landscape-tablet widths the actions must remain readable without shrinking the board labels into illegibility; fall back to a list of named destinations beside the map when needed. Test that layout with the family before claiming phone support.
 
 ## Build sequence after authorisation
 

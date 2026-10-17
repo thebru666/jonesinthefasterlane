@@ -4,6 +4,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Current navigation wireframes](planning/scope-review-v1.png), [editable SVG](planning/scope-review-v1.svg) and [review arithmetic/counterexamples](planning/scope-review-v1.json); [whole-pack review](../docs/planning/whole-pack-review-v1.md). Planning artifacts, not a running game or completed recovery tests.
+
 - [Learning panel](planning/learning-panel-v1.png), [editable SVG](planning/learning-panel-v1.svg) and [arithmetic/old-schedule overlay](planning/learning-coverage-v1.json); [proposal and limits](../docs/planning/learning-goal-proposal.md). Synthetic wireframe and analytical checks, not gameplay or full-route validation.
 
 - [Fifteen-stop town schematic](planning/town-layout-v1/town-map-a.svg), [alternate placement](planning/town-layout-v1/town-map-b.svg), [inputs](planning/town-layout-v1/inputs.json), [tour costs](planning/town-layout-v1/journeys.json) and [expanded career summaries](planning/town-layout-v1/career-summary.json); [scope/rebuild guide](../docs/planning/town-layout-and-work-first-routes.md). Analytical proposals, including work-first careers; failed fixed plans are labelled explicitly.

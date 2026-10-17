@@ -1,6 +1,6 @@
 # Compatibility proposals for 2.0
 
-**Revision notice2026-10-17:** [modern direction](modern-direction-review.md#how-this-revises-the-earlier-draft) proposes replacing C03 and the travel/entry-exhaustion portion of C02 with [transport](transport-proposal.md). Do not combine the old170-point residue formula with the proposed13-node transport model. Other rows remain recommendations for separate review; nothing here is approved by the newer direction alone.
+**Revision notice2026-10-17:** [modern direction](modern-direction-review.md#how-this-revises-the-earlier-draft) proposes replacing C03 and the travel/entry-exhaustion portion of C02 with [transport](transport-proposal.md). Do not combine the old170-point residue formula with the current fifteen-stop transport proposal (earlier examples use thirteen nodes). Other rows remain recommendations for separate review; nothing here is approved by the newer direction alone.
 
 Drafted 2026-10-17. **PROPOSAL — unapproved.** These recommendations turn the [original research handoff](original-research-handoff.md) into reviewable choices. They are not new findings, agreed rules, or permission to start application implementation. The original audit remains the record of shipped behaviour.
 
@@ -45,3 +45,10 @@ These extend the earlier C01–C17 pack; they are new proposals under the suppor
 | C19 | Replace each Work-click experience/dependability increment with one capped growth step per six actual successful work-time units, carrying `W%6`; blocked steps are consumed | Partial-shift clicks should not accelerate Career relative to equivalent work | Sixty actual work-time units earn ten steps before caps, whether split or full; loading, job changes and capped shifts cannot bank or duplicate growth |
 
 These alter progression balance. Old budget schedules have not been recomputed under C18/C19; the score overlay is an arithmetic check only. The proposed small-slice Learning10 target is distinct from the longer-route Learning50 comparison.
+
+
+## C20: bounded-prototype clothing recovery
+
+**New proposal, not an original fix:** because the slice omits pawn and borrowing, replace EVENT-008 emergency cash with the [temporary clothing contract](first-playable-scope.md#economy-upkeep-and-recovery). After two consecutive late incoming checks with no usable clothes and insufficient carried cash for the live casual quote, grant one casual-stock unit; reset on grant, a nonqualifying check or clothing purchase. Week1 skips it. No asset-value gate, cash grant, Happiness, Learning or random draw; do not also run original emergency cash. Save the counter and resolve once; recompute wearing, usable-clothing stock and work eligibility after the late grant so it can actually support work that turn.
+
+Required fixtures are cash0 with an expensive fridge and cash1 without possessions, both unclothed; both must permit a route back to work and regular clothing. This closes a deadlock created by the reduced service set. Revisit the policy before extending the job/clothing roster or restoring selling/borrowing. It is separate from D016’s broad consistency principles and remains unapproved.

@@ -23,7 +23,7 @@ Rebuild the appeal of *Jones in the Fast Lane* as a modern browser game. Remain 
 
 ## Essential qualities
 
-1. Economic humps: good and bad periods that affect strategy. Exact original behaviour still needs investigation.
+1. Economic humps: good and bad periods that affect strategy. The original layered economy is now audited; successor compatibility and tuning remain to settle.
 2. Humour: memorable characters, everyday absurdity, and kitsch.
 3. Simplicity: meaningful tradeoffs without excessive systems, meters, or management.
 4. Near-original gameplay: content modernisation should precede mechanical expansion.
@@ -53,7 +53,7 @@ Detailed architecture and storage choices still require a specification. A share
 
 ## Planning before implementation
 
-The owner explicitly wants substantial planning before building. A first playable slice is acceptable once the design is sufficiently specified. Candidate slice: get a job, buy food, pay rent, study toward a better job, and complete a week.
+The owner explicitly wants substantial planning before building. A first playable slice is acceptable once the design is sufficiently specified. The [current proposed slice](first-playable-scope.md) tests work-first and Trade School routes, transport, needs, rent, recovery, saves and a short four-goal finish.
 
 Subsequent direction: document how the original game was organised before redesigning its screens or flow. Use the [original-game baseline](../original-game/README.md) as the reference to refine; keep modernisation suggestions in the separate [follow-up brief](follow-up-original-first-iteration.md).
 

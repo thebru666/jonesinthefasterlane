@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1090" viewBox="0 0 1440 1090"><rect width="1440" height="1090" fill="#fff9ef"/>
+<text x="28" y="38" font-family="sans-serif" font-size="27" fill="#203e48" font-weight="bold">FIRST PLAYABLE · navigation and layout review</text>
+<text x="28" y="68" font-family="sans-serif" font-size="18" fill="#203e48">Proposed wireframes — original analytical artwork, not a running game or final illustration.</text>
+<rect x="25" y="100" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="37" y="112" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="49" y="144" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">1  Town / choose a place</text>
+<text x="47" y="192" font-family="sans-serif" font-size="17" fill="#203e48">Player · Week · Time · Cash       Goals / Menu</text>
+<text x="47" y="230" font-family="sans-serif" font-size="17" fill="#203e48">15 named destinations around the ring</text>
+<text x="47" y="268" font-family="sans-serif" font-size="17" fill="#203e48">7 services active · 8 labelled “Preview”</text>
+<text x="47" y="306" font-family="sans-serif" font-size="17" fill="#203e48">Current place and workplace identified</text>
+<text x="47" y="344" font-family="sans-serif" font-size="17" fill="#203e48">Select active place → trip quote</text>
+<text x="47" y="382" font-family="sans-serif" font-size="17" fill="#203e48">Inspect preview → free explanation only</text>
+<text x="47" y="420" font-family="sans-serif" font-size="17" fill="#203e48">Same place → reopen current visit, free</text>
+<text x="47" y="458" font-family="sans-serif" font-size="17" fill="#203e48">End Turn available from stable views</text>
+<text x="47" y="518" font-family="sans-serif" font-size="17" fill="#50777a">→ 2</text>
+<rect x="500" y="100" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="512" y="112" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="524" y="144" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">2  Trip quote</text>
+<text x="522" y="192" font-family="sans-serif" font-size="17" fill="#203e48">Destination: Civic House</text>
+<text x="522" y="230" font-family="sans-serif" font-size="17" fill="#203e48">Mode                 Time + entry       Cash</text>
+<text x="522" y="268" font-family="sans-serif" font-size="17" fill="#203e48">Walk                         6 + 2                 $0</text>
+<text x="522" y="306" font-family="sans-serif" font-size="17" fill="#203e48">Bike                         3 + 2                 $0</text>
+<text x="522" y="344" font-family="sans-serif" font-size="17" fill="#203e48">Bus                           4 + 2                 $3</text>
+<text x="522" y="382" font-family="sans-serif" font-size="17" fill="#203e48">Car                           2 + 2             $4/$24</text>
+<text x="522" y="420" font-family="sans-serif" font-size="17" fill="#203e48">Confirm total → one committed arrival</text>
+<text x="522" y="458" font-family="sans-serif" font-size="17" fill="#203e48">Cancel → same place, no cost</text>
+<text x="522" y="518" font-family="sans-serif" font-size="17" fill="#50777a">→ 3</text>
+<rect x="975" y="100" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="987" y="112" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="999" y="144" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">3  Civic House / shared site</text>
+<text x="997" y="192" font-family="sans-serif" font-size="17" fill="#203e48">Player · Week · Time · Cash       Goals / Menu</text>
+<text x="997" y="230" font-family="sans-serif" font-size="17" fill="#203e48">[ Town jobs ]        [ Rent counter ]</text>
+<text x="997" y="268" font-family="sans-serif" font-size="17" fill="#203e48">Jobs remain available every turn</text>
+<text x="997" y="306" font-family="sans-serif" font-size="17" fill="#203e48">Rent: due week or retained extension</text>
+<text x="997" y="344" font-family="sans-serif" font-size="17" fill="#203e48">Closed rent tab explains when to return</text>
+<text x="997" y="382" font-family="sans-serif" font-size="17" fill="#203e48">Choose employer → job list → Apply</text>
+<text x="997" y="420" font-family="sans-serif" font-size="17" fill="#203e48">Both services share one paid arrival</text>
+<text x="997" y="458" font-family="sans-serif" font-size="17" fill="#203e48">Back → service menu / Exit → town</text>
+<text x="997" y="518" font-family="sans-serif" font-size="17" fill="#50777a">→ 4</text>
+<rect x="25" y="565" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="37" y="577" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="49" y="609" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">4  Employer visit / jobs and work</text>
+<text x="47" y="657" font-family="sans-serif" font-size="17" fill="#203e48">HOSPITALITY · clerk / short scene</text>
+<text x="47" y="695" font-family="sans-serif" font-size="17" fill="#203e48">Current job: Cook · wage shown</text>
+<text x="47" y="733" font-family="sans-serif" font-size="17" fill="#203e48">[ Work: 6 time / exact partial pay ]</text>
+<text x="47" y="771" font-family="sans-serif" font-size="17" fill="#203e48">[ Public jobs ]   [ Food ]   [ Exit ]</text>
+<text x="47" y="809" font-family="sans-serif" font-size="17" fill="#203e48">Selected role: required course, history,</text>
+<text x="47" y="847" font-family="sans-serif" font-size="17" fill="#203e48">experience, clothes and offered wage</text>
+<text x="47" y="885" font-family="sans-serif" font-size="17" fill="#203e48">Apply: 4 time · no guarantee of opening</text>
+<text x="47" y="923" font-family="sans-serif" font-size="17" fill="#203e48">Work happens here, not at civic desk</text>
+<text x="47" y="983" font-family="sans-serif" font-size="17" fill="#50777a">→ 5</text>
+<rect x="500" y="565" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="512" y="577" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="524" y="609" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">5  Action feedback / return</text>
+<text x="522" y="657" font-family="sans-serif" font-size="17" fill="#203e48">OUTCOME FIRST · then one short joke</text>
+<text x="522" y="695" font-family="sans-serif" font-size="17" fill="#203e48">Success: exact cash, time and stock change</text>
+<text x="522" y="733" font-family="sans-serif" font-size="17" fill="#203e48">Refusal: true failed requirement explained</text>
+<text x="522" y="771" font-family="sans-serif" font-size="17" fill="#203e48">[ Continue ] resolves notice once</text>
+<text x="522" y="809" font-family="sans-serif" font-size="17" fill="#203e48">Return to caller with selection intact</text>
+<text x="522" y="847" font-family="sans-serif" font-size="17" fill="#203e48">Goals / Statistics are read-only</text>
+<text x="522" y="885" font-family="sans-serif" font-size="17" fill="#203e48">At zero time: legal free purchases remain</text>
+<text x="522" y="923" font-family="sans-serif" font-size="17" fill="#203e48">Exit or End Turn → outgoing processing</text>
+<text x="522" y="983" font-family="sans-serif" font-size="17" fill="#50777a">→ 6</text>
+<rect x="975" y="565" width="440" height="440" rx="10" fill="#fff" stroke="#8da7aa"/>
+<rect x="987" y="577" width="416" height="48" rx="10" fill="#dcece7" stroke="#8da7aa"/>
+<text x="999" y="609" font-family="sans-serif" font-size="21" fill="#203e48" font-weight="bold">6  Next turn / saves and finish</text>
+<text x="997" y="657" font-family="sans-serif" font-size="17" fill="#203e48">End Turn → upkeep and incoming stages</text>
+<text x="997" y="695" font-family="sans-serif" font-size="17" fill="#203e48">Home reset: no return fare or entry charge</text>
+<text x="997" y="733" font-family="sans-serif" font-size="17" fill="#203e48">Show retained notices once, in rule order</text>
+<text x="997" y="771" font-family="sans-serif" font-size="17" fill="#203e48">Evaluate goals at retained finish gates</text>
+<text x="997" y="809" font-family="sans-serif" font-size="17" fill="#203e48">Incomplete → home context / town ready</text>
+<text x="997" y="847" font-family="sans-serif" font-size="17" fill="#203e48">Complete → goals, week, New Game / Exit</text>
+<text x="997" y="885" font-family="sans-serif" font-size="17" fill="#203e48">Resume → saved place, not a new turn</text>
+<text x="997" y="923" font-family="sans-serif" font-size="17" fill="#203e48">New Game: confirm checkpoint replacement</text>
+<text x="997" y="983" font-family="sans-serif" font-size="17" fill="#50777a">↻ Return to the town / visit loop</text>
+<text x="28" y="1060" font-family="sans-serif" font-size="17" fill="#203e48">Quotes use d=2, include entry once, and show car later-use / first-use prices. No action or save is implemented.</text>
+</svg>

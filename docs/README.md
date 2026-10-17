@@ -14,6 +14,8 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+Start with the [whole-pack review](planning/whole-pack-review-v1.md): current document precedence, a walkthrough, corrected gaps, navigation wireframes and the few remaining prototype choices.
+
 Current review: [Learning through work and study](planning/learning-goal-proposal.md), with a goal-panel wireframe and bounded arithmetic check; [first playable scope](planning/first-playable-scope.md) proposes seven active places, six jobs and one course. Detailed rules and build authorisation remain pending.
 
 Latest: [fifteen-stop map and work-first routes](planning/town-layout-and-work-first-routes.md), with both town schematics, actual transport costs and food-service/banking paths alongside the education-led examples.
@@ -24,10 +26,10 @@ Current career expansion: [career/town graph v2](planning/career-and-town-graph-
 
 Latest owner review: [employer options, recruited offers and useful possessions](planning/employers-offers-and-useful-possessions.md), with accepted principles recorded in D014–D018 and detailed alternatives still open.
 
-Start with the [modern-direction review pack](planning/modern-direction-review.md) for the latest owner pointers and proposed amendments: [transport](planning/transport-proposal.md), [modern town/jobs/courses/devices](planning/modern-town-and-content.md) and [visual concepts](planning/visual-direction-v1.md). Exact choices remain open for iteration; no application is implemented.
+Earlier direction and art exploration: [modern-direction review pack](planning/modern-direction-review.md) for the latest owner pointers and proposed amendments: [transport](planning/transport-proposal.md), [modern town/jobs/courses/devices](planning/modern-town-and-content.md) and [visual concepts](planning/visual-direction-v1.md). Exact choices remain open for iteration; no application is implemented.
 
 - [2.0 draft specification](planning/2.0-draft-specification.md): proposed keep/reskin/change scope, screen flow, layout sketches, slice and family review.
-- [Compatibility proposals](planning/compatibility-proposals.md): nineteen explicit recommendations for preserving or changing audited rules and quirks.
+- [Compatibility proposals](planning/compatibility-proposals.md): twenty explicit recommendations for preserving or changing audited rules and quirks.
 - [Modern content sample](planning/content-iteration-sample.md): thirteen destination signs, one verified career/course mapping, possessions and fresh humour.
 - [Architecture and validation proposal](planning/architecture-and-validation-proposal.md): simulation/UI boundaries, stable saves, reproducibility and staged validation.
 

@@ -32,6 +32,8 @@ Last updated: 2026-10-17.
 
 ## Proposed technical and design choices
 
+The [whole-pack review](whole-pack-review-v1.md) records consistency fixes, current document precedence and a proposed C20 recovery departure required by omitting pawn/loans. This is a review result, not an additional confirmed decision.
+
 Latest concrete review: [Learning scoring and work-history proposal](learning-goal-proposal.md), with an illustrative panel and arithmetic checks, and [first playable scope](first-playable-scope.md). D023 supports developing the direction; it does not approve the proposed numbers, proportional work-history change, scope or application implementation.
 
 Current map and broader career comparison: [fifteen-stop town/work-first routes](town-layout-and-work-first-routes.md). The proposed Learning goal, no-course teller entry and new management ladders are deliberate changes for review; D022 does not adopt their detailed rules. Earlier education-led cash comparisons are subsets, not the whole career design.

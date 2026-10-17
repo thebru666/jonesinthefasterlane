@@ -1,0 +1,47 @@
+{
+  "status": "Planning arithmetic and static review only; no engine execution",
+  "date": "2026-10-17",
+  "opening_fixture": {
+    "start_cash": 200,
+    "distance": 3,
+    "travel": 9,
+    "entry": 2,
+    "application": 4,
+    "shifts": 7,
+    "shift_time": 6,
+    "wage": 4,
+    "pay_multiplier": 8,
+    "food_cost": 79,
+    "total_time": 57,
+    "closing_cash": 345,
+    "experience": 19,
+    "dependability_before_decay": 27,
+    "dependability_after_decay": 24,
+    "work_time": 42,
+    "learning": 3
+  },
+  "recovery_counterexamples": [
+    {
+      "cash": 0,
+      "durable_recorded_value": 876,
+      "usable_clothes": 0,
+      "original_emergency_cash_eligible": false,
+      "reason": "durable value not below200"
+    },
+    {
+      "cash": 1,
+      "durable_recorded_value": 0,
+      "usable_clothes": 0,
+      "original_emergency_cash_eligible": false,
+      "reason": "positive cash"
+    }
+  ],
+  "proposed_recovery": "C20: replace original emergency cash in bounded prototype with one casual-stock unit after two consecutive eligible checks; see first-playable-scope.md",
+  "sources": [
+    "docs/rules-audit/initial-player-state.md",
+    "docs/rules-audit/employment.md",
+    "docs/rules-audit/random-events.md#event-008-emergency-cash-is-gated-recovery-not-a-random-weekly-grant",
+    "docs/planning/transport-proposal.md",
+    "docs/planning/first-playable-scope.md"
+  ]
+}

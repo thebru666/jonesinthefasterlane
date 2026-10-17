@@ -2,7 +2,7 @@
 
 **Current owner review:** fifteen stops are the working direction, and work-first careers must remain viable. [Town/work-first routes](town-layout-and-work-first-routes.md) now supplies two fifteen-stop arrangements, mapped transport costs and expanded career comparisons. Earlier education-led examples are subsets; a proposed Learning goal would need an explicit scoring decision.
 
-**Numeric follow-up:** [career budgets v1](career-budget-comparison-v1.md) compares butcher, trades and doctor from a shared early-employed checkpoint, with tuition/upkeep/travel, work-history constraints and setbacks. Figures remain proposals; results are not full-game balance or original opening timings. Town-layout comparison is the next dependency.
+**Numeric follow-up:** [career budgets v1](career-budget-comparison-v1.md) compares butcher, trades and doctor from a shared early-employed checkpoint, with tuition/upkeep/travel, work-history constraints and setbacks. Figures remain proposals; results are not full-game balance or original opening timings. The mapped-town comparison is now available; review Learning and the bounded first-playable scope next.
 
 **Latest career review:** the owner accepts preserving Trade School → Butcher, skilled trades and a longer professional/doctor path in a compact town. [Career/town graph v2](career-and-town-graph-v2.md) supplies a new proposed graph and stop roster. The13-stop/37-job/11-course mapping below is now the earlier reference, not the complete successor content plan.
 
@@ -38,7 +38,7 @@ These are recommended amendments, not owner-approved rules. There is one propose
 | --- | --- |
 | C03: fixed original-speed ring travel | Replace with the transport proposal's logical-distance model. Slower walking, ownership and fares are substantial new mechanics. Animation remains separate from cost. |
 | C02: original travel exhaustion/entry behaviour | Retain partial work/study and allowed zero-time purchases. Replace interrupted travel with a complete trip+entry quote that must fit. Add explicit End Turn. Exact exhaustion can arrive and allow legal zero-time transactions. |
-| Original170-point path and carry | Retain as historical evidence only. Current examples use a13-node equal-edge ring; final edge distances still need agreement. No original residue is carried into this new proposed travel model. |
+| Original170-point path and carry | Retain as historical evidence only. Earlier examples use a13-node equal-edge ring; the current mapped proposal uses fifteen equal-edge stops, with final geometry still reviewable. No original residue is carried into this new proposed travel model. |
 | Agency-only applications | Recommend shared job data at civic index and employer boards, with local applications permitted at either venue. Same application cost, qualifications, opening/rejection state; no reroll by changing board. This is a new application venue. |
 | Household goods only | Retain eight proposed device replacements, plus separate new transport ownership. A phone is optional flavour/reference; no default remote work, banking, groceries or instant applications. |
 | Original home prop subset | Show owned devices and transport clues in both housing tiers. This changes visible presentation, not furniture placement or goal rewards. |
@@ -64,7 +64,7 @@ Recommend buying vehicles through Reboot's nested Transport menu, avoiding an ex
 
 Clinic/care work and delivery/freelance work are promising follow-ons, but would need genuinely new employers, prerequisites and balance. They should be considered as deliberate branch replacements or additions after this town is reviewed. A medical title is not a harmless relabel of an electronics qualification. Subscriptions, followers, fuel gauges, detailed timetables and crafting would add more administration than this first direction needs.
 
-## Visual iteration and decisions to carry forward
+## Earlier visual review questions (historical)
 
 Start with the [concept images](visual-direction-v1.md), then read the transport table while looking at the town. Ask each child and an adult to find work, food, college and home; choose a mode for a short and long trip; explain what a laptop or bike would change. Record what they infer from the picture separately from what the rules actually promise.
 
@@ -81,3 +81,8 @@ After that feedback, revise the images and content together, record selected dec
 ## Latest planning follow-up
 
 [Learning through work and study](learning-goal-proposal.md) now supplies a concrete score and growth proposal; [first playable scope](first-playable-scope.md) bounds a fresh-opening preview. These supersede the earlier unspecified Learning recommendation as the current draft, without adopting its formula or revalidating old cash schedules under changed growth rules. No application implementation is approved.
+
+
+## Current review status
+
+Town-wide bus, local applications and a fifteen-stop working board are already supported directions (D014/D015/D021); the earlier questions above are historical, not choices to reopen. The current [whole-pack review](whole-pack-review-v1.md) resolves document precedence and details the remaining proposals: Learning/history, the solo content boundary, travel/turn edges and the bounded recovery policy. Use it with the [first playable scope](first-playable-scope.md), rather than treating this earlier pack as the complete current specification.
