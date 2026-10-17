@@ -1,5 +1,7 @@
 # Compatibility proposals for 2.0
 
+**Revision notice2026-10-17:** [modern direction](modern-direction-review.md#how-this-revises-the-earlier-draft) proposes replacing C03 and the travel/entry-exhaustion portion of C02 with [transport](transport-proposal.md). Do not combine the old170-point residue formula with the proposed13-node transport model. Other rows remain recommendations for separate review; nothing here is approved by the newer direction alone.
+
 Drafted 2026-10-17. **PROPOSAL — unapproved.** These recommendations turn the [original research handoff](original-research-handoff.md) into reviewable choices. They are not new findings, agreed rules, or permission to start application implementation. The original audit remains the record of shipped behaviour.
 
 The recommended approach is to preserve the original economic and action structure, then make a small, explicit set of consistency improvements. “Keep” below can deliberately preserve an implementation quirk; “change” describes a proposed departure even when the change looks like a bug fix. New names and illustrations are reskins only while their rule roles remain unchanged.

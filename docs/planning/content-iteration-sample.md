@@ -1,5 +1,7 @@
 # Content iteration sample
 
+**Revision notice2026-10-17:** the [modern town/content proposal](modern-town-and-content.md) now supplies a complete37-job/11-course naming baseline and broader device/location/job-board ideas after the owner's latest pointers. This earlier sample remains an alternative tone reference, not the current consolidated town.
+
 Drafted 2026-10-17. **PROPOSAL — unapproved names, writing and presentation only.** This is a small review sample for the [project brief](project-brief.md), not a complete content bible or permission to build. It preserves original destination roles, job/course identifiers, prerequisite edges and functional item slots. None of the labels below changes a price, wage, reward, action cost or availability rule. Compatibility fixes require their own decisions.
 
 The reference is the inspected website's DOS **1.000.060** package, with evidence levels recorded in the linked research. These proposed fictional game courses and pay values describe a game economy; they are not claims about real qualifications or salaries. All names need a later public-release naming review.

@@ -4,6 +4,9 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Modern content mapping](planning/modern-content-mapping.csv): proposed names for all37 job records, with unchanged original requirement/pay identifiers for review.
+- [Visual prompts](planning/visual-prompts-v1.json): exact prompts for original generated modern-town concepts; images and inspection notes are linked from the [visual review](../docs/planning/visual-direction-v1.md). These are new concept artifacts, not extracted original assets.
+
 - [2026-10-15 bundle inventory](discovery/2026-10-15-bundle-inventory.json): source URL, retrieval date, archive SHA-256, filenames, uncompressed sizes, and version marker.
 - [2026-10-15 audit source metadata](discovery/2026-10-15-audit-sources.json): pinned script revision, per-file hashes, manual identification, and interpreter references. Lists downloaded research inputs; inclusion does not mean every file received a full audit.
 - [2026-10-15 arithmetic fixtures](rules-audit/2026-10-15-arithmetic-fixtures.json): derived prices, rounding counterexample, work/garnishment examples, and eligible event probabilities. Analytical checks, not observed gameplay.

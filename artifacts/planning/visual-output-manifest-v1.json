@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-17",
+  "method": "built-in image_gen",
+  "status": "original generated proposals; visually inspected; not application screenshots",
+  "prompts": "visual-prompts-v1.json",
+  "images": [
+    {
+      "file": "concepts/reboot-home-v1.png",
+      "bytes": 2642780,
+      "sha256": "a52d22be7ae31f70a59083ebcc87e9583529fec2b7b0923384c9e6d8cef82fd7",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "file": "concepts/town-transport-v1.png",
+      "bytes": 3464740,
+      "sha256": "c06b1dc7c7b4e78fbe19f0d13b3ece8ba69d14eec724c73dd8a506834d98a0bc",
+      "width": 1536,
+      "height": 1024
+    }
+  ]
+}

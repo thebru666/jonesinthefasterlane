@@ -12,6 +12,8 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+Start with the [modern-direction review pack](planning/modern-direction-review.md) for the latest owner pointers and proposed amendments: [transport](planning/transport-proposal.md), [modern town/jobs/courses/devices](planning/modern-town-and-content.md) and [visual concepts](planning/visual-direction-v1.md). Exact choices remain open for iteration; no application is implemented.
+
 - [2.0 draft specification](planning/2.0-draft-specification.md): proposed keep/reskin/change scope, screen flow, layout sketches, slice and family review.
 - [Compatibility proposals](planning/compatibility-proposals.md): seventeen explicit recommendations for preserving or changing audited rules and quirks.
 - [Modern content sample](planning/content-iteration-sample.md): thirteen destination signs, one verified career/course mapping, possessions and fresh humour.

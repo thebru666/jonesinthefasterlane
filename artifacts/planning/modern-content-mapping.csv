@@ -1,0 +1,38 @@
+status,employer_script,jobNum,original_occupation_item_id,place_id,proposed_employer,original_title,proposed_title,original_base_hourly_wage,minimum_experience,declared_dependability,required_course_1,required_course_2,clothing_id,clothing_grade
+PROPOSAL,216,1,42,11,Bargain Barn,Clerk,Store Assistant,4,10,10,0,0,36,Casual
+PROPOSAL,216,2,45,11,Bargain Barn,Assistant Manager,Shift Supervisor,6,20,20,0,0,35,Dress
+PROPOSAL,216,3,46,11,Bargain Barn,Manager,Store Manager,7,30,30,14,0,34,Business suit
+PROPOSAL,217,4,44,10,The Daily Grind,Cook,Cook,4,0,10,0,0,36,Casual
+PROPOSAL,217,5,42,10,The Daily Grind,Clerk,Counter Assistant,5,10,20,0,0,36,Casual
+PROPOSAL,217,6,45,10,The Daily Grind,Assistant Manager,Shift Supervisor,6,20,30,0,0,36,Casual
+PROPOSAL,217,7,46,10,The Daily Grind,Manager,Café Manager,7,30,40,14,0,35,Dress
+PROPOSAL,218,8,47,9,Good Threads,Salesperson,Clothing Adviser,7,30,30,0,0,35,Dress
+PROPOSAL,218,9,45,9,Good Threads,Assistant Manager,Assistant Manager,9,40,40,14,0,34,Business suit
+PROPOSAL,218,10,46,9,Good Threads,Manager,Store Manager,12,50,50,15,0,34,Business suit
+PROPOSAL,219,11,47,8,Reboot,Salesperson,Tech Adviser,5,20,30,0,0,35,Dress
+PROPOSAL,219,12,64,8,Reboot,Electronic’s Repair,Device Technician,11,40,40,11,0,36,Casual
+PROPOSAL,219,13,46,8,Reboot,Manager,Store Manager,14,40,40,14,11,34,Business suit
+PROPOSAL,220,14,43,7,Next Chapter,Janitor,Campus Cleaner,4,10,10,0,0,36,Casual
+PROPOSAL,220,15,48,7,Next Chapter,Teacher,Tutor,11,40,50,16,0,35,Dress
+PROPOSAL,220,16,49,7,Next Chapter,Professor,Lecturer,20,50,60,19,0,35,Dress
+PROPOSAL,221,17,50,5,TownWorks,Assembly Worker,Assembly Technician,8,30,30,10,0,36,Casual
+PROPOSAL,221,18,43,5,TownWorks,Janitor,Workshop Cleaner,7,30,30,0,0,36,Casual
+PROPOSAL,221,19,51,5,TownWorks,Secretary,Office Coordinator,9,40,40,14,0,35,Dress
+PROPOSAL,221,20,52,5,TownWorks,Machinist’s Helper,Machine-Shop Assistant,10,40,40,12,0,36,Casual
+PROPOSAL,221,21,53,5,TownWorks,Executive Secretary,Executive Coordinator,18,50,50,15,0,34,Business suit
+PROPOSAL,221,22,54,5,TownWorks,Machinist,Machinist,19,50,50,13,0,36,Casual
+PROPOSAL,221,23,56,5,TownWorks,Department Manager,Production Manager,22,60,60,14,13,34,Business suit
+PROPOSAL,221,24,55,5,TownWorks,Engineer,Design Engineer,23,60,60,13,14,34,Business suit
+PROPOSAL,221,25,57,5,TownWorks,General Manager,Site Director,25,70,70,15,13,34,Business suit
+PROPOSAL,222,26,43,4,Nest Egg,Janitor,Branch Cleaner,6,20,20,0,0,36,Casual
+PROPOSAL,222,27,58,4,Nest Egg,Teller,Customer Service Teller,10,40,40,14,0,35,Dress
+PROPOSAL,222,28,45,4,Nest Egg,Assistant Manager,Assistant Branch Manager,14,50,50,15,0,34,Business suit
+PROPOSAL,222,29,46,4,Nest Egg,Manager,Branch Manager,19,60,60,15,0,34,Business suit
+PROPOSAL,222,30,59,4,Nest Egg,Investment Broker,Investment Broker,22,70,70,15,16,34,Business suit
+PROPOSAL,223,31,43,3,Corner Basket,Janitor,Store Cleaner,5,10,10,0,0,36,Casual
+PROPOSAL,223,32,60,3,Corner Basket,Checker,Checkout Assistant,8,20,20,0,0,36,Casual
+PROPOSAL,223,33,61,3,Corner Basket,Butcher,Food-Prep Worker,12,30,30,10,0,36,Casual
+PROPOSAL,223,34,45,3,Corner Basket,Assistant Manager,Store Supervisor,15,40,40,14,0,35,Dress
+PROPOSAL,223,35,46,3,Corner Basket,Manager,Store Manager,18,50,50,15,0,34,Business suit
+PROPOSAL,224,36,62,1,Keys & Fees,Groundskeeper,Groundskeeper,6,20,20,0,0,36,Casual
+PROPOSAL,224,37,63,1,Keys & Fees,Apartment Manager,Property Manager,8,30,30,14,0,36,Casual

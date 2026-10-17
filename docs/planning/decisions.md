@@ -16,8 +16,13 @@ Last updated: 2026-10-17.
 | D008 | Use this repository for planning, discovery evidence, audit, and later code; commit and push completed steps | Explicit owner instruction |
 | D009 | Document the existing game's flow, layout, and content first; iterate from that reference, with suggestions kept in a separate follow-up | Explicit owner instruction after the consistency review |
 | D010 | Keep original assets local and ignored; commit source provenance, reproducible export tools and analytical metadata so the reference can be rebuilt elsewhere | Explicit owner instruction during asset discovery |
+| D011 | Expand transport as a planning direction: slower walking, buying a bike, bus travel and driving, with time/cost tradeoffs | Explicit owner pointers2026-10-17; formulas/prices not approved |
+| D012 | Explore newer locations, different job boards and modern devices, plus further suggestions | Explicit owner pointers2026-10-17; exact destinations/jobs/effects not approved |
+| D013 | Pursue a planning goal through modern content direction and visual iteration before settling the first playable scope and starting implementation | Explicit owner goal request2026-10-17; final instruction targets step3 |
 
 ## Proposed technical and design choices
+
+Current entry point: [modern-direction review pack](modern-direction-review.md), with [transport](transport-proposal.md), [town/content](modern-town-and-content.md) and [visual concepts](visual-direction-v1.md). It explicitly revises the earlier fixed-speed travel and agency-only planning baseline. New directions D011–D013 do not approve its specific recommendations.
 
 The [2.0 draft specification](2.0-draft-specification.md), [compatibility proposals](compatibility-proposals.md), [content sample](content-iteration-sample.md) and [architecture proposal](architecture-and-validation-proposal.md) now make these choices concrete for review. They add no confirmed decision. In particular, floppy-only reference, original mode combinations, desktop/tablet priority and C01–C17 are recommendations, not owner approvals.
 

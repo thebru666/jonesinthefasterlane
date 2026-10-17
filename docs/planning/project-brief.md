@@ -2,6 +2,8 @@
 
 Recorded: 2026-10-15. Source: initial planning conversation with the project owner.
 
+Updated direction2026-10-17: the owner explicitly wants transport to play a bigger role (slower walking, bikes, buses and cars with costs), newer locations/job boards and different devices. This permits planning new mechanics rather than only reskinning original content. The [modern-direction review](modern-direction-review.md) supplies proposals and visual exploration; exact rules, tuning, town, content and art remain unapproved. Continue through design/content review before settling the first playable scope; no application implementation yet.
+
 ## Intent
 
 Rebuild the appeal of *Jones in the Fast Lane* as a modern browser game. Remain nearly identical in core mechanics, while updating jobs, buildings, university courses, other opportunities, and visual artifacts. Potential public release; currently a personal project with the owner's children helping iterate.
