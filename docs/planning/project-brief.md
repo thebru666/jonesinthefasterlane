@@ -2,11 +2,13 @@
 
 Recorded: 2026-10-15. Source: initial planning conversation with the project owner.
 
-Updated direction2026-10-17: the owner explicitly wants transport to play a bigger role (slower walking, bikes, buses and cars with costs), newer locations/job boards and different devices. This permits planning new mechanics rather than only reskinning original content. The [modern-direction review](modern-direction-review.md) supplies proposals and visual exploration; exact rules, tuning, town, content and art remain unapproved. Continue through design/content review before settling the first playable scope; no application implementation yet.
+Current status 2026-10-17: after the whole-pack review and recommended prototype baseline, the owner directed “kick along.” D024 records authorisation for the bounded prototype, with editable tuning rather than final balance approval. The [implementation record](../implementation/prototype-v1.md) describes the working simulation, browser interface and remaining limits. Historical planning statements below should be read in that context.
+
+Earlier direction 2026-10-17: the owner explicitly wants transport to play a bigger role (slower walking, bikes, buses and cars with costs), newer locations/job boards and different devices. This permits planning new mechanics rather than only reskinning original content. The [modern-direction review](modern-direction-review.md) supplies proposals and visual exploration; exact rules, tuning, town, content and art remain unapproved. The subsequent whole-pack review supplied the baseline now being implemented within D024.
 
 ## Intent
 
-Current owner clarification: work-first careers are essential, not secondary to classroom routes. Use fifteen stops as the working expansion; the [mapped-town/work-first review](town-layout-and-work-first-routes.md) proposes actual positions and compares ordinary management as well as qualification-led careers. Continue developing Learning as the fourth-goal direction; the [formula and work-growth proposal](learning-goal-proposal.md) and [first-playable scope](first-playable-scope.md) are concrete drafts for review, not adopted scoring or permission to build.
+Current owner clarification: work-first careers are essential, not secondary to classroom routes. Use fifteen stops as the working expansion; the [mapped-town/work-first review](town-layout-and-work-first-routes.md) proposes actual positions and compares ordinary management as well as qualification-led careers. Continue developing Learning as the fourth-goal direction; the [formula and work-growth proposal](learning-goal-proposal.md) and [first-playable scope](first-playable-scope.md) now provide the editable D024 prototype baseline; they do not establish final scoring or balance.
 
 Latest accepted career direction: retain the early trade-school-to-butcher opportunity, add skilled trades and a doctor/professional education branch, and redraw the graph deliberately while keeping practical routes competitive. [Career/town graph v2](career-and-town-graph-v2.md) develops this; its exact graph, stop count, costs and scope remain proposals.
 
@@ -49,11 +51,11 @@ The owner supports the proposed React/TypeScript rendering approach. Initial dir
 - Local saves and eventual save export/import.
 - No application backend initially; consider a leaderboard later.
 
-Detailed architecture and storage choices still require a specification. A shared leaderboard would require a service, and trustworthy competitive scores would require validation beyond accepting client totals.
+The bounded prototype now implements the separate simulation and stable JSON save contract; browser checkpoint integration is pending. Wider architecture and storage decisions remain reviewable. A shared leaderboard would require a service, and trustworthy competitive scores would require validation beyond accepting client totals.
 
 ## Planning before implementation
 
-The owner explicitly wants substantial planning before building. A first playable slice is acceptable once the design is sufficiently specified. The [current proposed slice](first-playable-scope.md) tests work-first and Trade School routes, transport, needs, rent, recovery, saves and a short four-goal finish.
+The owner explicitly wants substantial planning before building. The owner has now authorised the bounded first playable after the whole-pack review. The [current baseline](first-playable-scope.md) tests work-first and Trade School routes, transport, needs, rent, recovery, saves and a short four-goal finish.
 
 Subsequent direction: document how the original game was organised before redesigning its screens or flow. Use the [original-game baseline](../original-game/README.md) as the reference to refine; keep modernisation suggestions in the separate [follow-up brief](follow-up-original-first-iteration.md).
 

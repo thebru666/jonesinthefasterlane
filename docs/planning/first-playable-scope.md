@@ -1,12 +1,12 @@
 # First playable: a complete small life loop
 
-2026-10-17. **PROPOSAL — concrete scope for review before building.** The owner has directed continued planning and positively received the Learning recommendation. That supports developing this pack; exact scoring, defaults, prototype scope and application implementation are not approved by “keep going.” Confirmed direction remains [decisions](decisions.md).
+2026-10-17. **BOUNDED PROTOTYPE BASELINE — implementation authorised by D024.** After the whole-pack review recommended this scope, the owner directed “kick along.” This authorises the bounded prototype, with editable defaults rather than final balance approval. The earlier planning-only status is superseded for this subset. See [decisions](decisions.md) and the [implementation record](../implementation/prototype-v1.md) for current evidence and remaining work.
 
-The intended deliverable after build authorisation is a local browser prototype in React/TypeScript: one person can start unemployed, find work, manage food/clothes/rent, choose transport, develop through work or Trade School, buy a useful possession, save/resume and finish a short four-goal race. It should answer whether the game feels right, rather than claim full original-game coverage or a public release.
+The authorised deliverable is a local browser prototype in React/TypeScript: one person can start unemployed, find work, manage food/clothes/rent, choose transport, develop through work or Trade School, buy a useful possession, save/resume and finish a short four-goal race. It should answer whether the game feels right, rather than claim full original-game coverage or a public release.
 
-## Recommended review baseline
+## Editable prototype baseline
 
-| Area | Proposed first-slice choice | Why |
+| Area | Editable first-slice choice | Why |
 | --- | --- | --- |
 | Mode | One human; no computer opponent or multi-human setup UI yet | Keeps the first test focused; actor-specific state and shared action rules remain required for later modes |
 | Devices | Desktop and landscape tablet, mouse/touch/keyboard | Test legibility and handover-ready layout before a separate phone design |
@@ -14,7 +14,7 @@ The intended deliverable after build authorisation is a local browser prototype 
 | Goals | Wealth10, Happiness20, Career30, Learning10 as the initial short-preview preset | Both work-first and one-course routes can be exercised; measured duration remains unknown |
 | Goal customisation | Show the four preset targets and plain definitions; full custom setup can follow | No claim the preset is balanced or a30–45-minute game |
 | Starting state | Cash200, unemployed, low-cost home, rent stock3, casual stock6, no food/durables/vehicle/courses, work-time0 | Start from a real opening, unlike the analytical employed checkpoint |
-| Learning | Use the [recommended scoring/growth contract](learning-goal-proposal.md) as a proposed prototype baseline | Removes classroom dependency without another visible meter |
+| Learning | Use the [recommended scoring/growth contract](learning-goal-proposal.md) as the editable prototype baseline | Removes classroom dependency without another visible meter |
 | Money and scores | Whole-dollar money; atomic adopted score updates; inspection panels read-only | Applies the endorsed consistency principles; exact compatibility detail remains reviewable |
 | Transport | Walking, town-wide bus, purchasable bike and car, full quote before commitment | Makes transport a real part of the slice; no fuel/timetable/resale system |
 | Finish | Check all four goals at the adopted incoming-turn gate | Retain delayed victory; do not win on the purchase/work button |
@@ -112,7 +112,7 @@ The four-goal panel uses **Learning**, with an optional explanation of work cont
 | Future modes | A controlled two-actor headless fixture checks actor separation/rotation/economy update; not a claim of a playable multiplayer or AI mode |
 | Family review | Each child and an adult can identify job versus workplace, interpret rejection, compare transport, explain Learning and recognise the finish rule; record help and actual session duration |
 
-These are future acceptance criteria, not completed tests. If the new Learning growth rule changes the earlier paper paths, update the expectation rather than forcing the engine to reproduce the old cash worksheets.
+The [implementation record](../implementation/prototype-v1.md) tracks completed headless checks separately from pending browser and family checks. This table is not a claim that every acceptance criterion is already complete. If the new Learning growth rule changes the earlier paper paths, update the expectation rather than forcing the engine to reproduce the old cash worksheets.
 
 ## Layout contract for the current preview
 
@@ -120,15 +120,15 @@ The [current review wireframes](../../artifacts/planning/scope-review-v1.png) sh
 
 Use text with mode icons and goal colours, visible keyboard focus, touch targets at least44 CSS pixels and a readable baseline of16 CSS pixels for action text. These are proposed UI acceptance defaults, not final pixel art or approved production dimensions. At desktop and landscape-tablet widths the actions must remain readable without shrinking the board labels into illegibility; fall back to a list of named destinations beside the map when needed. Test that layout with the family before claiming phone support.
 
-## Build sequence after authorisation
+## Build sequence and current status
 
 1. Translate this adopted subset into plain TypeScript state/actions with versioned content and deterministic rule draws. The first milestone is a headless fresh-work/turn trace, not a complete UI.
 2. Add Learning, work-first/course progression, relevant economy/needs and controlled finish/recovery scenarios; verify actual-action ledgers.
 3. Build the town/visit/quote/goal panels and stable persistence; use the existing original-style direction with a small asset subset.
 4. Run family sessions, adjust explanations and tune numbers only with observed evidence. Then add shared-device/AI and full content in later agreed increments.
 
-Use the [architecture proposal](architecture-and-validation-proposal.md) for separation of simulation, presentation, opponent policy and storage. No leaderboard, account service, online multiplayer, public deployment or application code is part of **this planning step**.
+Use the [architecture proposal](architecture-and-validation-proposal.md) for separation of simulation, presentation, opponent policy and storage. The headless rules and actual-action traces are now implemented; the browser/persistence layer is next. No leaderboard, account service, online multiplayer or public deployment is included in this bounded prototype.
 
 ## Review summary
 
-The concrete recommended choices are: Learning scoring/growth contract, fifteen-stop map A, one-human prototype with the seven active places above, six jobs/one course, short-preview10/20/30/10 goals, all four transport choices, fridge/food/clothes/rent and relevant economy/recovery, plus stable saves. These can be reviewed as one coherent scope; exact balance is not presented as proven. Existing data, diagrams and mockups remain supporting artifacts, not independent feature approvals.
+The concrete recommended choices are: Learning scoring/growth contract, fifteen-stop map A, one-human prototype with the seven active places above, six jobs/one course, short-preview10/20/30/10 goals, all four transport choices, fridge/food/clothes/rent and relevant economy/recovery, plus stable saves. These now form the D024 implementation baseline; exact balance is not presented as proven. Existing data, diagrams and mockups remain supporting artifacts, not independent feature approvals.

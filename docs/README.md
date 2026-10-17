@@ -1,5 +1,7 @@
 # Documentation
 
+Current: [working bounded prototype](implementation/prototype-v1.md), with local launch instructions, implementation coverage, executed traces and browser checks. Planning and original-game evidence remain below.
+
 [View all seven rendered diagrams](diagrams/README.md): PNG previews and zoomable SVGs for the career graph, game flow, original progression, town and screen relationships. Earlier drafts are labelled separately from current proposals and original references.
 
 ## Original game: starting point for iteration

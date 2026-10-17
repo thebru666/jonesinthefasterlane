@@ -29,12 +29,17 @@ Last updated: 2026-10-17.
 | D021 | Expand beyond the original thirteen stops; use fifteen as the working board size | Owner accepts more stops after the fifteen-stop recommendation; exact arrangement remains a proposal |
 | D022 | Keep work-first careers such as food service and bank teller viable alongside education-led careers | Explicit owner clarification; no approval of specific new job thresholds or Learning score formula |
 | D023 | Develop Learning as the fourth-goal direction, recognising work and study | Owner endorses continuing after the Learning recommendation; exact formula, ceiling changes and first-playable scope remain proposals |
+| D024 | Implement the bounded first-playable baseline, with Learning/work-growth, seven active places, six jobs, Trade School, transport, upkeep, recovery and stable saves | Owner directs “kick along” after the whole-pack review recommends that baseline; interpreted as go-ahead for the bounded prototype, not final tuning approval, full content expansion or public release |
+
+## Current implementation boundary
+
+D024 advances the [first-playable baseline](first-playable-scope.md) into bounded implementation. The [implementation record](../implementation/prototype-v1.md) distinguishes working simulation and browser interface from later modes. Existing exact values are editable prototype defaults; earlier proposal labels below preserve the review history rather than revoking D024.
 
 ## Proposed technical and design choices
 
-The [whole-pack review](whole-pack-review-v1.md) records consistency fixes, current document precedence and a proposed C20 recovery departure required by omitting pawn/loans. This is a review result, not an additional confirmed decision.
+The [whole-pack review](whole-pack-review-v1.md) records consistency fixes, current document precedence and a proposed C20 recovery departure required by omitting pawn/loans. D024 subsequently authorises the reviewed bounded baseline for implementation, including that recovery fallback; the review itself was not an approval.
 
-Latest concrete review: [Learning scoring and work-history proposal](learning-goal-proposal.md), with an illustrative panel and arithmetic checks, and [first playable scope](first-playable-scope.md). D023 supports developing the direction; it does not approve the proposed numbers, proportional work-history change, scope or application implementation.
+Latest concrete review: [Learning scoring and work-history proposal](learning-goal-proposal.md), with an illustrative panel and arithmetic checks, and [first playable scope](first-playable-scope.md). D023 originally supported developing the direction; D024 now authorises this reviewed subset as an editable prototype baseline, including proportional work history. It does not settle final balance.
 
 Current map and broader career comparison: [fifteen-stop town/work-first routes](town-layout-and-work-first-routes.md). The proposed Learning goal, no-course teller entry and new management ladders are deliberate changes for review; D022 does not adopt their detailed rules. Earlier education-led cash comparisons are subsets, not the whole career design.
 

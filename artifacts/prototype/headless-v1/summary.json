@@ -1,0 +1,88 @@
+{
+  "status": "Executed prototype action traces; deterministic examples, not balance or original-equivalence evidence",
+  "rules": "prototype-0.1",
+  "opening": {
+    "mode": "neutral-fixture",
+    "cash": 345,
+    "timeRemaining": 3,
+    "experience": 19,
+    "workTime": 42,
+    "outgoingDependability": 24,
+    "scores": {
+      "wealth": 3,
+      "happiness": 3,
+      "career": 30,
+      "learning": 3
+    }
+  },
+  "campaigns": [
+    {
+      "route": "work-first",
+      "seed": 42,
+      "economyMode": "neutral-fixture",
+      "finishWeek": 9,
+      "job": "manager",
+      "cash": 2032,
+      "scores": {
+        "wealth": 20,
+        "happiness": 20,
+        "career": 50,
+        "learning": 27
+      },
+      "qualifications": [],
+      "requests": 206
+    },
+    {
+      "route": "work-first",
+      "seed": 42,
+      "economyMode": "live",
+      "finishWeek": 9,
+      "job": "manager",
+      "cash": 1841,
+      "scores": {
+        "wealth": 18,
+        "happiness": 24,
+        "career": 60,
+        "learning": 28
+      },
+      "qualifications": [],
+      "requests": 202
+    },
+    {
+      "route": "butcher",
+      "seed": 42,
+      "economyMode": "neutral-fixture",
+      "finishWeek": 22,
+      "job": "butcher",
+      "cash": 4986,
+      "scores": {
+        "wealth": 49,
+        "happiness": 21,
+        "career": 100,
+        "learning": 76
+      },
+      "qualifications": [
+        "trade-school"
+      ],
+      "requests": 531
+    },
+    {
+      "route": "butcher",
+      "seed": 42,
+      "economyMode": "live",
+      "finishWeek": 16,
+      "job": "butcher",
+      "cash": 3096,
+      "scores": {
+        "wealth": 30,
+        "happiness": 21,
+        "career": 80,
+        "learning": 58
+      },
+      "qualifications": [
+        "trade-school"
+      ],
+      "requests": 381
+    }
+  ]
+}

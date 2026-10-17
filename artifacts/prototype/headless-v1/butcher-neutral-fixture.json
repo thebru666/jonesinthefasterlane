@@ -1,0 +1,3446 @@
+{
+  "route": "butcher",
+  "options": {
+    "seed": 42,
+    "economyMode": "neutral-fixture"
+  },
+  "finished": true,
+  "reachedRole": true,
+  "weeks": 22,
+  "final": {
+    "schema": 1,
+    "rules": "prototype-0.1",
+    "content": "town-0.1",
+    "rng": 1921058495,
+    "sequence": 531,
+    "week": 22,
+    "active": 0,
+    "players": [
+      {
+        "id": "player-1",
+        "name": "Player 1",
+        "cash": 4986,
+        "place": "home",
+        "time": 60,
+        "job": "butcher",
+        "wage": 12,
+        "baseWage": 12,
+        "raises": 0,
+        "experience": 75,
+        "maxExperience": 40,
+        "dependability": 82,
+        "relaxation": 32,
+        "happiness": 21,
+        "workTime": 795,
+        "qualifications": [
+          "trade-school"
+        ],
+        "enrolled": false,
+        "lessons": 10,
+        "clothes": {
+          "casual": 8,
+          "dress": 0,
+          "suit": 0
+        },
+        "groceries": 0,
+        "meal": true,
+        "owns": {
+          "bike": false,
+          "car": false,
+          "fridge": false
+        },
+        "rentStock": 3,
+        "rentContract": 325,
+        "rentDebt": 0,
+        "extensionHistory": 0,
+        "extensionAttempt": 0,
+        "rentOpen": false,
+        "rentAccounted": false,
+        "recoveryChecks": 0,
+        "rejectionMemory": [],
+        "warned": false,
+        "rested": true,
+        "groceryBonus": false,
+        "mealBonus": false,
+        "carPaid": false,
+        "goals": {
+          "wealth": 10,
+          "happiness": 20,
+          "career": 30,
+          "learning": 10
+        },
+        "finished": true
+      }
+    ],
+    "economy": {
+      "main": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "investments": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "goods": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "gold": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 2
+      },
+      "silver": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 2
+      },
+      "pork": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "blue": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 1
+      },
+      "penny": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 10
+      }
+    },
+    "shock": "none",
+    "economyMode": "neutral-fixture",
+    "notices": [],
+    "status": "finished"
+  },
+  "intents": [
+    {
+      "id": 1,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 2,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 3,
+      "action": {
+        "type": "apply",
+        "job": "cook"
+      }
+    },
+    {
+      "id": 4,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 5,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 6,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 7,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 8,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 9,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 10,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 11,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 12,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 13,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 14,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 15,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 16,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 17,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 18,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 19,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 20,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 21,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 22,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 23,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 24,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 25,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 26,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 27,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 28,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 29,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 30,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 31,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 32,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 33,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 34,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 35,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 36,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 37,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 38,
+      "action": {
+        "type": "travel",
+        "destination": "college",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 39,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 40,
+      "action": {
+        "type": "enroll"
+      }
+    },
+    {
+      "id": 41,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 42,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 43,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 44,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 45,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 46,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 47,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 48,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 49,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 50,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 51,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 52,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 53,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 54,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 55,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 56,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 57,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 58,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 59,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 60,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 61,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 62,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 63,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 64,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 65,
+      "action": {
+        "type": "travel",
+        "destination": "college",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 66,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 67,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 68,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 69,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 70,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 71,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 72,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 73,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 74,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 75,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 76,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 77,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 78,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 79,
+      "action": {
+        "type": "travel",
+        "destination": "civic",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 80,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 81,
+      "action": {
+        "type": "payRent"
+      }
+    },
+    {
+      "id": 82,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 83,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 84,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 85,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 86,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 87,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 88,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 89,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 90,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 91,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 92,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 93,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 94,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 95,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 96,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 97,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 98,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 99,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 100,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 101,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 102,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 103,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 104,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 105,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 106,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 107,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 108,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 109,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 110,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 111,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 112,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 113,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 114,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 115,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 116,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 117,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 118,
+      "action": {
+        "type": "travel",
+        "destination": "college",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 119,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 120,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 121,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 122,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 123,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 124,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 125,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 126,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 127,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 128,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 129,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 130,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 131,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 132,
+      "action": {
+        "type": "travel",
+        "destination": "clothes",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 133,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 134,
+      "action": {
+        "type": "buy",
+        "item": "casual"
+      }
+    },
+    {
+      "id": 135,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 136,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 137,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 138,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 139,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 140,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 141,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 142,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 143,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 144,
+      "action": {
+        "type": "travel",
+        "destination": "college",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 145,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 146,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 147,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 148,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 149,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 150,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 151,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 152,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 153,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 154,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 155,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 156,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 157,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 158,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 159,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 160,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 161,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 162,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 163,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 164,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 165,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 166,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 167,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 168,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 169,
+      "action": {
+        "type": "travel",
+        "destination": "college",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 170,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 171,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 172,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 173,
+      "action": {
+        "type": "study"
+      }
+    },
+    {
+      "id": 174,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 175,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 176,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 177,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 178,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 179,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 180,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 181,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 182,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 183,
+      "action": {
+        "type": "travel",
+        "destination": "civic",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 184,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 185,
+      "action": {
+        "type": "payRent"
+      }
+    },
+    {
+      "id": 186,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 187,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 188,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 189,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 190,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 191,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 192,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 193,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 194,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 195,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 196,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 197,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 198,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 199,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 200,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 201,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 202,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 203,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 204,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 205,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 206,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 207,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 208,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 209,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 210,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 211,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 212,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 213,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 214,
+      "action": {
+        "type": "apply",
+        "job": "butcher"
+      }
+    },
+    {
+      "id": 215,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 216,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 217,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 218,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 219,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 220,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 221,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 222,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 223,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 224,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 225,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 226,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 227,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 228,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 229,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 230,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 231,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 232,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 233,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 234,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 235,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 236,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 237,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 238,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 239,
+      "action": {
+        "type": "apply",
+        "job": "butcher"
+      }
+    },
+    {
+      "id": 240,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 241,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 242,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 243,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 244,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 245,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 246,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 247,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 248,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 249,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 250,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 251,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 252,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 253,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 254,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 255,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 256,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 257,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 258,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 259,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 260,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 261,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 262,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 263,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 264,
+      "action": {
+        "type": "apply",
+        "job": "butcher"
+      }
+    },
+    {
+      "id": 265,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 266,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 267,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 268,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 269,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 270,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 271,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 272,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 273,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 274,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 275,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 276,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 277,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 278,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 279,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 280,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 281,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 282,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 283,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 284,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 285,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 286,
+      "action": {
+        "type": "travel",
+        "destination": "civic",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 287,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 288,
+      "action": {
+        "type": "payRent"
+      }
+    },
+    {
+      "id": 289,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 290,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 291,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 292,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 293,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 294,
+      "action": {
+        "type": "apply",
+        "job": "butcher"
+      }
+    },
+    {
+      "id": 295,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 296,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 297,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 298,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 299,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 300,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 301,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 302,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 303,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 304,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 305,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 306,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 307,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 308,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 309,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 310,
+      "action": {
+        "type": "buy",
+        "item": "groceries1"
+      }
+    },
+    {
+      "id": 311,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 312,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 313,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 314,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 315,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 316,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 317,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 318,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 319,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 320,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 321,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 322,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 323,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 324,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 325,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 326,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 327,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 328,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 329,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 330,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 331,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 332,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 333,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 334,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 335,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 336,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 337,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 338,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 339,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 340,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 341,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 342,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 343,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 344,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 345,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 346,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 347,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 348,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 349,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 350,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 351,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 352,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 353,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 354,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 355,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 356,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 357,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 358,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 359,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 360,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 361,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 362,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 363,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 364,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 365,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 366,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 367,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 368,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 369,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 370,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 371,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 372,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 373,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 374,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 375,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 376,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 377,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 378,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 379,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 380,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 381,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 382,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 383,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 384,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 385,
+      "action": {
+        "type": "travel",
+        "destination": "civic",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 386,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 387,
+      "action": {
+        "type": "payRent"
+      }
+    },
+    {
+      "id": 388,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 389,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 390,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 391,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 392,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 393,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 394,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 395,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 396,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 397,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 398,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 399,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 400,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 401,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 402,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 403,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 404,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 405,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 406,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 407,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 408,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 409,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 410,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 411,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 412,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 413,
+      "action": {
+        "type": "travel",
+        "destination": "clothes",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 414,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 415,
+      "action": {
+        "type": "buy",
+        "item": "casual"
+      }
+    },
+    {
+      "id": 416,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 417,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 418,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 419,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 420,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 421,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 422,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 423,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 424,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 425,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 426,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 427,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 428,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 429,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 430,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 431,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 432,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 433,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 434,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 435,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 436,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 437,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 438,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 439,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 440,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 441,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 442,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 443,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 444,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 445,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 446,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 447,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 448,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 449,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 450,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 451,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 452,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 453,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 454,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 455,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 456,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 457,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 458,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 459,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 460,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 461,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 462,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 463,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 464,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 465,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 466,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 467,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 468,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 469,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 470,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 471,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 472,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 473,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 474,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 475,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 476,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 477,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 478,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 479,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 480,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 481,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 482,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 483,
+      "action": {
+        "type": "travel",
+        "destination": "civic",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 484,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 485,
+      "action": {
+        "type": "payRent"
+      }
+    },
+    {
+      "id": 486,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 487,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 488,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 489,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 490,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 491,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 492,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 493,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 494,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 495,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 496,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 497,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 498,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 499,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 500,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 501,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 502,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 503,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 504,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 505,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 506,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 507,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 508,
+      "action": {
+        "type": "relax"
+      }
+    },
+    {
+      "id": 509,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 510,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "bus"
+      }
+    },
+    {
+      "id": 511,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 512,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 513,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 514,
+      "action": {
+        "type": "travel",
+        "destination": "market",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 515,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 516,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 517,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 518,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 519,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 520,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 521,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 522,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 523,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 524,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 525,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 526,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 527,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 528,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 529,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 530,
+      "action": {
+        "type": "endTurn"
+      }
+    },
+    {
+      "id": 531,
+      "action": {
+        "type": "acknowledge"
+      }
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+{
+  "initialOptions": {
+    "seed": 42,
+    "economyMode": "neutral-fixture"
+  },
+  "beforeEnd": {
+    "id": "player-1",
+    "name": "Player 1",
+    "cash": 345,
+    "place": "hospitality",
+    "time": 3,
+    "job": "cook",
+    "wage": 4,
+    "baseWage": 4,
+    "raises": 0,
+    "experience": 19,
+    "maxExperience": 20,
+    "dependability": 27,
+    "relaxation": 25,
+    "happiness": 3,
+    "workTime": 42,
+    "qualifications": [],
+    "enrolled": false,
+    "lessons": 0,
+    "clothes": {
+      "casual": 6,
+      "dress": 0,
+      "suit": 0
+    },
+    "groceries": 0,
+    "meal": true,
+    "owns": {
+      "bike": false,
+      "car": false,
+      "fridge": false
+    },
+    "rentStock": 3,
+    "rentContract": 325,
+    "rentDebt": 0,
+    "extensionHistory": 0,
+    "extensionAttempt": 0,
+    "rentOpen": false,
+    "rentAccounted": false,
+    "recoveryChecks": 0,
+    "rejectionMemory": [],
+    "warned": false,
+    "rested": false,
+    "groceryBonus": false,
+    "mealBonus": false,
+    "carPaid": false,
+    "goals": {
+      "wealth": 10,
+      "happiness": 20,
+      "career": 30,
+      "learning": 10
+    },
+    "finished": false
+  },
+  "final": {
+    "schema": 1,
+    "rules": "prototype-0.1",
+    "content": "town-0.1",
+    "rng": 1083814273,
+    "sequence": 21,
+    "week": 2,
+    "active": 0,
+    "players": [
+      {
+        "id": "player-1",
+        "name": "Player 1",
+        "cash": 345,
+        "place": "home",
+        "time": 60,
+        "job": "cook",
+        "wage": 4,
+        "baseWage": 4,
+        "raises": 0,
+        "experience": 19,
+        "maxExperience": 20,
+        "dependability": 24,
+        "relaxation": 24,
+        "happiness": 3,
+        "workTime": 42,
+        "qualifications": [],
+        "enrolled": false,
+        "lessons": 0,
+        "clothes": {
+          "casual": 5,
+          "dress": 0,
+          "suit": 0
+        },
+        "groceries": 0,
+        "meal": false,
+        "owns": {
+          "bike": false,
+          "car": false,
+          "fridge": false
+        },
+        "rentStock": 2,
+        "rentContract": 325,
+        "rentDebt": 0,
+        "extensionHistory": 0,
+        "extensionAttempt": 0,
+        "rentOpen": false,
+        "rentAccounted": false,
+        "recoveryChecks": 0,
+        "rejectionMemory": [],
+        "warned": true,
+        "rested": false,
+        "groceryBonus": false,
+        "mealBonus": false,
+        "carPaid": false,
+        "goals": {
+          "wealth": 10,
+          "happiness": 20,
+          "career": 30,
+          "learning": 10
+        },
+        "finished": false
+      }
+    ],
+    "economy": {
+      "main": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "investments": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "goods": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "gold": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 2
+      },
+      "silver": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 2
+      },
+      "pork": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 4
+      },
+      "blue": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 1
+      },
+      "penny": {
+        "trend": 0,
+        "reading": 100,
+        "risk": 10
+      }
+    },
+    "shock": "none",
+    "economyMode": "neutral-fixture",
+    "notices": [],
+    "status": "playing"
+  },
+  "intents": [
+    {
+      "id": 1,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      }
+    },
+    {
+      "id": 2,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 3,
+      "action": {
+        "type": "apply",
+        "job": "cook"
+      }
+    },
+    {
+      "id": 4,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 5,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 6,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 7,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 8,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 9,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 10,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 11,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 12,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 13,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 14,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 15,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 16,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 17,
+      "action": {
+        "type": "work"
+      }
+    },
+    {
+      "id": 18,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 19,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      }
+    },
+    {
+      "id": 20,
+      "action": {
+        "type": "acknowledge"
+      }
+    },
+    {
+      "id": 21,
+      "action": {
+        "type": "endTurn"
+      }
+    }
+  ],
+  "ledger": [
+    {
+      "request": 1,
+      "action": {
+        "type": "travel",
+        "destination": "hospitality",
+        "mode": "walk"
+      },
+      "accepted": true,
+      "message": "Arrived at Daily Grind / Copper Spoon.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 200,
+      "time": 49,
+      "job": null,
+      "experience": 10,
+      "dependability": 20,
+      "workTime": 0,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 2,
+        "happiness": 0,
+        "career": 0,
+        "learning": 0
+      }
+    },
+    {
+      "request": 3,
+      "action": {
+        "type": "apply",
+        "job": "cook"
+      },
+      "accepted": true,
+      "message": "Hired as Cook. Work at Daily Grind / Copper Spoon.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 200,
+      "time": 45,
+      "job": "cook",
+      "experience": 12,
+      "dependability": 20,
+      "workTime": 0,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 2,
+        "happiness": 3,
+        "career": 20,
+        "learning": 0
+      }
+    },
+    {
+      "request": 5,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 232,
+      "time": 39,
+      "job": "cook",
+      "experience": 13,
+      "dependability": 21,
+      "workTime": 6,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 2,
+        "happiness": 3,
+        "career": 20,
+        "learning": 0
+      }
+    },
+    {
+      "request": 7,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 264,
+      "time": 33,
+      "job": "cook",
+      "experience": 14,
+      "dependability": 22,
+      "workTime": 12,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 2,
+        "happiness": 3,
+        "career": 20,
+        "learning": 1
+      }
+    },
+    {
+      "request": 9,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 296,
+      "time": 27,
+      "job": "cook",
+      "experience": 15,
+      "dependability": 23,
+      "workTime": 18,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 2,
+        "happiness": 3,
+        "career": 20,
+        "learning": 1
+      }
+    },
+    {
+      "request": 11,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 328,
+      "time": 21,
+      "job": "cook",
+      "experience": 16,
+      "dependability": 24,
+      "workTime": 24,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 3,
+        "happiness": 3,
+        "career": 30,
+        "learning": 2
+      }
+    },
+    {
+      "request": 13,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 360,
+      "time": 15,
+      "job": "cook",
+      "experience": 17,
+      "dependability": 25,
+      "workTime": 30,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 3,
+        "happiness": 3,
+        "career": 30,
+        "learning": 2
+      }
+    },
+    {
+      "request": 15,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 392,
+      "time": 9,
+      "job": "cook",
+      "experience": 18,
+      "dependability": 26,
+      "workTime": 36,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 3,
+        "happiness": 3,
+        "career": 30,
+        "learning": 3
+      }
+    },
+    {
+      "request": 17,
+      "action": {
+        "type": "work"
+      },
+      "accepted": true,
+      "message": "Worked 6 time: $32 gross, $32 paid.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 424,
+      "time": 3,
+      "job": "cook",
+      "experience": 19,
+      "dependability": 27,
+      "workTime": 42,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 4,
+        "happiness": 3,
+        "career": 30,
+        "learning": 3
+      }
+    },
+    {
+      "request": 19,
+      "action": {
+        "type": "buy",
+        "item": "hamburger"
+      },
+      "accepted": true,
+      "message": "Bought Hamburger for $79.",
+      "week": 1,
+      "player": "player-1",
+      "cash": 345,
+      "time": 3,
+      "job": "cook",
+      "experience": 19,
+      "dependability": 27,
+      "workTime": 42,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 3,
+        "happiness": 3,
+        "career": 30,
+        "learning": 3
+      }
+    },
+    {
+      "request": 21,
+      "action": {
+        "type": "endTurn"
+      },
+      "accepted": true,
+      "message": "Turn completed.",
+      "week": 2,
+      "player": "player-1",
+      "cash": 345,
+      "time": 60,
+      "job": "cook",
+      "experience": 19,
+      "dependability": 24,
+      "workTime": 42,
+      "lessons": 0,
+      "qualifications": [],
+      "scores": {
+        "wealth": 3,
+        "happiness": 3,
+        "career": 30,
+        "learning": 3
+      }
+    }
+  ]
+}

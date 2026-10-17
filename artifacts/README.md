@@ -4,6 +4,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Executed prototype traces](prototype/headless-v1/summary.json), with full replay intents in the adjacent JSON files, and [actual browser screenshot](prototype/browser-v1.jpg); [implementation/reproduction record](../docs/implementation/prototype-v1.md). These are successor prototype results, distinct from the earlier paper worksheets and original-game audits.
+
 - [Current navigation wireframes](planning/scope-review-v1.png), [editable SVG](planning/scope-review-v1.svg) and [review arithmetic/counterexamples](planning/scope-review-v1.json); [whole-pack review](../docs/planning/whole-pack-review-v1.md). Planning artifacts, not a running game or completed recovery tests.
 
 - [Learning panel](planning/learning-panel-v1.png), [editable SVG](planning/learning-panel-v1.svg) and [arithmetic/old-schedule overlay](planning/learning-coverage-v1.json); [proposal and limits](../docs/planning/learning-goal-proposal.md). Synthetic wireframe and analytical checks, not gameplay or full-route validation.
