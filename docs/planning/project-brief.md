@@ -6,6 +6,8 @@ Updated direction2026-10-17: the owner explicitly wants transport to play a bigg
 
 ## Intent
 
+Owner review2026-10-17 accepts the proposed transport progression/town-wide bus, in-store applications and broad consistency/fairness fixes. It asks for meaningful local recruitment/job offers and practical device benefits, including occasional laptop work from home. The illustrated retro mockups are positively received. See [latest options](employers-offers-and-useful-possessions.md); new employers, individual effects, balance and first-build scope remain to settle.
+
 Rebuild the appeal of *Jones in the Fast Lane* as a modern browser game. Remain nearly identical in core mechanics, while updating jobs, buildings, university courses, other opportunities, and visual artifacts. Potential public release; currently a personal project with the owner's children helping iterate.
 
 ## Audience and setting

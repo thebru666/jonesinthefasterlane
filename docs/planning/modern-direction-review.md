@@ -1,5 +1,7 @@
 # Modern direction: review pack 2
 
+**Owner review update2026-10-17:** transport progression/town-wide bus and in-store applications are accepted as directions, along with broad consistency/fairness fixes. New employer options, reasons to explore, recruited offers and functional devices are developed in [the latest options](employers-offers-and-useful-possessions.md). Its proposals extend the earlier read-only-phone/no-home-work baseline below; the specific new effects and revised career graph are not yet selected.
+
 2026-10-17. **PROPOSAL — no application implementation approved.** This is the current planning entry point following the owner's transport, newer-location, job-board and device pointers. The [original reference](original-research-handoff.md) remains unchanged. The [first draft](2.0-draft-specification.md) is the starting structure, not a constraint against the explicitly requested new mechanics.
 
 ## Goal and current boundary

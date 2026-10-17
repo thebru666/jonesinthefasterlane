@@ -19,10 +19,17 @@ Last updated: 2026-10-17.
 | D011 | Expand transport as a planning direction: slower walking, buying a bike, bus travel and driving, with time/cost tradeoffs | Explicit owner pointers2026-10-17; formulas/prices not approved |
 | D012 | Explore newer locations, different job boards and modern devices, plus further suggestions | Explicit owner pointers2026-10-17; exact destinations/jobs/effects not approved |
 | D013 | Pursue a planning goal through modern content direction and visual iteration before settling the first playable scope and starting implementation | Explicit owner goal request2026-10-17; final instruction targets step3 |
+| D014 | Adopt the recommended transport progression and dependable town-wide bus as the design direction | Owner accepts point1; exact costs, distances and edge rules remain proposals |
+| D015 | Allow in-store job applications as the design direction | Owner accepts point3; local advantages, unadvertised roles and recruited offers need detailed design |
+| D016 | Preserve economic character/turn rhythm while fixing inconsistent accounting, animation-dependent costs and hidden AI advantages | Owner accepts point5's broad recommendation; this does not adopt every detailed C01–C17 row |
+| D017 | Give possessions more tangible benefits; explore phone functionality and occasional laptop work from home | Owner point4; exact effects, eligibility, limits and Happiness changes pending |
+| D018 | Continue the positively received illustrated retro direction and new visual detail while keeping play simple | Owner feedback on mockups; individual final assets/layouts not approved |
 
 ## Proposed technical and design choices
 
 Current entry point: [modern-direction review pack](modern-direction-review.md), with [transport](transport-proposal.md), [town/content](modern-town-and-content.md) and [visual concepts](visual-direction-v1.md). It explicitly revises the earlier fixed-speed travel and agency-only planning baseline. New directions D011–D013 do not approve its specific recommendations.
+
+[Employer options, offers and useful possessions](employers-offers-and-useful-possessions.md) develops the latest feedback. D014–D018 confirm principles; restaurant/clinic/depot choices, offer premiums, phone access and remote-shift details remain proposals. The original37-job mapping remains a reference, not a complete graph for newly proposed careers.
 
 The [2.0 draft specification](2.0-draft-specification.md), [compatibility proposals](compatibility-proposals.md), [content sample](content-iteration-sample.md) and [architecture proposal](architecture-and-validation-proposal.md) now make these choices concrete for review. They add no confirmed decision. In particular, floppy-only reference, original mode combinations, desktop/tablet priority and C01–C17 are recommendations, not owner approvals.
 

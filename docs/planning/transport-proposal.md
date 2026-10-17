@@ -1,5 +1,7 @@
 # Transport: time, money and a town worth crossing
 
+**Owner review update2026-10-17:** recommended walk/early-bike/bus/later-car progression and dependable town-wide bus accepted as design direction. Exact formulas, purchase/operating costs, complete-trip/entry boundaries and detailed state rules below remain proposals.
+
 2026-10-17. **PROPOSAL — tuning and detailed behaviour are unapproved.** The owner has explicitly requested slower walking and a larger role for transport, including buying a bike, catching a bus and driving at a cost. Those directions are confirmed; the particular rules and figures below are recommendations for review, not findings about the original.
 
 Read alongside the [project brief](project-brief.md), [draft specification](2.0-draft-specification.md) and [compatibility choices](compatibility-proposals.md). This proposal would **replace C03's fixed original-speed travel recommendation**, rather than sit on top of it. The [original native travel audit](../rules-audit/dos-travel-ordering.md) remains unchanged as the historical reference.

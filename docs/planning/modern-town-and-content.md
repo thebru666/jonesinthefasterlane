@@ -1,5 +1,7 @@
 # Modern town and content direction
 
+**Latest review:** [employer options, offers and useful possessions](employers-offers-and-useful-possessions.md) proposes reasons to visit employers, local notices, recruitment and functional phone/laptop benefits after owner feedback. In-store applications are accepted in principle. The tables below remain the complete original-graph naming baseline; new restaurant/clinic/depot roles would need a revised graph. Earlier restrictions on remote use describe the prior proposal, not a rejection of the owner's newer direction.
+
 Drafted 2026-10-17. **PROPOSAL — concrete review material, not an approved content bible or application implementation.** The owner now wants transport to matter, newer locations, different job boards and devices to buy. Those are confirmed directions; the names, mappings and effects below are recommendations. This extends the [earlier content sample](content-iteration-sample.md), which deliberately offered only reskins. A disagreement between samples is a candidate alternative, not a silent change to the original audit.
 
 ## Recommended identity
