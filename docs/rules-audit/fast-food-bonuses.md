@@ -57,4 +57,4 @@ Jones's controller selects ordinary purchase events, so these shared item handle
 
 ## Planning boundary
 
-This supplies missing everyday Happiness and shopping rules without adding a nutrition meter or a new bonus system. Per-item bonuses, stackable drink food coverage, reset-on-visit or a new cents/dollars scale would be explicit departures. Exact UI text, callbacks, every possible restored state and the complete all-game Happiness modifier catalogue are not established by this selected trace.
+This supplies missing everyday Happiness and shopping rules without adding a nutrition meter or a new bonus system. Per-item bonuses, stackable drink food coverage, reset-on-visit or a new cents/dollars scale would be explicit departures. Exact UI text, callbacks, every possible restored state and all dynamic Happiness mutation paths are not established by this selected trace. The subsequent [whole-package catalogue](happiness-catalogue.md) consolidates the identified ordinary action/event sites.

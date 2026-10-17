@@ -44,3 +44,6 @@ python3 tools/research/check_economy_frame.py --check
 ```
 
 The travel checker regenerates analytical metadata after checking 25,500 distance/speed/residual cases against an independently stepped recurrence. It requires the pinned Animate references listed in its metadata; its result is conditional on that reference engine. The economy checker also requires the exact [locally unpacked DOS interpreter](../../docs/discovery/inspect-dos-interpreter.md). It checks stack heights, the selected parameter/temp alias and native handler addresses, while native semantic interpretation remains manual and peer-reviewed. Neither executes the game. Omit economy `--check` only to regenerate its metadata after review.
+
+
+`python3 tools/research/check_happiness_inventory.py --check` verifies the [whole-package modifier inventory](../../docs/rules-audit/happiness-catalogue.md). It requires the decoded/raw local scripts and the two tracked action/event manifests, checks their exact site partition and never executes game logic. Omit `--check` to regenerate analytical metadata after a reviewed input/tool/domain-manifest change. This inventory is bounded to literal calls, literal selector candidates and known Player property writes; it does not prove full dynamic absence.

@@ -16,6 +16,7 @@ Copyright (C) 2001–2026 the ScummVM contributors; names and upstream notices a
 | `check_lottery_probabilities.py` | Original independent enumeration of the documented lottery arithmetic; no original SCI execution or script payload, GPL-3.0-or-later |
 | `check_economy_frame.py` | Original package stack-height/address checks and native pointer/hash inspection, informed by pinned ScummVM frame semantics; GPL-3.0-or-later, no original script/native implementation embedded |
 | `check_travel_timing.py` | Original analytical recurrence/checks, informed by pinned ScummVM Animate ordering; GPL-3.0-or-later, no original SCI execution or script payload |
+| `check_happiness_inventory.py` | Original package-wide analytical helper/selector inventory and manifest membership check, using the existing selector parser; GPL-3.0-or-later, no game rule implementation or payload |
 | `check_ai_goal_allocation.py` | Original independent arithmetic check of documented target bounds/capacity, not original SCI execution; GPL-3.0-or-later |
 | `reconstruct_screen_studies.py` | Original project image composition and HTML reporting using analytical recipe metadata; GPL-3.0-or-later, no copied game script implementation |
 | `catalogue_original_assets.py` | Project orchestration, checksum lock, source-role joins, manifests and local HTML index; GPL-3.0-or-later for consistent tooling distribution |

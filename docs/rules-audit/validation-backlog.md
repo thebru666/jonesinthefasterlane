@@ -98,15 +98,13 @@ Economy experiments should compare outcomes from controlled states; naturally di
 
 ## Subsequent audit domains
 
-Three script passes and the screen studies provide normal-path coverage; finish the remaining evidence before finalising adaptation:
+The ordinary baseline now has detailed source findings and linked package traces. The [handoff review](../planning/original-research-handoff.md) records planning readiness; the following list retains fidelity work without implying these domains are still undocumented:
 
-- All job tables, qualifications, vacancies, rejection memory, promotions, reliability, and career goal calculation.
-- Education prerequisites, enrollment capacity, course progress, possession bonuses, and degree effects.
-- Runtime/object-lifetime validation for [goods/repairs/pawn](goods-and-finance.md); complete clothing eligibility/lifetime interactions. Ticket/weekend and joke-product paths are now traced under [EVENT-001–006](random-events.md), with runtime validation pending.
-- Runtime validation of [housing payment, extension, moving, arrears and garnishment](food-and-housing.md); remaining notice/edge interactions.
-- Reproduce [bank/loan/investment findings](goods-and-finance.md), resolve high-value arithmetic and inspect remaining default/event paths.
-- Runtime validation of [personal events](random-events.md), economic shocks, illness, apartment theft and repairs; exhaustive flavour/animation branches, RNG/edition comparisons and shared-state save boundaries remain open.
-- Reproduce [Jones's policy and information differences](computer-opponent.md); finish demo/CD and exhaustive privilege comparison.
-- All victory, removal, continued-play, save, and restore paths.
+- [All37 jobs](employment.md) and [all11 courses](education.md) are catalogued with selected package predicates/order. Remaining work is visible boundary feedback, untraced callers and extreme/restored state, rather than an absent progression graph.
+- [Goods/inventory](inventory-grouping.md), [used stock](pawn-used-stock.md), [clothing cadence](clothing-lifecycle.md), [food bonuses](fast-food-bonuses.md), [assortment](discount-assortment.md) and [Happiness](happiness-catalogue.md) now cover ordinary purchases, repeatability and lifecycle. Retain focused runtime/object-identity checks where a fidelity decision needs them.
+- Housing, rent/loan lifecycle, bank continuation and investment trading now have selected package traces. Remaining questions concern unusual balances, callbacks, restored flow and visible notices; the money-boundary notes do not claim a complete overflow model.
+- Personal events, economic shocks, illness/theft/repairs and weekend/lottery effects have domain records and selected package checks. Full random-call replay, measured native frequencies, exhaustive flavour/animation and edition equivalence remain separate.
+- Jones's source-based priorities and actual destination dispatch are documented; full arithmetic, fallback, demo/CD and win-rate comparisons are not established.
+- Ordinary victory/removal/continue/save boundaries are documented. Native save regions and RNG exclusion are traced; every intermediate restore state and browser persistence are not proved.
 
-No application implementation is required to resolve these research tasks.
+No application implementation is required by this research backlog. The next planning task selects inherited rules and explicit departures; it should request additional evidence where a decision depends on one of these limits.

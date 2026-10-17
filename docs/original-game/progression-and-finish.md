@@ -11,7 +11,7 @@ The player must reach **all four personal targets**. One filled category cannot 
 | Goal | Inspected scoring | Implication |
 | --- | --- | --- |
 | Wealth | Cached liquid assets divided by $100, bounded to 0–100, sampled when the cash helper runs. Liquid assets include cash, savings, Treasury bills and market-valued investments, less rent owed and loans. | A 50-point target corresponds to $5,000 in the sampled cache, subject to the refresh order below. |
-| Happiness | Accumulated score bounded to 0–100, modified by actions and events. | Purchases, leisure, achievements and setbacks contribute; the [fast-food category latches](../rules-audit/fast-food-bonuses.md) and [repeatable QT clothing bonuses](../rules-audit/clothing-lifecycle.md) now have package traces; a consolidated all-game modifier catalogue remains pending. |
+| Happiness | Accumulated score bounded to 0–100, modified by actions and events. | Purchases, leisure, achievements and setbacks contribute; the [fast-food category latches](../rules-audit/fast-food-bonuses.md) and [repeatable QT clothing bonuses](../rules-audit/clothing-lifecycle.md) now have package traces; the [consolidated modifier catalogue](../rules-audit/happiness-catalogue.md) now maps all76 identified literal helper sites, including the18 skipped nominal purchase branches. |
 | Education | On graduation, `1 + 9 × completed degrees`; initial stored score is zero. | First completion gives 10, second 19; a 50-point target needs six completions (55). |
 | Career | If employed: `10 × floor(dependability / 8)`, capped at 100; otherwise zero. Updated by work, hiring and end-turn paths. | Wage/title alone does not set this meter; weekly dependability loss can reduce it. |
 

@@ -1,0 +1,1552 @@
+{
+  "verified_date": "2026-10-16",
+  "evidence": "BYTECODE: complete identified literal helper13 action-site inventory within scripts200..213, plus selected inherited/work/latch support; not runtime",
+  "version": "DOS1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "offset_convention": "zero-based decompressed script payload including headers, end-exclusive range hashes",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "size": 4008,
+      "ranges": [
+        {
+          "function": "export_13",
+          "start": "0x5ea",
+          "end_exclusive": "0x62c",
+          "instruction_count": 34,
+          "sha256": "71d574e13e10da40d95a28851c8fc5ccfce00bb800fb2ddf0692f6993fdbd6ef"
+        }
+      ],
+      "direct_happiness_calls_in_script": null
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "size": 2100,
+      "ranges": [
+        {
+          "function": "CostDItem.doit",
+          "start": "0x3ad",
+          "end_exclusive": "0x51e",
+          "instruction_count": 178,
+          "sha256": "40a7abab9b68af2a4a2ba1a75824c04d72f188448118902b6bef96713795a9c5"
+        }
+      ],
+      "direct_happiness_calls_in_script": null
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "size": 990,
+      "ranges": [
+        {
+          "function": "ListOfGoods.hasType",
+          "start": "0x121",
+          "end_exclusive": "0x172",
+          "instruction_count": 45,
+          "sha256": "7fae857090d0545150c5f538dfd242bdf9c86fd1cb5a6127f0973ea1a876e01a"
+        },
+        {
+          "function": "ListOfGoods.objectAtIndexQuan",
+          "start": "0x272",
+          "end_exclusive": "0x289",
+          "instruction_count": 12,
+          "sha256": "2254070e1a4e66d08f83158970b9ea0b2ce77608af5f877844b3430f787acd34"
+        },
+        {
+          "function": "ListOfGoods.recieve",
+          "start": "0xdd",
+          "end_exclusive": "0x121",
+          "instruction_count": 36,
+          "sha256": "91cc4a7008f548e49809d03cb8bf9c0c2a1224d20b32384ad59f891af65eb41b"
+        }
+      ],
+      "direct_happiness_calls_in_script": null
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "size": 850,
+      "ranges": [
+        {
+          "function": "export_0",
+          "start": "0xc",
+          "end_exclusive": "0x14c",
+          "instruction_count": 141,
+          "sha256": "655ebbabb8cbf3e723489c798124a84c2eeaf030e43d34c43cf528954b1f29b7"
+        },
+        {
+          "function": "procedure_014c",
+          "start": "0x14c",
+          "end_exclusive": "0x346",
+          "instruction_count": 250,
+          "sha256": "309b02a1e6cd1f2158d3bac3bb12c43a03b0dc8b403a98a989be015cd11eabca"
+        }
+      ],
+      "direct_happiness_calls_in_script": null
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "size": 6840,
+      "ranges": [
+        {
+          "function": "ordinary_start_turn_latch_resets",
+          "start": "0x2d5",
+          "end_exclusive": "0x314",
+          "sha256": "a709bed96fe328cc79d22b46877d0e9f078f974928ccb6c438f0a95c1a62c8d4"
+        }
+      ],
+      "direct_happiness_calls_in_script": null
+    },
+    {
+      "script": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea",
+      "size": 1430,
+      "ranges": [
+        {
+          "function": "relaxButton.doit",
+          "start": "0x28e",
+          "end_exclusive": "0x301",
+          "instruction_count": 56,
+          "sha256": "311c43f5f1424befc30c5ec9c067e573ec69b680a10e8dd2cc50245861d8e648"
+        }
+      ],
+      "direct_happiness_calls_in_script": 1
+    },
+    {
+      "script": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "size": 5680,
+      "ranges": [
+        {
+          "function": "moreTime.doit",
+          "start": "0x728",
+          "end_exclusive": "0xae4",
+          "instruction_count": 448,
+          "sha256": "11cacf024d313f7b6563aff24cf033bd2ef7f4f91e4e3ca7bb41b8e76894b2ae"
+        },
+        {
+          "function": "payGarnishment.doit",
+          "start": "0xfd0",
+          "end_exclusive": "0x1053",
+          "instruction_count": 61,
+          "sha256": "56a4818cd45744bc1c5ba71a41fc2d59a927c0fde9c081ddf328a73107d483c3"
+        },
+        {
+          "function": "payRent.doit",
+          "start": "0x602",
+          "end_exclusive": "0x6bc",
+          "instruction_count": 86,
+          "sha256": "77a6f06428b3c847cc30018f286d597b7e37e40c1c35dd59b3e0132abe8c9469"
+        },
+        {
+          "function": "rentLowCost.doit",
+          "start": "0xb3c",
+          "end_exclusive": "0xd1a",
+          "instruction_count": 216,
+          "sha256": "a72e2a8b28106dea549c4c9bd359b1a949c8f8abc857b6f4adc84b89906875d3"
+        },
+        {
+          "function": "rentSecurity.doit",
+          "start": "0xd86",
+          "end_exclusive": "0xf64",
+          "instruction_count": 216,
+          "sha256": "59727f26e54071c027f3f6cb82a44a2d74c5584876f83e14fb1768d84113b831"
+        }
+      ],
+      "direct_happiness_calls_in_script": 2
+    },
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca",
+      "size": 1602,
+      "ranges": [
+        {
+          "function": "relaxButton.doit",
+          "start": "0x2e6",
+          "end_exclusive": "0x359",
+          "instruction_count": 56,
+          "sha256": "d1a69ff048cc63a660b5ecc58f1a051778ea75acd8e2aabe726a22ae0b9080fd"
+        }
+      ],
+      "direct_happiness_calls_in_script": 1
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "size": 4376,
+      "ranges": [
+        {
+          "function": "foodFor1Week.doit",
+          "start": "0x726",
+          "end_exclusive": "0x74a",
+          "instruction_count": 17,
+          "sha256": "feb8234fe13a467ab63af7d7821fdc2cbe654c964ebe4f70e66886357dc9f651"
+        },
+        {
+          "function": "foodFor2Weeks.doit",
+          "start": "0x7e6",
+          "end_exclusive": "0x80a",
+          "instruction_count": 17,
+          "sha256": "6add757cd43bc4629586b8511656e854d399ab543e46b71cda3e31c246ce32e6"
+        },
+        {
+          "function": "foodFor4Weeks.doit",
+          "start": "0x8a6",
+          "end_exclusive": "0x8cb",
+          "instruction_count": 17,
+          "sha256": "b87e1286ff994c69517d6086435ef0af8133527b50a3e69c307498a919190647"
+        },
+        {
+          "function": "lotteryTickets.doit",
+          "start": "0x94d",
+          "end_exclusive": "0x971",
+          "instruction_count": 17,
+          "sha256": "ecda6ca20a8f7160c25ebac18ed929db67a7b8b4a4c5c3bdd6f4da70f9d90edf"
+        }
+      ],
+      "direct_happiness_calls_in_script": 4
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "size": 4922,
+      "ranges": [
+        {
+          "function": "applyForLoan.doit",
+          "start": "0x9ba",
+          "end_exclusive": "0xc30",
+          "instruction_count": 287,
+          "sha256": "ea2fbcc4f4ed44709aeeddbf9281668825574910111f335dbad8b12fb2ecac4f"
+        },
+        {
+          "function": "deposit.doit",
+          "start": "0x49c",
+          "end_exclusive": "0x5a1",
+          "instruction_count": 122,
+          "sha256": "d976694d3d7e0225fac301a1c58296ac723940ab17e5c448a258a9645ad9f450"
+        },
+        {
+          "function": "loanPayment.doit",
+          "start": "0x833",
+          "end_exclusive": "0x949",
+          "instruction_count": 131,
+          "sha256": "086a9627a94a990483de6cb6127f04747bdd44241bb8ae52004635cee043f9ca"
+        },
+        {
+          "function": "withdraw.doit",
+          "start": "0x64c",
+          "end_exclusive": "0x763",
+          "instruction_count": 129,
+          "sha256": "0a88575f02dc83f1d707926e042cc83d892dfe87ffc5b1861f3a75961ba9783a"
+        }
+      ],
+      "direct_happiness_calls_in_script": 3
+    },
+    {
+      "script": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969",
+      "size": 1562,
+      "ranges": [],
+      "direct_happiness_calls_in_script": 0
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "size": 5636,
+      "ranges": [
+        {
+          "function": "JobDItem.doit",
+          "start": "0x3dd",
+          "end_exclusive": "0x5bb",
+          "instruction_count": 228,
+          "sha256": "bfcafedbd7611db6c5ba3179d446f3efa2cd5cbd92df7541f875870e2d695b26"
+        },
+        {
+          "function": "export_1",
+          "start": "0xc2",
+          "end_exclusive": "0x1f8",
+          "instruction_count": 137,
+          "sha256": "d0717d4f835c2a6a07abb1a41c672da1e51986e40e556c38bde99eca50bb748d"
+        }
+      ],
+      "direct_happiness_calls_in_script": 3
+    },
+    {
+      "script": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "size": 6272,
+      "ranges": [
+        {
+          "function": "UniversityDIcon.doit",
+          "start": "0x357",
+          "end_exclusive": "0x691",
+          "instruction_count": 402,
+          "sha256": "1ec09f84b90c7d59da7a29f13f4226035e1d575b1e39b4c1780b64a735ebdace"
+        },
+        {
+          "function": "enrollmentFee.doit",
+          "start": "0xc87",
+          "end_exclusive": "0xcb0",
+          "instruction_count": 22,
+          "sha256": "a7be5080efafe1a4a4e1c2a05a6b96a933373870f46b6802d9f44841ee7125b6"
+        }
+      ],
+      "direct_happiness_calls_in_script": 1
+    },
+    {
+      "script": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "size": 5432,
+      "ranges": [
+        {
+          "function": "colorTV.doit",
+          "start": "0x953",
+          "end_exclusive": "0x980",
+          "instruction_count": 22,
+          "sha256": "87c66c40930c3ea3decb8fd783391b62bb14c70258462ac40674d25b1c594bbd"
+        },
+        {
+          "function": "computer.doit",
+          "start": "0xd47",
+          "end_exclusive": "0xd75",
+          "instruction_count": 22,
+          "sha256": "29edf6ece062e9b4c4bc0c505a735a34a155a2da3f914b4bf69a4f492e528b24"
+        },
+        {
+          "function": "freezer.doit",
+          "start": "0x7bf",
+          "end_exclusive": "0x7ec",
+          "instruction_count": 22,
+          "sha256": "87c66c40930c3ea3decb8fd783391b62bb14c70258462ac40674d25b1c594bbd"
+        },
+        {
+          "function": "hotTub.doit",
+          "start": "0xc7b",
+          "end_exclusive": "0xca9",
+          "instruction_count": 22,
+          "sha256": "29edf6ece062e9b4c4bc0c505a735a34a155a2da3f914b4bf69a4f492e528b24"
+        },
+        {
+          "function": "microwave.doit",
+          "start": "0xbb1",
+          "end_exclusive": "0xbde",
+          "instruction_count": 22,
+          "sha256": "87c66c40930c3ea3decb8fd783391b62bb14c70258462ac40674d25b1c594bbd"
+        },
+        {
+          "function": "refrigerator.doit",
+          "start": "0x6f5",
+          "end_exclusive": "0x722",
+          "instruction_count": 22,
+          "sha256": "56475b0a042e43698e68eb75c66f5e46a130cd3a025f9350e169c6fc5ccbf9a7"
+        },
+        {
+          "function": "stereo.doit",
+          "start": "0xae7",
+          "end_exclusive": "0xb14",
+          "instruction_count": 22,
+          "sha256": "87c66c40930c3ea3decb8fd783391b62bb14c70258462ac40674d25b1c594bbd"
+        },
+        {
+          "function": "stove.doit",
+          "start": "0x889",
+          "end_exclusive": "0x8b6",
+          "instruction_count": 22,
+          "sha256": "56475b0a042e43698e68eb75c66f5e46a130cd3a025f9350e169c6fc5ccbf9a7"
+        },
+        {
+          "function": "vcr.doit",
+          "start": "0xa1d",
+          "end_exclusive": "0xa4a",
+          "instruction_count": 22,
+          "sha256": "87c66c40930c3ea3decb8fd783391b62bb14c70258462ac40674d25b1c594bbd"
+        }
+      ],
+      "direct_happiness_calls_in_script": 9
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "size": 3138,
+      "ranges": [
+        {
+          "function": "businessSuit.doit",
+          "start": "0x592",
+          "end_exclusive": "0x5bd",
+          "instruction_count": 21,
+          "sha256": "18be2a7c4a43b49bb4cb5cbf20ca360b8b79ca92ff79a2793d4f2ffa005d9002"
+        },
+        {
+          "function": "casualClothes.doit",
+          "start": "0x6c2",
+          "end_exclusive": "0x6e8",
+          "instruction_count": 18,
+          "sha256": "63e038e55355fba12cb1056d86c34af20b20df1707a0b5705da8fe3a2e461c0d"
+        },
+        {
+          "function": "leisureSuit.doit",
+          "start": "0x62a",
+          "end_exclusive": "0x655",
+          "instruction_count": 21,
+          "sha256": "75a98a7212ffe9bd9f0911271b344dbf787c9189d8bb4cf1f6a575a8ac0ae73b"
+        }
+      ],
+      "direct_happiness_calls_in_script": 2
+    },
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "size": 3974,
+      "ranges": [
+        {
+          "function": "cheeseburgers.doit",
+          "start": "0x75c",
+          "end_exclusive": "0x780",
+          "instruction_count": 17,
+          "sha256": "0b4e5c30c98c15671a5de9d44bf36092c1671b9e5b775fb6803523921aae2132"
+        },
+        {
+          "function": "chicken.doit",
+          "start": "0x7ec",
+          "end_exclusive": "0x810",
+          "instruction_count": 17,
+          "sha256": "b888722137b9ad7edaa4ae62510c6b3d96979396be5b6467eecd54eb1419af8d"
+        },
+        {
+          "function": "colas.doit",
+          "start": "0x970",
+          "end_exclusive": "0x994",
+          "instruction_count": 17,
+          "sha256": "a71b1a09557b08198cb8701ce3237bd90d1a2d06910dd369a783c356da416479"
+        },
+        {
+          "function": "shakes.doit",
+          "start": "0x8e0",
+          "end_exclusive": "0x904",
+          "instruction_count": 17,
+          "sha256": "64627e4423ee91664d04b8cec0f8fcff41bc00ed34d5791830f8e026cae973b7"
+        }
+      ],
+      "direct_happiness_calls_in_script": 4
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "size": 7126,
+      "ranges": [
+        {
+          "function": "DiscountDItem.doit",
+          "start": "0x2f2",
+          "end_exclusive": "0x323",
+          "instruction_count": 23,
+          "sha256": "3b6bc5e340b995f1b67a8ebe041d45655f4f600782d4ec7649e0eacace9ceeb1"
+        },
+        {
+          "function": "atlas.doit",
+          "start": "0x1184",
+          "end_exclusive": "0x11b1",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "baseballTickets.doit",
+          "start": "0xe18",
+          "end_exclusive": "0xe3c",
+          "instruction_count": 17,
+          "sha256": "2b6e242f9b0ef270431be9bf952d1b25c2b5fa3c8b434af5316ad32bb2b1050b"
+        },
+        {
+          "function": "casualClothes.doit",
+          "start": "0xcf4",
+          "end_exclusive": "0xd1a",
+          "instruction_count": 18,
+          "sha256": "df255ea0dfc80970987a0b63e2493a9a082cea1801171cba7ec45589c52333ec"
+        },
+        {
+          "function": "colorTV.doit",
+          "start": "0xabf",
+          "end_exclusive": "0xaec",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "concertTickets.doit",
+          "start": "0xf38",
+          "end_exclusive": "0xf5c",
+          "instruction_count": 17,
+          "sha256": "1dc146b62814bf08546ef5e5ce4a7548a36b332546caf1b6dddaeb3842e579c4"
+        },
+        {
+          "function": "dictionary.doit",
+          "start": "0x10be",
+          "end_exclusive": "0x10eb",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "dogFood.doit",
+          "start": "0x1220",
+          "end_exclusive": "0x1239",
+          "instruction_count": 12,
+          "sha256": "62a84d68fb5063a1e679d78833ff232ad3d2342d795c50da483acccb0c021d2c"
+        },
+        {
+          "function": "eightTrack.doit",
+          "start": "0x12a6",
+          "end_exclusive": "0x12bf",
+          "instruction_count": 12,
+          "sha256": "62a84d68fb5063a1e679d78833ff232ad3d2342d795c50da483acccb0c021d2c"
+        },
+        {
+          "function": "encyclopedia.doit",
+          "start": "0xff5",
+          "end_exclusive": "0x1022",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "leisureSuit.doit",
+          "start": "0xd86",
+          "end_exclusive": "0xdac",
+          "instruction_count": 18,
+          "sha256": "df255ea0dfc80970987a0b63e2493a9a082cea1801171cba7ec45589c52333ec"
+        },
+        {
+          "function": "microwave.doit",
+          "start": "0xbc0",
+          "end_exclusive": "0xbed",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "refrigerator.doit",
+          "start": "0x861",
+          "end_exclusive": "0x88e",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "stereo.doit",
+          "start": "0x9f5",
+          "end_exclusive": "0xa22",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "stove.doit",
+          "start": "0x92b",
+          "end_exclusive": "0x958",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        },
+        {
+          "function": "theatreTickets.doit",
+          "start": "0xea8",
+          "end_exclusive": "0xecc",
+          "instruction_count": 17,
+          "sha256": "3c4f628d859542d5cf484e5b02a9a7af63959555e16cc9ca049882f4fb3fbd24"
+        },
+        {
+          "function": "trumanCapote.doit",
+          "start": "0x132c",
+          "end_exclusive": "0x1345",
+          "instruction_count": 12,
+          "sha256": "86018dac26ea976bdcf2d07bc95182f521c935a61ece7f9f905d74bb89bc9b1d"
+        },
+        {
+          "function": "vcr.doit",
+          "start": "0xc5a",
+          "end_exclusive": "0xc87",
+          "instruction_count": 22,
+          "sha256": "5ae57ddf4df92a80fe7d257c56683fc7d73009c23b22c15333a6c2b5e6282dce"
+        }
+      ],
+      "direct_happiness_calls_in_script": 15
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "size": 8430,
+      "ranges": [
+        {
+          "function": "aRedeemableItem.doit",
+          "start": "0x1687",
+          "end_exclusive": "0x1886",
+          "instruction_count": 262,
+          "sha256": "f2c63946b0558eef466ffcffbb578e73e3b7fc7fd976d1ad26b640be2089e988"
+        },
+        {
+          "function": "pawn.doit",
+          "start": "0x11f2",
+          "end_exclusive": "0x13a7",
+          "instruction_count": 212,
+          "sha256": "27edcfe28c60991839165567294f9616ca00f4cae78c586a71cf9946706f624e"
+        }
+      ],
+      "direct_happiness_calls_in_script": 2
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "size": 5380,
+      "ranges": [
+        {
+          "function": "buyButton.doit",
+          "start": "0xc40",
+          "end_exclusive": "0xce2",
+          "instruction_count": 83,
+          "sha256": "717688935a626231584611ef729e36b43f8c39e0394488104640558d5b5b250e"
+        },
+        {
+          "function": "sellButton.doit",
+          "start": "0xd5e",
+          "end_exclusive": "0xe1a",
+          "instruction_count": 91,
+          "sha256": "d71c0a11661955c16020b8a469b7182b7ef3bb1a96f9888f1f36dc94e8306371"
+        }
+      ],
+      "direct_happiness_calls_in_script": 0
+    }
+  ],
+  "scope": {
+    "scripts_scanned_for_literal_helper13_calls": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213
+    ],
+    "identified_calls": 47,
+    "nominal_durable_bonus_calls": 18,
+    "remaining_conditional_modifier_calls": 29,
+    "no_literal_helper13_calls": [
+      205,
+      213
+    ],
+    "hapStat_literal_selector_or_direct_property_hits": [],
+    "limits": "Literal helper/selector scope; not proof against computed sends, restored state, native effects or arbitrary callback/reentry mutations."
+  },
+  "sites": [
+    {
+      "script": 200,
+      "function": "relaxButton.doit",
+      "call_offset": "0x2c4",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 465,
+      "condition": "success/valid action AND shared per-turn flag465 clear"
+    },
+    {
+      "script": 201,
+      "function": "moreTime.doit",
+      "call_offset": "0x7e9",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 201,
+      "function": "moreTime.doit",
+      "call_offset": "0x849",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 202,
+      "function": "relaxButton.doit",
+      "call_offset": "0x31c",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 465,
+      "condition": "success/valid action AND shared per-turn flag465 clear"
+    },
+    {
+      "script": 203,
+      "function": "foodFor1Week.doit",
+      "call_offset": "0x744",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 470,
+      "condition": "success/valid action AND shared per-turn flag470 clear"
+    },
+    {
+      "script": 203,
+      "function": "foodFor2Weeks.doit",
+      "call_offset": "0x804",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 470,
+      "condition": "success/valid action AND shared per-turn flag470 clear"
+    },
+    {
+      "script": 203,
+      "function": "foodFor4Weeks.doit",
+      "call_offset": "0x8c5",
+      "delta": 4,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 470,
+      "condition": "success/valid action AND shared per-turn flag470 clear"
+    },
+    {
+      "script": 203,
+      "function": "lotteryTickets.doit",
+      "call_offset": "0x96b",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 469,
+      "condition": "success/valid action AND shared per-turn flag469 clear"
+    },
+    {
+      "script": 204,
+      "function": "applyForLoan.doit",
+      "call_offset": "0xae6",
+      "delta": 5,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 204,
+      "function": "applyForLoan.doit",
+      "call_offset": "0xb9f",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 204,
+      "function": "applyForLoan.doit",
+      "call_offset": "0xbd7",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 206,
+      "function": "export_1",
+      "call_offset": "0xe6",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 206,
+      "function": "JobDItem.doit",
+      "call_offset": "0x47a",
+      "delta": 3,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 206,
+      "function": "JobDItem.doit",
+      "call_offset": "0x57f",
+      "delta": 3,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 207,
+      "function": "UniversityDIcon.doit",
+      "call_offset": "0x44a",
+      "delta": 5,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 208,
+      "function": "refrigerator.doit",
+      "call_offset": "0x71c",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "freezer.doit",
+      "call_offset": "0x7e6",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "stove.doit",
+      "call_offset": "0x8b0",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "colorTV.doit",
+      "call_offset": "0x97a",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "vcr.doit",
+      "call_offset": "0xa44",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "stereo.doit",
+      "call_offset": "0xb0e",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "microwave.doit",
+      "call_offset": "0xbd8",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "hotTub.doit",
+      "call_offset": "0xca3",
+      "delta": 3,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 208,
+      "function": "computer.doit",
+      "call_offset": "0xd6f",
+      "delta": 3,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 209,
+      "function": "businessSuit.doit",
+      "call_offset": "0x5a4",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 209,
+      "function": "leisureSuit.doit",
+      "call_offset": "0x645",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 210,
+      "function": "cheeseburgers.doit",
+      "call_offset": "0x77a",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 472,
+      "condition": "success/valid action AND shared per-turn flag472 clear"
+    },
+    {
+      "script": 210,
+      "function": "chicken.doit",
+      "call_offset": "0x80a",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 472,
+      "condition": "success/valid action AND shared per-turn flag472 clear"
+    },
+    {
+      "script": 210,
+      "function": "shakes.doit",
+      "call_offset": "0x8fe",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 471,
+      "condition": "success/valid action AND shared per-turn flag471 clear"
+    },
+    {
+      "script": 210,
+      "function": "colas.doit",
+      "call_offset": "0x98e",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 471,
+      "condition": "success/valid action AND shared per-turn flag471 clear"
+    },
+    {
+      "script": 211,
+      "function": "refrigerator.doit",
+      "call_offset": "0x888",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "stove.doit",
+      "call_offset": "0x952",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "stereo.doit",
+      "call_offset": "0xa1c",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "colorTV.doit",
+      "call_offset": "0xae6",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "microwave.doit",
+      "call_offset": "0xbe7",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "vcr.doit",
+      "call_offset": "0xc81",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "baseballTickets.doit",
+      "call_offset": "0xe36",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 466,
+      "condition": "success/valid action AND shared per-turn flag466 clear"
+    },
+    {
+      "script": 211,
+      "function": "theatreTickets.doit",
+      "call_offset": "0xec6",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 467,
+      "condition": "success/valid action AND shared per-turn flag467 clear"
+    },
+    {
+      "script": 211,
+      "function": "concertTickets.doit",
+      "call_offset": "0xf56",
+      "delta": 2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": 468,
+      "condition": "success/valid action AND shared per-turn flag468 clear"
+    },
+    {
+      "script": 211,
+      "function": "encyclopedia.doit",
+      "call_offset": "0x101c",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "dictionary.doit",
+      "call_offset": "0x10e5",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "atlas.doit",
+      "call_offset": "0x11ab",
+      "delta": 1,
+      "nominal_only_for_ordinary_positive_postreceipt": true,
+      "turn_latch": null,
+      "condition": "success416 AND NOT post-superclass durable quantity; skips for positive postreceipt quantity"
+    },
+    {
+      "script": 211,
+      "function": "dogFood.doit",
+      "call_offset": "0x1233",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 211,
+      "function": "eightTrack.doit",
+      "call_offset": "0x12b9",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 211,
+      "function": "trumanCapote.doit",
+      "call_offset": "0x133f",
+      "delta": -2,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 212,
+      "function": "pawn.doit",
+      "call_offset": "0x130f",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    },
+    {
+      "script": 212,
+      "function": "pawn.doit",
+      "call_offset": "0x1370",
+      "delta": -1,
+      "nominal_only_for_ordinary_positive_postreceipt": false,
+      "turn_latch": null,
+      "condition": "method-specific branch; see condition table"
+    }
+  ],
+  "durable_shop_records": [
+    {
+      "script": 208,
+      "object": "refrigerator",
+      "object_offset": "0x72e",
+      "goods_id": 21,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x6f5"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x6c8"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "freezer",
+      "object_offset": "0x7f8",
+      "goods_id": 22,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x7bf"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x792"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "stove",
+      "object_offset": "0x8c2",
+      "goods_id": 23,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x889"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x85c"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "colorTV",
+      "object_offset": "0x98c",
+      "goods_id": 24,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x953"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x926"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "vcr",
+      "object_offset": "0xa56",
+      "goods_id": 25,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xa1d"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x9f0"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "stereo",
+      "object_offset": "0xb20",
+      "goods_id": 26,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xae7"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xaba"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "microwave",
+      "object_offset": "0xbea",
+      "goods_id": 27,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xbb1"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xb84"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "hotTub",
+      "object_offset": "0xcb6",
+      "goods_id": 28,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xc7b"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xc4e"
+        }
+      ]
+    },
+    {
+      "script": 208,
+      "object": "computer",
+      "object_offset": "0xd82",
+      "goods_id": 29,
+      "typeOfGoods": 0,
+      "species": 55,
+      "superclass": 55,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xd47"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xd1a"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "refrigerator",
+      "object_offset": "0x89a",
+      "goods_id": 21,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x861"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x834"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "stove",
+      "object_offset": "0x964",
+      "goods_id": 23,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x92b"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x8fe"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "stereo",
+      "object_offset": "0xa2e",
+      "goods_id": 26,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x9f5"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0x9c8"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "colorTV",
+      "object_offset": "0xaf8",
+      "goods_id": 24,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xabf"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xa92"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "bwTV",
+      "object_offset": "0xb64",
+      "goods_id": 30,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": []
+    },
+    {
+      "script": 211,
+      "object": "microwave",
+      "object_offset": "0xbfa",
+      "goods_id": 27,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xbc0"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "vcr",
+      "object_offset": "0xc94",
+      "goods_id": 25,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xc5a"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "casualClothes",
+      "object_offset": "0xd26",
+      "goods_id": 36,
+      "typeOfGoods": 1,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xcf4"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "leisureSuit",
+      "object_offset": "0xdb8",
+      "goods_id": 35,
+      "typeOfGoods": 1,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xd86"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "baseballTickets",
+      "object_offset": "0xe48",
+      "goods_id": 37,
+      "typeOfGoods": 1,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xe18"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "theatreTickets",
+      "object_offset": "0xed8",
+      "goods_id": 38,
+      "typeOfGoods": 1,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xea8"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "concertTickets",
+      "object_offset": "0xf68",
+      "goods_id": 39,
+      "typeOfGoods": 1,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xf38"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "encyclopedia",
+      "object_offset": "0x102e",
+      "goods_id": 31,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0xff5"
+        },
+        {
+          "name": "doFormat",
+          "offset": "0xfc8"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "dictionary",
+      "object_offset": "0x10f8",
+      "goods_id": 32,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x10be"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "atlas",
+      "object_offset": "0x11be",
+      "goods_id": 33,
+      "typeOfGoods": 0,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x1184"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "dogFood",
+      "object_offset": "0x1246",
+      "goods_id": 0,
+      "typeOfGoods": 3,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x1220"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "eightTrack",
+      "object_offset": "0x12cc",
+      "goods_id": 0,
+      "typeOfGoods": 3,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x12a6"
+        }
+      ]
+    },
+    {
+      "script": 211,
+      "object": "trumanCapote",
+      "object_offset": "0x1352",
+      "goods_id": 0,
+      "typeOfGoods": 3,
+      "species": 75,
+      "superclass": 75,
+      "methods": [
+        {
+          "name": "doit",
+          "offset": "0x132c"
+        }
+      ]
+    }
+  ],
+  "condition_tables": {
+    "per_turn_latches": {
+      "465": "rest across both home methods; +2 first eligible rest, old spent time must differ from60",
+      "466": "baseball purchase+2",
+      "467": "theatre purchase+2",
+      "468": "concert purchase+2",
+      "469": "lottery purchase+2",
+      "470": "grocery purchase+1/+2/+4, one shared category gate",
+      "471": "shake+2 or cola+1, one shared category gate",
+      "472": "cheeseburger+1 or chicken+2, one shared category gate"
+    },
+    "non_latched": {
+      "QT": "suit+2/dress+1 every successful purchase",
+      "jokes": "dogFood-1/eightTrack-1/trumanCapote-2 every successful purchase",
+      "loan": "accepted borrowing+5; failed extension-1; failed initial application two separate-1 calls; decline0",
+      "rent_extension": "first accepted+1/first refused-1; repeat requests no additional helper13 call",
+      "employment": "new hire+3; granted raise+3; failed new application feedback-1; refused/same/lower raise0",
+      "education": "graduation+5; ordinary lesson/enrollment no helper13 modifier",
+      "pawn": "accepted pawn-1; refrigerator with grocery record another-1; redeem/used buy no helper13 modifier"
+    }
+  },
+  "limits": [
+    "Every stated score change uses common0..100 clamp; displayed arithmetic totals may be smaller at bounds.",
+    "Nominal durable bonuses are conditionally skipped when post-superclass lookup quantity is positive; not globally unreachable under callback mutation, negative/wrapped stock or corrupt state.",
+    "Weekly/event/ownership outcomes and direct score writes elsewhere are inventoried separately.",
+    "Inventory covers all identified literal action sites, not a full dynamic interpreter execution.",
+    "Failed generic affordability paths award no product bonus; intentional job/loan/extension refusal penalties are separate action branches."
+  ]
+}

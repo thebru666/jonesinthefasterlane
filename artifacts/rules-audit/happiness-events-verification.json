@@ -1,0 +1,454 @@
+{
+  "verified_date": "2026-10-17",
+  "evidence": "BYTECODE selected event path analysis; no execution",
+  "version": "website DOS1.000.060",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "ranges": [
+        {
+          "name": "export_13",
+          "start": "0x5ea",
+          "end_exclusive": "0x62c",
+          "sha256": "71d574e13e10da40d95a28851c8fc5ccfce00bb800fb2ddf0692f6993fdbd6ef",
+          "instruction_count": 34
+        }
+      ]
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "ranges": [
+        {
+          "name": "Place.cue",
+          "start": "0x365",
+          "end_exclusive": "0x541",
+          "sha256": "17ee9922f01b6bf7b2b6c838624219b4cc08795263a1568b68b10148cde82971",
+          "instruction_count": 231
+        },
+        {
+          "name": "Player.doScandal",
+          "start": "0xf5c",
+          "end_exclusive": "0xfb3",
+          "sha256": "7cfe79328077d5a62e6f816432e56bdf002c543d5a134b711fe014623f720065",
+          "instruction_count": 48
+        }
+      ]
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "ranges": [
+        {
+          "name": "startTrn.changeState",
+          "start": "0x24",
+          "end_exclusive": "0x13cd",
+          "sha256": "e5d67abaf9611e5230d247b3a3ca9eafbef96b8286760c48cadc7dcd0f4a900b",
+          "instruction_count": 2560
+        }
+      ]
+    },
+    {
+      "script": 114,
+      "sha256": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47",
+      "ranges": [
+        {
+          "name": "muggedByMarket.changeState",
+          "start": "0xe",
+          "end_exclusive": "0x187",
+          "sha256": "85783a771940f93942e509aa0d699f4e63e06c33b60ad3651dd5a326dd1d6f42",
+          "instruction_count": 192
+        },
+        {
+          "name": "muggedByBank.changeState",
+          "start": "0x1be",
+          "end_exclusive": "0x335",
+          "sha256": "8e3c8dd5177a5837ab4941aed2c5c8115da05690238a28ee703acb45f43d1898",
+          "instruction_count": 191
+        },
+        {
+          "name": "willy.init",
+          "start": "0x36c",
+          "end_exclusive": "0x381",
+          "sha256": "a5b1573ae9fcf70d08e9502adc49017de9bb2aab729f9fae8d2508aff777d207",
+          "instruction_count": 12
+        },
+        {
+          "name": "newspaper.init",
+          "start": "0x3f0",
+          "end_exclusive": "0x408",
+          "sha256": "f52ac7c55b67d6f0ded4182f075cb1096fcd480a450536cbcd6bcaf535f029a2",
+          "instruction_count": 12
+        }
+      ]
+    },
+    {
+      "script": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee",
+      "ranges": [
+        {
+          "name": "weekend.init",
+          "start": "0x488",
+          "end_exclusive": "0x616",
+          "sha256": "fd5d9c4dd0bc62e077b5ad5369d15c8ffdbbbd4245c0d23f576a51dedafba321",
+          "instruction_count": 203
+        },
+        {
+          "name": "weekendText.draw",
+          "start": "0x722",
+          "end_exclusive": "0x8b8",
+          "sha256": "ea16157a6ff167293ed4e6a965488003de9d377d5c8f37f67ad8f4b637bee417",
+          "instruction_count": 193
+        }
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "script": 1,
+      "call_offset": "0x4d8",
+      "argument_words": 1,
+      "attempted_delta": -3,
+      "recipient": "active global302",
+      "owners": [
+        "Place.cue"
+      ]
+    },
+    {
+      "script": 1,
+      "call_offset": "0x50f",
+      "argument_words": 1,
+      "attempted_delta": -3,
+      "recipient": "active global302",
+      "owners": [
+        "Place.cue"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xa9",
+      "argument_words": 1,
+      "attempted_delta": 1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x4cf",
+      "argument_words": 1,
+      "attempted_delta": "10 if lottery prize5000, else5",
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x55b",
+      "argument_words": 1,
+      "attempted_delta": 3,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x6c6",
+      "argument_words": 1,
+      "attempted_delta": -4,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x7b0",
+      "argument_words": 1,
+      "attempted_delta": -2,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x7ec",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x827",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x892",
+      "argument_words": 1,
+      "attempted_delta": -2,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x933",
+      "argument_words": 1,
+      "attempted_delta": -4,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xb3b",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xce7",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xd54",
+      "argument_words": 1,
+      "attempted_delta": -3,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xd5f",
+      "argument_words": 1,
+      "attempted_delta": -5,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xd96",
+      "argument_words": 1,
+      "attempted_delta": -2,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xda1",
+      "argument_words": 1,
+      "attempted_delta": -2,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xdd8",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xde3",
+      "argument_words": 1,
+      "attempted_delta": -1,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xe19",
+      "argument_words": 1,
+      "attempted_delta": 5,
+      "recipient": "active global302",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xec3",
+      "argument_words": 2,
+      "attempted_delta": -7,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xef9",
+      "argument_words": 2,
+      "attempted_delta": -3,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xfb0",
+      "argument_words": 2,
+      "attempted_delta": -7,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0xfe6",
+      "argument_words": 2,
+      "attempted_delta": -3,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x109d",
+      "argument_words": 2,
+      "attempted_delta": -7,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x10d3",
+      "argument_words": 2,
+      "attempted_delta": -3,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x118e",
+      "argument_words": 2,
+      "attempted_delta": -7,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 111,
+      "call_offset": "0x11c5",
+      "argument_words": 2,
+      "attempted_delta": -3,
+      "recipient": "explicit participant from crash sweep",
+      "owners": [
+        "startTrn.changeState"
+      ]
+    },
+    {
+      "script": 232,
+      "call_offset": "0x842",
+      "argument_words": 1,
+      "attempted_delta": "Random(2,4) on generic outcome>=58",
+      "recipient": "active global302",
+      "owners": [
+        "weekendText.draw"
+      ]
+    }
+  ],
+  "scope": {
+    "helper_calls": 29,
+    "startTurn_sites": 26,
+    "location_mugging_sites": 2,
+    "weekend_sites": 1,
+    "explicit_recipient_sites": 8,
+    "animation114_helper_calls": 0,
+    "Player_doScandal_helper_calls": 0
+  },
+  "reviewed_rules": "docs/rules-audit/happiness-events.md",
+  "crosscheck": "Root checked resource and instruction identities, all literal call membership, helper recipient/clamp logic and existing needs/event/weekly domain traces after agent draft was saved. Not an independent disassembler or VM execution.",
+  "limits": [
+    "literal helper/direct-selector scope, not arbitrary reflection or restored memory",
+    "amounts/gates interpreted from selected raw paths with pinned published-source comparison",
+    "native random frequencies/call order, display timing and every unusual state unproved"
+  ],
+  "field_access_checks": {
+    "hapStat_literal_candidates": [
+      {
+        "script": 0,
+        "offset": "0x5fe",
+        "owners": [
+          "export_13"
+        ],
+        "following_argc_literal": 0
+      },
+      {
+        "script": 0,
+        "offset": "0x621",
+        "owners": [
+          "export_13"
+        ],
+        "following_argc_literal": 1
+      },
+      {
+        "script": 111,
+        "offset": "0xdc",
+        "owners": [
+          "startTrn.changeState"
+        ],
+        "following_argc_literal": 0
+      },
+      {
+        "script": 111,
+        "offset": "0x184",
+        "owners": [
+          "startTrn.changeState"
+        ],
+        "following_argc_literal": 0
+      }
+    ],
+    "direct_Player_property24_mutations": [],
+    "scope": "All literal candidates and known Player method direct writes are enumerated in the separate whole-package inventory; target semantics manually reviewed."
+  }
+}

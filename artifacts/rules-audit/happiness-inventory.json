@@ -1,0 +1,1311 @@
+{
+  "schema": 1,
+  "audit_date": "2026-10-17",
+  "version": "website DOS1.000.060",
+  "evidence": "BYTECODE bounded static inventory, not runtime or general absence proof",
+  "bundle_sha256": "c08f3310f4f9cf47316bc32745507ae065bba7741430f7c3620602f534c46180",
+  "provenance": "artifacts/original-game/bytecode-coverage.json",
+  "tool_sha256": "feda781f24c728e2ec46bee28bcf279a0965777471d3c3d9d15321033c9172d1",
+  "selector_vocabulary_sha256": "1adc0a33a4c7e79022b0c936b0613dcc89deb2a9ffe84f3e4539afec86601850",
+  "resources": [
+    {
+      "script": 0,
+      "sha256": "4a6d8406028aec4efe90d0331904fc4653c0330c1f9e527a7f94bfdaf32af8b0",
+      "bytes": 4008,
+      "instructions": 966
+    },
+    {
+      "script": 1,
+      "sha256": "4147962cb2e991cdb64ea299b7edb6a86e961a198508a7aa2caf99895effc697",
+      "bytes": 10672,
+      "instructions": 3456
+    },
+    {
+      "script": 2,
+      "sha256": "36eb7316df75a3b55fbcc0e9498d5fb7a11a8bfd767821098f5c21cb4742f3d5",
+      "bytes": 2912,
+      "instructions": 847
+    },
+    {
+      "script": 100,
+      "sha256": "33be4491ff427c4f4fabf7ef6173ba7ab8ccea7a33b54ac0d8efd0af7753e2b2",
+      "bytes": 720,
+      "instructions": 327
+    },
+    {
+      "script": 101,
+      "sha256": "42bb57eb969987b0d7cf8950804443543e7c7feaffab98d9b0eae1b9bcd77bcf",
+      "bytes": 1378,
+      "instructions": 231
+    },
+    {
+      "script": 102,
+      "sha256": "a9e1866fb639dc6dfe3c90ea5123594dd9ef2887313c9173fc0898684ffc97f5",
+      "bytes": 116,
+      "instructions": 22
+    },
+    {
+      "script": 103,
+      "sha256": "333acbc356512a0d2580e001fd817e6b3db5705e2bd240468d54a6cc69de9786",
+      "bytes": 378,
+      "instructions": 97
+    },
+    {
+      "script": 104,
+      "sha256": "ad9311f368bbb483876f0a9b1cc179d3ffc4238dcdd31b6e622d66b2ffde4c61",
+      "bytes": 2100,
+      "instructions": 652
+    },
+    {
+      "script": 105,
+      "sha256": "1448a1e8811dea2ffc1930e777a4185f02cd0572734c019a7c93de191c2700a8",
+      "bytes": 284,
+      "instructions": 72
+    },
+    {
+      "script": 106,
+      "sha256": "2f7161260d6f5ac46f0e0ae7c0c47cc7f1f59cd9135c829916ad97d9e89ca24d",
+      "bytes": 990,
+      "instructions": 253
+    },
+    {
+      "script": 107,
+      "sha256": "4ff0ae66d65f656c91a6fcff2bb6573c8b106509f11b316315a74f1cdfc83525",
+      "bytes": 1814,
+      "instructions": 603
+    },
+    {
+      "script": 108,
+      "sha256": "7527d079401415ea319551176c486ebc439d4e73ec1d595bcffe8d0e7d2aedf9",
+      "bytes": 850,
+      "instructions": 391
+    },
+    {
+      "script": 109,
+      "sha256": "4eb56f3908255c39d25a80b117c0db3c8c29e857941fc71731d8f5b0df9705bd",
+      "bytes": 136,
+      "instructions": 74
+    },
+    {
+      "script": 110,
+      "sha256": "6ab4965aed2ace16d43ae45be0eafa0a97868135dfae08bc55d82f7c7ccec9bc",
+      "bytes": 420,
+      "instructions": 139
+    },
+    {
+      "script": 111,
+      "sha256": "f65004fd4fc0cbccd24d499ab4cfea04aca618287552028da87b19fac0f9c34b",
+      "bytes": 6840,
+      "instructions": 3138
+    },
+    {
+      "script": 113,
+      "sha256": "6474e8a5c426c8ab5cbdb297515d2932830efd1c7ac67fa79b12029de2a286f0",
+      "bytes": 1666,
+      "instructions": 786
+    },
+    {
+      "script": 114,
+      "sha256": "4e0332d5481a9b10de29a24d429759774016a369021add804e69eda329a0ad47",
+      "bytes": 1318,
+      "instructions": 407
+    },
+    {
+      "script": 115,
+      "sha256": "dedd0204ff3ed42b16e876976e0ae617026ec870e99880d252a20a5ef8214ecf",
+      "bytes": 390,
+      "instructions": 182
+    },
+    {
+      "script": 116,
+      "sha256": "5dc81822cc8f794c75786047fba9702f0b89c3c515234c8446e4bcf5fb06a77a",
+      "bytes": 2708,
+      "instructions": 776
+    },
+    {
+      "script": 200,
+      "sha256": "08d0f3806621705a9745dd254dc848e2a174dff0d975ebbdcac5231a6e4691ea",
+      "bytes": 1430,
+      "instructions": 343
+    },
+    {
+      "script": 201,
+      "sha256": "1c406ac717a24ba5dbe5301462803c36d0894caaef9ca22975ff2e3010099166",
+      "bytes": 5680,
+      "instructions": 1898
+    },
+    {
+      "script": 202,
+      "sha256": "5fdde427e535bfad71e5d549a820abf5e2bedb36fa436706095552f2e7ece0ca",
+      "bytes": 1602,
+      "instructions": 386
+    },
+    {
+      "script": 203,
+      "sha256": "31de7986d1375657fb757a50ebc5685ffb47c80b8b87fbdb2fa9eb16e9b23baa",
+      "bytes": 4376,
+      "instructions": 1288
+    },
+    {
+      "script": 204,
+      "sha256": "237ee1a4e51975b590bf3a02b40a8188dffec26128177b5c3f1341e63eb83408",
+      "bytes": 4922,
+      "instructions": 1615
+    },
+    {
+      "script": 205,
+      "sha256": "70fa6ed2ce71634fe52edf4acab6b92eace8504fc246cca3c77e3f088f246969",
+      "bytes": 1562,
+      "instructions": 431
+    },
+    {
+      "script": 206,
+      "sha256": "c2c54ecd89f2a7db4709f23de8469cb2e78e95fdaaab43b5720b8c59f23708e4",
+      "bytes": 5636,
+      "instructions": 1447
+    },
+    {
+      "script": 207,
+      "sha256": "e4371cfbde564b8421550a1d76ab40c925df4604b37a0bfade41d653bf87b999",
+      "bytes": 6272,
+      "instructions": 1922
+    },
+    {
+      "script": 208,
+      "sha256": "9c90ddd511adfc9ecaffd7c35e8f3c985ef44d24d800e7e655d9e9c98c45d1c9",
+      "bytes": 5432,
+      "instructions": 1508
+    },
+    {
+      "script": 209,
+      "sha256": "0f1412d6a5714cec1e980a4533177ca14ed04fae7ddc9e8420f98a2b9351ffbc",
+      "bytes": 3138,
+      "instructions": 867
+    },
+    {
+      "script": 210,
+      "sha256": "9e2a03a21075212533e3f1de73effe62c7a310055a8172b67a152825ff3f8d6b",
+      "bytes": 3974,
+      "instructions": 1043
+    },
+    {
+      "script": 211,
+      "sha256": "7a0b0c4253ad966f826e7467c12972c4eadc8741703bcc528b07e2f7b69e338d",
+      "bytes": 7126,
+      "instructions": 1622
+    },
+    {
+      "script": 212,
+      "sha256": "900001c8cb0f3dc5f0cb2a67b007c477ab9dcf06d092cd2c07f79943960f033a",
+      "bytes": 8430,
+      "instructions": 2766
+    },
+    {
+      "script": 213,
+      "sha256": "74724185595a7ef5b1a4c34092fbdc99446ac56a8e4fe696f5f83ebc5d77bc5f",
+      "bytes": 5380,
+      "instructions": 1602
+    },
+    {
+      "script": 215,
+      "sha256": "bb0c4587b0b0ab68bfe64a819e84ea204f56750dec093968b0f7e7ead38a5aef",
+      "bytes": 2238,
+      "instructions": 761
+    },
+    {
+      "script": 216,
+      "sha256": "309b28b33270359e1e038fd431d9b353d692788e99c382996d2dc3736818dc84",
+      "bytes": 1298,
+      "instructions": 196
+    },
+    {
+      "script": 217,
+      "sha256": "331dda73eda8aeb3bfbf38a138df5758cb73ca7db2d7536ed885bee52860806e",
+      "bytes": 1448,
+      "instructions": 198
+    },
+    {
+      "script": 218,
+      "sha256": "b1fb2e6e3a91bdef674937c106cd2be881aca983b261148bd702cdac99868f49",
+      "bytes": 1300,
+      "instructions": 196
+    },
+    {
+      "script": 219,
+      "sha256": "de2435fb251ed6992da56f64b97f5d32b2b9ea2c08ab73660608b3cf8b024af4",
+      "bytes": 1310,
+      "instructions": 196
+    },
+    {
+      "script": 220,
+      "sha256": "f70ecbaf13dc989e3e390cc3713bec642a8cba284abf7838618b0c0749a6652b",
+      "bytes": 1292,
+      "instructions": 196
+    },
+    {
+      "script": 221,
+      "sha256": "01b299b46326704409eb124a8a3c746c3fc03bd02b5bb4780b63540b50a47a97",
+      "bytes": 2242,
+      "instructions": 208
+    },
+    {
+      "script": 222,
+      "sha256": "ae56fb44f3ef217d08dfe2008fd9e64e0abead9bfd865a136a4939a87df01516",
+      "bytes": 1584,
+      "instructions": 200
+    },
+    {
+      "script": 223,
+      "sha256": "d229ad7e5fd357b97de4a94fc23dca7763125edbb031e8e190157cbdbf8e1064",
+      "bytes": 1596,
+      "instructions": 200
+    },
+    {
+      "script": 224,
+      "sha256": "dc5e8367371faea1fc502c5e6a07e8ebfb44a3596a06d1324b6e8241fa119f58",
+      "bytes": 1156,
+      "instructions": 194
+    },
+    {
+      "script": 229,
+      "sha256": "5a446ec452eb2f17825b5b0f80d8ca6775ca5165ebf01687fb6d47cc4d2c4b9c",
+      "bytes": 2212,
+      "instructions": 289
+    },
+    {
+      "script": 230,
+      "sha256": "eb748d05f0a105447d2fb1fa4320d3233bc07d6c8a6f017dfe28f3171e3f0193",
+      "bytes": 1264,
+      "instructions": 340
+    },
+    {
+      "script": 231,
+      "sha256": "9303867ea98568e8e04a9800be77dea4b0e868035c78820c2fafe38f911af3f2",
+      "bytes": 3380,
+      "instructions": 760
+    },
+    {
+      "script": 232,
+      "sha256": "04a2f5d10462580f1b7b69349c0cf544857703bb45049a41581af87a381363ee",
+      "bytes": 2560,
+      "instructions": 959
+    },
+    {
+      "script": 233,
+      "sha256": "678ad36b54447fd9ac6cd764730d69d300ea186f9f22a2e956ae48b75ec30af0",
+      "bytes": 734,
+      "instructions": 155
+    },
+    {
+      "script": 234,
+      "sha256": "eb555e6cf9846c79afb4c02a93bd07eae15264b16e37c3f20300075c71fbeded",
+      "bytes": 3146,
+      "instructions": 799
+    },
+    {
+      "script": 235,
+      "sha256": "81256fdb15d4c1fbbe259f96545a76c632391071bd76c1597df68b7fc79a890e",
+      "bytes": 2066,
+      "instructions": 522
+    },
+    {
+      "script": 236,
+      "sha256": "fdbadd22a1938c26cc0daa99183a6c03d4685c588692c2196cf4c63cac362c13",
+      "bytes": 3802,
+      "instructions": 1081
+    },
+    {
+      "script": 237,
+      "sha256": "325475aca500a5c3d66fb97d5dbb7d22875390978419adbb0f2c062ad682f062",
+      "bytes": 2586,
+      "instructions": 861
+    },
+    {
+      "script": 238,
+      "sha256": "af56a6ef83467204ea34f2af904f7fddf08e8d5a1e9fcf8ebeba2c8d04fd5974",
+      "bytes": 3898,
+      "instructions": 1163
+    },
+    {
+      "script": 239,
+      "sha256": "2d732a7d04745618c552676e74bb6298e17a6af0e13b5f378c55c1d106209fd2",
+      "bytes": 904,
+      "instructions": 193
+    },
+    {
+      "script": 255,
+      "sha256": "c7d2984596c1a2bedeae2cdb91f9979a6f91f6eba57f380e411aa64cf1480da1",
+      "bytes": 7264,
+      "instructions": 3052
+    },
+    {
+      "script": 300,
+      "sha256": "d2c1c4486b552b168730ef87b91c3ad119da372db13a8c19a2e95c13846b855d",
+      "bytes": 6628,
+      "instructions": 3085
+    },
+    {
+      "script": 764,
+      "sha256": "ca0e8df361e29803eb38819e7ed07b47fabdc8e901cd7a8dd12d7114d4a79258",
+      "bytes": 194,
+      "instructions": 21
+    },
+    {
+      "script": 891,
+      "sha256": "08f3b02bce2bda058f39316c35db15e6427704baa21ecf6577a5c4bb1b1d5f07",
+      "bytes": 800,
+      "instructions": 358
+    },
+    {
+      "script": 967,
+      "sha256": "c37ec5defc72c49e5c1a4944fccfc54c6a664903ed5f5fa606987aa13a55a3e9",
+      "bytes": 364,
+      "instructions": 85
+    },
+    {
+      "script": 987,
+      "sha256": "d5c8ad8de5d3f8d5af4c23ca42a25542daffeee830a9e8ac91a586453dac6bf0",
+      "bytes": 1122,
+      "instructions": 441
+    },
+    {
+      "script": 989,
+      "sha256": "bcdf6ace414a7622f7439a37c819389f28491d1a973c8a261b127900ff62148f",
+      "bytes": 712,
+      "instructions": 273
+    },
+    {
+      "script": 990,
+      "sha256": "3094e63b82f4bd4c01c950bf0e98e0741cee634580062a48fd05c921defc6772",
+      "bytes": 896,
+      "instructions": 411
+    },
+    {
+      "script": 992,
+      "sha256": "996b35c04387130bca4784512632dfd78483e8a06cb662251cc02e89716538e3",
+      "bytes": 1628,
+      "instructions": 472
+    },
+    {
+      "script": 993,
+      "sha256": "a40fd40d1e805de5ce910094a0b9d156da1587f17dd33ec32171447de4fdd5d1",
+      "bytes": 282,
+      "instructions": 97
+    },
+    {
+      "script": 994,
+      "sha256": "b0c0125555a50a2d4566fcaab85af2f721a9dbf6a3593b44517ed79731c832c8",
+      "bytes": 2170,
+      "instructions": 805
+    },
+    {
+      "script": 996,
+      "sha256": "3d95ec9eea2041a866e0dfb48bde86199810fdcf221bc58c7023b52d19da6918",
+      "bytes": 452,
+      "instructions": 133
+    },
+    {
+      "script": 997,
+      "sha256": "37afb91fa4fae0a9d6460e776722bf7cca6629b4330c25e60175fdd4ad704f52",
+      "bytes": 3116,
+      "instructions": 1140
+    },
+    {
+      "script": 998,
+      "sha256": "a5e7c2b3ae7b4c4472acef70b1e766a74e4a7935fe3bc2127521793e21b25793",
+      "bytes": 2020,
+      "instructions": 669
+    },
+    {
+      "script": 999,
+      "sha256": "e48c243067ca6215707656963a597902ecf7e3bfc87b75846fe6e5071ba2365e",
+      "bytes": 2332,
+      "instructions": 874
+    }
+  ],
+  "checked_instruction_spans": 53740,
+  "literal_Main_export13_calls": [
+    {
+      "script": 1,
+      "offset": "0x4d8",
+      "owners": [
+        "Place.cue"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 1,
+      "offset": "0x50f",
+      "owners": [
+        "Place.cue"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xa9",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x4cf",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x55b",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x6c6",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x7b0",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x7ec",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x827",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x892",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x933",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xb3b",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xce7",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xd54",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xd5f",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xd96",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xda1",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xdd8",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xde3",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xe19",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xec3",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xef9",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xfb0",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0xfe6",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x109d",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x10d3",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x118e",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 111,
+      "offset": "0x11c5",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "instruction": "callb",
+      "argument_words": 2,
+      "scope": "events"
+    },
+    {
+      "script": 200,
+      "offset": "0x2c4",
+      "owners": [
+        "relaxButton.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 201,
+      "offset": "0x7e9",
+      "owners": [
+        "moreTime.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 201,
+      "offset": "0x849",
+      "owners": [
+        "moreTime.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 202,
+      "offset": "0x31c",
+      "owners": [
+        "relaxButton.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 203,
+      "offset": "0x744",
+      "owners": [
+        "foodFor1Week.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 203,
+      "offset": "0x804",
+      "owners": [
+        "foodFor2Weeks.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 203,
+      "offset": "0x8c5",
+      "owners": [
+        "foodFor4Weeks.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 203,
+      "offset": "0x96b",
+      "owners": [
+        "lotteryTickets.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 204,
+      "offset": "0xae6",
+      "owners": [
+        "applyForLoan.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 204,
+      "offset": "0xb9f",
+      "owners": [
+        "applyForLoan.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 204,
+      "offset": "0xbd7",
+      "owners": [
+        "applyForLoan.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 206,
+      "offset": "0xe6",
+      "owners": [
+        "export_1"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 206,
+      "offset": "0x47a",
+      "owners": [
+        "JobDItem.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 206,
+      "offset": "0x57f",
+      "owners": [
+        "JobDItem.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 207,
+      "offset": "0x44a",
+      "owners": [
+        "UniversityDIcon.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0x71c",
+      "owners": [
+        "refrigerator.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0x7e6",
+      "owners": [
+        "freezer.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0x8b0",
+      "owners": [
+        "stove.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0x97a",
+      "owners": [
+        "colorTV.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0xa44",
+      "owners": [
+        "vcr.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0xb0e",
+      "owners": [
+        "stereo.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0xbd8",
+      "owners": [
+        "microwave.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0xca3",
+      "owners": [
+        "hotTub.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 208,
+      "offset": "0xd6f",
+      "owners": [
+        "computer.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 209,
+      "offset": "0x5a4",
+      "owners": [
+        "businessSuit.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 209,
+      "offset": "0x645",
+      "owners": [
+        "leisureSuit.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 210,
+      "offset": "0x77a",
+      "owners": [
+        "cheeseburgers.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 210,
+      "offset": "0x80a",
+      "owners": [
+        "chicken.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 210,
+      "offset": "0x8fe",
+      "owners": [
+        "shakes.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 210,
+      "offset": "0x98e",
+      "owners": [
+        "colas.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x888",
+      "owners": [
+        "refrigerator.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x952",
+      "owners": [
+        "stove.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xa1c",
+      "owners": [
+        "stereo.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xae6",
+      "owners": [
+        "colorTV.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xbe7",
+      "owners": [
+        "microwave.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xc81",
+      "owners": [
+        "vcr.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xe36",
+      "owners": [
+        "baseballTickets.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xec6",
+      "owners": [
+        "theatreTickets.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0xf56",
+      "owners": [
+        "concertTickets.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x101c",
+      "owners": [
+        "encyclopedia.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x10e5",
+      "owners": [
+        "dictionary.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x11ab",
+      "owners": [
+        "atlas.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x1233",
+      "owners": [
+        "dogFood.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x12b9",
+      "owners": [
+        "eightTrack.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 211,
+      "offset": "0x133f",
+      "owners": [
+        "trumanCapote.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 212,
+      "offset": "0x130f",
+      "owners": [
+        "pawn.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 212,
+      "offset": "0x1370",
+      "owners": [
+        "pawn.doit"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "actions"
+    },
+    {
+      "script": 232,
+      "offset": "0x842",
+      "owners": [
+        "weekendText.draw"
+      ],
+      "instruction": "callb",
+      "argument_words": 1,
+      "scope": "events"
+    }
+  ],
+  "literal_hapStat_load_candidates": [
+    {
+      "script": 0,
+      "offset": "0x5fe",
+      "owners": [
+        "export_13"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 0,
+      "offset": "0x621",
+      "owners": [
+        "export_13"
+      ],
+      "following_argc_literal": 1
+    },
+    {
+      "script": 111,
+      "offset": "0xdc",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 111,
+      "offset": "0x184",
+      "owners": [
+        "startTrn.changeState"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 236,
+      "offset": "0xac6",
+      "owners": [
+        "currentHappy.draw"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 238,
+      "offset": "0x18",
+      "owners": [
+        "procedure_000c"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 300,
+      "offset": "0x49",
+      "owners": [
+        "WhereShouldIGo.doit"
+      ],
+      "following_argc_literal": 0
+    },
+    {
+      "script": 300,
+      "offset": "0x78",
+      "owners": [
+        "WhereShouldIGo.doit"
+      ],
+      "following_argc_literal": 0
+    }
+  ],
+  "direct_Player_property24_mutations": [],
+  "template_values": [
+    {
+      "name": "Player",
+      "value": 0
+    },
+    {
+      "name": "player1",
+      "value": 0
+    },
+    {
+      "name": "player2",
+      "value": 0
+    },
+    {
+      "name": "player3",
+      "value": 0
+    },
+    {
+      "name": "player4",
+      "value": 0
+    }
+  ],
+  "domain_coverage": [
+    {
+      "scope": "actions",
+      "artifact": "artifacts/rules-audit/happiness-actions-verification.json",
+      "sha256": "818820cdd3637915c5684e40d4ed32de2a23781697aa8d690ff04871cf5767b7",
+      "mapped_sites": 47
+    },
+    {
+      "scope": "events",
+      "artifact": "artifacts/rules-audit/happiness-events-verification.json",
+      "sha256": "84263b9e8502351f56459815ac884231fa89f4424f56c322994682786a00d576",
+      "mapped_sites": 29
+    }
+  ],
+  "summary": {
+    "call_sites": 76,
+    "action_sites": 47,
+    "event_sites": 29,
+    "explicit_player_argument_sites": 8,
+    "identified_literal_setter": "Main export13 send at0:0x0629"
+  },
+  "semantic_review": {
+    "helper": "0:0x05ea-0x062b, active player unless second argument; add delta then clamp0..100",
+    "actions": "docs/rules-audit/happiness-actions.md",
+    "events": "docs/rules-audit/happiness-events.md"
+  },
+  "limits": [
+    "Literal helper calls and literal selector candidates only; dynamic/computed calls may be missed.",
+    "Known Player methods only for direct property-slot search; not every possible alias/inherited/native effect.",
+    "An argc candidate is not a proof of receiver identity; selected actual sends were manually reviewed.",
+    "Default property values are initialization evidence, not executable setters.",
+    "Amounts, gates and reachability are in manually reviewed domain notes; this tool does not execute them."
+  ]
+}

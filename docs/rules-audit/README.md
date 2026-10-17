@@ -1,6 +1,6 @@
 # Original-game rules audit
 
-**Status:** direct package decoding now covers all 69 scripts, with selected logic paths independently verified. Three earlier published-script passes cover time/actions, turn/weekly processing, economy, computer policy, food/housing, ordinary goods/finance and personal events. Coverage remains partial; runtime reproduction and remaining systems are open.
+**Status:** direct package decoding now covers all 69 scripts, with selected logic paths independently verified. Three earlier published-script passes cover time/actions, turn/weekly processing, economy, computer policy, food/housing, ordinary goods/finance and personal events. The [bounded research handoff](../planning/original-research-handoff.md) is ready for2.0 planning. Complete runtime/native equivalence, dynamic/rare states and presentation fidelity remain unproved.
 
 The subsequent [original-game baseline](../original-game/README.md) adds source-based setup, town/layout, all destination actions, course/job/product catalogues, progress views, saves, and finish. It describes the original for later iteration; it does not close all numerical/runtime/visual gaps.
 
@@ -89,6 +89,12 @@ These checks extend normal-path package coverage and identify specific arithmeti
 [Fresh-game state](initial-player-state.md) now consolidates all four actual player templates, common allocation and human/Jones configuration. [Clothing lifecycle](clothing-lifecycle.md), [fast-food bonuses](fast-food-bonuses.md) and [Z-Mart assortment](discount-assortment.md) close normal shopping/cadence gaps: QT repeatable rewards, shared meal/drink latches, all-grade clothing decay/maximum warnings and turn-scoped nondepleting shelves. Each note preserves its package/static/runtime boundaries.
 
 The stock trace also exposed a symbolic indexed-store error in the research decoder. The corrected report now uses the old accumulator as target index and the popped stack value as the stored value; accumulator-destination forms update the accumulator. Sixteen fixture groups, including eight targeted indexed-store cases, pass. All69 resources were regenerated; raw instructions/targets and decode counts are unchanged.
+
+## Consolidated Happiness and planning handoff (2026-10-17)
+
+The [Happiness catalogue](happiness-catalogue.md) joins47 action and29 event helper sites, including all18 skipped nominal durable-purchase branches, shared grocery/meal/drink/ticket/rest latches, repeatable rewards and explicitly targeted cross-player penalties. [The inventory checker](../../tools/research/check_happiness_inventory.py) validates all69 raw inputs and53,740 instruction spans, then verifies exact membership of all76 identified sites in the action/event manifests. This is bounded static coverage, not an execution or computed-write absence proof.
+
+The [handoff review](../planning/original-research-handoff.md) checks the original-reference requirements and supplies a reading path, static walkthroughs, explicit limits and the next owner-led iteration task. It does not approve application implementation or unrecorded fixes.
 
 ## Evidence labels
 

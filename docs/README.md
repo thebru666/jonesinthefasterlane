@@ -2,6 +2,8 @@
 
 ## Original game: starting point for iteration
 
+Start with the [research handoff](planning/original-research-handoff.md) for requirement coverage, the evidence reading path, known limits and the next planning task.
+
 - [Connected game flow and rule contract](original-game/game-flow-and-rule-contract.md): lifecycle, screen families, action loops and state distinctions.
 
 - [Original-game baseline](original-game/README.md): existing summaries and documented original setup, town, screens, actions, content, progress, saves, and finish.
@@ -33,6 +35,7 @@
 - [Native travel ordering](rules-audit/dos-travel-ordering.md), [bank continuation](rules-audit/bank-refresh-continuation.md), [native saves/random state](rules-audit/dos-save-state.md) and [stereo fallback](rules-audit/dos-stereo-fallback.md): selected original-interpreter and callback gaps resolved statically.
 - [Inventory grouping](rules-audit/inventory-grouping.md), [used-stock transfer](rules-audit/pawn-used-stock.md), [investment transactions](rules-audit/investment-transactions.md) and [money boundaries](rules-audit/money-word-boundaries.md): grouped-state and pricing/ownership contracts.
 - [Initial player state](rules-audit/initial-player-state.md), [clothing lifecycle](rules-audit/clothing-lifecycle.md), [fast-food bonuses](rules-audit/fast-food-bonuses.md) and [Z-Mart assortment](rules-audit/discount-assortment.md): everyday initialization, rewards and reset rules.
+- [Happiness catalogue](rules-audit/happiness-catalogue.md): all76 identified literal modifier sites, amount/recipient/ordering and evidence limits.
 - [Rule record template](rules-audit/rule-template.md)
 - [Employment](rules-audit/employment.md): package-verified hiring, raises, work, growth and dismissal.
 - [Education](rules-audit/education.md): package-verified enrollment, course progression, equipment and rewards.

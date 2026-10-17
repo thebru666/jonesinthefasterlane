@@ -2,7 +2,7 @@
 
 Consolidated 2026-10-16 for the 2.0 planning reference. Edition: website DOS **1.000.060**. This is an analytical model of the original game, not application implementation or approval of redesigned mechanics. **BYTECODE** covers the linked selected package traces; **DOS-STATIC** identifies selected native interpreter paths; conditional reference-engine findings retain their assumptions. **SCRIPT** still covers explicitly unverified paths in earlier domain notes; **OBSERVED** applies only to the recorded runtime sessions.
 
-Read this first for the lifecycle, then follow the domain references for exact tables, arithmetic, callbacks and evidence boundaries. The [readiness record](../planning/rules-readiness.md) separates established behaviour from remaining research and owner decisions.
+Read this first for the lifecycle, then follow the domain references for exact tables, arithmetic, callbacks and evidence boundaries. The [readiness record](../planning/rules-readiness.md) separates established behaviour from remaining research and owner decisions. The [handoff review](../planning/original-research-handoff.md) now checks the original-reference goal against these documents and records the limits that remain.
 
 ## Whole-game journey
 
@@ -100,6 +100,8 @@ For each action, preserve the original order of eligibility, random draws, payme
 Human confirmations and clerk/notice presentation are distinct from the action mutation. Jones's policy chooses plans and the common controller emits normal work/exit events. The [all-destination controller inventory](../rules-audit/bytecode-ai-actions.md) confirms selected ordinary dispatch and confirmation shortcuts; full policy/dynamic-path parity remains unproved. [AI trace and boundaries](../rules-audit/bytecode-weekly-opponent.md#ai-b01-policy-location-controller-and-shared-action-are-separate-layers).
 
 Ordinary shopping has item-specific reward/reset rules. [QT clothing](../rules-audit/clothing-lifecycle.md) can repeatedly award Happiness, while [fast food](../rules-audit/fast-food-bonuses.md) uses two first-success category latches. [Z-Mart](../rules-audit/discount-assortment.md) retains same-turn assortment history, but a successful purchase does not remove its control. These distinctions affect normal action order, not just rare errors.
+
+The [consolidated Happiness catalogue](../rules-audit/happiness-catalogue.md) joins all76 identified literal action/event modifier sites, including recipient choice, shared latches and skipped nominal bonuses. It does not infer rewards from item names or animations.
 
 ## State a faithful model must preserve
 

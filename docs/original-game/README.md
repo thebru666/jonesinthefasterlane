@@ -2,7 +2,7 @@
 
 Research date: 2026-10-15. Document **what Jones in the Fast Lane was**, then refine that reference. This section takes priority over the earlier speculative flow/layout outline when describing the original.
 
-Read the [connected flow and rule contract](game-flow-and-rule-contract.md) for the consolidated lifecycle and links into the package-verified employment, education, turn and persistence traces.
+The [research handoff](../planning/original-research-handoff.md) reviews readiness and limits for original-first2.0 planning. Read the [connected flow and rule contract](game-flow-and-rule-contract.md) for the consolidated lifecycle and links into the package-verified employment, education, turn and persistence traces.
 
 ## Read in this order
 
@@ -20,7 +20,7 @@ The [time/weekly/economy audit](../rules-audit/README.md) supplies detailed rule
 
 ## Reference and evidence
 
-The main mechanical reference is the published DOS floppy 1.000.060 decompilation, pinned to `870a8015b689474484bf3d8b41416956d4315432`. The website package carries the same version marker, but independent bytecode correspondence remains unverified. Original publication, community description, script interpretation, and actual runtime observation remain distinct.
+The original reference began with the published DOS floppy1.000.060 decompilation pinned to `870a8015b689474484bf3d8b41416956d4315432`. Subsequent [direct package analysis](../rules-audit/bytecode-verification.md) independently decoded all69 website scripts and verified the linked selected rules, records and native interpreter paths. Earlier source-based statements retain their own evidence tier; complete whole-source/runtime equivalence is not claimed. Original publication, community description, script interpretation, and actual runtime observation remain distinct.
 
 The newly located reference card is ©1992. It supplies annotated original interface illustrations, but its exact release correspondence is unknown. One material disagreement is recorded explicitly: its money explanation includes owned goods, while the inspected floppy score update uses liquid assets. Do not merge edition/documentation differences into a new rule silently.
 
@@ -39,4 +39,4 @@ The packed game resources, downloaded scripts, original PDF scans, and rendered 
 
 The original's player journey, normal supported modes, town topology, functional screen families, location services, and progression content are now described sufficiently to serve as the starting point for faithful wireframes and a keep/reskin/change review. We no longer need to invent those structures as generic UX proposals.
 
-Remaining original-game research includes complete visual role transcription and runtime capture, complete item and finance effects, AI policy, arithmetic/runtime edge cases, and edition selection. This is a substantially fuller baseline, not a claim that every original detail has been proved.
+The linked notes now cover ordinary item/finance effects, initial state, shopping cadence, Happiness and computer policy/routing. Remaining fidelity/validation questions include complete visual composition, full AI arithmetic/dynamic behavior, RNG call order, restored/overflow states, runtime corroboration and edition decisions. This is a substantially fuller baseline, not a claim that every original detail has been proved.

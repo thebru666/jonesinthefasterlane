@@ -58,6 +58,10 @@ Store reproducible evidence that supports documentation and the rules audit here
 - [Fast-food verification](rules-audit/fast-food-bonuses-verification.json): six product records, four reward overrides and direct latch reset/setter inventory.
 - [Z-Mart assortment verification](rules-audit/discount-assortment-verification.json): eighteen candidates, twelve deletion-position draws, same-turn replay, reset inventory and native indexed-store support.
 
+- [Happiness action verification](rules-audit/happiness-actions-verification.json):47 literal action helper sites,18 nominal durable branches and selected inherited/latch support.
+- [Happiness event verification](rules-audit/happiness-events-verification.json):29 event helper sites, explicit crash recipients, helper/clamp and selected function ranges.
+- [Whole-package Happiness inventory](rules-audit/happiness-inventory.json):69 resource hashes,53,740 instruction-span checks,76 exact domain-membership joins, literal selector candidates and explicit limits; [rebuild/check tool](../tools/research/check_happiness_inventory.py).
+
 ## What belongs here
 
 Original research notes, metadata, inventories, analysis tables, and later original mockups or diagrams. Link artifacts from the relevant findings or rule records and identify how they were produced.
