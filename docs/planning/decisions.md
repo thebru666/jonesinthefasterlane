@@ -28,8 +28,11 @@ Last updated: 2026-10-17.
 | D020 | Redraw the successor job/course graph deliberately and explore the wider employer mix in a compact town | Owner accepts revised direction; graph edges, exact employer roster, stop count and tuning remain proposals |
 | D021 | Expand beyond the original thirteen stops; use fifteen as the working board size | Owner accepts more stops after the fifteen-stop recommendation; exact arrangement remains a proposal |
 | D022 | Keep work-first careers such as food service and bank teller viable alongside education-led careers | Explicit owner clarification; no approval of specific new job thresholds or Learning score formula |
+| D023 | Develop Learning as the fourth-goal direction, recognising work and study | Owner endorses continuing after the Learning recommendation; exact formula, ceiling changes and first-playable scope remain proposals |
 
 ## Proposed technical and design choices
+
+Latest concrete review: [Learning scoring and work-history proposal](learning-goal-proposal.md), with an illustrative panel and arithmetic checks, and [first playable scope](first-playable-scope.md). D023 supports developing the direction; it does not approve the proposed numbers, proportional work-history change, scope or application implementation.
 
 Current map and broader career comparison: [fifteen-stop town/work-first routes](town-layout-and-work-first-routes.md). The proposed Learning goal, no-course teller entry and new management ladders are deliberate changes for review; D022 does not adopt their detailed rules. Earlier education-led cash comparisons are subsets, not the whole career design.
 
@@ -49,7 +52,7 @@ The [2.0 draft specification](2.0-draft-specification.md), [compatibility propos
 | Static frontend with local saves | Matches initial scope; persistence design pending |
 | Human and computer players share legal actions and costs | Recommended for consistent rules and testability |
 | Seeded random generator and versioned saves | Recommended for reproducibility and future compatibility |
-| Four familiar life goals | Proposed; confirm exact definitions after audit |
+| Four life goals, developing Learning in place of Education | Direction supported by D023; exact scoring and growth rules pending |
 | Short-game option targeting 30–45 minutes | Proposed; no agreed session target |
 | Clear explanations with an optional gentler starting setup | Proposed; difficulty design pending |
 | Modern content before new meters or subsystems | Recommended to preserve simplicity |

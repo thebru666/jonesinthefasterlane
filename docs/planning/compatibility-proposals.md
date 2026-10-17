@@ -33,3 +33,15 @@ The recommended approach is to preserve the original economic and action structu
 First agree the edition and the small set of departures that affect every action or save: **C01–C06, C08, C10 and C15–C17**. Then settle grouped possessions and used stock together (**C13–C14**). The deliberately retained economy, loan-refusal and durable-reward quirks (**C07, C09, C11–C12**) deserve a conscious acknowledgement, rather than an assumption that “nearly identical” automatically answers them.
 
 These proposals do not claim the combined balance will match the original. Money/score consistency, fair-information AI and loan/garnishment changes can alter success rates even with identical content. A future validation pass should compare a few fixed opening, setback and recovery scenarios before introducing new careers, courses or rewards. No additional meter, subscription system, real-world qualification claim, online leaderboard or backend is proposed here.
+
+
+## Additional Learning departures for review
+
+These extend the earlier C01–C17 pack; they are new proposals under the supported Learning direction, not inherited owner approvals. See the [full contract and arithmetic limits](learning-goal-proposal.md).
+
+| ID | Proposed departure | Reason | Future acceptance check |
+| --- | --- | --- | --- |
+| C18 | Replace Education with `min(100, floor(W/12) + 10*C)` Learning; replace graduation-only ceiling credits with `5*floor(Learning/10)` growth allowance, never stacking old credits | Work-first players can develop and extend career ceilings without a mandatory course; named qualifications still gate specialist jobs | Work-only and mixed routes can reach their goals; unique completions reward once; higher allowance alone grants no actual experience/dependability |
+| C19 | Replace each Work-click experience/dependability increment with one capped growth step per six actual successful work-time units, carrying `W%6`; blocked steps are consumed | Partial-shift clicks should not accelerate Career relative to equivalent work | Sixty actual work-time units earn ten steps before caps, whether split or full; loading, job changes and capped shifts cannot bank or duplicate growth |
+
+These alter progression balance. Old budget schedules have not been recomputed under C18/C19; the score overlay is an arithmetic check only. The proposed small-slice Learning10 target is distinct from the longer-route Learning50 comparison.

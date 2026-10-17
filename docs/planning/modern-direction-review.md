@@ -76,3 +76,8 @@ The next review only needs to settle a few large choices:
 - **Devices/art:** which possessions feel worth wanting, and does the illustrated retro style retain enough of the original's character?
 
 After that feedback, revise the images and content together, record selected decisions, and agree step4: the smallest playable scope that tests the updated loop. These are review prompts, not a request to approve every balance constant or begin application implementation now.
+
+
+## Latest planning follow-up
+
+[Learning through work and study](learning-goal-proposal.md) now supplies a concrete score and growth proposal; [first playable scope](first-playable-scope.md) bounds a fresh-opening preview. These supersede the earlier unspecified Learning recommendation as the current draft, without adopting its formula or revalidating old cash schedules under changed growth rules. No application implementation is approved.

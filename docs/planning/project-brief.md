@@ -6,7 +6,7 @@ Updated direction2026-10-17: the owner explicitly wants transport to play a bigg
 
 ## Intent
 
-Current owner clarification: work-first careers are essential, not secondary to classroom routes. Use fifteen stops as the working expansion; the [mapped-town/work-first review](town-layout-and-work-first-routes.md) proposes actual positions and compares ordinary management as well as qualification-led careers. A broader Learning goal is a recommendation for review, not an adopted scoring change.
+Current owner clarification: work-first careers are essential, not secondary to classroom routes. Use fifteen stops as the working expansion; the [mapped-town/work-first review](town-layout-and-work-first-routes.md) proposes actual positions and compares ordinary management as well as qualification-led careers. Continue developing Learning as the fourth-goal direction; the [formula and work-growth proposal](learning-goal-proposal.md) and [first-playable scope](first-playable-scope.md) are concrete drafts for review, not adopted scoring or permission to build.
 
 Latest accepted career direction: retain the early trade-school-to-butcher opportunity, add skilled trades and a doctor/professional education branch, and redraw the graph deliberately while keeping practical routes competitive. [Career/town graph v2](career-and-town-graph-v2.md) develops this; its exact graph, stop count, costs and scope remain proposals.
 
@@ -34,7 +34,7 @@ Plan for both shared-device multiplayer and a computer-controlled opponent from 
 
 ## Visual direction
 
-Preserve the feel of the existing art. Modern illustrated retro is a promising direction, but no visual style has been approved through mockups yet. Candidate elements include a compact town board, distinct storefronts, expressive location characters, bold panels, and visible possessions. These are proposals rather than final asset requirements.
+Preserve the feel of the existing art. Modern illustrated retro is a promising direction, but the illustrated retro mockups have been positively received; final assets and layouts remain open. Candidate elements include a compact town board, distinct storefronts, expressive location characters, bold panels, and visible possessions. These are proposals rather than final asset requirements.
 
 Create original assets and writing for the new game. A final public-facing name and release/licensing decisions remain open.
 

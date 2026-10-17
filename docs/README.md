@@ -14,6 +14,8 @@ Start with the [research handoff](planning/original-research-handoff.md) for req
 
 ## Planning
 
+Current review: [Learning through work and study](planning/learning-goal-proposal.md), with a goal-panel wireframe and bounded arithmetic check; [first playable scope](planning/first-playable-scope.md) proposes seven active places, six jobs and one course. Detailed rules and build authorisation remain pending.
+
 Latest: [fifteen-stop map and work-first routes](planning/town-layout-and-work-first-routes.md), with both town schematics, actual transport costs and food-service/banking paths alongside the education-led examples.
 
 [Career budgets v1](planning/career-budget-comparison-v1.md): provisional butcher/trades/doctor costs and payoffs, with chart, auditable ledger, eligibility constraints and cash-buffer/setback comparisons. Analytical planning, not a playable model or approved balance.
@@ -25,7 +27,7 @@ Latest owner review: [employer options, recruited offers and useful possessions]
 Start with the [modern-direction review pack](planning/modern-direction-review.md) for the latest owner pointers and proposed amendments: [transport](planning/transport-proposal.md), [modern town/jobs/courses/devices](planning/modern-town-and-content.md) and [visual concepts](planning/visual-direction-v1.md). Exact choices remain open for iteration; no application is implemented.
 
 - [2.0 draft specification](planning/2.0-draft-specification.md): proposed keep/reskin/change scope, screen flow, layout sketches, slice and family review.
-- [Compatibility proposals](planning/compatibility-proposals.md): seventeen explicit recommendations for preserving or changing audited rules and quirks.
+- [Compatibility proposals](planning/compatibility-proposals.md): nineteen explicit recommendations for preserving or changing audited rules and quirks.
 - [Modern content sample](planning/content-iteration-sample.md): thirteen destination signs, one verified career/course mapping, possessions and fresh humour.
 - [Architecture and validation proposal](planning/architecture-and-validation-proposal.md): simulation/UI boundaries, stable saves, reproducibility and staged validation.
 

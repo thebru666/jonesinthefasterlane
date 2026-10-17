@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="830" viewBox="0 0 1200 830">
+<rect width="1200" height="830" fill="#fffaf0"/>
+<g font-family="Arial,sans-serif" fill="#193743">
+<text x="55" y="53" font-size="19">PROPOSAL · GOALS PANEL · illustrative state, not a game screenshot</text>
+<text x="55" y="108" font-size="36" font-weight="bold">Maya’s goals</text>
+<text x="55" y="144" font-size="20">Work and study can both build Learning.</text>
+<rect x="48" y="184" width="1104" height="101" rx="12" fill="#ffffff" stroke="#739597"/>
+<text x="73" y="217" font-size="24" font-weight="bold">Wealth</text>
+<text x="1118" y="217" font-size="24" text-anchor="end">6 / 10</text>
+<text x="73" y="245" font-size="17">Cash $640 of $1,000</text>
+<rect x="73" y="258" width="1045" height="12" rx="6" fill="#e1e5e0"/>
+<rect x="73" y="258" width="627.0" height="12" rx="6" fill="#70959c"/>
+<rect x="48" y="297" width="1104" height="101" rx="12" fill="#ffffff" stroke="#739597"/>
+<text x="73" y="330" font-size="24" font-weight="bold">Happiness</text>
+<text x="1118" y="330" font-size="24" text-anchor="end">14 / 20</text>
+<text x="73" y="358" font-size="17">Enjoy life as well as work</text>
+<rect x="73" y="371" width="1045" height="12" rx="6" fill="#e1e5e0"/>
+<rect x="73" y="371" width="731.5" height="12" rx="6" fill="#70959c"/>
+<rect x="48" y="410" width="1104" height="101" rx="12" fill="#ffffff" stroke="#739597"/>
+<text x="73" y="443" font-size="24" font-weight="bold">Career</text>
+<text x="1118" y="443" font-size="24" text-anchor="end">30 / 30</text>
+<text x="73" y="471" font-size="17">Current standing at work</text>
+<rect x="73" y="484" width="1045" height="12" rx="6" fill="#e1e5e0"/>
+<rect x="73" y="484" width="1045" height="12" rx="6" fill="#70959c"/>
+<rect x="48" y="523" width="1104" height="101" rx="12" fill="#dceee8" stroke="#739597"/>
+<text x="73" y="556" font-size="24" font-weight="bold">Learning</text>
+<text x="1118" y="556" font-size="24" text-anchor="end">8 / 10</text>
+<text x="73" y="584" font-size="17">Work and completed qualifications</text>
+<rect x="73" y="597" width="1045" height="12" rx="6" fill="#e1e5e0"/>
+<rect x="73" y="597" width="836.0" height="12" rx="6" fill="#337e73"/>
+<text x="65" y="682" font-size="22" font-weight="bold">Learning detail</text>
+<text x="65" y="718" font-size="20">Work: 8 points · Completed qualifications: 0 points</text>
+<text x="65" y="751" font-size="19">Four more full shifts reach this target. Trade School completion earns 10 points.</text>
+<text x="65" y="790" font-size="17">These are preview targets. Attaining them triggers a finish check on the next turn.</text>
+</g></svg>

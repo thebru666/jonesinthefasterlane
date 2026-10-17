@@ -66,3 +66,10 @@ For each rule scenario record original evidence, adopted successor decision, inp
 4. Expand to full destination/rule coverage, then shared-device and computer modes; assess full-game balance and family comprehension.
 
 No backend, account system, online multiplayer, leaderboard service, public deployment or application implementation is part of this documentation step.
+
+
+## Learning and the bounded prototype follow-up
+
+The [Learning proposal](learning-goal-proposal.md) would save lifetime successful work time and unique completed qualification IDs, deriving Learning, growth allowance and work-history remainder. Award actual-time growth steps atomically against current-job ceilings; consume blocked steps rather than banking them. Read-only panels and restoration reconstruct values without issuing new rewards. Version this deliberate departure from graduation-only growth and per-click history; no save migration is implemented here.
+
+The [first playable scope](first-playable-scope.md) is the current proposed implementation boundary after explicit build direction: solo UI, seven active locations, six jobs and Trade School, with a future two-actor rules fixture. The wider multiplayer/AI validation above remains a later requirement, not a claim that those modes belong in the first preview. Neither analytical cash worksheets nor the Learning overlay substitutes for actual fresh-game, upkeep, recovery and four-goal finish checks.

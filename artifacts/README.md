@@ -4,6 +4,8 @@ Store reproducible evidence that supports documentation and the rules audit here
 
 ## Index
 
+- [Learning panel](planning/learning-panel-v1.png), [editable SVG](planning/learning-panel-v1.svg) and [arithmetic/old-schedule overlay](planning/learning-coverage-v1.json); [proposal and limits](../docs/planning/learning-goal-proposal.md). Synthetic wireframe and analytical checks, not gameplay or full-route validation.
+
 - [Fifteen-stop town schematic](planning/town-layout-v1/town-map-a.svg), [alternate placement](planning/town-layout-v1/town-map-b.svg), [inputs](planning/town-layout-v1/inputs.json), [tour costs](planning/town-layout-v1/journeys.json) and [expanded career summaries](planning/town-layout-v1/career-summary.json); [scope/rebuild guide](../docs/planning/town-layout-and-work-first-routes.md). Analytical proposals, including work-first careers; failed fixed plans are labelled explicitly.
 
 - [Career budget comparison v1](planning/career-comparison-v1/inputs.json): provisional inputs, [summary](planning/career-comparison-v1/summary.json), [480-row turn ledger](planning/career-comparison-v1/turn-ledger.csv) and [chart](planning/career-comparison-v1/cash-comparison.svg); [assumptions/rebuild guide](../docs/planning/career-budget-comparison-v1.md). This is a bounded paper worksheet, not the original or successor game engine.

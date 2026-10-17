@@ -1,0 +1,717 @@
+{
+  "status": "PROPOSAL: arithmetic and score-only overlay on old schedules; NOT a new-rule game/cash/win simulation",
+  "formula": "min(100, floor(successful actual work time/12) + 10*unique qualifications)",
+  "cash_and_work_history_recomputed": false,
+  "source_ledger": "town-layout-v1/career-ledger.csv",
+  "source_sha256": "5a349133f8a5c38a8f94b3ea75e71ff1f17dedee306a5711026385c5ca90337b",
+  "cases": [
+    {
+      "work_time": 0,
+      "unique_qualifications": 0,
+      "learning": 0,
+      "growth_allowance": 0
+    },
+    {
+      "work_time": 6,
+      "unique_qualifications": 0,
+      "learning": 0,
+      "growth_allowance": 0
+    },
+    {
+      "work_time": 12,
+      "unique_qualifications": 0,
+      "learning": 1,
+      "growth_allowance": 0
+    },
+    {
+      "work_time": 119,
+      "unique_qualifications": 0,
+      "learning": 9,
+      "growth_allowance": 0
+    },
+    {
+      "work_time": 120,
+      "unique_qualifications": 0,
+      "learning": 10,
+      "growth_allowance": 5
+    },
+    {
+      "work_time": 600,
+      "unique_qualifications": 0,
+      "learning": 50,
+      "growth_allowance": 25
+    },
+    {
+      "work_time": 1200,
+      "unique_qualifications": 0,
+      "learning": 100,
+      "growth_allowance": 50
+    },
+    {
+      "work_time": 480,
+      "unique_qualifications": 1,
+      "learning": 50,
+      "growth_allowance": 25
+    },
+    {
+      "work_time": 360,
+      "unique_qualifications": 2,
+      "learning": 50,
+      "growth_allowance": 25
+    },
+    {
+      "work_time": 120,
+      "unique_qualifications": 4,
+      "learning": 50,
+      "growth_allowance": 25
+    },
+    {
+      "work_time": 0,
+      "unique_qualifications": 1,
+      "learning": 10,
+      "growth_allowance": 5
+    }
+  ],
+  "partial_work_case": "60*1 time and 10*6 time both earn Learning5 and ten history steps before ceiling effects",
+  "career_ceiling_case": {
+    "learning": 40,
+    "declared_dependability": 45,
+    "growth_allowance": 20,
+    "ceiling": 85,
+    "outgoing_dependability": 82,
+    "career": 100
+  },
+  "excluded_failed_plan_partial_ledgers": true,
+  "coverage": [
+    {
+      "layout": "A",
+      "route": "butcher",
+      "variant": "bus",
+      "final_work_time": 1008,
+      "final_unique_qualifications": 1,
+      "final_learning": 94,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "butcher",
+      "variant": "buy_bike",
+      "final_work_time": 1002,
+      "final_unique_qualifications": 1,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "butcher",
+      "variant": "keep_buffer",
+      "final_work_time": 1008,
+      "final_unique_qualifications": 1,
+      "final_learning": 94,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "butcher",
+      "variant": "bike_buffer",
+      "final_work_time": 1002,
+      "final_unique_qualifications": 1,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "electrician",
+      "variant": "bus",
+      "final_work_time": 834,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "electrician",
+      "variant": "buy_bike",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "electrician",
+      "variant": "keep_buffer",
+      "final_work_time": 828,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "electrician",
+      "variant": "bike_buffer",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "plumber",
+      "variant": "bus",
+      "final_work_time": 834,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "plumber",
+      "variant": "buy_bike",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "plumber",
+      "variant": "keep_buffer",
+      "final_work_time": 828,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "plumber",
+      "variant": "bike_buffer",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "doctor",
+      "variant": "bus",
+      "final_work_time": 642,
+      "final_unique_qualifications": 4,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 11,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "doctor",
+      "variant": "keep_buffer",
+      "final_work_time": 648,
+      "final_unique_qualifications": 4,
+      "final_learning": 94,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 12,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "doctor",
+      "variant": "bike_buffer",
+      "final_work_time": 636,
+      "final_unique_qualifications": 4,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "food_management",
+      "variant": "bus",
+      "final_work_time": 1056,
+      "final_unique_qualifications": 0,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "food_management",
+      "variant": "buy_bike",
+      "final_work_time": 1068,
+      "final_unique_qualifications": 0,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "food_management",
+      "variant": "keep_buffer",
+      "final_work_time": 1056,
+      "final_unique_qualifications": 0,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "food_management",
+      "variant": "bike_buffer",
+      "final_work_time": 1068,
+      "final_unique_qualifications": 0,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "bank_management",
+      "variant": "bus",
+      "final_work_time": 948,
+      "final_unique_qualifications": 0,
+      "final_learning": 79,
+      "first_target_turn": {
+        "10": 3,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "bank_management",
+      "variant": "buy_bike",
+      "final_work_time": 936,
+      "final_unique_qualifications": 0,
+      "final_learning": 78,
+      "first_target_turn": {
+        "10": 4,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "bank_management",
+      "variant": "keep_buffer",
+      "final_work_time": 948,
+      "final_unique_qualifications": 0,
+      "final_learning": 79,
+      "first_target_turn": {
+        "10": 3,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "A",
+      "route": "bank_management",
+      "variant": "bike_buffer",
+      "final_work_time": 936,
+      "final_unique_qualifications": 0,
+      "final_learning": 78,
+      "first_target_turn": {
+        "10": 4,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "butcher",
+      "variant": "bus",
+      "final_work_time": 1008,
+      "final_unique_qualifications": 1,
+      "final_learning": 94,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "butcher",
+      "variant": "buy_bike",
+      "final_work_time": 1002,
+      "final_unique_qualifications": 1,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "butcher",
+      "variant": "keep_buffer",
+      "final_work_time": 1008,
+      "final_unique_qualifications": 1,
+      "final_learning": 94,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "butcher",
+      "variant": "bike_buffer",
+      "final_work_time": 1002,
+      "final_unique_qualifications": 1,
+      "final_learning": 93,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "electrician",
+      "variant": "bus",
+      "final_work_time": 834,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "electrician",
+      "variant": "buy_bike",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "electrician",
+      "variant": "keep_buffer",
+      "final_work_time": 828,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "electrician",
+      "variant": "bike_buffer",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "plumber",
+      "variant": "bus",
+      "final_work_time": 834,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "plumber",
+      "variant": "buy_bike",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "plumber",
+      "variant": "keep_buffer",
+      "final_work_time": 828,
+      "final_unique_qualifications": 2,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "plumber",
+      "variant": "bike_buffer",
+      "final_work_time": 822,
+      "final_unique_qualifications": 2,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "doctor",
+      "variant": "bus",
+      "final_work_time": 594,
+      "final_unique_qualifications": 4,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 5,
+        "50": 11,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "doctor",
+      "variant": "keep_buffer",
+      "final_work_time": 600,
+      "final_unique_qualifications": 4,
+      "final_learning": 90,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 13,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "food_management",
+      "variant": "bus",
+      "final_work_time": 1056,
+      "final_unique_qualifications": 0,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "food_management",
+      "variant": "buy_bike",
+      "final_work_time": 1068,
+      "final_unique_qualifications": 0,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "food_management",
+      "variant": "keep_buffer",
+      "final_work_time": 1056,
+      "final_unique_qualifications": 0,
+      "final_learning": 88,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "food_management",
+      "variant": "bike_buffer",
+      "final_work_time": 1068,
+      "final_unique_qualifications": 0,
+      "final_learning": 89,
+      "first_target_turn": {
+        "10": 3,
+        "20": 6,
+        "50": 14,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "bank_management",
+      "variant": "bus",
+      "final_work_time": 948,
+      "final_unique_qualifications": 0,
+      "final_learning": 79,
+      "first_target_turn": {
+        "10": 3,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "bank_management",
+      "variant": "buy_bike",
+      "final_work_time": 936,
+      "final_unique_qualifications": 0,
+      "final_learning": 78,
+      "first_target_turn": {
+        "10": 4,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "bank_management",
+      "variant": "keep_buffer",
+      "final_work_time": 948,
+      "final_unique_qualifications": 0,
+      "final_learning": 79,
+      "first_target_turn": {
+        "10": 3,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    },
+    {
+      "layout": "B",
+      "route": "bank_management",
+      "variant": "bike_buffer",
+      "final_work_time": 936,
+      "final_unique_qualifications": 0,
+      "final_learning": 78,
+      "first_target_turn": {
+        "10": 4,
+        "20": 7,
+        "50": 16,
+        "100": null
+      }
+    }
+  ]
+}

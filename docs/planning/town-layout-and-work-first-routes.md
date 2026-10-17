@@ -102,3 +102,8 @@ Use A as the recommended arrangement for the next illustrated concept, while ret
 - Run `python3 tools/research/compare_town_routes.py` for JSON/CSV and both SVG maps; `--check` recomputes comparisons. PNGs are display copies rendered from the SVGs with sharp.
 - [Tool](../../tools/research/compare_town_routes.py) supplies the actual-route callback to the bounded [v1 worksheet](../../tools/research/compare_career_budgets.py). It is analytical planning code, not the application simulation. V1's480 rows/20 summaries remain unchanged under its own `--check`.
 - Checks cover unique15-stop order, symmetric distances bounded0–7, time/cash accounting inherited from the worksheet, and exact regeneration. A read-only independent review checked formulas, shared-site entries, mapped jobs, work-first progression and the failed-plan caveats. No game execution, family test or full balance claim.
+
+
+## Latest planning follow-up
+
+[Learning through work and study](learning-goal-proposal.md) now supplies a concrete score and growth proposal; [first playable scope](first-playable-scope.md) bounds a fresh-opening preview. These supersede the earlier unspecified Learning recommendation as the current draft, without adopting its formula or revalidating old cash schedules under changed growth rules. No application implementation is approved.
